@@ -1,0 +1,9 @@
+# Authors
+Aron Petau:
+  name        : "Aron Petau"
+  bio         : "Cognitve Scientist, 3D Modeling and Design"
+  avatar      : "/assets/images/aron_avatar.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:aron@petau.net"
