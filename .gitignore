@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 Gemfile.lock
 assets/not_yet_used/
+.DS_Store
