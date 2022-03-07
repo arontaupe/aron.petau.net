@@ -11,7 +11,7 @@ github_username          : arontaupe
 minimal_mistakes_skin: mint
 name                     : &name "Aron Petau"
 repository               : "arontaupe/portfolio"
-logo                     : "assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Aron Petau" # overrides the website title displayed in the masthead, use " " for no title
 
 search                   : true
@@ -48,6 +48,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll_picture_tag
 
 # Site Author
 author:
