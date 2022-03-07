@@ -1,18 +1,20 @@
 
-title: Portfolio
+title                    : Portfolio
 title_separator          : "-"
 subtitle                 : "Application for Design & Computation" # site tagline that appears below site title in masthead
 email: aron@petau.net
 description: &description "Here I display a selection of my recent work"
-twitter_username: shar0n
-github_username: arontaupe
+url                      : https://arontaupe.github.io
+baseurl                  : "/apply"
+twitter_username         : shar0n
+github_username          : arontaupe
 minimal_mistakes_skin: mint
 name                     : &name "Aron Petau"
 repository               : "arontaupe/portfolio"
 logo                     : "assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Aron Petau" # overrides the website title displayed in the masthead, use " " for no title
 
-search: true
+search                   : true
 
 # Build settings
 markdown: kramdown
