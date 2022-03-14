@@ -8,9 +8,6 @@ toc: true
 author: "Aron Petau"
 ---
 
-
-
-
 # Introduction
 I am Aron, currently studying Cognitive Science in Germany.
 I dream of having me own bar one day and am working on the perfect recipe for homebrew beer.
