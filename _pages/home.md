@@ -10,7 +10,6 @@ header:
       url: "https://arontaupe.github.io/portfolio/portfolio"
 excerpt: "I am saying something very inspiring"
 
-
 ---
 
 ## Welcome to my Portfolio
