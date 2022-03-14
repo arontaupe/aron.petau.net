@@ -1,8 +1,7 @@
 ---
 title: "Home"
-layout: splash
+layout: default
 permalink: /
-hidden: true
 date: 2022-03-02T11:48:41-04:00
 author: "Aron Petau"
 header:
