@@ -2,8 +2,8 @@
 title                    : Portfolio
 title_separator          : "-"
 subtitle                 : "Application for Design & Computation" # site tagline that appears below site title in masthead
-email: aron@petau.net
-description: &description "Here I display a selection of my recent work"
+email                    : aron@petau.net
+description              : &description "Here I display a selection of my recent work"
 url                      : https://arontaupe.github.io
 baseurl                  : "/apply"
 twitter_username         : shar0n
@@ -48,7 +48,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll_picture_tag
 
 # Site Author
 author:

@@ -14,5 +14,4 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
-  gem 'jekyll_picture_tag', '~> 2.0'
 end
