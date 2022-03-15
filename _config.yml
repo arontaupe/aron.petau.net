@@ -48,7 +48,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-pdf-embed
 
 # Site Author
 author:
