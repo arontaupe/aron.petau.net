@@ -48,6 +48,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-pdf-embed
 
 # Site Author
 author:
@@ -86,6 +87,7 @@ defaults:
       comments              : false
       share                 : false
       related               : true
+
   # _pages
   - scope:
       path: "_pages"

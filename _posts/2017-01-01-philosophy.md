@@ -1,5 +1,5 @@
 ---
-title                 :  "Bachelor Thesis"
+title                 :  "Philosophy"
 date                  :   2022-03-01 14:39:27 +0100
 header:
   overlay_image       : "/assets/images/grass_blur.jpg"
@@ -8,12 +8,15 @@ header:
 categories:
   - university
 tags:
-  - example
+  - ethics
+  - emotion
+  - postphenomenology
+  - values in science
 ---
 
-# Bachelor Thesis
-## Online Linguistic RT Study using reaction time
+## Critical considerations during my studies
 
 
+ {% pdf "/assets/docs/Essay_on_Emotions.pdf" width=350px height=500px %}
 
-[Try out the experiment yourself](https://moryscarter.com/vespr/pavlovia.php?folder=arontaupe&experiment=av_experiment/&id=public&researcher=aron){: .btn .btn--large}
+

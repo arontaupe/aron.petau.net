@@ -88,7 +88,7 @@ So far, I am aware of a few companies and academic projects attempting this proc
 [Open source filament diameter sensor by Tomas Sanladerer ](https://www.youmagine.com/designs/infidel-inline-filament-diameter-estimator-lowcost-10-24){: .btn .btn--large}
 
 
-[Re-Pet Shop ](https://re-pet3d.com/){: .btn .btn--large}
+[Re-Pet Shop ](https://re-pet3d.com/s){: .btn .btn--large}
 
 
 This project is very dear to my heart and I plan to investigate it further in the form of a master thesis.
