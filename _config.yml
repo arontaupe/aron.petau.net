@@ -19,7 +19,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -58,12 +58,13 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arontaupe"
+    - label: "PrusaPrinters"
+      icon: "fa-solid fa-cubes"
+      url: "https://www.prusaprinters.org/social/97957-arontaupe/prints"
+
 
 defaults:
   # _posts
@@ -77,17 +78,17 @@ defaults:
       sidebar:
         title               : "Portfolio Navigator"
         nav                 : "portfolio-sidebar"
-      read_time: true
-      comments: false
-      share: false
-      related: true
+      read_time             : true
+      comments              : false
+      share                 : false
+      related               : true
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile        : true
 
 category_archive:
   type: liquid

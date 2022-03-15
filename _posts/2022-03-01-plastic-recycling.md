@@ -2,7 +2,8 @@
 title          :  "Plastic Recycling"
 date           :   2022-03-01 14:39:27 +0100
 header:
-  teaser       : "/assets/images/500x300.png"
+  teaser       : "/assets/images/recycling_graphic.svg"
+  credit              : "Aron Petau"
 categories:
   - master_thesis
   - private
