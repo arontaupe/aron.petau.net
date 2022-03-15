@@ -8,7 +8,7 @@ twitter_username         : shar0n
 github_username          : arontaupe
 minimal_mistakes_skin    : mint
 name                     : &name "Aron Petau"
-repository               : "arontaupe/portfolio"
+repository               : "arontaupe/apply"
 logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Aron Petau" # overrides the website title displayed in the masthead, use " " for no title
 
@@ -22,6 +22,8 @@ permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+breadcrumbs               : true  # disabled by default
 
 include:
   - _pages
@@ -73,8 +75,10 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author: "Aron Petau"
       author_profile: true
+      teaser: /assets/images/grass_blur.png
       sidebar:
         title               : "Portfolio Navigator"
         nav                 : "portfolio-sidebar"

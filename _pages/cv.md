@@ -21,7 +21,7 @@ I am currently searching for an appropriate place to further my knowledge to aut
 During my very open and broad studies, I focused mostly on Computational Linguistics, Machine Learning, and Philosophy.
 
 
-## EDUCATION
+## Education
 ### Abitur
 Stadtgymnasium Detmold
 Aug '11 – Jun ‘15
@@ -41,7 +41,7 @@ New Bulgarian University, Sofia
 Feb. ’19 – Jul ’19
 I took courses in the Philosophy department and Masters’s program for Cognitive Science. I also attended the Cognitive Science Summer School.
 
-## WORK EXPERIENCE
+## Work Experience
 ### Barkeeper
 at Brauerei Rampendahl
 Oct '18 – Mar '20
@@ -60,3 +60,28 @@ I am part of the uos.dll program, a funded project to reform digital teaching pr
 at Sommerblut Festival
 Feb '22 – now
 I am part of a team researching and developing an inclusive chatbot, respecting diversity and accessibility needs.
+
+## Software Skills
+### Python
+scipy, matplotlib, seaborn, pandas, jupyter notebook
+### HTML, CSS, Javascript
+github pages, psychoJS, AMPStack
+### C#
+Unity
+### CAD
+Fusion 360, TinkerCAD
+### Slicing
+Prusaslicer, kiri.moto, Cura
+## Machine Skills
+### 3D Printer
+FDM and MSLA
+### (Laser)cutter
+Cricut, Mr. Beam, Scissors
+### Textile
+Stitching Robot, Sewing Machine, Handstitching
+### Images
+Inkscape, Adobe Illustrator, GIMP
+### Video
+Adobe Premiere, DaVinci Resolve
+### Office
+MS-Office, Latex

@@ -1,5 +1,5 @@
 ---
-title                 :  "Bachelor Thesis"
+title                 :  "Post template"
 date                  :   2022-03-01 14:39:27 +0100
 header:
   overlay_image       : "/assets/images/grass_blur.jpg"
@@ -11,7 +11,7 @@ tags:
   - example
 ---
 
-# Bachelor Thesis
+# Title
 ## Online Linguistic RT Study using reaction time
 
 
