@@ -1,12 +1,25 @@
 ---
-
-title:  "Plastic Recycling"
-date:   2022-03-01 14:39:27 +0100
+title          :  "Plastic Recycling"
+date           :   2022-03-01 14:39:27 +0100
+header:
+  teaser       : "/assets/images/500x300.png"
 categories:
-  - blog
+  - master_thesis
+  - private
 tags:
-  - Jekyll
-  - update
+  - decentral
+  - democratic
+  - precious plastic
+  - plastics
+  - recycling
+  - circular
+  - cradle-to-cradle
+  - automatic
+  - ml
+  - arduino
+  - linux
+  - waste
+  - filastruder
 ---
 Being involved with 3D Printers, there is the issue of sustainability that I am confronted with regularly. Most 3D Printed parts never get recycled and add to the global waste problem, rather than reducing it.
 The printer most certainly doesn’t care what it is printing, the main problem is the dimensional accuracy and the purity of the material. All of this leads to a huge industry, Germany being especially involved, using loads of virgin plastic. What can be done about it?
@@ -29,6 +42,8 @@ Meet:
 ## The Shredder
 
 We built the Precious Plastic Shredder!
+
+<iframe width="510" height="682" src="https://b2b.partcommunity.com/community/partcloud/embedded.html?route=embedded&name=Shredder+Basic+V2.0&model_id=96649&portal=b2b&showDescription=true&showLicense=false&showDownloadButton=false&showHotspots=true&noAutoload=false&autoRotate=true&hideMenu=false&topColor=%23dde7ed&bottomColor=%23ffffff&cameraParams=false&varsettransfer=" frameborder="0" id="EmbeddedView-Iframe-96649" allowfullscreen></iframe>
 
 With these awesome open-source drawings I was able to cobble together my very own very dangerous plastic shredder.
 
@@ -69,6 +84,9 @@ Open source filament diameter sensor by Tomas Sanladerer
 Re-Pet Shop
 https://re-pet3d.com/
 
+
+This project is very dear to my heart and I plan to investigate it further in the form of a master thesis.
+The realization will require many skills I am already picking up or still need to work on within the Design and Computation program.
 
 
 [jekyll-docs]: https://jekyllrb.com/docs/home

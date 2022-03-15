@@ -6,10 +6,10 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/grass_blur.jpg
   actions:
-    - label: "<i class="fa-solid fa-book-blank"></i> Directly to the content"
+    - label: " <i class="fa-solid fa-book"></i> Directly to the content"
       url: "/portfolio/"
 excerpt: >
-  A Place where Aron presents his recent work<br/>
+  A Place where Aron presents his recent work
 
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png

@@ -72,10 +72,14 @@ defaults:
       type: posts
     values:
       layout: single
+      author: "Aron Petau"
       author_profile: true
+      sidebar:
+        title               : "Portfolio Navigator"
+        nav                 : "portfolio-sidebar"
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
   # _pages
   - scope:

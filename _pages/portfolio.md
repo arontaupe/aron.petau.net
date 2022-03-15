@@ -50,7 +50,7 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-{% for post in site.posts limit: 5 %}
+{% for post in site.posts limit: 15 %}
   {% include archive-single.html %}
 {% endfor %}
 
