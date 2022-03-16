@@ -27,7 +27,7 @@ timezone                  : Europe/Berlin # https://en.wikipedia.org/wiki/List_o
 
 og_image                 : "/assets/images/logo.png"
 
-breadcrumbs               : true  # disabled by default
+breadcrumbs               : #true  # disabled by default
 
 words_per_minute          : 100 
 
