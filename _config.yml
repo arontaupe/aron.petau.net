@@ -15,7 +15,7 @@ masthead_title           : "Aron Petau" # overrides the website title displayed 
 search                   : true
 
 url                      : https://aronpetau.me
-#baseurl                  : 
+baseurl                  : /apply
 # Build settings
 markdown                  : kramdown
 remote_theme              : mmistakes/minimal-mistakes
