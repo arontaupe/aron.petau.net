@@ -93,4 +93,4 @@ So far, I am aware of a few companies and academic projects attempting this proc
 
 This project is very dear to my heart and I plan to investigate it further in the form of a master thesis.
 The realization will require many skills I am already picking up or still need to work on within the Design and Computation program. 
-{: .notice}
+{: .notice--info}

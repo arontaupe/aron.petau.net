@@ -23,8 +23,6 @@ portfolio-sidebar:
     url: /plastic-recycling/
   - title: "Unity"
     url: /ballpark/
-  - title: "3D Scanning"
-    url: /scanning/
   - title: "Coding Examples"
     url: /coding/
   - title: "Brewing Beer"

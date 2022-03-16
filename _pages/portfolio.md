@@ -1,5 +1,6 @@
 ---
 layout: archive
+classes: wide
 title: "Portfolio"
 permalink: /portfolio/
 author: "Aron Petau"
@@ -9,50 +10,120 @@ sidebar:
   title: "Portfolio Navigator"
   nav: "portfolio-sidebar"
 
-feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
+philosophy:
+  - image_path: assets/images/grass_blur.jpg
+    alt: "philosophy"
+    title: "Philosophy"
+    excerpt: "philosophy"
+    url: "/philosophy/"
+    btn_label: "More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
+ 
+printing:
+  - image_path: assets/images/grass_blur.jpg
+    alt: "printing"
+    title: "printing"
+    excerpt: "printing"
+    url: "/printing/"
+    btn_label: "More"
     btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
+ 
+cad:
+  - image_path: assets/images/render_bike_holder.png
+    title: "cad"
+    excerpt: "cad"
+    url: "/cad/"
+    btn_label: "More"
     btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
+
+beacon:
+  - image_path: assets/images/grass_blur.jpg
+    alt: "beacon"
+    title: "Beacon"
+    excerpt: "Here you can see parts of a research project I conducted 2018 in India. It looks at regional problems of inaccessibility to electricity and sketches a solution in the form of a radical rethinking of how electricity works and how it is distributed."
+    url: "/beacon/"
+    btn_label: "More"
     btn_class: "btn--primary"
+
+plastic-recycling:
+  - image_path: /assets/images/recycling_graphic.png
+    alt: "plastic-recycling"
+    title: "Plastic Recycling"
+    excerpt: "I examine the reasons failed 3D prints never get recycled and propose a decentralized solution."
+    url: "/plastic-recycling/"
+    btn_label: "More"
+    btn_class: "btn--primary"
+
+ballpark:
+  - image_path: assets/images/grass_blur.jpg
+    alt: "ballpark"
+    title: "Ballpark: Exploring collaborative gameplay in 3D Environments"
+    excerpt: "Have a look at a novel game Idea I sketched out while learning the basics of Unity and C#"
+    url: "/ballpark/"
+    btn_label: "More"
+    btn_class: "btn--primary"
+
+coding:
+  - image_path: assets/images/grass_blur.jpg
+    alt: "coding"
+    title: "Computervision and Neural Networks"
+    excerpt: "Some examples of explorations into machine learning and AI using Python I did during the Bachelor."
+    url: "/coding/"
+    btn_label: "More"
+    btn_class: "btn--primary"
+  
+homebrew:
+  - image_path: assets/images/beer_tap.jpg
+    alt: "homebrew"
+    title: "Beer at Home"
+    excerpt: "I am discovering the world of Homebrewing"
+    url: "/homebrew/"
+    btn_label: "More"
+    btn_class: "btn--primary"
+chatbot:
+  - image_path: https://cloud.google.com/dialogflow/es/docs/images/fulfillment-flow.svg
+    alt: "chatbot"
+    title: "Guru to Go: a Chatbot"
+    excerpt: "A speech interface for your hands-free meditation and journalling needs"
+    url: "/chatbot/"
+    btn_label: "More"
+    btn_class: "btn--primary"
+
+thesis:
+  - image_path: assets/images/grass_blur.jpg
+    alt: "thesis"
+    title: "thesis"
+    excerpt: "thesis"
+    url: "/thesis/"
+    btn_label: "More"
+    btn_class: "btn--primary"
+
+iron-smelting:
+  - image_path: assets/images/grass_blur.jpg
+    alt: "iron-smelting"
+    title: "iron-smelting"
+    excerpt: "iron-smelting"
+    url: "/iron-smelting/"
+    btn_label: "More"
+    btn_class: "btn--primary"
+  
 ---
 
 
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="philosophy" type="right" %}
+{% include feature_row id="printing" type="left" %}
+{% include feature_row id="beacon" type="right" %}
+{% include feature_row id="cad" type="left" %}
+{% include feature_row id="plastic-recycling" type="right" %}
+{% include feature_row id="ballpark" type="left" %}
 
-{% include feature_row id="feature_row3" type="right" %}
+{% include feature_row id="coding" type="right" %}
+{% include feature_row id="chatbot" type="left" %}
+{% include feature_row id="thesis" type="right" %}
+{% include feature_row id="iron-smelting" type="left" %}
+{% include feature_row id="homebrew" type="right" %}
+
+
+
 

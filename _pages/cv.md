@@ -64,7 +64,7 @@ I am part of a team researching and developing an inclusive chatbot, respecting 
 ## Software Skills
 ### Python
 scipy, matplotlib, seaborn, pandas, jupyter notebook
-### HTML, CSS, Javascript
+### HTML, CSS, JavaScript
 github pages, psychoJS, AMPStack
 ### C#
 Unity
