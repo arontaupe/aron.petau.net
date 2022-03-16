@@ -6,7 +6,6 @@ header:
   overlay_filter      : 0.2
   credit              : "Aron Petau"
 
-
 tags:
   - experiment
   - archeology

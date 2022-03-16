@@ -4,16 +4,12 @@ main:
     url: /about/
   - title: "Portfolio"
     url: /portfolio/
-  - title: "Motivation"
-    url: /motivation/
   - title: "Experience"
     url: /cv/
-  - title: "Privacy Policy"
-    url: /privacy/
 
 
 
-# sidebar navigation list sample
+# sidebar navigation list
 portfolio-sidebar:
   - title: "3D Printing"
     url: /printing/

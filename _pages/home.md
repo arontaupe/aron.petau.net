@@ -1,17 +1,14 @@
 ---
 layout             : splash
-permalink          : /home/
-classes:
-  - landing
-  - dark-theme
+permalink          : /
 hidden             : true
 header:
   overlay_color    : "#5e616c"
   overlay_image    : /assets/images/grass_blur.jpg
   actions:
-    - url          : /portfolio/
-excerpt: >
-  A Place where Aron presents his recent work 
+    - label        : "<i class='fas fa-book-open'></i> Take me to the Content!"
+      url          : "/portfolio/"
+excerpt            : A Place where Aron presents his recent work 
 
 feature_row:
   - image_path: /assets/images/aron_avatar.jpg

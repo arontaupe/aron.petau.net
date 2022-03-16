@@ -2,7 +2,7 @@
 Aron Petau:
   name        : "Aron Petau"
   bio         : "Cognitve Scientist, 3D Modeling and Design"
-  avatar      : "/assets/images/aron_avatar.jpg"
+  avatar      : "/assets/images/aron_avatar_square.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

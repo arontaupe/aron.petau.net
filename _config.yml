@@ -4,9 +4,9 @@ title_separator          : "-"
 subtitle                 : "Application for Design & Computation" # site tagline that appears below site title in masthead
 email                    : aron@petau.net
 description              : &description "Here I display a selection of my recent work"
-twitter_username         : share0n
+twitter_username         : reprintedAron
 github_username          : arontaupe
-minimal_mistakes_skin    : mint
+minimal_mistakes_skin    : default # mint
 name                     : &name "Aron Petau"
 repository               : "arontaupe/apply"
 logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -15,7 +15,7 @@ masthead_title           : "Aron Petau" # overrides the website title displayed 
 search                   : true
 
 url                      : https://aronpetau.me
-baseurl                  : # if i want another subdirectory
+baseurl                  : /  # if i want another subdirectory
 # Build settings
 markdown                  : kramdown
 remote_theme              : mmistakes/minimal-mistakes
@@ -25,7 +25,11 @@ paginate                  : 10 # amount of posts to show
 paginate_path             : /page:num/
 timezone                  : Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+og_image                 : "/assets/images/logo.png"
+
 breadcrumbs               : true  # disabled by default
+
+words_per_minute          : 100 
 
 include:
   - _pages
@@ -66,8 +70,13 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arontaupe"
     - label: "PrusaPrinters"
-      icon: "fa-solid fa-cubes"
+      icon: "fas fa-cubes"
       url: "https://www.prusaprinters.org/social/97957-arontaupe/prints"
+
+    - label: "Privacy Statement"
+      icon: "fas fa-user-secret"
+      url: "/privacy/"
+
 
 
 defaults:
