@@ -4,7 +4,7 @@ title_separator          : "-"
 subtitle                 : "Application for Design & Computation" # site tagline that appears below site title in masthead
 email                    : aron@petau.net
 description              : &description "Here I display a selection of my recent work"
-twitter_username         : shar0n
+twitter_username         : share0n
 github_username          : arontaupe
 minimal_mistakes_skin    : mint
 name                     : &name "Aron Petau"
@@ -15,7 +15,7 @@ masthead_title           : "Aron Petau" # overrides the website title displayed 
 search                   : true
 
 url                      : https://aronpetau.me
-baseurl                  : /apply
+baseurl                  : # if i want another subdirectory
 # Build settings
 markdown                  : kramdown
 remote_theme              : mmistakes/minimal-mistakes
