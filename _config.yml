@@ -14,7 +14,7 @@ masthead_title           : "Aron Petau" # overrides the website title displayed 
 
 search                   : true
 
-url                      : https://aronpetau.me
+url                      : https://www.aronpetau.me
 baseurl                  : /  # if i want another subdirectory
 # Build settings
 markdown                  : kramdown
