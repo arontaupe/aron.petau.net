@@ -1,7 +1,10 @@
 ---
 layout             : splash
-permalink          : /
-#hidden             : true
+permalink          : /home/
+classes:
+  - landing
+  - dark-theme
+hidden             : true
 header:
   overlay_color    : "#5e616c"
   overlay_image    : /assets/images/grass_blur.jpg
