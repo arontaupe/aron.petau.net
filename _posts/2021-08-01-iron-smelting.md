@@ -6,12 +6,12 @@ header:
   overlay_filter      : 0.2
   credit              : "Aron Petau"
 
-categories:
-  - private
+
 tags:
   - experiment
   - archeology
   - iron smelting
+  - private
 ---
 
 # Iron Smelting

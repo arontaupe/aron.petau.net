@@ -1,36 +1,35 @@
 ---
 layout             : splash
 permalink          : /
-hidden             : true
+#hidden             : true
 header:
   overlay_color    : "#5e616c"
   overlay_image    : /assets/images/grass_blur.jpg
   actions:
-    - label        : "Directly to the content"
     - url          : /portfolio/
 excerpt: >
-  A Place where Aron presents his recent work
+  A Place where Aron presents his recent work 
 
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/aron_avatar.jpg
+    alt: "About Me"
+    title: "About Me"
+    excerpt: "Come and have a look at who I am"
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - image_path: /assets/images/grass_blur.jpg
+    alt: "experience"
+    title: "Prior experience"
+    excerpt: "The boring and hard facts about my Career and Skills "
+    url: "/cv/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+  - image_path: /assets/images/grass_blur.jpg
+    alt: "Motivation"
+    title: "What motivates me"
+    excerpt: "Come and check out what is important to me and how my plans for the future look"
+    url: "/motivation/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---

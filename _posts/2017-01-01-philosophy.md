@@ -5,13 +5,13 @@ header:
   overlay_image       : "/assets/images/grass_blur.jpg"
   overlay_filter      : 0.2
   credit              : "Aron Petau"
-categories:
-  - university
 tags:
   - ethics
   - emotion
   - postphenomenology
   - values in science
+  - university
+  - private
 ---
 
 ## Critical considerations during my studies
