@@ -55,7 +55,7 @@ plastic-recycling:
     btn_class: "btn--primary"
 
 ballpark:
-  - image_path: assets/images/grass_blur.jpg
+  - image_path: assets/images/ballpark_menu.png
     alt: "ballpark"
     title: "Ballpark: Exploring collaborative gameplay in 3D Environments"
     excerpt: "Have a look at a novel game Idea I sketched out while learning the basics of Unity and C#"
@@ -64,8 +64,7 @@ ballpark:
     btn_class: "btn--primary"
 
 coding:
-  - image_path: assets/images/grass_blur.jpg
-    alt: "coding"
+  - image_path: assets/images/sample_cos_sim.png
     title: "Computervision and Neural Networks"
     excerpt: "Some examples of explorations into machine learning and AI using Python I did during the Bachelor."
     url: "/coding/"
@@ -99,7 +98,7 @@ thesis:
     btn_class: "btn--primary"
 
 iron-smelting:
-  - image_path: assets/images/grass_blur.jpg
+  - image_path: assets/images/burning_furnace.jpg
     alt: "iron-smelting"
     title: "iron-smelting"
     excerpt: "iron-smelting"

@@ -2,7 +2,7 @@
 title                 :  "Iron Smelting"
 date                  :   2022-03-01 14:39:27 +0100
 header:
-  overlay_image       : "/assets/images/grass_blur.jpg"
+  overlay_image       : "/assets/images/compacting_iron.jpg"
   overlay_filter      : 0.2
   credit              : "Aron Petau"
 
@@ -40,3 +40,11 @@ Over the course of the process, more than 100 kgs of coal are used.
 
 
 {% include video id="lXkMMfv5Mjg" provider="youtube" %}
+
+
+![tashi gang](/assets/images/coal_furnace.jpg)
+![tashi gang](/assets/images/isd_drone.jpg)
+![tashi gang](/assets/images/iron_result.jpg)
+![tashi gang](/assets/images/burning_furnace.jpg)
+![tashi gang](/assets/images/compacting_iron.jpg)
+![tashi gang](/assets/images/flir_furnace.jpg)
