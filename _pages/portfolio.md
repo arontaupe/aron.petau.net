@@ -7,37 +7,37 @@ author: "Aron Petau"
 author_profile: false
 
 sidebar:
-  title: "Portfolio Navigator"
+  title: "Topics"
   nav: "portfolio-sidebar"
 
 philosophy:
   - image_path: assets/images/grass_blur.jpg
     alt: "philosophy"
     title: "Philosophy"
-    excerpt: "philosophy"
+    excerpt: "Find out about considerations relating to ethics, emotions, philosophy of science and feminist theory"
     url: "/philosophy/"
     btn_label: "More"
     btn_class: "btn--primary"
  
 printing:
-  - image_path: assets/images/grass_blur.jpg
+  - image_path: assets/images/lithophane.jpg
     alt: "printing"
-    title: "printing"
-    excerpt: "printing"
+    title: "3D Printing"
+    excerpt: "See an array of printing projects I did here."
     url: "/printing/"
     btn_label: "More"
     btn_class: "btn--primary"
  
 cad:
   - image_path: assets/images/render_bike_holder.png
-    title: "cad"
-    excerpt: "cad"
+    title: "Computer aided Design"
+    excerpt: "Follow along for my exploration of sketching and parametric design in Fusion360 and related projects"
     url: "/cad/"
     btn_label: "More"
     btn_class: "btn--primary"
 
 beacon:
-  - image_path: assets/images/grass_blur.jpg
+  - image_path: assets/images/india_key_monastery.jpg
     alt: "beacon"
     title: "Beacon"
     excerpt: "Here you can see parts of a research project I conducted 2018 in India. It looks at regional problems of inaccessibility to electricity and sketches a solution in the form of a radical rethinking of how electricity works and how it is distributed."
@@ -89,10 +89,10 @@ chatbot:
     btn_class: "btn--primary"
 
 thesis:
-  - image_path: assets/images/grass_blur.jpg
+  - image_path: assets/images/acc_sj_by_cond_distort.png
     alt: "thesis"
-    title: "thesis"
-    excerpt: "thesis"
+    title: "Bachelors thesis: Audio-visual speech processing and the effects of multisensory integration "
+    excerpt: "Find out more about a study I coded, conducted and evaluated looking at auditory and visual delay and how it affects human speech perception"
     url: "/thesis/"
     btn_label: "More"
     btn_class: "btn--primary"
@@ -100,8 +100,8 @@ thesis:
 iron-smelting:
   - image_path: assets/images/burning_furnace.jpg
     alt: "iron-smelting"
-    title: "iron-smelting"
-    excerpt: "iron-smelting"
+    title: "Smelting: Making iron the prehistoric way"
+    excerpt: "See some impressions from the ISD 2021 where iron-ore is burned under exclusion of oxygen to reduce it and produce real iron"
     url: "/iron-smelting/"
     btn_label: "More"
     btn_class: "btn--primary"

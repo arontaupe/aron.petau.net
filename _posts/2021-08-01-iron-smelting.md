@@ -17,7 +17,7 @@ tags:
 ## Impressions from the International Smelting Days 2021
 
 ## The concept
-TODO
+My dad used to be a blacksmith and since I was a small child I took part in the yearly international congress called Iron Smelting Days (ISD). After some uncertainty 
 
 ## Building a furnace
 
@@ -42,9 +42,9 @@ Over the course of the process, more than 100 kgs of coal are used.
 {% include video id="lXkMMfv5Mjg" provider="youtube" %}
 
 
-![tashi gang](/assets/images/coal_furnace.jpg)
-![tashi gang](/assets/images/isd_drone.jpg)
-![tashi gang](/assets/images/iron_result.jpg)
-![tashi gang](/assets/images/burning_furnace.jpg)
-![tashi gang](/assets/images/compacting_iron.jpg)
-![tashi gang](/assets/images/flir_furnace.jpg)
+![a loaded furnace](/assets/images/coal_furnace.jpg)
+![the ISD from above](/assets/images/isd_drone.jpg)
+![glowing iron](/assets/images/iron_result.jpg)
+![a furnace burning](/assets/images/burning_furnace.jpg)
+![compacting the resulting iron](/assets/images/compacting_iron.jpg)
+![a heat camera image of the furnace](/assets/images/flir_furnace.jpg)
