@@ -23,7 +23,7 @@ printing:
   - image_path: assets/images/lithophane.jpg
     alt: "printing"
     title: "3D Printing"
-    excerpt: "See an array of printing projects I did here."
+    excerpt: "See an array of printing projects I did here. I also explain how the industry could have a transformative effect on society, both good and bad"
     url: "/printing/"
     btn_label: "More"
     btn_class: "btn--primary"
@@ -31,7 +31,7 @@ printing:
 cad:
   - image_path: assets/images/render_bike_holder.png
     title: "Computer aided Design"
-    excerpt: "Follow along for my exploration of sketching and parametric design in Fusion360 and related projects"
+    excerpt: "Follow along here for my exploration of sketching and parametric design in Fusion360 and related projects. I demonstrate some things that alrerady made it into the real world and some that still di not."
     url: "/cad/"
     btn_label: "More"
     btn_class: "btn--primary"
@@ -49,7 +49,7 @@ plastic-recycling:
   - image_path: /assets/images/recycling_graphic.png
     alt: "plastic-recycling"
     title: "Plastic Recycling"
-    excerpt: "I examine the reasons failed 3D prints never get recycled and propose a decentralized solution."
+    excerpt: "I examine the reasons failed 3D prints never get recycled and propose a decentralized solution for a system not involving sending our trash around the world."
     url: "/plastic-recycling/"
     btn_label: "More"
     btn_class: "btn--primary"
@@ -58,7 +58,7 @@ ballpark:
   - image_path: assets/images/ballpark_menu.png
     alt: "ballpark"
     title: "Ballpark: Exploring collaborative gameplay in 3D Environments"
-    excerpt: "Have a look at a novel game Idea I sketched out while learning the basics of Unity and C#"
+    excerpt: "Have a look at a novel game Idea I sketched out while learning the basics of Unity and C#. It features two players attached to the same body, forcing them to collaborate and traverse the hostile surroundings"
     url: "/ballpark/"
     btn_label: "More"
     btn_class: "btn--primary"
@@ -66,7 +66,7 @@ ballpark:
 coding:
   - image_path: assets/images/sample_cos_sim.png
     title: "Computervision and Neural Networks"
-    excerpt: "Some examples of explorations into machine learning and AI using Python I did during the Bachelor."
+    excerpt: "Some examples of explorations into machine learning and AI using Python I did during the Bachelor's in Osnabrück. "
     url: "/coding/"
     btn_label: "More"
     btn_class: "btn--primary"
@@ -75,7 +75,7 @@ homebrew:
   - image_path: assets/images/beer_tap.jpg
     alt: "homebrew"
     title: "Beer at Home"
-    excerpt: "I am discovering the world of Homebrewing"
+    excerpt: "I am discovering the world of Homebrewing. Come see how I brew beer and ferment."
     url: "/homebrew/"
     btn_label: "More"
     btn_class: "btn--primary"
@@ -83,7 +83,7 @@ chatbot:
   - image_path: https://cloud.google.com/dialogflow/es/docs/images/fulfillment-flow.svg
     alt: "chatbot"
     title: "Guru to Go: a Chatbot"
-    excerpt: "A speech interface for your hands-free meditation and journalling needs"
+    excerpt: "A speech interface for your hands-free meditation and journalling needs. I also sketch how my studies translate into my current work."
     url: "/chatbot/"
     btn_label: "More"
     btn_class: "btn--primary"
@@ -91,8 +91,8 @@ chatbot:
 thesis:
   - image_path: assets/images/acc_sj_by_cond_distort.png
     alt: "thesis"
-    title: "Bachelors thesis: Audio-visual speech processing and the effects of multisensory integration "
-    excerpt: "Find out more about a study I coded, conducted and evaluated looking at auditory and visual delay and how it affects human speech perception"
+    title: "Bachelors thesis: audio-visual speech processing and the effects of multisensory integration"
+    excerpt: "Find out more about a study I coded, conducted and evaluated looking at auditory and visual delay and how it affects human speech perception. It can potentially help people with sensory hypersensitivity navigate a calmer world and concentrate on the things that matter."
     url: "/thesis/"
     btn_label: "More"
     btn_class: "btn--primary"
@@ -101,7 +101,7 @@ iron-smelting:
   - image_path: assets/images/burning_furnace.jpg
     alt: "iron-smelting"
     title: "Smelting: Making iron the prehistoric way"
-    excerpt: "See some impressions from the ISD 2021 where iron-ore is burned under exclusion of oxygen to reduce it and produce real iron"
+    excerpt: "See some impressions from the ISD 2021 where iron-ore is burned under exclusion of oxygen to reduce it and produce real iron. A group of archeology-fanatics is experimentally trying to find out about the mysterious prehistoric efficiency of smelting iron, highly localized knowledge that is largely lost."
     url: "/iron-smelting/"
     btn_label: "More"
     btn_class: "btn--primary"

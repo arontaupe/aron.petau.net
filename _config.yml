@@ -6,7 +6,7 @@ email                    : aron@petau.net
 description              : &description "Here I display a selection of my recent work"
 twitter_username         : reprintedAron
 github_username          : arontaupe
-minimal_mistakes_skin    : default # mint
+minimal_mistakes_skin    : aqua # default # mint
 name                     : &name "Aron Petau"
 repository               : "arontaupe/apply"
 logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -27,9 +27,9 @@ timezone                  : Europe/Berlin # https://en.wikipedia.org/wiki/List_o
 
 og_image                  : "/assets/images/logo.png"
 
-breadcrumbs               : #true  # disabled by default
+breadcrumbs               : true  # disabled by default
 
-words_per_minute          : 100 
+words_per_minute          : 80 
 
 include:
   - _pages
@@ -89,7 +89,7 @@ defaults:
       author_profile        : true
       teaser                : /assets/images/grass_blur.png
       sidebar:
-        title               : "Portfolio Navigator"
+        title               : "Topics"
         nav                 : "portfolio-sidebar"
       read_time             : true
       comments              : false
