@@ -22,66 +22,110 @@ During my very open and broad studies, I focused mostly on Computational Linguis
 
 
 ## Education
-### Abitur
-Stadtgymnasium Detmold
-Aug '11 – Jun ‘15
-{: .text-right}
-BSc. Cognitive Science
-Universität Osnabück
-Oct ‘16 – Feb '22
-Focus on Philosophy, AI, Informatics and Linguistics
 
-### RISE Internship
-IIT Kharagpur, India
-Sept. ’18 – Jan ’19
-I researched the possibilities of a decentralized electricity grid in remote regions of the Himalayas.
+|:-|-|-| |:- | -:|
+|**Abitur** ||||||<i class="fas fa-building"></i> Stadtgymnasium Detmold ||<i class="fas fa-calendar-alt"></i> Aug '11 – Jun ‘15 |
+{: .display}
 
-### Erasmus Semester
-New Bulgarian University, Sofia
-Feb. ’19 – Jul ’19
-I took courses in the Philosophy department and Masters’s program for Cognitive Science. I also attended the Cognitive Science Summer School.
+|:- |:- | -:|
+|**BSc. Cognitive Science** |<i class="fas fa-building"></i> Universität Osnabück ||<i class="fas fa-calendar-alt"></i> Oct ‘16 – Feb '22 |
+{: .display}  
+
+| I focused on Philosophy, AI, Informatics and Linguistics |
+{: .display}  
+
+|:- |:- | -:|
+|**RISE Internship** |<i class="fas fa-building"></i> IIT Kharagpur, India ||<i class="fas fa-calendar-alt"></i> Sept. ’18 – Jan ’19 |
+{: .display}  
+
+| I researched the possibilities of a decentralized electricity grid in remote regions of the Himalayas. |
+{: .display}  
+
+|:- |:- | -:|
+|**Erasmus Semester** |<i class="fas fa-building"></i> New Bulgarian University, Sofia ||<i class="fas fa-calendar-alt"></i> Feb. ’19 – Jul ’19 |
+{: .display}  
+
+| I took courses in the Philosophy department and Masters’s program for Cognitive Science. I also attended the Cognitive Science Summer School. |
+{: .display}  
+
 
 ## Work Experience
-### Barkeeper
-at Brauerei Rampendahl
-Oct '18 – Mar '20
 
-### Social Worker
-at Heilpädagogische Hilfe Osnabrück
-Sept ’20 – Sept ’21
-I worked in a stationary care center for hearing impaired and deaf people with cognitive impairments, including autism.
+|:- |:- | -:|
+|**Barkeeper / Brewing assistant** |<i class="fas fa-building"></i> Brauerei Rampendahl ||<i class="fas fa-calendar-alt"></i> Oct '18 – Mar '20 |
+{: .display}  
 
-### Working Student
-at Virtuos at Universität Osnabrück
-Oct '21 – now
-I am part of the uos.dll program, a funded project to reform digital teaching practices at the University. My responsibility is the building and maintaining of the DigiLab, a FabLab/Makerspace accessible to the entire University. It features 3D printers, Laser Cutter, CNC Routers, Stitching Robots, VR, XR, Video/Audio Toolsets, and many more.
 
-### Software Engineer
-at Sommerblut Festival
-Feb '22 – now
-I am part of a team researching and developing an inclusive chatbot, respecting diversity and accessibility needs.
+|:- |:- | -:|
+|**Social Worker** |<i class="fas fa-building"></i> Heilpädagogische Hilfe Osnabrück ||<i class="fas fa-calendar-alt"></i> Sept ’20 – Sept ’21 |
+{: .display}  
+
+| I worked in a stationary care center for hearing impaired and deaf people with cognitive impairments, including autism. |
+{: .display}  
+
+|:- |:- | -:|
+|**Working Student** |<i class="fas fa-building"></i> Virtuos at Universität Osnabrück ||<i class="fas fa-calendar-alt"></i> Oct '21 – now |
+{: .display}  
+
+| I am part of the uos.dll program, a funded project to reform digital teaching practices at the University. My responsibility is the building and maintaining of the DigiLab, a FabLab/Makerspace accessible to the entire University. It features 3D printers, Laser Cutter, CNC Routers, Stitching Robots, VR, XR, Video/Audio Toolsets, and many more. |
+{: .display} 
+
+|:- |:- | -:|
+|**Software Engineer** |<i class="fas fa-building"></i> Sommerblut Kulturverein Festival ||<i class="fas fa-calendar-alt"></i> Feb '22 – now |
+{: .display}  
+
+| I am part of a team researching and developing an inclusive chatbot, respecting diversity and accessibility needs. |
+{: .display} 
+
 
 ## Software Skills
-### Python
+
+**UNIX**
+
+bash, Arduino IDE, Raspberry Pi
+
+**Python**
+
 scipy, matplotlib, seaborn, pandas, jupyter notebook
-### HTML, CSS, JavaScript
-github pages, psychoJS, AMPStack
-### C#
+
+**HTML, CSS, JavaScript**
+
+gh pages, psychoJS, AMPStack, ibex-farm
+
+**C#**
+
 Unity
-### CAD
+
+**CAD**
+
 Fusion 360, TinkerCAD
-### Slicing
+
+ **Slicing**
+
 Prusaslicer, kiri.moto, Cura
+
 ## Machine Skills
-### 3D Printer
+
+**3D Printer**
+
 FDM and MSLA
-### (Laser)cutter
+
+**(Laser)cutter**
+
 Cricut, Mr. Beam, Scissors
-### Textile
+
+**Textile**
+
 Stitching Robot, Sewing Machine, Handstitching
-### Images
+
+**Images**
+
 Inkscape, Adobe Illustrator, GIMP
-### Video
+
+**Video**
+
 Adobe Premiere, DaVinci Resolve
-### Office
-MS-Office, Latex
+
+**Office**
+
+MS-Office, Latex, Markdown

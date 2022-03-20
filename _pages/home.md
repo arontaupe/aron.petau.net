@@ -8,7 +8,7 @@ header:
   actions:
     - label        : "<i class='fas fa-book-open'></i> Take me to the Content!"
       url          : "/portfolio/"
-excerpt            : A Place where Aron presents his recent work 
+excerpt            : The place where you can catch up with my recent work and see what I am all about. 
 
 feature_row:
   - image_path: /assets/images/aron_avatar.jpg

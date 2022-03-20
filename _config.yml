@@ -6,7 +6,7 @@ email                    : aron@petau.net
 description              : &description "Here I display a selection of my recent work"
 twitter_username         : reprintedAron
 github_username          : arontaupe
-minimal_mistakes_skin    : aqua # default # mint
+minimal_mistakes_skin    : aqua # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 name                     : &name "Aron Petau"
 repository               : "arontaupe/apply"
 logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -14,10 +14,15 @@ masthead_title           : "Aron Petau" # overrides the website title displayed 
 
 search                   : true
 
+# Site Settings
+locale                   : "en-US"
+
 url                      : https://www.aronpetau.me
 baseurl                  : /  # if i want another subdirectory
 # Build settings
 markdown                  : kramdown
+highlighter               : rouge
+lsi                       : true
 remote_theme              : mmistakes/minimal-mistakes
 # Outputting
 permalink                 : /:categories/:title/
