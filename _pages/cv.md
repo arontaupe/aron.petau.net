@@ -8,17 +8,7 @@ toc: true
 author: "Aron Petau"
 ---
 # Who am I?
-I am Aron, and I just finished my bachelor’s degree in Cognitive Science at the University of Osnabrück.
 
-I dream of having my own bar one day and am working on the perfect recipe for homebrew beer.
-I live together with 4 awesome humans, a cat, and two 3D Printers.
-I love to get into new electronics or building projects.
-
-I am passionate about 3D Printing and many related areas. While I find the I am thoroughly frustrated that I have to pay for the plastic I use for printing while I throw the packaging of my food away, being the exact same thing.
-I believe that global plastic waste is a ginormous problem and I consider it my personal field of action to help advance small-scale, decentralized recycling.
-I am currently searching for an appropriate place to further my knowledge to automatize the recycling of my own very large collection of failed prints.
-
-During my very open and broad studies, I focused mostly on Computational Linguistics, Machine Learning, and Philosophy.
 
 
 ## Education
@@ -90,7 +80,7 @@ scipy, matplotlib, seaborn, pandas, jupyter notebook
 
 **HTML, CSS, JavaScript**
 
-gh pages, psychoJS, AMPStack, ibex-farm
+gh-pages, psychoJS, AMPStack, ibex-farm
 
 **C#**
 
