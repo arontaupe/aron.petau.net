@@ -4,3 +4,4 @@ _site
 Gemfile.lock
 assets/not_yet_used/
 .DS_Store
+.idea/

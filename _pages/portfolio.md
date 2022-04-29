@@ -105,6 +105,15 @@ iron-smelting:
     url: "/iron-smelting/"
     btn_label: "More"
     btn_class: "btn--primary"
+
+allei:
+  - image_path: assets/images/grass_blur.jpg
+    alt: "allei"
+    title: "Ällei: Exploration of inclusivity and accessibility online"
+    excerpt: "My first shipped software project: Read about a Google Dialogflow backend and try it out yourself"
+    url: "/allei/"
+    btn_label: "More"
+    btn_class: "btn--primary"
   
 ---
 
@@ -116,13 +125,12 @@ iron-smelting:
 {% include feature_row id="cad" type="left" %}
 {% include feature_row id="plastic-recycling" type="right" %}
 {% include feature_row id="ballpark" type="left" %}
-
 {% include feature_row id="coding" type="right" %}
 {% include feature_row id="chatbot" type="left" %}
 {% include feature_row id="thesis" type="right" %}
 {% include feature_row id="iron-smelting" type="left" %}
 {% include feature_row id="homebrew" type="right" %}
-
+{% include feature_row id="allei" type="left" %}
 
 
 

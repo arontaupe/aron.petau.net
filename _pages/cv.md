@@ -21,7 +21,7 @@ author: "Aron Petau"
 |**BSc. Cognitive Science** |<i class="fas fa-building"></i> Universität Osnabück ||<i class="fas fa-calendar-alt"></i> Oct ‘16 – Feb '22 |
 {: .display}  
 
-| I focused on Philosophy, AI, Informatics and Linguistics |
+| Within a diverse program, I focused on Philosophy, AI, Informatics and Linguistics |
 {: .display}  
 
 |:- |:- | -:|
