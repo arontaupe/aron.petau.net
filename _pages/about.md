@@ -4,7 +4,10 @@ permalink: /about/
 title: "About"
 excerpt: "Welcome to my TED talk, let me introduce myself"
 last_modified_at: 2021-05-11T10:23:16-04:00
-toc: true
+toc: false
+
+layout                : single
+classes               : wide
 author: "Aron Petau"
 ---
 

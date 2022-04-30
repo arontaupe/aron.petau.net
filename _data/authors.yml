@@ -8,7 +8,7 @@ Aron Petau:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:aron@petau.net"
     - label: "Telegram"
-      icon: "fas fa-brands fa-telegram"
+      icon: "fas fa-fw fa-telegram"
       url: "https://t.me/apetau"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

@@ -65,7 +65,9 @@ author: "Aron Petau"
 |<i class="fas fa-building"></i> Virtuos at Universität Osnabrück |||||||||||<i class="fas fa-calendar-alt"></i> Oct '21 – now |
 {: .display}  
 
-| I am part of the uos.dll program, a funded project to reform digital teaching practices at the University. My responsibility is the building and maintaining of the DigiLab, a FabLab/Makerspace accessible to the entire University. It features 3D printers, Laser Cutter, CNC Routers, Stitching Robots, VR, XR, Video/Audio Toolsets, and many more. |
+| I am part of the uos.dll program, a funded project to reform digital teaching practices at the University. My responsibility is the building and maintaining of the DigiLab, a FabLab/Makerspace accessible to the entire University. It features 3D printers, Laser Cutter, CNC Routers, Stitching Robots, VR, XR, Video/Audio Toolsets, and many more. 
+[DigiLab Osnabrück](https://digitale-lehre.virtuos.uni-osnabrueck.de/uos-digilab/)|
+
 {: .display} 
 
 |:- |-:|
@@ -99,9 +101,9 @@ Unity
 
 Fusion 360, TinkerCAD
 
- **Slicing**
+**Slicing**
 
-Prusaslicer, kiri.moto, Cura
+PrusaSlicer, kiri.moto, Cura
 
 ## Machine Skills
 
