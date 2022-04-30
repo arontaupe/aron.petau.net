@@ -3,7 +3,7 @@ permalink: /motivation/
 #layout: default
 title: "Motivation"
 excerpt: "My perspective on the future"
-last_modified_at: 2021-05-11T10:23:16-04:00
+last_modified_at: 2022-04-30T10:23:16-04:00
 toc: false
 layout                : single
 classes               : wide
