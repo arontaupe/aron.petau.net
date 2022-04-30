@@ -18,9 +18,9 @@ tags:
 
 ## Critical considerations during my studies
 
-I have attended a fair share of philosophical seminars in my studies and consider it a core topic connected both to science and to digital environments. Normative and feminist social theory, as well as theory of science and phenomenology are all brought to me through seminar formats in university and 
+I have attended a fair share of philosophical seminars in my studies and consider it a core topic connected both to science and to digital environments. Normative and feminist social theory, as well as theory of science and phenomenology are all brought to me through seminar formats in university and made up a good part of my education there.
 I find it hard to find a proper way to demonstrate what interests me without presenting often long-winded and dull term papers. 
-The courses i loved most also often had a format with a weekly hand in, where students are asked to comment on the paper they just read in order to identify points to carry into next weeks discussion. I am incredibly thankful for this methodology of approaching complex philosophical works, often complete books with supplicant essays surrounding the course topic. In my opinion, nearly all of the value created during these seminars is contained within the live discussions fed by reading materials and little opinion pieces in the form of forum comments. That's why I decided to share here a selection of these weekly commentaries and the sources they are based upon. They are often unrefined and informal, but they indicate the centerpiece of the seminars and demonstrate many thought processes that happened within me during these sessions
+The courses I loved most also often had a format with a weekly hand in, where students are asked to comment on the paper they just read in order to identify points to carry into next weeks discussion. I am incredibly thankful for this methodology of approaching complex philosophical works, often complete books with supplicant essays surrounding the course topic. In my opinion, nearly all of the value created during these seminars is contained within the live discussions fed by reading materials and little opinion pieces in the form of forum comments. That's why I decided to share here a selection of these weekly commentaries and the sources they are based upon. They are often unrefined and informal, but they indicate the centerpiece of the seminars and demonstrate many thought processes that happened within me during these sessions. Although I took only a small selection, in sum they are a substantial read. Feel free to just skip through and read what catches your interest.
 
 
 ## Forum entries from the Seminar: Critical Epistemologies
@@ -33,7 +33,7 @@ DOI: 10.1080/02691728.2011.652211 [Publication](https://doi.org/10.1080/02691728
 
 The text by Anderson helped shed light on a few issues I stumbled over with Frickers Account. On top of the various issues I and seemingly others too have with the virtue-based approach by her, I think a utilitarian angle is worth considering. That would be: okay, I accept that people can help fight injustice by realizing their privilege, showing restraint, silencing themselves and adopting the benevolent listening approach. I think that is a practical, virtuous and realistic endeavour.
 But is it actually the effective path to alleviating structural injustice? I think no, and initially, that is a major reason I discarded Fricker’s approach, although I saw merit. I have similar concerns to Anderson in the scalability of virtues. Virtuous behaviour might help my personal wellbeing, it gives me normative elevation and might even further the quality of relationships I have. But is it applicable to society, is it enough to counteract structural injustice? 
-Well, maybe, assuming that 
+Well, maybe, assuming that:
 1. Everyone realizes their privilege, 
 2. Everyone reaches the conclusion that justice is the right goal, 
 3. Upon deciding to adopt a virtuous stance, everyone at least moderately succeeds in practising what they preach.
@@ -102,7 +102,7 @@ created by Aron Petau on Tuesday 23. June 2020, 18:52
 
 
 ## Forum entries from the Seminar: Critical philosophy of subjectivity 1: Michel Foucault
-### Constituting norms =/= carrying normative responsibilities for their existence
+### On Butler: Constituting norms =/= carrying normative responsibilities for their existence
 
 Source Text: Butler, J. (2004). Undoing Gender (1st ed.). Routledge. https://doi.org/10.4324/9780203499627
 [Publication](https://doi.org/10.4324/9780203499627)
@@ -181,3 +181,53 @@ How can this theory possibly bring about change in society? Is that even its goa
 
 created by Aron Petau on Sunday 12. December 2021, 22:01
 {: .notice}
+
+
+## Forum entries from the Seminar: Is political violence justifiable? Reading Judith Butler and Elsa Dorlin
+### On Dorlin
+
+Source Text: Dorlin, Elsa. Se défendre: une philosophie de la violence. Zones, 2017.
+[Publication (Not yet translated to English)](https://books.google.de/books?hl=de&lr=&id=MD05DwAAQBAJ&oi=fnd&pg=PT7&dq=dorlin+se+defendre+book&ots=gVZ7VSU867&sig=tMn1dRVSJDkUMBmmtMJOgT8JhcQ&redir_esc=y#v=onepage&q=dorlin%20se%20defendre%20book&f=false)
+{: .notice}
+
+From the seventh chapter in Dorlins "Self-Defense", I found the idea that safe spaces are actually prone to be counterproductive very strong.
+I think the discussion around whether safe spaces are an effective tool that is appropriate on top is a rather current and ongoing one.
+In so many other words, Dorlin here opens up the idea that the creation of a safe space always implies a hostile "outside" or other space.
+Further, Dorling sees as problematic that safe spaces will often experience problematic situations when trying to self-govern. The line of thought here is that safe spaces often explicitly reject the authority of traditional state bodies, since those exactly are identified as the oppressive force. This is problematic because then the community inside the safe space has to recreate social norms from scratch and qua definition of a safe space end up being much more restrictive and monitoring, tapping also into potentially extreme measurements for "enforcing" safety.
+Dorlin notes that by doing this, societal oppressive norms can end up becoming reproduced though the very instance created to shelter from it.
+I think this opens up 2 points worth discussing:
+Are there limits to self-governance of leftist groups? How can self governance be made possible without recreating some hierarchy or other?
+Does this ignore that safe spaces can sometimes be essential for survival? According to Dorlin, the alternative seems to be to instead of building sheltered, isolated safe spaces, the fight has to occur in the public, transforming the entire space without the necessity for exclusive logic. How can we argue this? Could there be a oppressed position from whence any aggressive stance towards the public forbids itself? (I think there is!) For me this seems like putting the entire burden of transformational potential on the oppressed individual, enabling a position like: "Well, the person did not object or introduce change, so the person implied consent."
+Will a public fight cause more harm being fought than it will save after introducing change? And who are we to calculate this beforehand?
+
+created by Aron Petau on Sunday 05. December 2021, 15:52
+{: .notice}
+
+
+## Weekly hand in from the Seminar: Soziale Erkenntnistheorie
+### On Fricker: Epistemic Injustice
+
+Source Text: DFricker, Miranda. Epistemic injustice: Power and the ethics of knowing. Oxford University Press, 2007.
+[Publication](https://books.google.de/books?hl=de&lr=&id=lncSDAAAQBAJ&oi=fnd&pg=PR9&dq=fricker+epistemic+injustice+2007&ots=3fJ9TIK4T2&sig=JGCMR2YYUhjRc62DPEnf2yWDnjU&redir_esc=y#v=onepage&q=fricker%20epistemic%20injustice%202007&f=false)
+{: .notice}
+
+1. Worin unterscheiden sich inferentialistische von nicht-inferentialistischen Theorien der testimonialen Erkenntnis (d.h. des Wissens durch das Zeugniss andere)?
+
+Inferentialistische Theorien gehen davon aus, dass die eigentliche Inferenz, also die Generierung eines neuen Epistems im Subjekt stattfindet. Konkret heisst dass, dass Ich die Aussage P einer dritten Person erst in irgendeiner Weise vor mir selbst rechtfertigen muss, bevor ich sie selbst verwenden kann. Ist die Aussage nun 2 + 2 = 4, muss ich also mit allen mir zur Verfügung stehenden Mitteln selbst überprüfen, ob diese Aussage Wahrheits- und Kohärenzkriterien erfüllt. Ich muss also beispielsweise über darunterliegende Axiome, die mir bekannt sind, die Aussage extern (ausserhalb von Person X hat das gesagt, also kann Ich das glauben) überprüfen. Im simplen Beispiel also konkret das Ergebnis berechnen. Wenn man so will, liegt also immer die “Beweislast” für meine eigenen Episteme bei mir und ich kann diesen Beweisaufwand nur begrenzt auslagern. Eine sehr direkte Folge davon wäre, dass jeglicher Erkenntnisgewinn mit erheblicher, bewusster oder unbewusster Arbeit verbunden ist. 
+Dies wäre die wahrscheinlich logisch stringentere Theorie, gegen sie spricht aber die Phänomenologie eines Erkenntisgewinns. Eine Erkenntnis kommt uns oft vor wie ein “Heureka” Moment, wir “finden” sie, plötzlich ist sie da und wir können mit ihr arbeiten. 
+Eine nicht-inferentialistische Theorie legt ebendiese Beweislast nicht im Subjekt an, ich habe eine Erlaubnis, oder besser, ein Recht auf a-priori Annahme der Richtigkeit der Aussage. “Person X hat mir P gesagt, also kann ich P verwenden” ist nun valide und bedarf erstmal keiner weiteren Überprüfung auf Richtigkeit. Diese Argumentationslinie ist deutlich kompatibler mit der phänomenologischen Erfahrung einer Erkenntnis vim Alltag. Wir stoßen aber auf deutlich größere Probleme, wenn wir uns fragen, woher eigentlich unser Recht auf Wahrheitsannahme von Drittaussagen kommt. Klar, 2+2=4, weil der Prof das an die Tafel geschrieben hat, ist die “schlechtere” Begründung als zu sagen, dass das Ergebnis aus gewissen mathematischen Axiomen deduziert wurde. 
+
+
+2. Formulieren Sie jeweils einen Einwand gegen beide Theorien.
+
+Wir befinden uns also nun in der Spannung der phänomenalistischen “Heureka” Erfahrung des Findens von Epistemen (in nicht-inferentiellen Systemen) und dem Problem der schwachen Justifizierung von Aussagen gegenüber der erhöhten Stringenz eines epistemischen Systems, dass externe (logische, probabilistische, normative etc.) Gründe für Aussagen zur Verfügung stellt, aber einen schier unüberwindbaren rechnerischen Aufwand darstellt. Auch das Problem der ersten Begründung bleibt bestehen. Angenommen, ich weiß noch nichts, habe bisher null Episteme gesammelt, wie wird das erste Epistem, das ich finde, begründbar sein? 
+
+3. Worin besteht doxastische Verantwortung (doxastic responsibility) nach F und Ihrer eigenen Meinung nach.
+
+Doxastische Verantwortung ist die Verantwortung für die Begründbarkeit des eigenen Nezwerkes aus Epistemen. Wenn mich also jemand fragt: Warum glaubst du das?, ist es sozial im Allgemeinen erwartbar, dass ich darauf eine Antwort liefern kann. Und wie wir eben schon am Beispiel der Begründung für 2+2=4 gesehen haben, scheint es hier “bessere” und weniger gute Gründe zu geben, das heisst, eine Person kann zur Verantwortung gezogen werden, unzureichend begründete Episteme fallen zu lassen und eine gewisse Grenze zu ziehen, eine mindest erwartbare Begründung. Diese kann sehr wahrscheinlich nicht universell formuliert werden. Eine Regel wie: Alle Bürger dürfen nur noch Aussagen weiterverwenden, denen sie eine mindestens 90-prozentige Wahrheitswarscheinlichkeit attestieren, ist aus diversen Gründen problematisch. 
+Frickers Auffassung Doxastischer Verantwortung ist insofern speziell, als dass sie eine deutliche Verbindung moralischer Verantwortung (die wir offensichtlich alle in irgendeiner Form tragen) und Doxastischer Verantwortung sieht. Sogar die Gründe sind oft überlappend. Eine Gute Moralische Begründung, die zum Beispiel der Wahrhaftigkeit, scheint ganz offensichtlich auch eine gute doxastische begründung zu sein. Diese Parallelität zieht Fricker heran, um neo-aristotelianische Moralbegründuungen auch auf epistemischer Ebene wirksam zu machen. 
+Ich lasse mich da gern Überzeugen von Ihr und erache es als sinnvoll Doxastische Verantwortung in gewisser Weise moralisch bindend zu machen. Intuitiv wissen wir ja auch, dass unsere Erwartung, dass dritte wahrhaftig mit uns interagieren, auf Gegenseitigkeit beruht und das leben nicht nur normativ, sondern auch auf epistemischer Ebene “verbessert”. Dies liefert auch eine recht simplistesche Rechtfertigung, annehmen zu können, dass Dritte mir die Wahreit sagen. Ich tue ja auch immer mein Bestes, warum also die anderen nicht?
+
+created by Aron Petau on 05.01.2021
+{: .notice}
+
