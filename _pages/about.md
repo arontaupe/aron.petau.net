@@ -14,6 +14,7 @@ header:
 author: "Aron Petau"
 ---
 
+
 # Introduction
 
 I am Aron, a recent graduate of the bachelors program of Cognitive Science in Osnabrück. 

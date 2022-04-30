@@ -8,6 +8,9 @@ toc: false
 layout                : single
 classes               : wide
 author: "Aron Petau"
+header:
+  text_color: "#FF7300"
+
 ---
 
 # Motivation
