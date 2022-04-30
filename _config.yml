@@ -62,7 +62,8 @@ plugins:
 # Site Author
 author:
   name             : "Aron Petau"
-  avatar           : "/assets/images/aron_avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  #avatar           : "/assets/images/aron_avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar      : "/assets/images/aron_headshot.jpeg"
   bio              : "Cognitive Scientist, Programmer, 3D Modeler"
   location         : "Osnabrück, Germany"
   email            : aron@petau.net
