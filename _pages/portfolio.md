@@ -107,7 +107,7 @@ iron-smelting:
     btn_class: "btn--primary"
 
 allei:
-  - image_path: assets/images/grass_blur.jpg
+  - image_path: assets/images/allei_screenshot.png
     alt: "allei"
     title: "Ällei: Exploration of inclusivity and accessibility online"
     excerpt: "My first shipped software project: Read about a Google Dialogflow backend and try it out yourself"
