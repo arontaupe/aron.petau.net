@@ -1,5 +1,16 @@
 <!-- start custom head snippets -->
 
+<style>
+  {% if page.header.text_color %}
+    .page__hero--overlay .page__title,
+    .page__hero--overlay .page__meta,
+    .page__hero--overlay .page__lead,
+    .page__hero--overlay .btn {
+      color: {{page.header.text_color}} !important;
+    }
+  {% endif %}
+</style>
+
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
