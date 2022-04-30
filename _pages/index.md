@@ -4,7 +4,9 @@ permalink          : /
 hidden             : true
 header:
   overlay_color    : "#5e616c"
-  overlay_image    : /assets/images/grass_blur.jpg
+  overlay_image    : /assets/images/about_header.png
+  text_color: "#FF7300"
+
   actions:
     - label        : "<i class='fas fa-book-open'></i> Take me to the Content!"
       url          : "/portfolio/"
