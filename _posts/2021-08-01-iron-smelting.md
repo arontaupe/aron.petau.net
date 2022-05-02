@@ -60,31 +60,22 @@ Technology gets a different tint when one is involved in such a process: Even th
 After some uncertainty whether it would take place in 2021 again after it was cancelled in 2020 a small group met up in Ulft, Netherlands.
 This year in Ulft, another group made local coal, so that the entire process was even lengthier, and visitors came from all over to learn about making iron the pre-historic way.
 
-Below I captured most of the process in several timelapses which was evidently hard to communicate to the visitors.
+Below I captured most of the process in some timelapses.
 
-## Building a furnace
+## The Process
 
-{% include video id="zETDsiAFC8M" provider="youtube" %}
+{% include video id="mC_RHxVbo2M" provider="youtube" %}
+
 Here you can see a timelapse of me building a version of an Iron Furnace
 
 As you can see, we are using some quite modern materials, such as bricks, this is due to the time constraints of the ISD. 
 Making an oven completely from scratch is a much more lengthy process requiring drying periods in between building.
 
-## Apply heat
 After, the furnace is dried and heated up
 
-{% include video id="FI7E8M7sdCU" provider="youtube" %}
+Over the course of the process, more than 100 kgs of coal and around 20kgs of ore are used to create a final piece of iron of 200 - 500g, just enough for a single knife.
 
-Over the course of the process, more than 100 kgs of coal are used.
-
-## Final Stage: 
-### Opening the furnace and refining the product
-
-{% include video id="3aGvTZo55Sc" provider="youtube" %}
-
-
-{% include video id="lXkMMfv5Mjg" provider="youtube" %}
-
+With all the modern amenities and conveniences available to us, a single run still takes more than 3 people working over 72 hours, not accounting for the coal-making or mining and relocating the iron ore.
 
 {% include gallery caption="Some more impressions from the ISD" %}
 
