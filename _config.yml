@@ -33,7 +33,7 @@ og_image                  : "/assets/images/logo.png"
 
 breadcrumbs               : true  # disabled by default
 
-words_per_minute          : 100 
+words_per_minute          : 100
 
 include:
   - _pages
@@ -63,7 +63,7 @@ plugins:
 author:
   name             : "Aron Petau"
   #avatar           : "/assets/images/aron_avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  avatar      : "/assets/images/aron_headshot.jpeg"
+  avatar           : "/assets/images/aron_headshot.jpeg"
   bio              : "Cognitive Scientist, Programmer, 3D Modeler"
   location         : "Osnabrück, Germany"
   email            : aron@petau.net
@@ -76,7 +76,7 @@ footer:
       url: "https://github.com/arontaupe"
     - label: "Printables"
       icon: "fas fa-cubes"
-      url: "https://www.prusaprinters.org/social/97957-arontaupe/prints"
+      url: "https://www.printables.com/social/97957-arontaupe/models"
 
     - label: "Privacy Statement"
       icon: "fas fa-user-secret"
@@ -85,8 +85,8 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
-      type: posts
+      path                  : ""
+      type                  : posts
     values:
       layout                : single
       classes               : wide
