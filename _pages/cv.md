@@ -7,12 +7,10 @@ last_modified_at: 2021-05-11T10:23:16-04:00
 toc: true
 author: "Aron Petau"
 header:
-  text_color: "#FF7300"
+  text_color: "#1976d2"
 
 ---
 # Who am I?
-
-
 
 ## Education
 
@@ -68,10 +66,10 @@ header:
 |<i class="fas fa-building"></i> Virtuos at Universität Osnabrück |||||||||||<i class="fas fa-calendar-alt"></i> Oct '21 – now |
 {: .display}  
 
-| I am part of the uos.dll program, a funded project to reform digital teaching practices at the University. My responsibility is the building and maintaining of the DigiLab, a FabLab/Makerspace accessible to the entire University. It features 3D printers, Laser Cutter, CNC Routers, Stitching Robots, VR, XR, Video/Audio Toolsets, and many more. 
+| I am part of the uos.dll program, a funded project to reform digital teaching practices at the University. My responsibility is the building and maintaining of the DigiLab, a FabLab/Makerspace accessible to the entire University. It features 3D printers, Laser Cutter, CNC Routers, Stitching Robots, VR, XR, Video/Audio Toolsets, and many more.
 [DigiLab Osnabrück](https://digitale-lehre.virtuos.uni-osnabrueck.de/uos-digilab/)|
 
-{: .display} 
+{: .display}
 
 |:- |-:|
 |**Software Engineer** |
@@ -79,7 +77,7 @@ header:
 {: .display}  
 
 | I am part of a team researching and developing an inclusive chatbot, respecting diversity and accessibility needs. |
-{: .display} 
+{: .display}
 
 
 ## Software Skills

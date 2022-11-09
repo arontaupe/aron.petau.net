@@ -6,7 +6,7 @@ last_modified_at: 2022-03-02T12:42:38-04:00
 toc: true
 author: "Aron Petau"
 header:
-  text_color: "#FF7300"
+  text_color: "#1976d2"
 
 ---
 
@@ -19,10 +19,11 @@ I do not collect any data.
 This is a static website, this means there is no database attached and nothing can be tracked by me.
 I also do not collect any cookies, nor is there any third party cookies involved.
 
-Github.com, the place where I host this website, does collect the IP-adress of any visitor.
-I have no influence on this and neither the financial resources to avoid this free hoster.
+Github.com, the place where I host this website, does collect the IP-address of any visitor.
+I have no influence on this and neither the financial resources to avoid this free hosting firm.
 
 ## Embedded content from other websites
+
 Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
 These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
 

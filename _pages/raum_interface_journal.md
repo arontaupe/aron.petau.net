@@ -10,10 +10,10 @@ classes               : wide
 header:
   overlay_color    : "#5e616c"
   overlay_image    : /assets/images/about_header.jpeg
-  #text_color: "#FF7300"
+  text_color: "#1976d2"
 author: "Aron Petau"
+author_profile: false
 ---
-
 
 #journal
 
