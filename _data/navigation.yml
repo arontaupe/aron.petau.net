@@ -4,10 +4,9 @@ main:
     url: /about/
   - title: "Portfolio"
     url: /portfolio/
-  - title: "Experience/CV"
+  - title: "Experience"
     url: /cv/
-  - title: "Motivation"
-    url: /motivation/
+
 
 
 # sidebar navigation list
@@ -36,4 +35,3 @@ portfolio-sidebar:
     url: /iron-smelting/
   - title: "Online Accessibility"
     url: /allei/
-
