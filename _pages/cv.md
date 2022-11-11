@@ -22,10 +22,11 @@ header:
 
 |:- |-:|
 |**BSc. Cognitive Science** |
-|<i class="fas fa-building"></i> Universität Osnabück ||||||||||||||<i class="fas fa-calendar-alt"></i> Oct ‘16 – Feb '22 |
+|<i class="fas fa-building"></i> Universität Osnabrück ||||||||||||||<i class="fas fa-calendar-alt"></i> Oct ‘16 – Feb '22 |
 {: .display}  
 
-| Within a diverse program, I focused on Philosophy, Artificial Intelligence, Machine Learning, Informatics and Linguistics |
+| Within a diverse program, I focused on Philosophy, Artificial Intelligence, Machine Learning, Informatics and Linguistics
+[Program description](https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-bachelor-of-science/)|
 {: .display}  
 
 |:- |-:|
@@ -44,6 +45,14 @@ header:
 | I took courses in the Philosophy department and Masters’s program for Cognitive Science. I also attended the Cognitive Science Summer School. |
 {: .display}  
 
+|:- |-:|
+|**M.A. Design & Computation** |
+|<i class="fas fa-building"></i> Universität der Künste, Berlin |||||||||||||<i class="fas fa-calendar-alt"></i> Oct. '22 – '24' |
+{: .display}  
+
+| I am Currently in the first semester of a transdisciplinary cooperation between UdK and TU Berlin with a focus on critical artistic engagement with technology.
+[Program description](https://www.design-computation.berlin) |
+{: .display}  
 
 ## Work Experience
 
@@ -58,15 +67,16 @@ header:
 |<i class="fas fa-building"></i> Heilpädagogische Hilfe Osnabrück |||||||||<i class="fas fa-calendar-alt"></i> Sept ’20 – Sept ’21 |
 {: .display}  
 
-| I worked in a stationary care center for hearing impaired and deaf people with cognitive impairments, including autism. |
+| I worked in a stationary care center for hearing impaired and deaf people with cognitive impairments, including autism.
+[Das Wohnheim](https://os-hho.de/standorte/haus-10) |
 {: .display}  
 
 |:- |-:|
 |**Working Student** |
-|<i class="fas fa-building"></i> Virtuos at Universität Osnabrück |||||||||||<i class="fas fa-calendar-alt"></i> Oct '21 – now |
+|<i class="fas fa-building"></i> Virtuos at Universität Osnabrück ||||||||||<i class="fas fa-calendar-alt"></i> Oct '21 – May '22 |
 {: .display}  
 
-| I am part of the uos.dll program, a funded project to reform digital teaching practices at the University. My responsibility is the building and maintaining of the DigiLab, a FabLab/Makerspace accessible to the entire University. It features 3D printers, Laser Cutter, CNC Routers, Stitching Robots, VR, XR, Video/Audio Toolsets, and many more.
+| I was part of the uos.dll program, a funded project to reform digital teaching practices at the University. My responsibility is the building and maintaining of the DigiLab, a FabLab/Makerspace accessible to the entire University. It features 3D printers, Laser Cutter, CNC Routers, Stitching Robots, VR, XR, Video/Audio Toolsets, and many more.
 [DigiLab Osnabrück](https://digitale-lehre.virtuos.uni-osnabrueck.de/uos-digilab/)|
 
 {: .display}
@@ -76,58 +86,35 @@ header:
 |<i class="fas fa-building"></i> Sommerblut Kulturverein Festival |||||||||||<i class="fas fa-calendar-alt"></i> Feb '22 – now |
 {: .display}  
 
-| I am part of a team researching and developing an inclusive chatbot, respecting diversity and accessibility needs. |
+| I am part of a team researching and developing an inclusive chatbot, respecting diversity and accessibility needs.
+[Chatbot Ällei @ Sommerblut](https://chatbot.sommerblut.de)|
 {: .display}
 
 
 ## Software Skills
 
-**UNIX**
+**UNIX** \| bash \| Arduino IDE \| Raspberry Pi
 
-bash, Arduino IDE, Raspberry Pi
+**Python** \| scipy \|  matplotlib \| seaborn \| pandas \| jupyter notebook \| tensorflow
 
-**Python**
+**HTML, CSS, JavaScript** \| gh-pages \| psychoJS \| AMPStack \| ibex-farm
 
-scipy, matplotlib, seaborn, pandas, jupyter notebook
+**C#** \| Unity
 
-**HTML, CSS, JavaScript**
+**CAD** \| Fusion 360 \| TinkerCAD
 
-gh-pages, psychoJS, AMPStack, ibex-farm
+**Slicing** \| PrusaSlicer \| kiri.moto \| Cura \| Lightburn
 
-**C#**
+**Images** \| Inkscape \| Adobe Illustrator \| GIMP
 
-Unity
+**Video** \| Adobe Premiere \| DaVinci Resolve
 
-**CAD**
-
-Fusion 360, TinkerCAD
-
-**Slicing**
-
-PrusaSlicer, kiri.moto, Cura
+**Office** \| MS-Office \| Latex \| Markdown
 
 ## Machine Skills
 
-**3D Printer**
+**3D Printer** \| FDM \| MSLA
 
-FDM and MSLA
+**(Laser)cutter** \| Cricut \| Mr. Beam \| Scissors
 
-**(Laser)cutter**
-
-Cricut, Mr. Beam, Scissors
-
-**Textile**
-
-Stitching Robot, Sewing Machine, Handstitching
-
-**Images**
-
-Inkscape, Adobe Illustrator, GIMP
-
-**Video**
-
-Adobe Premiere, DaVinci Resolve
-
-**Office**
-
-MS-Office, Latex, Markdown
+**Textile** \| Stitching Robot \| Sewing Machine \| Handstitching

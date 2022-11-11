@@ -1,9 +1,9 @@
 
 title                    : Portfolio
 title_separator          : "-"
-subtitle                 : "Application for Design & Computation" # site tagline that appears below site title in masthead
+subtitle                 : "Student in Design & Computation" # site tagline that appears below site title in masthead
 email                    : aron@petau.net
-description              : &description "Here I display a selection of my recent work"
+description              : &description "Here I display a selection of my recent work, you are welcome to have a look around"
 twitter_username         : reprintedAron
 github_username          : arontaupe
 minimal_mistakes_skin    : aqua # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -33,7 +33,7 @@ og_image                  : "/assets/images/logo.png"
 
 breadcrumbs               : true  # disabled by default
 
-words_per_minute          : 100
+words_per_minute          : 120
 
 include:
   - _pages
@@ -64,8 +64,8 @@ author:
   name             : "Aron Petau"
   #avatar           : "/assets/images/aron_avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   avatar           : "/assets/images/aron_headshot.jpeg"
-  bio              : "Cognitive Scientist, Programmer, 3D Modeler"
-  location         : "Osnabrück, Germany"
+  bio              : "Cognitive Science, Software Engineering, 3D Modelling, Design & Computation"
+  location         : "Berlin, Germany"
   email            : aron@petau.net
 
 # Site Footer
@@ -74,6 +74,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arontaupe"
+
     - label: "Printables"
       icon: "fas fa-cubes"
       url: "https://www.printables.com/social/97957-arontaupe/models"

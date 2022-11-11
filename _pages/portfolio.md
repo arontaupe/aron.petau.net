@@ -6,8 +6,7 @@ permalink: /portfolio/
 author: "Aron Petau"
 author_profile: false
 header:
-  text_color: "#FF7300"
-
+  text_color: "#1976d2"
 
 sidebar:
   title: "Topics"
@@ -21,7 +20,7 @@ philosophy:
     url: "/philosophy/"
     btn_label: "More"
     btn_class: "btn--primary"
- 
+
 printing:
   - image_path: assets/images/lithophane.jpg
     alt: "printing"
@@ -30,7 +29,7 @@ printing:
     url: "/printing/"
     btn_label: "More"
     btn_class: "btn--primary"
- 
+
 cad:
   - image_path: assets/images/render_bike_holder.png
     title: "Computer aided Design"
@@ -73,7 +72,7 @@ coding:
     url: "/coding/"
     btn_label: "More"
     btn_class: "btn--primary"
-  
+
 homebrew:
   - image_path: assets/images/beer_tap.jpg
     alt: "homebrew"
@@ -117,7 +116,7 @@ allei:
     url: "/allei/"
     btn_label: "More"
     btn_class: "btn--primary"
-  
+
 ---
 
 
@@ -134,6 +133,3 @@ allei:
 {% include feature_row id="iron-smelting" type="left" %}
 {% include feature_row id="homebrew" type="right" %}
 {% include feature_row id="allei" type="left" %}
-
-
-

@@ -1,16 +1,17 @@
 # Authors
 Aron Petau:
   name        : "Aron Petau"
-  bio         : "Cognitve Science, 3D Modeling and Design"
+  bio         : "Cognitive Science, Software Engineering, 3D Modelling, Design & Computation"
   avatar      : "/assets/images/aron_headshot.jpeg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:aron@petau.net"
+      
     - label: "Telegram"
       icon: "fas fa-fw fa-telegram"
       url: "https://t.me/apetau"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arontaupe"
-

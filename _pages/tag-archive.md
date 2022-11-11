@@ -4,6 +4,5 @@ permalink: /tags/
 layout: tags
 author_profile: true
 header:
-  text_color: "#FF7300"
-
+  text_color: "#1976d2"
 ---
