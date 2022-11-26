@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "4a658f93fdde9a74",
+    "type": "split",
+    "children": [
+      {
+        "id": "e36b4b7bd2789eed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d3bc983a3bf7366",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2413886016b171df",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6674e2509906ea1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "462ef05ff6e174b0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4b66fec23341abbb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "437b9f4b2a1040e7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "04b3e340e9674cb0",
+    "type": "split",
+    "children": [
+      {
+        "id": "23871362c15b4f25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0f7bb899daa214e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6298da2e188e40f9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c977e5aca3037d9f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ebb2b5284ad83554",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "462ef05ff6e174b0",
+  "lastOpenFiles": [
+    "_posts/2022-04-01-allei.md",
+    "_posts/2017-01-01-philosophy.md",
+    "_posts/2018-05-03-printing.md",
+    "_posts/2021-08-01-iron-smelting.md",
+    "_posts/2021-04-13-thesis.md",
+    "README.md",
+    "portfolio.md",
+    "_posts/2020-07-15-chatbot.md",
+    "_posts/2020-03-01-homebrew.md",
+    "_posts/2020-01-01-coding.md"
+  ]
+}

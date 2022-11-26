@@ -10,16 +10,16 @@ header:
 
 ---
 
-My website address is: https://aronpetau.me
+My website address is: https://aronpetau.me . 
 
 ## Location
-This page is hosted on Github. It is protected by Cloudflare.
+This page is hosted on (Github)[https://github.com]. It is protected by (Cloudflare)[https://www.cloudflare.com/en-gb/].
 
 I do not collect any data.
 This is a static website, this means there is no database attached and nothing can be tracked by me.
 I also do not collect any cookies, nor is there any third party cookies involved.
 
-Github.com, the place where I host this website, does collect the IP-address of any visitor.
+(Github)[https://github.com], the place where I host this website, does collect the IP-address of any visitor.
 I have no influence on this and neither the financial resources to avoid this free hosting firm.
 
 ## Embedded content from other websites

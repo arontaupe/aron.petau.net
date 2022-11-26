@@ -1,8 +1,8 @@
 ---
-title          :  "Plastic Recycling"
+title:  "Plastic Recycling"
 date           :   2022-03-01 14:39:27 +0100
 header:
-  image       : "/assets/images/recycling_graphic.png"
+  image: "/assets/images/recycling_graphic.png"
   overlay_filter      : 0
   credit              : "Aron Petau"
 
@@ -33,10 +33,10 @@ Yet, none of that prevents the use of virgin plastics. If you buy a spool of fil
 
 {% include video id="vqWwUx8l_Io" provider="youtube" %}
 
-In my opinion, the core problem is the nonexistent economic feasibility of a proper recycling process. Identifying the exact material of a piece of trash is a very hard problem, definitely not solved yet. So why do we mix the plastic up in the first place? There is a general willingness of people to recycle, the system for it is missing.
+In my opinion, the core problem is the nonexistent economic feasibility of a proper recycling process. Identifying the exact material of a piece of trash is a very hard problem, definitely not solved yet. So why do we mix the plastic up in the first place? There is a general willingness of people to recycle, but the system for it is missing.
 
 # The Master Plan
-I want to get people to wash and separate their trash for me, which are the most expensive steps in the recycling process. There is willingness take the extra step, and even if just my mom collects bottle caps for me, that is more than I can realistically use up.
+I want to get people to wash and separate their trash for me, which are the most expensive steps in the recycling process. There is willingness to take the extra step, and even if just my mom collects bottle caps for me, that is more than I can realistically use up.
 This only really works when I am thinking in a local and decentral environment.
 The existing recycling facilities clearly will not be able to provide 200 different containers for 200 different types of plastic.
 Starting the process with clean and sorted materials, like bottle caps (HDPE) or failed prints (PET-G), I start off with an advantage.
@@ -49,29 +49,29 @@ We built the Precious Plastic Shredder!
 
 <iframe width="510" height="682" src="https://b2b.partcommunity.com/community/partcloud/embedded.html?route=embedded&name=Shredder+Basic+V2.0&model_id=96649&portal=b2b&showDescription=true&showLicense=false&showDownloadButton=false&showHotspots=true&noAutoload=false&autoRotate=true&hideMenu=false&topColor=%23dde7ed&bottomColor=%23ffffff&cameraParams=false&varsettransfer=" frameborder="0" id="EmbeddedView-Iframe-96649" allowfullscreen></iframe>
 
-With these awesome open-source drawings I was able to cobble together my very own very dangerous plastic shredder.
+With these awesome open-source drawings, I was able to cobble together my very own very dangerous plastic shredder.
 
 After finding some way to drive this massive axis, I feed the beast and hopefully get tiny pretty uniform plastic bits that are ready to begin the cycle of life anew.
 
 The solution for the motorization was an old and used garden shredder that still had an intact motor and wiring.
-We cut it in half and attached it to the shredderbox.
+We cut it in half and attached it to the shredder box.
 
 {% include video id="QwVp1zmAA4Q" provider="youtube" %}
 
 After replacing the weak force transmission screw for an industrial coupler, we were ready to try it out. Obviously, there are still security concerns in this prototype, a proper hopper is already being made.
 
 Nevertheless, we are confident that this shredder will be able to deal with the light sorts of plastic we are thinking of.
-As you can see, I am now able to produce awesome confetti, but in order to do more with my plastic flakes I have to extrude it.
+As you can see, I am now able to produce awesome confetti but to do more with the plastic flakes I have to extrude them.
 
 ## Meet the Filastruder
 
-This is the Filastruder, designed and made by Tim Elmore, in an attempt to create the cheapest viable way to extrude plastic. The biggest cost issue is the tight industrial tolerances in thickness that have to be adhered to. This is in essence what separates good from bad filament. The industry standard nowadays is at +-0.03mm. Hard to achieve on a DIY setup, but not unheard of. The setup, like any bigger industry equivalent, consists of a motor pressing plastic pellets through a heated screw, extruding molten plastic at the end through a nozzle, setting the diameter. The leftmost machine is responsible for winding the filament properly onto a spool.
+This is the Filastruder, designed and made by Tim Elmore, in an attempt to create the cheapest viable way to extrude plastic. The biggest cost issue is the tight industrial tolerances in thickness that have to be adhered to. This is in essence what separates good from the bad filament. The industry standard nowadays is at +-0.03mm. Hard to achieve on a DIY setup, but not unheard of. The setup, like any bigger industry equivalent, consists of a motor pressing plastic pellets through a heated screw, extruding molten plastic at the end through a nozzle, and setting the diameter. The leftmost machine is responsible for winding the filament properly onto a spool.
 
 Here you can see the extrusion process in action.
 
 {% include video id="FX6--pYrPVs" provider="youtube" %}
 
-The Filastruder is controlled by an Arduino and highly configurable. The laser sensor visible in the video is already working, but I am missing more direct control over the diameter of the filament.
+The Filastruder is controlled by an Arduino and is highly configurable. The laser sensor visible in the video is already working, but I am missing more direct control over the diameter of the filament.
 
 When it all really comes down to the single variable of the filament diameter responsible for the quality of my recycled project, a simple Machine Learning optimization directly jumps at me: I have a few variables like winder speed, extrusion speed, heat, and cooling intensity. These variables can be optimized on the fly for an exact diameter. This is actually roughly how virgin filament is produced, commercial facilities just manage much faster.
 

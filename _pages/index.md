@@ -36,3 +36,5 @@ feature_row:
 ---
 
 {% include feature_row %}
+
+<a rel="me" href="https://mastodon.online/@reprintedAron">Mastodon</a>

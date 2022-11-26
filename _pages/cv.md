@@ -25,7 +25,7 @@ header:
 |<i class="fas fa-building"></i> Universität Osnabrück ||||||||||||||<i class="fas fa-calendar-alt"></i> Oct ‘16 – Feb '22 |
 {: .display}  
 
-| Within a diverse program, I focused on Philosophy, Artificial Intelligence, Machine Learning, Informatics and Linguistics
+| Within a diverse program, I focused on Philosophy, Artificial Intelligence, Machine Learning, Informatics, and Linguistics
 [Program description](https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-bachelor-of-science/)|
 {: .display}  
 
