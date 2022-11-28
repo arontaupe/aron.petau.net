@@ -1,12 +1,11 @@
 ---
 permalink: /rai-journal/
-#layout: default
 title: "Raum als Interface 2022"
 excerpt: "Perspectives on Design"
 last_modified_at: 2022-11-02T10:23:16-04:00
 toc: true
-layout                : single
-classes               : wide
+layout: single
+classes: wide
 header:
   overlay_color    : "#5e616c"
   overlay_image    : /assets/images/about_header.jpeg

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e36b4b7bd2789eed",
+        "id": "d8ad1bcb72fc6e6f",
         "type": "tabs",
         "children": [
           {
-            "id": "3d3bc983a3bf7366",
+            "id": "a405ab988f494f76",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2018-05-03-printing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2018-05-03-printing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2018-05-03-printing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2018-05-03-printing.md"
+              }
             }
           }
         ]
@@ -128,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "462ef05ff6e174b0",
+  "active": "a405ab988f494f76",
   "lastOpenFiles": [
-    "_posts/2022-04-01-allei.md",
     "_posts/2017-01-01-philosophy.md",
-    "_posts/2018-05-03-printing.md",
-    "_posts/2021-08-01-iron-smelting.md",
-    "_posts/2021-04-13-thesis.md",
-    "README.md",
-    "portfolio.md",
-    "_posts/2020-07-15-chatbot.md",
-    "_posts/2020-03-01-homebrew.md",
-    "_posts/2020-01-01-coding.md"
+    "_pages/vanlife.md",
+    "_pages/tag-archive.md",
+    "_pages/sitemap.md",
+    "_pages/RaI_Journal.md",
+    "_pages/privacy.md",
+    "_pages/portfolio.md",
+    "_pages/motivation.md",
+    "_pages/index.md",
+    "_pages/home.md"
   ]
 }

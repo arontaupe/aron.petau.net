@@ -1,15 +1,15 @@
 ---
-layout             : splash
-permalink          : /
-hidden             : true
+layout: splash
+permalink: /
+hidden: true
 header:
   overlay_color    : "#5e616c"
   overlay_image    : /assets/images/about_header.jpeg
   text_color: "#1976d2"
   actions:
     - label        : "<i class='fas fa-book-open'></i> Take me to the Content!"
-      url          : "/portfolio/"
-excerpt            : The place where you can catch up with my recent work and see what I am all about.
+      url: "/portfolio/"
+excerpt: The place where you can catch up with my recent work and see what I am all about.
 
 feature_row:
   - image_path: /assets/images/aron_headshot.jpeg

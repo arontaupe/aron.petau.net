@@ -1,6 +1,5 @@
 ---
 permalink: /cv/
-#layout: default
 title: "Experience"
 excerpt: "Aron writes about the past"
 last_modified_at: 2021-05-11T10:23:16-04:00
@@ -8,12 +7,10 @@ toc: true
 author: "Aron Petau"
 header:
   text_color: "#1976d2"
-
 ---
 # Who am I?
 
 ## Education
-
 
 |:- |-:|
 |**Abitur** |
@@ -61,7 +58,6 @@ header:
 |<i class="fas fa-building"></i> Brauerei Rampendahl |||||||||||<i class="fas fa-calendar-alt"></i> Oct '18 – Mar '20 |
 {: .display}  
 
-
 |:- |-:|
 |**Social Worker** |
 |<i class="fas fa-building"></i> Heilpädagogische Hilfe Osnabrück |||||||||<i class="fas fa-calendar-alt"></i> Sept ’20 – Sept ’21 |
@@ -97,7 +93,7 @@ header:
 
 **Python** \| scipy \|  matplotlib \| seaborn \| pandas \| jupyter notebook \| tensorflow
 
-**HTML, CSS, JavaScript** \| gh-pages \| psychoJS \| AMPStack \| ibex-farm
+**HTML, CSS, JavaScript** \| GH-pages \| psychoJS \| AMPStack \| ibex-farm
 
 **C#** \| Unity
 

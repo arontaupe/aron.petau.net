@@ -7,7 +7,6 @@ toc: true
 author: "Aron Petau"
 header:
   text_color: "#1976d2"
-
 ---
 
 My website address is: https://aronpetau.me . 
