@@ -5,3 +5,6 @@ Gemfile.lock
 assets/not_yet_used/
 .DS_Store
 .idea/
+.obsidian/
+.DS_Store
+.obsidian/workspace.json
