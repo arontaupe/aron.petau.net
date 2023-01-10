@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d8ad1bcb72fc6e6f",
+        "id": "7864fcf8d761ffea",
         "type": "tabs",
         "children": [
           {
-            "id": "a405ab988f494f76",
+            "id": "dae4cbb30b97db03",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2018-05-03-printing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8e9982f985c8fc5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.9"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2018-05-03-printing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2018-05-03-printing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2018-05-03-printing.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -157,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8e9982f985c8fc5",
+  "active": "dae4cbb30b97db03",
   "lastOpenFiles": [
+    "_posts/2018-05-03-printing.md",
     "_posts/2017-01-01-philosophy.md",
     "_pages/vanlife.md",
     "_pages/tag-archive.md",
@@ -167,7 +149,6 @@
     "_pages/privacy.md",
     "_pages/portfolio.md",
     "_pages/motivation.md",
-    "_pages/index.md",
-    "_pages/home.md"
+    "_pages/index.md"
   ]
 }
