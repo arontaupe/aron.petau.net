@@ -16,15 +16,15 @@ author: "Aron Petau"
 
 # Introduction
 
-I am Aron, a recent graduate of the bachelor's program of Cognitive Science in Osnabrück.
+I am Aron (pronouns: he/him), a 2022 graduate of the bachelor's program of Cognitive Science in Osnabrück.
 During my very open and broad studies, I focused mostly on Computational Linguistics, Machine Learning, and Philosophy.
 The mix of these topics you will find scattered throughout my [Portfolio](/portfolio/).
 
 I am enthusiastic about many of the topics included there and have developed a fondness for algorithmic problems, philosophical considerations, and issues of our society.
 
-Currently, I am enrolled in the Master's program (Design and Computation)[https://www.design-computation.berlin/en] @ UdK Berlin. 
+Currently, I am enrolled in the Master's program [Design and Computation](https://www.design-computation.berlin/en) @ UdK and TU Berlin . 
 
-I live together with 4 awesome humans, a cat, and two 3D Printers, and am currently restoring a van as my temporary home for the summer before moving to Berlin to start my awesome master's project.
+I recently moved to Berlin and now live together with 2 awesome humans and a 3D Printer, and am continuously repairing and outfitting a very old van.
 
 I dream of one day having my own bar with cultural events and am already working on the perfect recipe for [homebrew](/homebrew/) beer. I love experimenting, whether that is in the kitchen, finding a solution to a coding problem, or creating useful objects.
 

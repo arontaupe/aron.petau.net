@@ -12,7 +12,8 @@ header:
 My website address is: https://aronpetau.me . 
 
 ## Location
-This page is hosted on (Github)[https://github.com]. It is protected by (Cloudflare)[https://www.cloudflare.com/en-gb/].
+This page is hosted on (Github)[https://github.com] through github-pages. 
+It is protected by (Cloudflare)[https://www.cloudflare.com/en-gb/].
 
 I do not collect any data.
 This is a static website, this means there is no database attached and nothing can be tracked by me.
