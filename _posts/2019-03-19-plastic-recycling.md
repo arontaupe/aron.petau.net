@@ -16,8 +16,8 @@ tags:
   - cradle-to-cradle
   - automatic
   - ml
-  - arduino
-  - linux
+  - Arduino
+  - Linux
   - waste
   - filastruder
   - private

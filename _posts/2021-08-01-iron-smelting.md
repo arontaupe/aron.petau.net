@@ -49,7 +49,7 @@ tags:
 ## The concept
 Since I was a small child I regularly took part in the yearly international congress called Iron Smelting Days (ISD). 
 This is a congress of transdisciplinary people from all over Europe, including historians, archeologists, blacksmiths, steel producers, and many invested hobbyists. 
-The proclaimed goal of these events is to understand the ancient production of iron as it happened throughout the iron age and also much after. A bloomery furnace was used to create iron. Making iron requires iron ore and heat under the exclusion of oxygen. It is a highly fragile process that takes an incredible amount of work. The designs and methods vary a lot and were very adapted to the region and local conditions, unlike the much later, more industrialized process using blast furnaces.
+The proclaimed goal of these events is to understand the ancient production of iron as it happened throughout the iron age and also much after. A bloomery furnace was used to create iron. Making iron requires iron ore and heat under the exclusion of oxygen. It is a highly fragile process that takes an incredible amount of work. The designs and methods vary a lot and were very adapted to the region and local conditions, unlike the much later, the more industrialized process using blast furnaces.
 
 To this day it is quite unclear how prehistoric people managed to get the amount and quality of iron we know they had. 
 The furnaces that were built were often clay structures and are not preserved. Archeologists often find the leftover burned ore and minerals, giving us some indication of the structure and composition of the ancient furnaces. 
