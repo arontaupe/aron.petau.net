@@ -8,31 +8,41 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b20b4983e8798d1",
+            "id": "7e166b9b9200bbfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-01-01-auraglow.md",
+                "file": "_pages/motivation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "241a8f34b0aa5ff8",
+            "id": "d308f82ac34df1ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-03-01-ruminations.md",
+                "file": "_pages/Lusatia.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "3651f8208040dff8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,6 +87,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "0b1aff31eaa9c83b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -98,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-03-01-ruminations.md",
+                "file": "_pages/Lusatia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-03-01-ruminations.md",
+                "file": "_pages/Lusatia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-03-01-ruminations.md"
+                "file": "_pages/Lusatia.md"
               }
             }
           }
@@ -159,34 +177,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "241a8f34b0aa5ff8",
+  "active": "3651f8208040dff8",
   "lastOpenFiles": [
-    "README.md",
-    "Raum als Interface.md",
-    "assets/documents/AronPetauBAThesis.pdf",
+    "_pages/Rent Ulli.md",
+    "_pages/Lusatia.md",
+    "_site/rent-a-van/index.html",
+    "_site/rent-a-van",
+    "_pages/motivation.md",
+    "_posts/2023-01-03-auraglow.md",
     "_posts/2023-03-01-ruminations.md",
-    "_posts/2023-01-01-auraglow.md",
+    "_posts/2018-07-05-cad.md",
     "_posts/2018-05-03-printing.md",
     "_posts/2017-01-01-philosophy.md",
-    "_posts/2022-04-01-allei.md",
-    "_posts/2021-08-01-iron-smelting.md",
+    "_pages/home.md",
+    "_pages/cv.md",
+    "_pages/about.md",
+    "_pages/privacy.md",
+    "_pages/portfolio.md",
+    "_pages/tag-archive.md",
+    "_pages/sitemap.md",
+    "_posts/2023-01-01-auraglow-journal.md",
+    "_site/ruminations/index.html",
+    "_site/ruminations",
+    "_site/auraglow/index.html",
+    "_site/auraglow",
+    "_site/auraglow-journal/index.html",
+    "_site/auraglow-journal",
+    "_site/assets/images/open_studio_banner.mp4",
+    "_site/assets/images/cage_milli.jpeg",
+    "_site/assets/images/cage_closeup_2.jpeg",
+    "_site/assets/images/cage_closeup.jpeg",
+    "_site/assets/documents/AronPetauBAThesis.pdf",
+    "_site/Raum als Interface.md",
     "_posts/2021-04-13-thesis.md",
+    "assets/images/cage_milli.jpeg",
+    "assets/images/cage_closeup.jpeg",
+    "assets/images/cage_closeup_2.jpeg",
+    "assets/images/about_header.jpeg",
+    "_posts/2022-04-01-allei.md",
+    "cage_closeup.jpeg",
+    "cage_milli.jpeg",
+    "DSC00760.jpg",
+    "README.md",
+    "Raum als Interface.md",
+    "_posts/2021-08-01-iron-smelting.md",
     "_posts/2020-07-15-chatbot.md",
     "_posts/2020-03-01-homebrew.md",
     "_posts/2020-01-01-coding.md",
-    "_posts/2019-06-01-ballpark.md",
-    "_posts/2019-03-19-plastic-recycling.md",
-    "_posts/2018-09-01-beacon.md",
-    "_posts/2018-07-05-cad.md",
-    "_pages/vanlife.md",
-    "_pages/tag-archive.md",
-    "_pages/sitemap.md",
-    "_pages/RaI_Journal.md",
-    "_pages/privacy.md",
-    "_pages/portfolio.md",
-    "_pages/motivation.md",
-    "_pages/index.md",
-    "_pages/home.md",
-    "_pages/cv.md"
+    "_posts/2019-06-01-ballpark.md"
   ]
 }

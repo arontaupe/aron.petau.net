@@ -1,5 +1,6 @@
 ---
 title                 :  "Auraglow"
+subtitle: "Das Wesen der Dinge"
 excerpt: "Perspectives on Design"
 date                  :   2023-03-01 14:39:27 +0100
 header:
@@ -20,7 +21,7 @@ tags:
 
 Here I will collect all the Documentation of the Thought Process for the WS22/23 Course [[Raum als Interface]] in the module Perspectives of Design.
 
-Okay, as I gathered it, the task is to create **situations** and **showings**. 
+Okay, as I gathered, the task is creating **situations** and **showings**. 
 
 What are those?
 - Situation :=
