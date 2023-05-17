@@ -35,9 +35,11 @@
             "id": "3651f8208040dff8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.2.8"
+                "file": "_pages/Lusatia.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -179,14 +181,17 @@
   },
   "active": "3651f8208040dff8",
   "lastOpenFiles": [
-    "_pages/Rent Ulli.md",
+    "_posts/2019-06-01-ballpark.md",
+    "_posts/2019-03-19-plastic-recycling.md",
+    "_posts/2018-09-01-beacon.md",
+    "_posts/2018-07-05-cad.md",
     "_pages/Lusatia.md",
+    "_pages/Rent Ulli.md",
     "_site/rent-a-van/index.html",
     "_site/rent-a-van",
     "_pages/motivation.md",
     "_posts/2023-01-03-auraglow.md",
     "_posts/2023-03-01-ruminations.md",
-    "_posts/2018-07-05-cad.md",
     "_posts/2018-05-03-printing.md",
     "_posts/2017-01-01-philosophy.md",
     "_pages/home.md",
@@ -221,9 +226,6 @@
     "README.md",
     "Raum als Interface.md",
     "_posts/2021-08-01-iron-smelting.md",
-    "_posts/2020-07-15-chatbot.md",
-    "_posts/2020-03-01-homebrew.md",
-    "_posts/2020-01-01-coding.md",
-    "_posts/2019-06-01-ballpark.md"
+    "_posts/2020-07-15-chatbot.md"
   ]
 }
