@@ -5,8 +5,6 @@ title: "Terms and Privacy Statement"
 last_modified_at: 2022-03-02T12:42:38-04:00
 toc: true
 author: "Aron Petau"
-header:
-  text_color: "#1976d2"
 ---
 
 My website address is: https://aronpetau.me . 

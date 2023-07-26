@@ -5,8 +5,6 @@ title: "Portfolio"
 permalink: /portfolio/
 author: "Aron Petau"
 author_profile: false
-header:
-  text_color: "#1976d2"
 sidebar:
   title: "Topics"
   nav: "portfolio-sidebar"

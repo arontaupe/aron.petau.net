@@ -54,6 +54,6 @@ Nevertheless, they did end up in the parking spots here in Berlin.
 
 What drove them here?
 
-{% include gallery caption="The final outcome." %}
+{% include gallery  %}
 
 

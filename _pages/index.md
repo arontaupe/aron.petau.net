@@ -3,11 +3,10 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color    : "#5e616c"
   overlay_image    : /assets/images/about_header.jpeg
-  text_color: "#1976d2"
+  overlay_filter: 0.5
   actions:
-    - label        : "<i class='fas fa-book-open'></i> Take me to the Content!"
+    - label        : "<i class='fas fa-book-open'></i> Take me straight to the Portfolio!"
       url: "/portfolio/"
 excerpt: The place where you can catch up with my recent work and see what I am all about.
 author: "Aron Petau"

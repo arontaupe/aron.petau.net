@@ -7,9 +7,8 @@ toc: true
 layout: single
 classes: wide
 header:
-  overlay_color    : "#5e616c"
   overlay_image    : /assets/images/about_header.jpeg
-  text_color: "#1976d2"
+  overlay_filter: 0.5
 author: "Aron Petau"
 author_profile: false
 created: 2022-11-11T12:22:28+01:00

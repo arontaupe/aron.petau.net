@@ -1,13 +1,9 @@
 ---
-title                 :  "Auraglow"
+title                 :  "Auraglow Journal"
 subtitle: "Das Wesen der Dinge"
 excerpt: "Perspectives on Design"
 date                  :   2023-03-01 14:39:27 +0100
 author: "Aron Petau"
-header:
-  overlay_image       : "/assets/images/allei_screenshot.png"
-  overlay_filter      : 0.2
-  credit              : "Aron Petau"
 
 tags:
  - journal

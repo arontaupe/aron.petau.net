@@ -4,8 +4,6 @@ title: "Sitemap"
 permalink: /sitemap/
 author: "Aron Petau"
 author_profile: false
-header:
-  text_color: "#1976d2"
 ---
 
 A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ "sitemap.xml" | relative_url }}) available for digesting as well.

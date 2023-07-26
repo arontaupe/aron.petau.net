@@ -4,7 +4,6 @@ date           :   2022-03-01 14:39:27 +0100
 author: "Aron Petau"
 header:
   image: "/assets/images/recycling_graphic.png"
-  overlay_filter      : 0
   credit              : "Aron Petau"
 
 tags:
@@ -23,7 +22,10 @@ tags:
   - filastruder
   - private
   - master thesis
+  - waste
+  
 ---
+
 Being involved with 3D Printers, there is the issue of sustainability that I am confronted with regularly. 
 Most 3D printed parts never get recycled and add to the global waste problem, rather than reducing it.
 The printer most certainly doesn’t care what it is printing, the main problem is the dimensional accuracy and the purity of the material. All of this leads to a huge industry, Germany being especially involved, using loads of virgin plastic. 

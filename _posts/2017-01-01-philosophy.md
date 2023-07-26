@@ -4,7 +4,7 @@ date                  :   2022-03-01 14:39:27 +0100
 author: "Aron Petau"
 header:
   overlay_image       : "/assets/images/grass_blur.jpg"
-  overlay_filter      : 0.2
+  overlay_filter      : 0.5
   credit              : "Aron Petau"
 toc: true
 tags:
@@ -15,6 +15,14 @@ tags:
   - normativity
   - university
   - private
+  - judith butler
+  - elizabeth anderson
+  - josé medina
+  - francois ewald
+  - miranda fricker
+  - elsa dorlin
+  - michael foucault
+  - alison jaggar
 ---
 
 ## Critical considerations during my studies
@@ -208,7 +216,7 @@ created by Aron Petau on Sunday 05. December 2021, 15:52
 ## Weekly hand in from the Seminar: Soziale Erkenntnistheorie
 ### On Fricker: Epistemic Injustice
 
-Source Text: DFricker, Miranda. Epistemic injustice: Power and the ethics of knowing. Oxford University Press, 2007.
+Source Text: Fricker, Miranda. Epistemic injustice: Power and the ethics of knowing. Oxford University Press, 2007.
 [Publication](https://books.google.de/books?hl=de&lr=&id=lncSDAAAQBAJ&oi=fnd&pg=PR9&dq=fricker+epistemic+injustice+2007&ots=3fJ9TIK4T2&sig=JGCMR2YYUhjRc62DPEnf2yWDnjU&redir_esc=y#v=onepage&q=fricker%20epistemic%20injustice%202007&f=false)
 {: .notice}
 

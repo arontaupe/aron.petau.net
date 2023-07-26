@@ -7,10 +7,8 @@ toc: false
 layout: single
 classes: wide
 header:
-  #overlay_color: "#5e616c"
   overlay_image: /assets/images/about_header.jpeg
   overlay_filter: 0.5
-  #text_color: "#1976d2"
 author: "Aron Petau"
 ---
 

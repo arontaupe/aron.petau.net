@@ -7,8 +7,6 @@ toc: false
 layout: single
 classes: wide
 author: "Aron Petau"
-header:
-  text_color: "#1976d2"
 ---
 # My Motivation to participate in Design and Computation
 
