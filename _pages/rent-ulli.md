@@ -1,5 +1,5 @@
 ---
-permalink: /rent-a-van/
+permalink: /rent-ulli/
 title: "How to miet Ulli"
 excerpt: "Everything to know about the T4"
 last_modified_at: 2022-04-30T10:23:16-04:00
@@ -32,7 +32,7 @@ The car is insured for everyone over 25 years old, who has a valid drivers licen
 It has Teilkasko, which means that you are insured for everything, except for damage to the car itself.
 
 ## How to rent
-You can rent the van by sending me an email to [rent-a-van@aronpetau.me](mailto:rent-a-van@aronpetau.me)
+You can rent the van by sending me an email to [rent-ulli@aronpetau.me](mailto:rent-ulli@aronpetau.me)
 I will need the following information:
 
 I will then send you a contract, which you have to sign and send back to me.

@@ -13,7 +13,7 @@ author: "Aron Petau"
 
 |:- |-:|
 |**Abitur** |
-|<i class="fas fa-building"></i> Stadtgymnasium Detmold |||||||||||||<i class="fas fa-calendar-alt"></i> Aug '11 – Jun ‘15 |
+|<i class="fas fa-building"></i> Stadtgymnasium Detmold ||||||||||||<i class="fas fa-calendar-alt"></i> Aug '11 – Jun ‘15 |
 {: .display}
 
 |:- |-:|
