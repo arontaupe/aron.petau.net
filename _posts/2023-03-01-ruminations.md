@@ -5,16 +5,22 @@ date                  :   2023-03-01 14:39:27 +0100
 author: "Aron Petau"
  
 tags:
- - journal
- - javascript
- - computer vision
- - data privacy
- - capitalism
- - pattern recognition
- - image classifier
- - consumerism
- - browser fingerprinting
- - amazon
+    - journal
+    - javascript
+    - computer vision
+    - data privacy
+    - capitalism
+    - pattern recognition
+    - image classifier
+    - consumerism
+    - browser fingerprinting
+    - amazon
+    - data privacy
+    - data
+    - privacy
+    - niels gercama
+
+
 ---
 
 ## Ruminations 

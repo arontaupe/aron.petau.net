@@ -23,12 +23,17 @@ tags:
   - elsa dorlin
   - michael foucault
   - alison jaggar
+  - philosophy
+  - feminism
+  - epistemology
+  - phenomenology
+  
 ---
 
 ## Critical considerations during my studies
 
 I have attended a fair share of philosophical seminars in my studies and consider it a core topic connected both to science and to digital environments. Normative and feminist social theory, as well as the theory of science and phenomenology, are all brought to me through seminar formats at university and made up a good part of my education there.
-I find it hard to find a proper way to demonstrate what interests me without presenting often long-winded and dull term papers. 
+I find it hard to properly demonstrate what interests me without presenting often long-winded and dull term papers. 
 The courses I loved most also often had a format with a weekly hand-in, where students are asked to comment on the paper they just read to identify points to carry into next week's discussion. I am incredibly thankful for this methodology of approaching complex philosophical works, often complete books with supplicant essays surrounding the course topic. In my opinion, nearly all of the value created during these seminars is contained within the live discussions fed by reading materials and little opinion pieces in the form of forum comments. That's why I decided to share here a selection of these weekly commentaries and the sources they are based upon. They are often unrefined and informal, but they indicate the centerpiece of the seminars and demonstrate many thought processes that happened within me during these sessions. Although I took only a small selection, in sum they are a substantial read. Feel free to just skip through and read what catches your interest.
 
 
@@ -40,7 +45,7 @@ DOI: 10.1080/02691728.2011.652211 [Publication](https://doi.org/10.1080/02691728
 {: .notice}
 
 
-The text by Anderson helped shed light on a few issues I stumbled over with Frickers Account. On top of the various issues I and seemingly others too have with the virtue-based approach by her, I think a utilitarian angle is worth considering. That would be: okay, I accept that people can help fight injustice by realizing their privilege, showing restraint, silencing themselves, and adopting the benevolent listening approach. I think that is a practical, virtuous, and realistic endeavor.
+The text by Anderson helped shed light on a few issues I stumbled over with Frickers Account. On top of the various issues I and seemingly others have with her virtue-based approach, I think a utilitarian angle is worth considering. That would be: okay, I accept that people can help fight injustice by realising their privilege, showing restraint, silencing themselves, and adopting the benevolent listening approach. I think that is a practical, virtuous, and realistic endeavour.
 But is it the effective path to alleviating structural injustice? I think not, and initially, that is a major reason I discarded Fricker’s approach, although I saw merit. I have similar concerns to Anderson in the scalability of virtues. Virtuous behavior might help my personal well-being, it gives me normative elevation and might even further the quality of relationships I have. But is it applicable to society, is it enough to counteract structural injustice? 
 Well, maybe, assuming that:
 1. Everyone realizes their privilege, 
@@ -48,7 +53,7 @@ Well, maybe, assuming that:
 3. Upon deciding to adopt a virtuous stance, everyone at least moderately succeeds in practicing what they preach.
 
 I think, for society, the same society that came up with patriarchy in the first place, external pressure, some measure independent of the convictedness of the subjects is needed.
-Anderson made the powerful point of: “Anything that works, goes”, which took me some time to appreciate. I am always angry when I get told to keep my shower to a minimum or stop using plastic straws when I know exactly that my using less water is nothing compared to the institutionalized practice of coca-cola putting water into bottles. I feel like it is unjustified to ask me to save water while others triple their output, for performance.
+Anderson made the powerful point of: “Anything that works, goes”, which took me some time to appreciate. I am always angry when I get told to keep my shower to a minimum or stop using plastic straws when I know exactly that my using less water is nothing compared to the institutionalized practice of Coca-Cola putting water into bottles. I feel like it is unjustified to ask me to save water while others triple their output, for performance.
 The same thing applies to Epistemic injustices. It strikes me how much energy it costs to keep up virtuous behavior individually and how little effect there is to show for it. I do not believe in “trickling up” where institutions will eventually adopt individual practices.
 Is Fricker thereby less right in her point? No, it adds up, as an entire population showering shorter adds up to lots of water saved.
 Anderson also points out how locally innocent biases can create injustice on a “macro” scale. Another indicator for me is that local virtue is not the sole solution, as it can still feed and sustain a system enforcing epistemic injustice.
@@ -110,7 +115,7 @@ created by Aron Petau on Tuesday 23. June 2020, 18:52
 
 
 
-## Forum entries from the Seminar: Critical philosophy of subjectivity 1: Michel Foucault
+## Forum entries from the Seminar: Critical Philosophy of Subjectivity 1: Michel Foucault
 ### On Butler: Constituting norms =/= carrying normative responsibilities for their existence
 
 Source Text: Butler, J. (2004). Undoing Gender (1st ed.). Routledge. https://doi.org/10.4324/9780203499627
@@ -149,7 +154,7 @@ Source Text: François Ewald; Norms, Discipline, and the Law. Representations 1 
 [Publication](https://doi.org/10.2307/2928449)
 {: .notice}
 
-Some tiny details about norms that stuck out to me about the norm were that: 1: they are fictional and thus, an object conforming with a norm is not more meaningful than an object not conforming to a norm. 2: the entire given set comprises the norm, the deviations play a defining role in the formation of the norm itself (or an average).
+Some tiny details about norms that stuck out to me about the norm were that: 1: they are fictional and thus, an object conforming to a norm is not more meaningful than an object not conforming to a norm. 2: the entire given set comprises the norm, the deviations play a defining role in the formation of the norm itself (or an average).
 p. 152: Under norm, 3 phenomena are subsumed: Discipline,
 less as a constraint, but more as a regulatory mechanism insurance,
 Reducing objects to their relative occurrence, distributing risk. and standardization.
@@ -159,7 +164,7 @@ as reliant on facts, which have an aura of objectivity around them.
 - relativity,
 they are neither absolute nor universal, they have a scope, both in definition as a certain temporal extension.
 - polarity
-involving a classification between the normal and the abnormal, where the abnormal is to be some handicap, not attaining something that normal does attain.
+involving a classification between the normal and the abnormal, where the abnormal is to be some handicap, not attaining something that the normal does attain.
 
 What, then, is a norm?
 
@@ -203,10 +208,10 @@ From the seventh chapter in Dorlins "Self-Defense", I found the idea that safe s
 I think the discussion around whether safe spaces are an effective tool that is appropriate on top is a rather current and ongoing one.
 In so many other words, Dorlin here opens up the idea that the creation of a safe space always implies a hostile "outside" or other space.
 Further, Dorling sees as problematic that safe spaces will often experience problematic situations when trying to self-govern. The line of thought here is that safe spaces often explicitly reject the authority of traditional state bodies, since those exactly are identified as the oppressive force. This is problematic because then the community inside the safe space has to recreate social norms from scratch and qua definition of a safe space end up being much more restrictive and monitoring, tapping also into potentially extreme measurements for "enforcing" safety.
-Dorlin notes that by doing this, societal oppressive norms can end up becoming reproduced though the very instance created to shelter from it.
+Dorlin notes that by doing this, societal oppressive norms can end up becoming reproduced through the very instance created to shelter from it.
 I think this opens up 2 points worth discussing:
-Are there limits to self-governance of leftist groups? How can self governance be made possible without recreating some hierarchy or other?
-Does this ignore that safe spaces can sometimes be essential for survival? According to Dorlin, the alternative seems to be to instead of building sheltered, isolated safe spaces, the fight has to occur in the public, transforming the entire space without the necessity for exclusive logic. How can we argue this? Could there be a oppressed position from whence any aggressive stance towards the public forbids itself? (I think there is!) For me this seems like putting the entire burden of transformational potential on the oppressed individual, enabling a position like: "Well, the person did not object or introduce change, so the person implied consent."
+Are there limits to the self-governance of leftist groups? How can self-governance be made possible without recreating some hierarchy or other?
+Does this ignore that safe spaces can sometimes be essential for survival? According to Dorlin, the alternative seems to be to instead of building sheltered, isolated safe spaces, the fight has to occur in the public, transforming the entire space without the necessity for exclusive logic. How can we argue this? Could there be an oppressed position from whence any aggressive stance towards the public forbids itself? (I think there is!) For me this seems like putting the entire burden of transformational potential on the oppressed individual, enabling a position like: "Well, the person did not object or introduce change, so the person implied consent."
 Will a public fight cause more harm being fought than it will save after introducing change? And who are we to calculate this beforehand?
 
 created by Aron Petau on Sunday 05. December 2021, 15:52

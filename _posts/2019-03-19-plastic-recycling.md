@@ -23,7 +23,11 @@ tags:
   - private
   - master thesis
   - waste
-  
+  - sustainability
+  - environment
+  - 3D printing
+  - filament
+  - shredder
 ---
 
 Being involved with 3D Printers, there is the issue of sustainability that I am confronted with regularly. 

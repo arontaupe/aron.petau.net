@@ -27,5 +27,6 @@ These websites may collect data about you, use cookies, embed additional third-p
 
 If privacy is important enough for you to check out this page, you probably know how to use a VPN service and avoid this problem altogether.
 
+I have a raspberry pi and the motivation, but not the knowledge to properly self-host. If you do have constructive feedback, please feel free to contact me. 
 
 Thank you for your attention.

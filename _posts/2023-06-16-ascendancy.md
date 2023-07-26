@@ -1,19 +1,19 @@
 ---
 title:  "Ascendancy"
-excerpt: "An Exercise in temporary, moving statehood"
+excerpt: "Politics of Design: an Exercise in temporary, moving statehood"
 date                  :   2023-06-16 14:39:27 +0100
 author: "Aron Petau"
 
 tags:
- - borders
- - nation
- - micronation
- - gpt4all
- - text-to-speech
- - mastodon
- - fences
-
-
+  - borders
+  - nation
+  - micronation
+  - gpt4all
+  - text-to-speech
+  - mastodon
+  - fences
+  - barriers
+  - politics of design
 
 gallery:
  - url: /assets/images/ascendancy.jpg

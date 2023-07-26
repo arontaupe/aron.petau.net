@@ -31,7 +31,7 @@ author: "Aron Petau"
 {: .display}  
 
 | I researched the possibilities of a decentralized electricity grid in remote regions of the Himalayas. 
-I conducted field research, evaluation and product simulation. |
+I conducted field research, evaluation, and product simulation. |
 {: .display}  
 
 |:- |-:|
@@ -39,7 +39,7 @@ I conducted field research, evaluation and product simulation. |
 |<i class="fas fa-building"></i> New Bulgarian University, Sofia |||||||||||<i class="fas fa-calendar-alt"></i> Feb. ’19 – Jul ’19 |
 {: .display}  
 
-| I took courses in the Philosophy department and Masters’s program for Cognitive Science. 
+| I took courses in the Philosophy department and Masters’ program for Cognitive Science. 
 [The Department Website](https://cogsci.nbu.bg/en/)
 
 I also attended the Cognitive Science Summer School. 
@@ -51,7 +51,7 @@ I also attended the Cognitive Science Summer School.
 |<i class="fas fa-building"></i> Universität der Künste, Berlin |||||||||||||<i class="fas fa-calendar-alt"></i> Oct. '22 – '24' |
 {: .display}  
 
-| I am currently in the third semester of a transdisciplinary cooperation between UdK and TU Berlin with a focus on critical artistic engagement with technology.
+| I am currently in the third semester of transdisciplinary cooperation between UdK and TU Berlin with a focus on critical artistic engagement with technology.
 [Program description](https://www.design-computation.berlin) 
 [The New Practice Page](https://www.newpractice.net/)|
 {: .display}  

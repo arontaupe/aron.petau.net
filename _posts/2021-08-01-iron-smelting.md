@@ -42,6 +42,17 @@ tags:
   - archeology
   - iron smelting
   - private
+  - technology
+  - history
+  - ISD
+  - iron age
+  - furnace
+  - bloomery
+  - iron
+  - ore
+  - coal
+  - clay
+  
 ---
 
 # Iron Smelting

@@ -1,18 +1,26 @@
 ---
 title                 :  "Auraglow Journal"
 subtitle: "Das Wesen der Dinge"
-excerpt: "Perspectives on Design"
+excerpt: "Perspectives of Design"
 date                  :   2023-03-01 14:39:27 +0100
 author: "Aron Petau"
 
 tags:
- - journal
- - unity
- - ar
- - magic leap
- - aura
- - image recognition
- - particle systems
+	- journal
+	- unity
+	- ar
+	- magic leap
+	- aura
+	- image recognition
+	- particle systems
+	- design
+	- perspectives of design
+	- perspectives
+	- raum
+	- interface
+	- milli keil
+	- sebastian paintner
+
 ---
 
 
