@@ -1,16 +1,16 @@
 ---
 permalink: /about/
-#layout: default
 title: "About"
-excerpt: "Welcome to my TED talk, let me introduce myself"
+excerpt: "Welcome, let me introduce myself"
 last_modified_at: 2021-05-11T10:23:16-04:00
 toc: false
-layout                : single
-classes               : wide
+layout: single
+classes: wide
 header:
-  overlay_color    : "#5e616c"
-  overlay_image    : /assets/images/about_header.jpeg
-  text_color: "#1976d2"
+  #overlay_color: "#5e616c"
+  overlay_image: /assets/images/about_header.jpeg
+  overlay_filter: 0.5
+  #text_color: "#1976d2"
 author: "Aron Petau"
 ---
 

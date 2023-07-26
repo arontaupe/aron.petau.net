@@ -6,6 +6,8 @@ main:
     url: /portfolio/
   - title: "Experience"
     url: /cv/
+  - title: "Archive"
+    url: /archive/
 
 
 

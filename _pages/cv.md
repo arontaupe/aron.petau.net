@@ -1,12 +1,11 @@
 ---
+layout: single
 permalink: /cv/
 title: "Experience"
-excerpt: "Aron writes about the past"
+excerpt: "Aron writes their past experience"
 last_modified_at: 2021-05-11T10:23:16-04:00
 toc: true
 author: "Aron Petau"
-header:
-  text_color: "#1976d2"
 ---
 # Who am I?
 
@@ -22,7 +21,7 @@ header:
 |<i class="fas fa-building"></i> Universität Osnabrück ||||||||||||||<i class="fas fa-calendar-alt"></i> Oct ‘16 – Feb '22 |
 {: .display}  
 
-| Within a diverse program, I focused on Philosophy, Artificial Intelligence, Machine Learning, Informatics, and Linguistics
+| Within a diverse program, I focused on Philosophy, Artificial Intelligence, Machine Learning, Informatics, and Linguistics.
 [Program description](https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-bachelor-of-science/)|
 {: .display}  
 
@@ -31,7 +30,8 @@ header:
 |<i class="fas fa-building"></i> IIT Kharagpur, India ||||||||||||||||<i class="fas fa-calendar-alt"></i> Sept. ’18 – Jan ’19 |
 {: .display}  
 
-| I researched the possibilities of a decentralized electricity grid in remote regions of the Himalayas. |
+| I researched the possibilities of a decentralized electricity grid in remote regions of the Himalayas. 
+I conducted field research, evaluation and product simulation. |
 {: .display}  
 
 |:- |-:|
@@ -39,7 +39,11 @@ header:
 |<i class="fas fa-building"></i> New Bulgarian University, Sofia |||||||||||<i class="fas fa-calendar-alt"></i> Feb. ’19 – Jul ’19 |
 {: .display}  
 
-| I took courses in the Philosophy department and Masters’s program for Cognitive Science. I also attended the Cognitive Science Summer School. |
+| I took courses in the Philosophy department and Masters’s program for Cognitive Science. 
+[The Department Website](https://cogsci.nbu.bg/en/)
+
+I also attended the Cognitive Science Summer School. 
+[More on the Summer School](https://cogsci.nbu.bg/en/international-summer-school-in-cognitive-science)|
 {: .display}  
 
 |:- |-:|
@@ -47,8 +51,9 @@ header:
 |<i class="fas fa-building"></i> Universität der Künste, Berlin |||||||||||||<i class="fas fa-calendar-alt"></i> Oct. '22 – '24' |
 {: .display}  
 
-| I am Currently in the first semester of a transdisciplinary cooperation between UdK and TU Berlin with a focus on critical artistic engagement with technology.
-[Program description](https://www.design-computation.berlin) |
+| I am currently in the third semester of a transdisciplinary cooperation between UdK and TU Berlin with a focus on critical artistic engagement with technology.
+[Program description](https://www.design-computation.berlin) 
+[The New Practice Page](https://www.newpractice.net/)|
 {: .display}  
 
 ## Work Experience
@@ -74,7 +79,6 @@ header:
 
 | I was part of the uos.dll program, a funded project to reform digital teaching practices at the University. My responsibility is the building and maintaining of the DigiLab, a FabLab/Makerspace accessible to the entire University. It features 3D printers, Laser Cutter, CNC Routers, Stitching Robots, VR, XR, Video/Audio Toolsets, and many more.
 [DigiLab Osnabrück](https://digitale-lehre.virtuos.uni-osnabrueck.de/uos-digilab/)|
-
 {: .display}
 
 |:- |-:|
@@ -86,10 +90,20 @@ header:
 [Chatbot Ällei @ Sommerblut](https://chatbot.sommerblut.de)|
 {: .display}
 
+|:- |-:|
+|**Working Student** |
+|<i class="fas fa-building"></i> InKüLe at UdK Berlin ||||||||||<i class="fas fa-calendar-alt"></i> Mar '23 – now |
+{: .display}  
+InKüLe stands for Innovation in der künstlerischen Lehre.
+The Work revolves around investigating concepts for innovation and digitalization in the practice of artistic teaching. Personally, i work mostly with workshops teaching sculpting in VR and livestreaming events. 
+| 
+[The InKüLe Web Presence](https://www.inkuele.de/landing)
+|
+{: .display}
 
 ## Software Skills
 
-**UNIX** \| bash \| Arduino IDE \| Raspberry Pi
+**UNIX** \| bash / zsh \| Arduino IDE \| Raspberry Pi
 
 **Python** \| scipy \|  matplotlib \| seaborn \| pandas \| jupyter notebook \| tensorflow
 
@@ -97,15 +111,15 @@ header:
 
 **C#** \| Unity
 
-**CAD** \| Fusion 360 \| TinkerCAD
+**CAD** \| Fusion 360 \| TinkerCAD \| Rhino/Grasshopper
 
 **Slicing** \| PrusaSlicer \| kiri.moto \| Cura \| Lightburn
 
-**Images** \| Inkscape \| Adobe Illustrator \| GIMP
+**Images** \| Inkscape \| Illustrator \| GIMP \| Photoshop \| Lightroom \| Agisoft Metashape
 
-**Video** \| Adobe Premiere \| DaVinci Resolve
+**Video** \| Premiere \| DaVinci Resolve
 
-**Office** \| MS-Office \| Latex \| Markdown
+**Office** \| MS-Office Suite \| Latex \| Markdown
 
 ## Machine Skills
 

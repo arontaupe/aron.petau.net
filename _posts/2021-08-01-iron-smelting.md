@@ -1,6 +1,7 @@
 ---
 title:  "Iron Smelting"
 date                  :   2022-03-01 14:39:27 +0100
+author: "Aron Petau"
 header:
   overlay_image       : "/assets/images/compacting_iron.jpg"
   overlay_filter      : 0.2

@@ -1,6 +1,5 @@
 ---
 permalink: /vanlife
-#layout: default
 title: "Vanlife"
 excerpt: "Here you can see my solar setup on the van"
 last_modified_at: 2021-05-11T10:23:16-04:00

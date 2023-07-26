@@ -15,3 +15,16 @@ Aron Petau:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arontaupe"
+
+    - label: "Printables"
+      icon: "fas fa-cubes"
+      url: "https://www.printables.com/social/97957-arontaupe/models"
+
+    - label: "Mastodon"
+      icon: "fas fa-mastodon"
+      url: "https://mastodon.online/@reprintedAron"
+
+    - label: "New Practice Network"
+      icon: "fas fa-university"
+      url: "https://www.newpractice.net/author/aron-petau"
+

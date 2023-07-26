@@ -6,10 +6,10 @@ email                    : aron@petau.net
 description              : &description "Here I display a selection of my recent work, you are welcome to have a look around"
 twitter_username         : reprintedAron
 github_username          : arontaupe
-minimal_mistakes_skin    : aqua # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : neon 
 name                     : &name "Aron Petau"
 repository               : "arontaupe/apply"
-logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo.png" 
 masthead_title           : "Aron Petau" # overrides the website title displayed in the masthead, use " " for no title
 
 search                   : true
@@ -27,28 +27,17 @@ remote_theme              : mmistakes/minimal-mistakes
 permalink                 : /:categories/:title/
 paginate                  : 0 # amount of posts to show
 paginate_path             : /page:num/
-timezone                  : Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone                  : Europe/Berlin 
 
 og_image                  : "/assets/images/logo.png"
 
-breadcrumbs               : true  # disabled by default
+breadcrumbs               : true 
 
 words_per_minute          : 120
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 # Plugins (previously gems:)
 plugins:
@@ -62,11 +51,10 @@ plugins:
 # Site Author
 author:
   name             : "Aron Petau"
-  #avatar           : "/assets/images/aron_avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   avatar           : "/assets/images/aron_headshot.jpeg"
   bio              : "Cognitive Science, Software Engineering, 3D Modelling, Design & Computation"
   location         : "Berlin, Germany"
-  email            : aron@petau.net
+  email            : "aron@petau.net"
 
 # Site Footer
 footer:
@@ -78,6 +66,14 @@ footer:
     - label: "Printables"
       icon: "fas fa-cubes"
       url: "https://www.printables.com/social/97957-arontaupe/models"
+
+    - label: "Mastodon"
+      icon: "fas fa-mastodon"
+      url: "https://mastodon.online/@reprintedAron"
+
+    - label: "Storefront"
+      icon: "fas fa-etsy"
+      url: "https://www.etsy.com/de-en/shop/reprintedservices"
 
     - label: "Privacy Statement"
       icon: "fas fa-user-secret"

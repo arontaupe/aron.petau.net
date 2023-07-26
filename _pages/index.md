@@ -10,6 +10,7 @@ header:
     - label        : "<i class='fas fa-book-open'></i> Take me to the Content!"
       url: "/portfolio/"
 excerpt: The place where you can catch up with my recent work and see what I am all about.
+author: "Aron Petau"
 
 feature_row:
   - image_path: /assets/images/aron_headshot.jpeg
@@ -37,4 +38,4 @@ feature_row:
 
 {% include feature_row %}
 
-<a rel="me" href="https://mastodon.online/@reprintedAron">Mastodon</a>
+<a rel="me" href="https://mastodon.online/@reprintedAron"></a>

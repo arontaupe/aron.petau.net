@@ -2,6 +2,7 @@
 layout: archive
 title: "Sitemap"
 permalink: /sitemap/
+author: "Aron Petau"
 author_profile: false
 header:
   text_color: "#1976d2"

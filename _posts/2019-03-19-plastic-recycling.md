@@ -1,6 +1,7 @@
 ---
 title:  "Plastic Recycling"
 date           :   2022-03-01 14:39:27 +0100
+author: "Aron Petau"
 header:
   image: "/assets/images/recycling_graphic.png"
   overlay_filter      : 0

@@ -2,6 +2,7 @@
 title:  "Ruminations"
 excerpt: "Perspectives on Engineering"
 date                  :   2023-03-01 14:39:27 +0100
+author: "Aron Petau"
  
 tags:
  - journal
