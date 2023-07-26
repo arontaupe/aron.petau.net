@@ -1,11 +1,12 @@
 ---
 title:  "Philosophy"
-date                  :   2022-03-01 14:39:27 +0100
+date:   2022-03-01 14:39:27 +0100
 author: "Aron Petau"
 header:
   overlay_image       : "/assets/images/grass_blur.jpg"
   overlay_filter      : 0.5
   credit              : "Aron Petau"
+last_modified_at: 2022-03-01T14:39:27+01:00
 toc: true
 tags:
   - ethics
@@ -27,7 +28,9 @@ tags:
   - feminism
   - epistemology
   - phenomenology
-  
+  - ethics
+created: 2023-07-26T23:58:51+02:00
+updated: 2023-07-27T00:03:06+02:00
 ---
 
 ## Critical considerations during my studies

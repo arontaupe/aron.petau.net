@@ -1,6 +1,7 @@
 ---
 title:  "Iron Smelting"
-date                  :   2022-03-01 14:39:27 +0100
+date :   2022-03-01 14:39:27 +0100
+last_modified_at: 2021-05-11T10:23:16-04:00
 author: "Aron Petau"
 header:
   overlay_image       : "/assets/images/compacting_iron.jpg"
@@ -19,7 +20,7 @@ gallery:
   - url: /assets/images/iron_result.jpg
     image_path: /assets/images/iron_result.jpg
     alt: "glowing iron"
-    title: "Glowing iron: the preliminary result of the smelting"
+    title: "Glowing iron
   - url: /assets/images/burning_furnace.jpg
     image_path: /assets/images/burning_furnace.jpg
     alt: "a furnace burning"
@@ -53,6 +54,8 @@ tags:
   - coal
   - clay
   
+created: 2023-07-27T00:00:55+02:00
+updated: 2023-07-27T00:00:55+02:00
 ---
 
 # Iron Smelting

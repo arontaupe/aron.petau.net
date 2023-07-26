@@ -2,6 +2,7 @@
 title:  "Ruminations"
 excerpt: "Perspectives on Engineering"
 date                  :   2023-03-01 14:39:27 +0100
+last_modified_at      :   2023-03-01 14:39:27 +0100
 author: "Aron Petau"
  
 tags:
@@ -21,6 +22,8 @@ tags:
     - niels gercama
 
 
+created: 2023-07-27T00:01:52+02:00
+updated: 2023-07-27T00:01:52+02:00
 ---
 
 ## Ruminations 

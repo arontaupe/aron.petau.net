@@ -1,7 +1,8 @@
 ---
 title:  "Ascendancy"
-excerpt: "Politics of Design: an Exercise in temporary, moving statehood"
+excerpt: "Politics of Design
 date                  :   2023-06-16 14:39:27 +0100
+last_modified_at      :   2023-06-16 14:39:27 +0100
 author: "Aron Petau"
 
 tags:
@@ -20,6 +21,8 @@ gallery:
    image_path: /assets/images/ascendancy.jpg
    title: "The Prototype state of Ascendancy"
 
+created: 2023-07-27T00:01:57+02:00
+updated: 2023-07-27T00:01:57+02:00
 ---
 
 ## Ascendancy

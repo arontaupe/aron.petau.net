@@ -5,6 +5,8 @@ author: "Aron Petau"
 header:
   image: "/assets/images/recycling_graphic.png"
   credit              : "Aron Petau"
+last_modified_at: 2021-05-11T10:23:16-04:00
+
 
 tags:
   - decentral
@@ -28,6 +30,8 @@ tags:
   - 3D printing
   - filament
   - shredder
+created: 2023-07-26T23:59:37+02:00
+updated: 2023-07-26T23:59:37+02:00
 ---
 
 Being involved with 3D Printers, there is the issue of sustainability that I am confronted with regularly. 

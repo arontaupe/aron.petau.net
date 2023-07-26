@@ -3,6 +3,7 @@ title                 :  "Auraglow Journal"
 subtitle: "Das Wesen der Dinge"
 excerpt: "Perspectives of Design"
 date                  :   2023-03-01 14:39:27 +0100
+last_modified_at      :   2023-03-01 14:39:27 +0100
 author: "Aron Petau"
 
 tags:

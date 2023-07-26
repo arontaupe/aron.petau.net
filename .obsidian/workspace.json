@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2017-01-01-philosophy.md",
+                "file": "_posts/2021-08-01-iron-smelting.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2017-01-01-philosophy.md",
+                "file": "_posts/2021-08-01-iron-smelting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2017-01-01-philosophy.md",
+                "file": "_posts/2021-08-01-iron-smelting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2017-01-01-philosophy.md"
+                "file": "_posts/2021-08-01-iron-smelting.md"
               }
             }
           },
@@ -165,7 +165,15 @@
   },
   "active": "7e166b9b9200bbfe",
   "lastOpenFiles": [
+    "_posts/2021-04-13-thesis.md",
+    "_posts/2020-07-15-chatbot.md",
+    "_posts/2020-01-01-coding.md",
+    "_posts/2019-06-01-ballpark.md",
+    "_posts/2019-03-19-plastic-recycling.md",
+    "_posts/2018-09-01-beacon.md",
+    "_posts/2018-07-05-cad.md",
     "_posts/2018-05-03-printing.md",
+    "_posts/2017-01-01-philosophy.md",
     "_pages/cv.md",
     "_pages/about.md",
     "_pages/sitemap.md",
@@ -176,11 +184,6 @@
     "_pages/motivation.md",
     "homebrew.md",
     "_site/homebrew.md",
-    "_posts/2017-01-01-philosophy.md",
-    "_posts/2018-07-05-cad.md",
-    "_posts/2019-06-01-ballpark.md",
-    "_posts/2019-03-19-plastic-recycling.md",
-    "_posts/2018-09-01-beacon.md",
     "_pages/Lusatia.md",
     "_pages/Rent Ulli.md",
     "_site/rent-a-van/index.html",
@@ -201,13 +204,10 @@
     "_site/assets/images/cage_closeup_2.jpeg",
     "_site/assets/images/cage_closeup.jpeg",
     "_site/assets/documents/AronPetauBAThesis.pdf",
-    "_site/Raum als Interface.md",
-    "_posts/2021-04-13-thesis.md",
     "assets/images/cage_milli.jpeg",
     "assets/images/cage_closeup.jpeg",
     "assets/images/cage_closeup_2.jpeg",
     "assets/images/about_header.jpeg",
-    "_posts/2022-04-01-allei.md",
     "cage_closeup.jpeg",
     "cage_milli.jpeg",
     "DSC00760.jpg"

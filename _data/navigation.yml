@@ -37,3 +37,5 @@ portfolio-sidebar:
     url: /iron-smelting/
   - title: "Online Accessibility"
     url: /allei/
+  - title: "All Projects by Tags"
+    url: /tags/

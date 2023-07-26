@@ -2,6 +2,7 @@
 title:  "Autoimmunitaet"
 excerpt: "A playful interative experience to reflect on the societal value of the car"
 date                  :   2023-06-20 14:39:27 +0100
+last_modified_at      :   2023-06-20 14:39:27 +0100
 author: "Aron Petau"
 
 tags:
@@ -15,6 +16,8 @@ tags:
  - milli keil
  - marla gaiser
  
+created: 2023-07-27T00:02:01+02:00
+updated: 2023-07-27T00:02:01+02:00
 ---
 
 ## How do we design our Commute? 
