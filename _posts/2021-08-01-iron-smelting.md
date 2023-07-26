@@ -53,6 +53,7 @@ tags:
   - ore
   - coal
   - clay
+  - private
   
 created: 2023-07-27T00:00:55+02:00
 updated: 2023-07-27T00:00:55+02:00
@@ -98,4 +99,5 @@ For me, it is very hard to define what technology encompasses. It certainly goes
 
 [Find out more about the ISD](https://sites.google.com/view/eu-iron-smelting-days/home?authuser=0
 ){: .btn .btn--large}
+
 

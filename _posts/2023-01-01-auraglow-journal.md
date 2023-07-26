@@ -1,5 +1,5 @@
 ---
-title                 :  "Auraglow Journal"
+title:  "Auraglow Journal"
 subtitle: "Das Wesen der Dinge"
 excerpt: "Perspectives of Design"
 date                  :   2023-03-01 14:39:27 +0100
@@ -21,9 +21,8 @@ tags:
 	- interface
 	- milli keil
 	- sebastian paintner
-
+	- Studio D+C
 ---
-
 
 Here I will collect all the Documentation of the Thought Process for the WS22/23 Course [[Raum als Interface]] in the module Perspectives of Design.
 

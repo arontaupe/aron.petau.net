@@ -1,6 +1,6 @@
 ---
 title:  "Autoimmunitaet"
-excerpt: "A playful interative experience to reflect on the societal value of the car"
+excerpt: "A playful interactive experience to reflect on the societal value of the car"
 date                  :   2023-06-20 14:39:27 +0100
 last_modified_at      :   2023-06-20 14:39:27 +0100
 author: "Aron Petau"
@@ -15,14 +15,14 @@ tags:
  - aufstandlastgen
  - milli keil
  - marla gaiser
- 
+ - Studio D+C
 created: 2023-07-27T00:02:01+02:00
-updated: 2023-07-27T00:02:01+02:00
+updated: 2023-07-27T00:17:45+02:00
 ---
 
 ## How do we design our Commute? 
 In the context of the Design and Computation Studio Course Milli Keil, Marla Gaiser and me developed a concept for a playful critique of the traffic decisions we take and the idols we embrace. 
-It should open up questions of whether the generations to come should still grow up playing on traffic carpets that are mostly grey and whether the [Letzte Generation](https://letztegeneration.org), a political climate activist group in germany receives enough recognition for their acts. 
+It should open up questions of whether the generations to come should still grow up playing on traffic carpets that are mostly grey and whether the [Letzte Generation](https://letztegeneration.org), a political climate activist group in Germany receives enough recognition for their acts. 
 
 A call for solidarity. 
 

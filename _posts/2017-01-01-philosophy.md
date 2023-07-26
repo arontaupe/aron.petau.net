@@ -29,8 +29,10 @@ tags:
   - epistemology
   - phenomenology
   - ethics
+  - normativity
+  - university of osnabrück
 created: 2023-07-26T23:58:51+02:00
-updated: 2023-07-27T00:03:06+02:00
+updated: 2023-07-27T00:13:47+02:00
 ---
 
 ## Critical considerations during my studies
@@ -38,7 +40,6 @@ updated: 2023-07-27T00:03:06+02:00
 I have attended a fair share of philosophical seminars in my studies and consider it a core topic connected both to science and to digital environments. Normative and feminist social theory, as well as the theory of science and phenomenology, are all brought to me through seminar formats at university and made up a good part of my education there.
 I find it hard to properly demonstrate what interests me without presenting often long-winded and dull term papers. 
 The courses I loved most also often had a format with a weekly hand-in, where students are asked to comment on the paper they just read to identify points to carry into next week's discussion. I am incredibly thankful for this methodology of approaching complex philosophical works, often complete books with supplicant essays surrounding the course topic. In my opinion, nearly all of the value created during these seminars is contained within the live discussions fed by reading materials and little opinion pieces in the form of forum comments. That's why I decided to share here a selection of these weekly commentaries and the sources they are based upon. They are often unrefined and informal, but they indicate the centerpiece of the seminars and demonstrate many thought processes that happened within me during these sessions. Although I took only a small selection, in sum they are a substantial read. Feel free to just skip through and read what catches your interest.
-
 
 ## Forum entries from the Seminar: Critical Epistemologies
 ### On Anderson: Institutions

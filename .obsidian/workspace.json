@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2021-08-01-iron-smelting.md",
+                "file": "_posts/2023-06-25-radio.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-08-01-iron-smelting.md",
+                "file": "_posts/2023-06-25-radio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2021-08-01-iron-smelting.md",
+                "file": "_posts/2023-06-25-radio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2021-08-01-iron-smelting.md"
+                "file": "_posts/2023-06-25-radio.md"
               }
             }
           },
@@ -165,8 +165,20 @@
   },
   "active": "7e166b9b9200bbfe",
   "lastOpenFiles": [
+    "_posts/2023-06-20-dreams-of-cars.md",
+    "_posts/2023-06-20-autoimmunitaet.md",
+    "_posts/2023-06-16-ascendancy.md",
+    "_posts/2023-03-01-ruminations.md",
+    "_posts/2023-01-03-auraglow.md",
+    "_posts/2023-01-01-auraglow-journal.md",
+    "_posts/2022-12-04-lampshades.md",
+    "_posts/2022-04-30-lusatia.md",
+    "_posts/2022-04-01-allei.md",
+    "_posts/2021-08-01-iron-smelting.md",
     "_posts/2021-04-13-thesis.md",
+    "_posts/2021-02-15-ulli.md",
     "_posts/2020-07-15-chatbot.md",
+    "_posts/2020-03-01-homebrew.md",
     "_posts/2020-01-01-coding.md",
     "_posts/2019-06-01-ballpark.md",
     "_posts/2019-03-19-plastic-recycling.md",
@@ -179,20 +191,8 @@
     "_pages/sitemap.md",
     "_pages/rent-ulli.md",
     "_pages/rai_journal.md",
-    "_pages/privacy.md",
-    "_pages/portfolio.md",
-    "_pages/motivation.md",
-    "homebrew.md",
-    "_site/homebrew.md",
-    "_pages/Lusatia.md",
-    "_pages/Rent Ulli.md",
     "_site/rent-a-van/index.html",
     "_site/rent-a-van",
-    "_posts/2023-01-03-auraglow.md",
-    "_posts/2023-03-01-ruminations.md",
-    "_pages/home.md",
-    "_pages/tag-archive.md",
-    "_posts/2023-01-01-auraglow-journal.md",
     "_site/ruminations/index.html",
     "_site/ruminations",
     "_site/auraglow/index.html",

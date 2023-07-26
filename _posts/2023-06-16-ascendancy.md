@@ -1,8 +1,8 @@
 ---
 title:  "Ascendancy"
 excerpt: "Politics of Design
-date                  :   2023-06-16 14:39:27 +0100
-last_modified_at      :   2023-06-16 14:39:27 +0100
+date:   2023-06-16 14:39:27 +0100
+last_modified_at:   2023-06-16 14:39:27 +0100
 author: "Aron Petau"
 
 tags:
@@ -15,6 +15,7 @@ tags:
   - fences
   - barriers
   - politics of design
+  - TU Berlin
 
 gallery:
  - url: /assets/images/ascendancy.jpg

@@ -10,10 +10,13 @@ tags:
   - parametric
   - lamp
   - lampshade
-
-
+  - private
+  - 3D
+  - printing
+  - 3D printing
+  - Studio D+C
 created: 2023-07-27T00:01:27+02:00
-updated: 2023-07-27T00:01:27+02:00
+updated: 2023-07-27T00:16:33+02:00
 ---
 
 ## Lampshades
