@@ -26,9 +26,9 @@ updated: 2023-07-27T00:17:21+02:00
 ---
 
 ## Ruminations 
-was a contemplation on data privacy at amazon.
+was a contemplation on data privacy at Amazon.
 
-It consists of a browser extension (currently Chrome only) that overlays all web pages of Amazon with a moving entity that tracks your behaviour. While tracking, an image classifier algorithm is used to formulate a product query off of the Storefront. After computation, a perfectly fitting product is displayed for your consumer pleasure. 
+It consists of a browser extension (currently Chrome only) that overlays all web pages of Amazon with a moving entity that tracks your behavior. While tracking, an image classifier algorithm is used to formulate a product query off of the Storefront. After computation, a perfectly fitting product is displayed for your consumer's pleasure. 
 
 
 [The code of the Project on GitHub](https://github.com/arontaupe/ruminations){: .btn .btn--large}

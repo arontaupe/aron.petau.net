@@ -133,7 +133,7 @@ These: Wohlfühlen verbessert die Aufnahme des Raumes
 
 
 ### 11.11.2022
-First Reflection on the project
+First Reflection on the Project
 
 Working with Friedrich was kind of a new experience. I felt that construction and planning were quite explorative, involving a lot of unwalked paths. Nevertheless, I felt productive and can stand behind our common output. 
 The openness of the task(s) is something that needs getting used to, so far I felt that the constraints of the course are too loose to get me started immediately and similarly too tight as to simply allow me to directly utilize ideas stowed away in my head. This weird limbo situation might very well be intended and seemingly reveal much to me about how ritualized creativity looks like.

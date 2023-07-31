@@ -45,7 +45,7 @@ Yet, none of that prevents the use of virgin plastics. If you buy a spool of fil
 In my opinion, the core problem is the nonexistent economic feasibility of a proper recycling process. Identifying the exact material of a piece of trash is a very hard problem, definitely not solved yet. So why do we mix the plastic up in the first place? There is a general willingness of people to recycle, but the system for it is missing.
 
 # The Master Plan
-I want to get people to wash and separate their trash for me, which are the most expensive steps in the recycling process. There is willingness to take the extra step, and even if just my mom collects bottle caps for me, that is more than I can realistically use up.
+I want to get people to wash and separate their trash for me, which are the most expensive steps in the recycling process. There is a willingness to take the extra step, and even if just my mom collects bottle caps for me, that is more than I can realistically use up.
 This only really works when I am thinking in a local and decentral environment.
 The existing recycling facilities clearly will not be able to provide 200 different containers for 200 different types of plastic.
 Starting the process with clean and sorted materials, like bottle caps (HDPE) or failed prints (PET-G), I start off with an advantage.

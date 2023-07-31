@@ -65,7 +65,7 @@ updated: 2023-07-27T00:00:55+02:00
 ## The concept
 Since I was a small child I regularly took part in the yearly international congress called Iron Smelting Days (ISD). 
 This is a congress of transdisciplinary people from all over Europe, including historians, archeologists, blacksmiths, steel producers, and many invested hobbyists. 
-The proclaimed goal of these events is to understand the ancient production of iron as it happened throughout the iron age and also much after. A bloomery furnace was used to create iron. Making iron requires iron ore and heat under the exclusion of oxygen. It is a highly fragile process that takes an incredible amount of work. The designs and methods vary a lot and were very adapted to the region and local conditions, unlike the much later, the more industrialized process using blast furnaces.
+The proclaimed goal of these events is to understand the ancient production of iron as it happened throughout the iron age and also much after. A bloomery furnace was used to create iron. Making iron requires iron ore and heat under the exclusion of oxygen. It is a highly fragile process that takes an incredible amount of work. The designs and methods vary a lot and were very adapted to the region and local conditions, unlike the much later, more industrialized process using blast furnaces.
 
 To this day it is quite unclear how prehistoric people managed to get the amount and quality of iron we know they had. 
 The furnaces that were built were often clay structures and are not preserved. Archeologists often find the leftover burned ore and minerals, giving us some indication of the structure and composition of the ancient furnaces. 
@@ -89,13 +89,13 @@ Making an oven completely from scratch is a much more lengthy process requiring 
 
 After, the furnace is dried and heated up
 
-Over the course of the process, more than 100 kgs of coal and around 20kgs of ore are used to create a final piece of iron of 200 - 500g, just enough for a single knife.
+Over the course of the process, more than 100 kgs of coal and around 20 kgs of ore are used to create a final piece of iron of 200 - 500g, just enough for a single knife.
 
 With all the modern amenities and conveniences available to us, a single run still takes more than 3 people working over 72 hours, not accounting for the coal-making or mining and relocating the iron ore.
 
 {% include gallery caption="Some more impressions from the ISD" %}
 
-For me, it is very hard to define what technology encompasses. It certainly goes beyond the typically associated imagery of computing and industrial progress. It is a mode of encompassing the world and adopting other technologies, be it by time or by region makes me feel how diffused the phenomenon technology is into my world. 
+For me, it is very hard to define what technology encompasses. It certainly goes beyond the typically associated imagery of computing and industrial progress. It is a mode of encompassing the world and adopting other technologies, be it by time or by region makes me feel how diffused the phenomenon of technology is into my world. 
 
 [Find out more about the ISD](https://sites.google.com/view/eu-iron-smelting-days/home?authuser=0
 ){: .btn .btn--large}

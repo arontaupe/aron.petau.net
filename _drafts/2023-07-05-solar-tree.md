@@ -21,8 +21,8 @@ updated: 2023-07-27T00:02:18+02:00
 
 ## Solar Tree
 
-This tree is a installation to reflect on throwaway economy. 
+This tree is an installation to reflect on the throwaway economy. 
 It is completely made out of waste materials. 
 The leaves are fully functioning solar panels, with controllers to charge up little lithium batteries.
-These, we took out of single use Electronic Vapes, one of the recent innovative outpours of capitalist production.
+These, we took out of single-use Electronic Vapes, one of the recent innovative outpours of capitalist production.
 
