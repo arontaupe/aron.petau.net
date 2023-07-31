@@ -20,7 +20,7 @@ gallery:
   - url: /assets/images/iron_result.jpg
     image_path: /assets/images/iron_result.jpg
     alt: "glowing iron"
-    title: "Glowing iron
+    title: "glowing iron"
   - url: /assets/images/burning_furnace.jpg
     image_path: /assets/images/burning_furnace.jpg
     alt: "a furnace burning"

@@ -1,0 +1,111 @@
+
+title                    : Portfolio
+title_separator          : "-"
+subtitle                 : "Student in Design & Computation" # site tagline that appears below site title in masthead
+email                    : aron@petau.net
+description              : &description "I am a student in Design & Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around! "
+github_username          : arontaupe
+minimal_mistakes_skin    : neon 
+name                     : &name "Aron Petau"
+repository               : "arontaupe/apply"
+logo                     : "/assets/images/logo.png" 
+masthead_title           : "Aron Petau" # site title that appears in masthead
+search                   : true
+
+# Site Settings
+locale                   : "en-US"
+url                      : https://www.aronpetau.me
+baseurl                  : /  # if i want another subdirectory
+
+# Build settings
+markdown                  : kramdown
+highlighter               : rouge
+remote_theme              : mmistakes/minimal-mistakes
+
+# Outputting
+permalink                 : /:categories/:title/
+paginate                  : 10 # amount of posts to show
+paginate_path             : /page:num/
+timezone                  : Europe/Berlin 
+
+og_image                  : "/assets/images/logo.png"
+breadcrumbs               : true 
+words_per_minute          : 100
+
+include:
+  - _pages
+  - _drafts
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Site Author
+author:
+  name             : "Aron Petau"
+  avatar           : "/assets/images/aron_headshot.jpeg"
+  bio              : "Passionate about Cognitive Science, Software Engineering, 3D Modelling, currently studying Design & Computation"
+  location         : "Berlin, Germany"
+  email            : "aron@petau.net"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/arontaupe"
+
+    - label: "Printables"
+      icon: "fas fa-cubes"
+      url: "https://www.printables.com/social/97957-arontaupe/models"
+
+    - label: "Mastodon"
+      icon: "fas fa-mastodon"
+      url: "https://mastodon.online/@reprintedAron"
+
+    - label: "Storefront"
+      icon: "fas fa-etsy"
+      url: "https://www.etsy.com/de-en/shop/reprintedservices"
+
+    - label: "Privacy Statement"
+      icon: "fas fa-user-secret"
+      url: "/privacy/"
+
+defaults:
+  # _posts
+  - scope:
+      path                  : ""
+      type                  : posts
+    values:
+      layout                : single
+      classes               : wide
+      author                : "Aron Petau"
+      author_profile        : true
+      teaser                : /assets/images/grass_blur.png
+      sidebar:
+        title               : "Topics"
+        nav                 : "portfolio-sidebar"
+      read_time             : true
+      comments              : false
+      share                 : false
+      related               : true
+
+  # _pages
+  - scope:
+      path                  : "_pages"
+      type                  : pages
+    values:
+      layout                : single
+      author_profile        : true
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/
