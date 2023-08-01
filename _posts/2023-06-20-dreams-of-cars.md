@@ -19,26 +19,26 @@ tags:
   - UdK Berlin
 
 gallery:
- - url: /assets/images/Dreams_of_Cars-1.jpg
-   image_path: /assets/images/Dreams_of_Cars-1.jpg
+ - url: /assets/images/suv/Dreams_of_Cars-1.jpg
+   image_path: /assets/images/suv/Dreams_of_Cars-1.jpg
    title: "Dreams of Cars 1"
- - url: /assets/images/Dreams_of_Cars-2.jpg
-   image_path: /assets/images/Dreams_of_Cars-2.jpg
+ - url: /assets/images/suv/Dreams_of_Cars-2.jpg
+   image_path: /assets/images/suv/Dreams_of_Cars-2.jpg
    title: "Dreams of Cars 2"
- - url: /assets/images/Dreams_of_Cars-3.jpg
-   image_path: /assets/images/Dreams_of_Cars-3.jpg
+ - url: /assets/images/suv/Dreams_of_Cars-3.jpg
+   image_path: /assets/images/suv/Dreams_of_Cars-3.jpg
    title: "Dreams of Cars 3"
- - url: /assets/images/Dreams_of_Cars-4.jpg
-   image_path: /assets/images/Dreams_of_Cars-4.jpg
+ - url: /assets/images/suv/Dreams_of_Cars-4.jpg
+   image_path: /assets/images/suv/Dreams_of_Cars-4.jpg
    title: "Dreams of Cars 4"
- - url: /assets/images/Dreams_of_Cars-5.jpg
-   image_path: /assets/images/Dreams_of_Cars-5.jpg
+ - url: /assets/images/suv/Dreams_of_Cars-5.jpg
+   image_path: /assets/images/suv/Dreams_of_Cars-5.jpg
    title: "Dreams of Cars 5"
- - url: /assets/images/Dreams_of_Cars-6.jpg
-   image_path: /assets/images/Dreams_of_Cars-6.jpg
+ - url: /assets/images/suv/Dreams_of_Cars-6.jpg
+   image_path: /assets/images/suv/Dreams_of_Cars-6.jpg
    title: "Dreams of Cars 6"
- - url: /assets/images/Dreams_of_Cars-7.jpg
-   image_path: /assets/images/Dreams_of_Cars-7.jpg
+ - url: /assets/images/suv/Dreams_of_Cars-7.jpg
+   image_path: /assets/images/suv/Dreams_of_Cars-7.jpg
    title: "Dreams of Cars 7"
 
 created: 2023-07-27T00:02:08+02:00
@@ -46,7 +46,9 @@ updated: 2023-07-27T00:17:57+02:00
 ---
 
 ## Photography
-In the context of the course "Fotografie 'Elementar'" I developed a small concept of urban intervention. The results were exhibited at the UdK Rundgang 2023 and are also visible here. 
+In the context of the course "Fotografie Elementar" with Sebastian Herold I developed a small concept of urban intervention. The results were exhibited at the UdK Rundgang 2023 and are also visible here. 
+
+![The gallery piece](/assets/images/suv/suv_door-1.jpg)
 
 ## Dreams of Cars 
 

@@ -14,6 +14,7 @@ tags:
   - copper
   - fruit
   - circular economy
+  - TODO, unfinished
 
 created: 2023-07-27T00:02:18+02:00
 updated: 2023-07-27T00:02:18+02:00

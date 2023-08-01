@@ -16,6 +16,7 @@ tags:
   - barriers
   - politics of design
   - TU Berlin
+  - TODO, unfinished
 
 gallery:
  - url: /assets/images/ascendancy.jpg
