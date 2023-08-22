@@ -71,3 +71,5 @@ TODO: add photo
 ### Find the code on GitHub
 Subvert a bit yourself, or just have a look at the code.
 [The code of the Project on GitHub](https://github.com/arontaupe/ruminations){: .btn .btn--large}
+
+TODO: create video with live demo
