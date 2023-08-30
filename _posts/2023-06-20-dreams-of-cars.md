@@ -46,22 +46,21 @@ updated: 2023-07-27T00:17:57+02:00
 ---
 
 ## Photography
-In the context of the course "Fotografie Elementar" with Sebastian Herold I developed a small concept of urban intervention. The results were exhibited at the UdK Rundgang 2023 and are also visible here. 
+
+In the context of the course "Fotografie Elementar" with Sebastian Herold I developed a small concept of urban intervention. The results were exhibited at the UdK Rundgang 2023 and are also visible here.
 
 ![The gallery piece](/assets/images/suv/suv_door-1.jpg)
 
-## Dreams of Cars 
+## Dreams of Cars
 
-These are not just cars. 
-They are Sport Utility Vehicles. What might they have had as hopes and dreams on the production line? 
-Do they dream of drifting in dusty deserts? 
-Climbing steep rocky canyon roads? 
-Sliding down sun-drenched dunes? 
-Discovering remote pathways in natural grasslands? 
-Nevertheless, they did end up in the parking spots here in Berlin. 
+These are not just cars.
+They are Sport Utility Vehicles. What might they have had as hopes and dreams on the production line?
+Do they dream of drifting in dusty deserts?
+Climbing steep rocky canyon roads?
+Sliding down sun-drenched dunes?
+Discovering remote pathways in natural grasslands?
+Nevertheless, they did end up in the parking spots here in Berlin.
 
 What drove them here?
 
 {% include gallery  %}
-
-

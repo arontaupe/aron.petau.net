@@ -35,13 +35,7 @@ TODO
 
 [The code of the GPT instance on GitHub](https://github.com/arontaupe/gpt){: .btn .btn--large}
 
-
-
 ## The Online representation
 
 [Digital embassy on botsin.space](https://botsin.space/@ascendancy){: .btn .btn--large}
-
-
-
-
 

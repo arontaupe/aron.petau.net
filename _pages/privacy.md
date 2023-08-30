@@ -7,17 +7,18 @@ toc: true
 author: "Aron Petau"
 ---
 
-My website address is: https://aronpetau.me . 
+My website address is: <https://aronpetau.me> .
 
 ## Location
-This page is hosted on (GitHub)[https://github.com] through GitHub-pages. 
-It is protected by (Cloudflare)[https://www.cloudflare.com/en-gb/].
+
+This page is hosted on [GitHub](https://github.com) through GitHub-pages.
+It is protected by [Cloudflare](https://www.cloudflare.com/en-gb/).
 
 I do not collect any data.
 This is a static website, which means there is no database attached and nothing can be tracked by me.
 I also do not collect any cookies, nor are there any third-party cookies involved.
 
-(GitHub)[https://github.com], the place where I host this website, does collect the IP address of any visitor.
+[GitHub](https://github.com), the place where I host this website, does collect the IP address of any visitor.
 I have no influence on this and neither the financial resources to avoid this free hosting firm.
 
 ## Embedded content from other websites
@@ -27,6 +28,6 @@ These websites may collect data about you, use cookies, embed additional third-p
 
 If privacy is important enough for you to check out this page, you probably know how to use a VPN service and avoid this problem altogether.
 
-I have a raspberry pi and the motivation, but not the knowledge to properly self-host. If you do have constructive feedback, please feel free to contact me. 
+I have a raspberry pi and the motivation, but not the knowledge to properly self-host. If you do have constructive feedback, please feel free to contact me.
 
 Thank you for your attention.

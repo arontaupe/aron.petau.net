@@ -52,6 +52,7 @@ DOI: 10.1080/02691728.2011.652211 [Publication](https://doi.org/10.1080/02691728
 The text by Anderson helped shed light on a few issues I stumbled over with Frickers Account. On top of the various issues I and seemingly others have with her virtue-based approach, I think a utilitarian angle is worth considering. That would be: okay, I accept that people can help fight injustice by realising their privilege, showing restraint, silencing themselves, and adopting the benevolent listening approach. I think that is a practical, virtuous, and realistic endeavour.
 But is it the effective path to alleviating structural injustice? I think not, and initially, that is a major reason I discarded Fricker’s approach, although I saw merit. I have similar concerns to Anderson in the scalability of virtues. Virtuous behavior might help my personal well-being, it gives me normative elevation and might even further the quality of relationships I have. But is it applicable to society, is it enough to counteract structural injustice? 
 Well, maybe, assuming that:
+
 1. Everyone realizes their privilege, 
 2. Everyone concludes that justice is the right goal, 
 3. Upon deciding to adopt a virtuous stance, everyone at least moderately succeeds in practicing what they preach.
@@ -66,7 +67,6 @@ I still have doubts about what to do now with my ideas, on how the world looks t
 
 created by Aron Petau on Tuesday 14. July 2020, 17:45
 {: .notice}
-
 
 ### On Medina, the informant and the inquirer
 
@@ -87,8 +87,6 @@ Is a good strategy that might alleviate a lot of issues regarding functions of p
 
 created by Aron Petau on Thursday 09. July 2020, 11:25
 {: .notice}
-
-
 
 ### On Jaggar: Norms, Outlaw Emotions, and the Ideal Society.
 
@@ -151,7 +149,6 @@ I would think that Butler makes a similar argument elsewhere, but as such, I was
 created by Aron Petau on Sunday 23. January 2022, 14:23
 {: .notice}
 
-
 ### On Ewald: What, then, is a norm?
 
 Source Text: François Ewald; Norms, Discipline, and the Law. Representations 1 April 1990; 30 138–161. doi: https://doi.org/10.2307/2928449
@@ -163,6 +160,7 @@ p. 152: Under norm, 3 phenomena are subsumed: Discipline,
 less as a constraint, but more as a regulatory mechanism insurance,
 Reducing objects to their relative occurrence, distributing risk. and standardization.
 The norm has three defining features:
+
 - positivism,
 as reliant on facts, which have an aura of objectivity around them.
 - relativity,
@@ -177,7 +175,6 @@ What, then, is a norm?
 
 created by Aron Petau on Sunday 16. January 2022, 18:48
 {: .notice}
-
 
 ### On Foucault: The effects without effector
 
@@ -200,8 +197,8 @@ How can this theory possibly bring about change in society? Is that even its goa
 created by Aron Petau on Sunday 12. December 2021, 22:01
 {: .notice}
 
-
 ## Forum entries from the Seminar: Is political violence justifiable? Reading Judith Butler and Elsa Dorlin
+
 ### On Dorlin
 
 Source Text: Dorlin, Elsa. Se défendre: une philosophie de la violence. Zones, 2017.
@@ -221,8 +218,8 @@ Will a public fight cause more harm being fought than it will save after introdu
 created by Aron Petau on Sunday 05. December 2021, 15:52
 {: .notice}
 
-
 ## Weekly hand in from the Seminar: Soziale Erkenntnistheorie
+
 ### On Fricker: Epistemic Injustice
 
 Source Text: Fricker, Miranda. Epistemic injustice: Power and the ethics of knowing. Oxford University Press, 2007.
@@ -235,17 +232,15 @@ Inferentialistische Theorien gehen davon aus, dass die eigentliche Inferenz, als
 Dies wäre die wahrscheinlich logisch stringentere Theorie, gegen sie spricht aber die Phänomenologie eines Erkenntisgewinns. Eine Erkenntnis kommt uns oft vor wie ein “Heureka” Moment, wir “finden” sie, plötzlich ist sie da und wir können mit ihr arbeiten. 
 Eine nicht-inferentialistische Theorie legt ebendiese Beweislast nicht im Subjekt an, ich habe eine Erlaubnis, oder besser, ein Recht auf a-priori Annahme der Richtigkeit der Aussage. “Person X hat mir P gesagt, also kann ich P verwenden” ist nun valide und bedarf erstmal keiner weiteren Überprüfung auf Richtigkeit. Diese Argumentationslinie ist deutlich kompatibler mit der phänomenologischen Erfahrung einer Erkenntnis vim Alltag. Wir stoßen aber auf deutlich größere Probleme, wenn wir uns fragen, woher eigentlich unser Recht auf Wahrheitsannahme von Drittaussagen kommt. Klar, 2+2=4, weil der Prof das an die Tafel geschrieben hat, ist die “schlechtere” Begründung als zu sagen, dass das Ergebnis aus gewissen mathematischen Axiomen deduziert wurde. 
 
-
 2. Formulieren Sie jeweils einen Einwand gegen beide Theorien.
 
 Wir befinden uns also nun in der Spannung der phänomenalistischen “Heureka” Erfahrung des Findens von Epistemen (in nicht-inferentiellen Systemen) und dem Problem der schwachen Justifizierung von Aussagen gegenüber der erhöhten Stringenz eines epistemischen Systems, dass externe (logische, probabilistische, normative etc.) Gründe für Aussagen zur Verfügung stellt, aber einen schier unüberwindbaren rechnerischen Aufwand darstellt. Auch das Problem der ersten Begründung bleibt bestehen. Angenommen, ich weiß noch nichts, habe bisher null Episteme gesammelt, wie wird das erste Epistem, das ich finde, begründbar sein? 
 
 3. Worin besteht doxastische Verantwortung (doxastic responsibility) nach F und Ihrer eigenen Meinung nach.
 
-Doxastische Verantwortung ist die Verantwortung für die Begründbarkeit des eigenen Nezwerkes aus Epistemen. Wenn mich also jemand fragt: Warum glaubst du das?, ist es sozial im Allgemeinen erwartbar, dass ich darauf eine Antwort liefern kann. Und wie wir eben schon am Beispiel der Begründung für 2+2=4 gesehen haben, scheint es hier “bessere” und weniger gute Gründe zu geben, das heisst, eine Person kann zur Verantwortung gezogen werden, unzureichend begründete Episteme fallen zu lassen und eine gewisse Grenze zu ziehen, eine mindest erwartbare Begründung. Diese kann sehr wahrscheinlich nicht universell formuliert werden. Eine Regel wie: Alle Bürger dürfen nur noch Aussagen weiterverwenden, denen sie eine mindestens 90-prozentige Wahrheitswarscheinlichkeit attestieren, ist aus diversen Gründen problematisch. 
+Doxastische Verantwortung ist die Verantwortung für die Begründbarkeit des eigenen Nezwerkes aus Epistemen. Wenn mich also jemand fragt: Warum glaubst du das?, ist es sozial im Allgemeinen erwartbar, dass ich darauf eine Antwort liefern kann. Und wie wir eben schon am Beispiel der Begründung für 2+2=4 gesehen haben, scheint es hier “bessere” und weniger gute Gründe zu geben, das heisst, eine Person kann zur Verantwortung gezogen werden, unzureichend begründete Episteme fallen zu lassen und eine gewisse Grenze zu ziehen, eine mindest erwartbare Begründung. Diese kann sehr wahrscheinlich nicht universell formuliert werden. Eine Regel wie: Alle Bürger dürfen nur noch Aussagen weiterverwenden, denen sie eine mindestens 90-prozentige Wahrheitswarscheinlichkeit attestieren, ist aus diversen Gründen problematisch.
 Frickers Auffassung Doxastischer Verantwortung ist insofern speziell, als dass sie eine deutliche Verbindung moralischer Verantwortung (die wir offensichtlich alle in irgendeiner Form tragen) und Doxastischer Verantwortung sieht. Sogar die Gründe sind oft überlappend. Eine Gute Moralische Begründung, die zum Beispiel der Wahrhaftigkeit, scheint ganz offensichtlich auch eine gute doxastische begründung zu sein. Diese Parallelität zieht Fricker heran, um neo-aristotelianische Moralbegründuungen auch auf epistemischer Ebene wirksam zu machen. 
 Ich lasse mich da gern Überzeugen von Ihr und erache es als sinnvoll Doxastische Verantwortung in gewisser Weise moralisch bindend zu machen. Intuitiv wissen wir ja auch, dass unsere Erwartung, dass dritte wahrhaftig mit uns interagieren, auf Gegenseitigkeit beruht und das leben nicht nur normativ, sondern auch auf epistemischer Ebene “verbessert”. Dies liefert auch eine recht simplistesche Rechtfertigung, annehmen zu können, dass Dritte mir die Wahreit sagen. Ich tue ja auch immer mein Bestes, warum also die anderen nicht?
 
 created by Aron Petau on 05.01.2021
 {: .notice}
-

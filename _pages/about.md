@@ -13,6 +13,7 @@ author: "Aron Petau"
 created: 2023-07-26T23:41:07+02:00
 updated: 2023-07-26T23:41:07+02:00
 ---
+
 # Introduction
 
 I am Aron (pronouns: he/him), a 2022 graduate of the bachelor's program of Cognitive Science in Osnabrück.
@@ -21,7 +22,7 @@ The mix of these topics you will find scattered throughout my [Portfolio](/portf
 
 I am enthusiastic about many of the topics included there and have developed a fondness for algorithmic problems, philosophical considerations, and issues of our society.
 
-Currently, I am enrolled in the Master's program [Design and Computation](https://www.design-computation.berlin/en) @ UdK and TU Berlin. 
+Currently, I am enrolled in the Master's program [Design and Computation](https://www.design-computation.berlin/en) @ UdK and TU Berlin.
 
 I recently moved to Berlin and now live together with 2 awesome humans and a 3D Printer, and am continuously repairing and outfitting a very old van.
 

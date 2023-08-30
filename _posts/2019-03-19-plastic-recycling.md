@@ -45,6 +45,7 @@ Yet, none of that prevents the use of virgin plastics. If you buy a spool of fil
 In my opinion, the core problem is the nonexistent economic feasibility of a proper recycling process. Identifying the exact material of a piece of trash is a very hard problem, definitely not solved yet. So why do we mix the plastic up in the first place? There is a general willingness of people to recycle, but the system for it is missing.
 
 # The Master Plan
+
 I want to get people to wash and separate their trash for me, which are the most expensive steps in the recycling process. There is a willingness to take the extra step, and even if just my mom collects bottle caps for me, that is more than I can realistically use up.
 This only really works when I am thinking in a local and decentral environment.
 The existing recycling facilities clearly will not be able to provide 200 different containers for 200 different types of plastic.
@@ -87,11 +88,9 @@ When it all really comes down to the single variable of the filament diameter re
 ![The variables in an iterative optimization](/assets/images/recycling_variables.png)
 So far, I am aware of a few companies and academic projects attempting this process, but none of them manage to get either the quality or the price of other products available. Automatization does not just take out jobs away, I think it can also be a helpful tool, for example tackling environmental issues such as this one.
 
-
 This project is very dear to my heart and I plan to investigate it further in the form of a master thesis.
 The realization will require many skills I am already picking up or still need to work on within the Design and Computation program. 
 {: .notice--info}
-
 
 [Reflow Filament](https://reflowfilament.com/){: .btn .btn--large}
 
@@ -105,4 +104,3 @@ The realization will require many skills I am already picking up or still need t
 [Open source filament diameter sensor by Tomas Sanladerer ](https://www.youmagine.com/designs/infidel-inline-filament-diameter-estimator-lowcost-10-24){: .btn .btn--large}
 
 [Re-Pet Shop ](https://re-pet3d.com/s){: .btn .btn--large}
-

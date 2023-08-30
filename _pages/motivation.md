@@ -8,7 +8,8 @@ layout: single
 classes: wide
 author: "Aron Petau"
 ---
-# My Motivation to participate in Design and Computation
+
+## My Motivation to participate in Design and Computation
 
 During my bachelor, I had the privilege to already break out of traditional specializing fields and get a feel for how multidisciplinary scientific practice can look. Douglas Hofstadter's Book "Gödel, Escher, Bach" is much heralded as a classic for us in cognitive science, and during the first semesters, that book accompanied me and gave some insights of referentiality that I would have missed otherwise. So I was delighted to find him on the website with the Letterspirit project, which is an awesome example of how rule-based constraint solving can factor into the design.
 
@@ -18,7 +19,7 @@ Many of the methods and the openness towards diversity I wholeheartedly agree wi
 
 For me, it is clear, that any master's program that I engage in, cannot be something I am not entirely convinced by, nor a traditional fixed schedule syllabus, nor something that is forced via conference call into my brain. I want hands-on project work, an intense connection to the people I am working with, and wish to see what comes up when everyone contributes a small piece.
 
-While I encountered many interesting fields and areas during my time studying in Osnabrück, I found it fascinating in my free time to experiment with various subjects such as homebrew or 3D printing. As an equivalent to the deductive processes for scientific research, I found it always motivating to look for some hands-on project to follow through with my beliefs. Due to the 3D Printing practice, I was evidently confronted with the question of Plastic waste and plastic use. One of our biggest issues is still our waste management system, especially plastic waste. We need solutions to that! One of my idols is (Precious Plastic)[https://preciousplastic.com]. They motivated me to look beyond virgin Plastic Filament-Rolls and to start testing and experimenting with my own plastic reuse.
+While I encountered many interesting fields and areas during my time studying in Osnabrück, I found it fascinating in my free time to experiment with various subjects such as homebrew or 3D printing. As an equivalent to the deductive processes for scientific research, I found it always motivating to look for some hands-on project to follow through with my beliefs. Due to the 3D Printing practice, I was evidently confronted with the question of Plastic waste and plastic use. One of our biggest issues is still our waste management system, especially plastic waste. We need solutions to that! One of my idols is [Precious Plastic](https://preciousplastic.com). They motivated me to look beyond virgin Plastic Filament-Rolls and to start testing and experimenting with my own plastic reuse.
 
 I want to continue to explore and max out possibilities of plastic reuse and 3D printing routines.
 
