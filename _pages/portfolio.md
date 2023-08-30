@@ -40,7 +40,7 @@ beacon:
     btn_label: "More"
     btn_class: "btn--primary"
 plastic-recycling:
-  - image_path: /assets/images/recycling_graphic.png
+  - image_path: /assets/images/recycling_graphic.jpg
     alt: "plastic-recycling"
     title: "Plastic Recycling"
     excerpt: "I examine the reasons failed 3D prints never get recycled and propose a decentralized solution for a system not involving sending our trash around the world."

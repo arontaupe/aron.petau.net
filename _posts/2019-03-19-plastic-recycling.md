@@ -3,7 +3,7 @@ title:  "Plastic Recycling"
 date           :   2022-03-01 14:39:27 +0100
 author: "Aron Petau"
 header:
-  image: "/assets/images/recycling_graphic.png"
+  image: "/assets/images/recycling_graphic.jpg"
   credit              : "Aron Petau"
 last_modified_at: 2021-05-11T10:23:16-04:00
 tags:
@@ -32,9 +32,9 @@ created: 2023-07-26T23:59:37+02:00
 updated: 2023-07-27T00:14:37+02:00
 ---
 
-Being involved with 3D Printers, there is the issue of sustainability that I am confronted with regularly. 
+Being involved with 3D Printers, there is the issue of sustainability that I am confronted with regularly.
 Most 3D printed parts never get recycled and add to the global waste problem, rather than reducing it.
-The printer most certainly doesn’t care what it is printing, the main problem is the dimensional accuracy and the purity of the material. All of this leads to a huge industry, Germany being especially involved, using loads of virgin plastic. 
+The printer most certainly doesn’t care what it is printing, the main problem is the dimensional accuracy and the purity of the material. All of this leads to a huge industry, Germany being especially involved, using loads of virgin plastic.
 
 What can be done about it?
 We can design our products to last longer, we can also print recycling labels on them so they do not have to get burned after their first life. We can take care to only print functional objects, not just fun toys nobody uses.
@@ -89,7 +89,7 @@ When it all really comes down to the single variable of the filament diameter re
 So far, I am aware of a few companies and academic projects attempting this process, but none of them manage to get either the quality or the price of other products available. Automatization does not just take out jobs away, I think it can also be a helpful tool, for example tackling environmental issues such as this one.
 
 This project is very dear to my heart and I plan to investigate it further in the form of a master thesis.
-The realization will require many skills I am already picking up or still need to work on within the Design and Computation program. 
+The realization will require many skills I am already picking up or still need to work on within the Design and Computation program.
 {: .notice--info}
 
 [Reflow Filament](https://reflowfilament.com/){: .btn .btn--large}
@@ -101,6 +101,6 @@ The realization will require many skills I am already picking up or still need t
 [Filamentive Statement on why recycling is not feasible in their opinion ](https://www.filamentive.com/recycling-failed-and-waste-3d-prints-into-filament-challenges/
 ){: .btn .btn--large}
 
-[Open source filament diameter sensor by Tomas Sanladerer ](https://www.youmagine.com/designs/infidel-inline-filament-diameter-estimator-lowcost-10-24){: .btn .btn--large}
+[Open source filament diameter sensor by Tomas Sanladerer](https://www.youmagine.com/designs/infidel-inline-filament-diameter-estimator-lowcost-10-24){: .btn .btn--large}
 
-[Re-Pet Shop ](https://re-pet3d.com/s){: .btn .btn--large}
+[Re-Pet Shop](https://re-pet3d.com/s){: .btn .btn--large}
