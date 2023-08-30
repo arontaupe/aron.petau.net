@@ -10,12 +10,14 @@ tags:
 - interactive
 - cars
 - last generation
-- 3D-printing
+- 3D printing
 - action figure
 - aufstandlastgen
 - milli keil
 - marla gaiser
-- Studio D+C
+- studio d+c
+- university of the arts berlin
+- udk
 
 header:
   overlay_image: /assets/images/autoimmunitaet/autoimmunitaet-1.jpg

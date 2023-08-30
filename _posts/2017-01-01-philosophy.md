@@ -13,8 +13,6 @@ tags:
   - philosophy of emotions
   - postphenomenology
   - values in science
-  - normativity
-  - university
   - private
   - judith butler
   - elizabeth anderson

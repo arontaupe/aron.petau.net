@@ -15,7 +15,7 @@ tags:
   - fences
   - barriers
   - politics of design
-  - TU Berlin
+  - technische universität berlin
   - TODO, unfinished
 
 gallery:

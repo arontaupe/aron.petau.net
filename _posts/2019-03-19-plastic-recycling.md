@@ -18,7 +18,6 @@ tags:
   - ml
   - Arduino
   - Linux
-  - waste
   - filastruder
   - private
   - master thesis

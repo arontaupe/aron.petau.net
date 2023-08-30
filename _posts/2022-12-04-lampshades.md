@@ -11,10 +11,10 @@ tags:
 - lamp
 - lampshade
 - private
-- 3D
-- printing
 - 3D printing
-- Studio D+C
+- studio d+c
+- university of the arts berlin
+- udk
 - TODO, unfinished
 
 header:
