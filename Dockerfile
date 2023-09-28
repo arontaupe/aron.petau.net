@@ -3,7 +3,6 @@ FROM arm32v7/ruby:latest
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
     node \
-    python-pygments \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/
 RUN wget https://cmake.org/files/v3.27/cmake-3.27.6.tar.gz
