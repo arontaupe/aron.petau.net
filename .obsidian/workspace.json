@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-25-radio.md",
+                "file": "_drafts/2023-06-25-radio.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-25-radio.md",
+                "file": "_drafts/2023-06-25-radio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-25-radio.md",
+                "file": "_drafts/2023-06-25-radio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-25-radio.md"
+                "file": "_drafts/2023-06-25-radio.md"
               }
             }
           },
@@ -165,6 +165,7 @@
   },
   "active": "7e166b9b9200bbfe",
   "lastOpenFiles": [
+    "_drafts/2021-02-15-ulli.md",
     "_posts/2023-06-20-dreams-of-cars.md",
     "_posts/2023-06-20-autoimmunitaet.md",
     "_posts/2023-06-16-ascendancy.md",
@@ -190,7 +191,6 @@
     "_pages/about.md",
     "_pages/sitemap.md",
     "_pages/rent-ulli.md",
-    "_pages/rai_journal.md",
     "_site/rent-a-van/index.html",
     "_site/rent-a-van",
     "_site/ruminations/index.html",
