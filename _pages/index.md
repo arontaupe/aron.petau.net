@@ -3,10 +3,10 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_image    : /assets/images/about_header.jpeg
+  overlay_image: /assets/images/about_header.jpeg
   overlay_filter: 0.5
   actions:
-    - label        : "<i class='fas fa-book-open'></i> Take me straight to the Portfolio!"
+    - label: "<i class='fas fa-book-open'></i> Take me straight to the Portfolio!"
       url: "/portfolio/"
 excerpt: The place where you can catch up with my recent work and see what I am all about.
 author: "Aron Petau"
