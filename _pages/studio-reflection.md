@@ -1,5 +1,5 @@
 ---
-permalink: /studio-reflection/
+permalink: /studioreflection/
 title: "Studio Reflection"
 excerpt: "A preliminary report on the studio project done in October 2023"
 last_modified_at: 2021-05-11T10:23:16-04:00
