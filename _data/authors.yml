@@ -28,3 +28,16 @@ Aron Petau:
       icon: "fas fa-university"
       url: "https://www.newpractice.net/author/aron-petau"
 
+Joel Tenenberg:
+  name        : "Joel Tenenberg"
+  bio         : "Design & Computation"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:joel@tenenberg.net"
+
+    - label: "New Practice Network"
+      icon: "fas fa-university"
+      url: "https://www.newpractice.net/author/joel-tenenberg"
+
+
