@@ -38,7 +38,7 @@ tags:
   - TODO,
   - unfinished
 created: 2023-07-26T23:41:07+02:00
-updated: 2023-10-01T19:54:18+02:00
+updated: 2023-10-01T20:08:25+02:00
 ---
 
 ## Studio Bericht SS23
@@ -178,80 +178,77 @@ Besonders innerhalb der Gruppe haben wir Funk als eine interessante Infrastruktu
 Die Zusammenarbeit mit Aron ist interessant, auch wenn wir es bisher noch nicht geschafft haben unsere beiden Interessen konkret zu vereinen. Eine Konkretisierung unserer vereinten Forschungsfrage möchte ich auf jeden Fall zeitnah angehen. Dabei haben wir auch schon mit Johannes über ein Beratungstermin geredet.
 
 ### Quellangaben:
-    [1] Morton T. Hyperobjects: Philosophy and Ecology After the End of the World. Minneapolis:
+
+[1] Morton T. Hyperobjects: Philosophy and Ecology After the End of the World. Minneapolis:
 University of Minnesota Press; 2014.
 
 [2] Maak, Niklas. Servermanifest, Architektur der Aufklärung: Data Center als Politikmaschinen. Hatje Cantz, 2022.
 
 [3] Hunger, Francis. Search Routines: Tales of Databases. D21 Kunstraum Leipzig, 2015.
 
-Lisa Parks
-https://rcpp.lensbased.net/infrastructural-inversion-or-how-to-open-black-boxed-database-management-systems/
+[Lisa Parks on Lensbased.net](https://rcpp.lensbased.net/infrastructural-inversion-or-how-to-open-black-boxed-database-management-systems/){: .btn .btn--large}
 
-Hunger, Francis über Infrastrukturen und Databases:
-<https://www.irmielin.org/wp-content/uploads/2015/12/search_routines-tales_of_databases.pdf>
+[Hunger, Francis über Infrastrukturen und Databases](https://www.irmielin.org/wp-content/uploads/2015/12/search_routines-tales_of_databases.pdf){: .btn .btn--large}
 
-Maak, Alexander, Servermanifest Architektur der Aufklärung: Data Center als Politikmaschinen. Hatjecantz, 2022
+**Maak**, Alexander, Servermanifest Architektur der Aufklärung: Data Center als Politikmaschinen. Hatjecantz, 2022
 
-Bastani, Aaron. Fully automated luxury communism. Verso Books, 2019.
+**Bastani**, Aaron. Fully automated luxury communism. Verso Books, 2019.
 
-Morozov, E. (2016). The net delusion: How not to liberate the world. In Democracy: A Reader (pp. 436-440). Columbia University Press.
+**Morozov**, E. (2016). The net delusion: How not to liberate the world. In Democracy: A Reader (pp. 436-440). Columbia University Press.
 
-Stäheli, U. (1999). Die politische Theorie der Hegemonie: Ernesto Laclau und Chantal Mouffe. Politische Theorien der Gegenwart, 143-166.
+**Stäheli**, U. (1999). Die politische Theorie der Hegemonie: Ernesto Laclau und Chantal Mouffe. Politische Theorien der Gegenwart, 143-166.
 
-Gramsci on Hegemony <https://plato.stanford.edu/entries/gramsci/>
+**Gramsci** on Hegemony: [Stanford Encyclopedia](https://plato.stanford.edu/entries/gramsci/){: .btn .btn--large}
 
-TLDR on Mouffe/Laclau <https://www.youtube.com/watch?v=62a6Dk9QmJQ>
+[TLDR on Mouffe/Laclau](https://www.youtube.com/watch?v=62a6Dk9QmJQ){: .btn .btn--large}
 
-Alex Demirovic: »Hegemonie funktioniert nicht ohne Exklusion« <https://www.youtube.com/watch?v=h77ECXXP2n0>
+Alex **Demirovic**: [»Hegemonie funktioniert nicht ohne Exklusion« ](https://www.youtube.com/watch?v=h77ECXXP2n0){: .btn .btn--large}
 
-Ahmed, S. (2020). Queer phenomenology: Orientations, objects, others. Duke University Press.
+**Ahmed**, S. (2020). Queer phenomenology: Orientations, objects, others. Duke University Press.
 
 ### Sonstige Quellen
 Was für eine Antenne haben wir:
 [NESDR Smart](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-smart-sdr.html){: .btn .btn--large}
 
 Was für eine Antenne hätten wir gern:
-[]HackRF One(https://greatscottgadgets.com/hackrf/one/)
+[HackRF One](https://greatscottgadgets.com/hackrf/one/){: .btn .btn--large}
 
 Frequency Analyzer + Replayer
-[Flipper Zero](https://shop.flipperzero.one/)
+[Flipper Zero](https://shop.flipperzero.one/){: .btn .btn--large}
 
 Hackerethik
-[CCC Hackerethik](https://www.ccc.de/hackerethics)
+[CCC Hackerethik](https://www.ccc.de/hackerethics){: .btn .btn--large}
 
 Radio freies Wendland
-[Wikipedia: Radio Freies Wendland](https://de.wikipedia.org/wiki/Radio_Freies_Wendland)
+[Wikipedia: Radio Freies Wendland](https://de.wikipedia.org/wiki/Radio_Freies_Wendland){: .btn .btn--large}
 
 Freie Radios
-[Wikipedia: Definition Freie Radios](https://de.wikipedia.org/wiki/Freies_Radio)
+[Wikipedia: Definition Freie Radios](https://de.wikipedia.org/wiki/Freies_Radio){: .btn .btn--large}
 
 **Radio Dreyeckland**
-[RDL](https://rdl.de/)
+[RDL](https://rdl.de/){: .btn .btn--large}
 
-(https://www.rnd.de/medien/piratensender-kapert-frequenz-von-1live-fur-querdenker-thesen-MER4ZGR2VXNNXN6VZO3CVW6XTA.html)
+[RND Newsstory: Querdenker kapern Sendefrequenz von 1Live](https://www.rnd.de/medien/piratensender-kapert-frequenz-von-1live-fur-querdenker-thesen-MER4ZGR2VXNNXN6VZO3CVW6XTA.html){: .btn .btn--large}
 
-<https://www.ndr.de/geschichte/ndr_retro/Empfang-westdeutscher-Funk-und-Fernsehsendungen-in-der-DDR,zonengrenze246.html>
+[NDR Reportage: Westradio in der DDR](https://www.ndr.de/geschichte/ndr_retro/Empfang-westdeutscher-Funk-und-Fernsehsendungen-in-der-DDR,zonengrenze246.html){: .btn .btn--large}
 
-SmallCells
-<https://www.nokia.com/networks/mobile-networks/small-cells/>
+**SmallCells**
+[SmallCells](https://www.nokia.com/networks/mobile-networks/small-cells/){: .btn .btn--large}
 
 The **Thought Emporium**: 
-Ein Youtuber, der wifi strahlen sichtbar macht:  
-    <https://www.youtube.com/@thethoughtemporium>
-    The Wifi Camera:
-        <https://www.youtube.com/watch?v=g3LT_b6K0Mc&t=457s>
-    Catching Satellite Images
-    <https://www.youtube.com/watch?v=L3ftfGag7D8>
+Ein Youtuber, der wifi Strahlung sichtbar macht:  
+[Thought Emporium](https://www.youtube.com/@thethoughtemporium){: .btn .btn--large}
+[The Wifi Camera](https://www.youtube.com/watch?v=g3LT_b6K0Mc&t=457s){: .btn .btn--large}
+[Catching Satellite Images](https://www.youtube.com/watch?v=L3ftfGag7D8){: .btn .btn--large}
 
 **GQRX**
-https://gqrx.dk/
+[GQRX Software](https://gqrx.dk){: .btn .btn--large}
 
 Was ist eigentlich **RF** (Radio Frequency):
-    <https://pages.crfs.com/making-sense-of-radio-frequency>
+[RF Explanation](https://pages.crfs.com/making-sense-of-radio-frequency){: .btn .btn--large}
 
 **Bundesnetzagentur**, Funknetzvergabe
-<https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Frequenzen/start.html>
+[Funknetzvergabe](https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Frequenzen/start.html){: .btn .btn--large}
 
 **BOS Funk**
-<https://www.bdbos.bund.de/DE/Digitalfunk_BOS/digitalfunk_bos_node.html>
+[BOS](https://www.bdbos.bund.de/DE/Digitalfunk_BOS/digitalfunk_bos_node.html){: .btn .btn--large}
