@@ -2,7 +2,6 @@
 title:  "Lampshades"
 excerpt: "An exploration of the depths of rhino/grasshopper"
 date:   2022-12-04 14:39:27 +0100
-last_modified_at: 2021-05-11T10:23:16-04:00
 author: "Aron Petau"
 tags:
 - rhino
@@ -16,12 +15,10 @@ tags:
 - university of the arts berlin
 - udk
 - TODO, unfinished
-
 header:
   overlay_image: /assets/images/lampshades/lampshade4.heic
   overlay_filter: 0.5
   credit: "Aron Petau"
-
 
 gallery:
   - url: /assets/images/lampshades/lampshade1.heic
@@ -52,7 +49,7 @@ gallery2:
     title: "The resulting lampshade in rhino"
 
 created: 2023-07-27T00:01:27+02:00
-updated: 2023-07-27T00:16:33+02:00
+last_modified_at: 2023-10-01T20:16:59+02:00
 ---
 
 ## Lampshades

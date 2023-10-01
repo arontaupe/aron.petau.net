@@ -2,7 +2,6 @@
 permalink: /rai-journal/
 title: "Raum als Interface 2022"
 excerpt: "Perspectives on Design"
-last_modified_at: 2022-11-02T10:23:16-04:00
 toc: true
 layout: single
 classes: wide
@@ -12,9 +11,10 @@ header:
 author: "Aron Petau"
 author_profile: false
 created: 2022-11-11T12:22:28+01:00
-updated: 2022-11-11T12:44:36+01:00
+last_modified_at: 2023-10-01T20:19:37+02:00
 tags:
   - journal
+date: 2023-10-01T20:19:37+02:00
 ---
 
 Here I will collect all the Documentation of the Thought Process for the WS22/23 Course [[Raum als Interface]] in the module Perspectives of Design.

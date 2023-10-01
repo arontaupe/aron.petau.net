@@ -4,7 +4,6 @@ excerpt: "A subversive urban intervention"
 date:   2023-06-20 14:39:27 +0100
 last_modified_at:   2023-06-20 14:39:27 +0100
 author: "Aron Petau"
-
 tags:
   - photography
   - suv
@@ -17,7 +16,6 @@ tags:
   - dreams
   - urban intervention
   - UdK Berlin
-
 gallery:
  - url: /assets/images/suv/Dreams_of_Cars-1.jpg
    image_path: /assets/images/suv/Dreams_of_Cars-1.jpg
@@ -40,9 +38,6 @@ gallery:
  - url: /assets/images/suv/Dreams_of_Cars-7.jpg
    image_path: /assets/images/suv/Dreams_of_Cars-7.jpg
    title: "Dreams of Cars 7"
-
-created: 2023-07-27T00:02:08+02:00
-updated: 2023-07-27T00:17:57+02:00
 ---
 
 ## Photography

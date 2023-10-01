@@ -2,7 +2,6 @@
 permalink: /studioreflection/
 title: Studio Reflection
 excerpt: A preliminary report on the studio project done in October 2023
-last_modified_at: 2021-05-11T10:23:16-04:00
 toc: true
 layout: single
 classes: wide
@@ -38,7 +37,7 @@ tags:
   - TODO,
   - unfinished
 created: 2023-07-26T23:41:07+02:00
-updated: 2023-10-01T20:08:25+02:00
+last_modified_at: 2023-10-01T20:13:06+02:00
 ---
 
 ## Studio Bericht SS23

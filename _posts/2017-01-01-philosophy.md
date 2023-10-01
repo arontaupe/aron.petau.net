@@ -6,7 +6,6 @@ header:
   overlay_image       : "/assets/images/grass_blur.jpg"
   overlay_filter      : 0.5
   credit              : "Aron Petau"
-last_modified_at: 2022-03-01T14:39:27+01:00
 toc: true
 tags:
   - ethics
@@ -30,7 +29,7 @@ tags:
   - normativity
   - university of osnabrück
 created: 2023-07-26T23:58:51+02:00
-updated: 2023-07-27T00:13:47+02:00
+last_modified_at: 2023-10-01T20:14:09+02:00
 ---
 
 ## Critical considerations during my studies

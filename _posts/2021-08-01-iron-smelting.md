@@ -1,7 +1,6 @@
 ---
 title:  "Iron Smelting"
 date :   2022-03-01 14:39:27 +0100
-last_modified_at: 2021-05-11T10:23:16-04:00
 author: "Aron Petau"
 header:
   overlay_image       : "/assets/images/compacting_iron.jpg"
@@ -37,7 +36,6 @@ gallery:
     image_path: /assets/images/iron_smelting_graph.png
     alt: "A cross-section of my furnace type"
     title: "A cross-section illustrating the temperatures reached"
- 
 tags:
   - experiment
   - archeology
@@ -54,9 +52,8 @@ tags:
   - coal
   - clay
   - private
-  
 created: 2023-07-27T00:00:55+02:00
-updated: 2023-07-27T00:00:55+02:00
+last_modified_at: 2023-10-01T20:16:19+02:00
 ---
 
 ## Iron Smelting

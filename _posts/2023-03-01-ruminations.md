@@ -38,9 +38,6 @@ tags:
     - university of the arts berlin
     - udk
     - TODO, unfinished
-    
-created: 2023-07-27T00:01:52+02:00
-updated: 2023-07-27T00:17:21+02:00
 ---
 ## Ruminations
 

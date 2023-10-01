@@ -22,9 +22,6 @@ gallery:
  - url: /assets/images/ascendancy.jpg
    image_path: /assets/images/ascendancy.jpg
    title: "The Prototype state of Ascendancy"
-
-created: 2023-07-27T00:01:57+02:00
-updated: 2023-07-27T00:01:57+02:00
 ---
 
 ## Ascendancy

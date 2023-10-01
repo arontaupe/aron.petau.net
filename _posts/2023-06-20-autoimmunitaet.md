@@ -18,7 +18,6 @@ tags:
 - studio d+c
 - university of the arts berlin
 - udk
-
 header:
   overlay_image: /assets/images/autoimmunitaet/autoimmunitaet-1.jpg
   overlay_filter: 0.5
@@ -26,7 +25,6 @@ header:
   actions:
   - label: "<i class='fas fa-shop'></i> I want to support the Letzte Generation and get my own Action Figure"
     url: "mailto:autoimmunitaet@aronpetau.me?subject=Autoimmunitaet Action Figure"
-
 gallery:
   - url: /assets/images/autoimmunitaet/autoimmunitaet-1.jpg
     image_path: /assets/images/autoimmunitaet/autoimmunitaet-1.jpg
@@ -46,10 +44,6 @@ gallery:
   - url: /assets/images/autoimmunitaet/autoimmunitaet-8.jpg
     image_path: /assets/images/autoimmunitaet/autoimmunitaet-8.jpg
     title: "Our action figures in action"
-
-
-created: 2023-07-27T00:02:01+02:00
-updated: 2023-07-27T00:17:45+02:00
 ---
 
 ## How do we design our Commute?
