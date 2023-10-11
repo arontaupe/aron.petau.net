@@ -28,23 +28,22 @@ tags:
   - BOS
   - studio
   - d+c
-  - university
-  - of
-  - the
-  - arts
-  - berlin
   - udk
   - TODO,
   - unfinished
 created: 2023-07-26T23:41:07+02:00
-last_modified_at: 2023-10-01T20:13:06+02:00
+last_modified_at: 2023-10-01T20:19:51+02:00
+date: 2023-10-01T20:19:51+02:00
 ---
 
 ## Studio Bericht SS23
+
 #### Aron Petau, Joel Tenenberg
+
 30.90.2023
 
 ### Abstract
+
 Radio as a Subversive Exercise
 Radio is a prescriptive technology. You cannot participate in or listen to it unless you follow some basic physical principles. Yet, radio engineers are not the only people mandating certain uses of the technology. It is embedded in a histori-social context of clear prototypes of the sender and receiver. Radio has many facets and communication protocols yet still often adheres to the dichotomy or duality of sender and receiver, statement and acknowledgment. The radio tells you what to do, and how to interact with it. Radio has an always identifiable dominant and subordinate part.
 Are there instances of rebellion against this schema? Places, modes, and instances where radio is anarchic? This project aims to investigate the insubordinate usage of infrastructure.
@@ -52,7 +51,7 @@ Its frequencies.
 It's all around us.
 Who is to stop us?
 
-### Kooperativer Teil:
+### Kooperativer Teil
 
 *Inhaltlich-konzeptionelle Beschreibung eurer bisherigen Arbeit: Wie lautet eure Forschungsfrage bisher? Welche Fortschritte habt ihr in der Beantwortung von dieser schon gemacht? Bitte nennt hier auch Referenzen (Literatur, Künstler*innen/ Artworks, Projekte, etc.)*
 
@@ -78,8 +77,8 @@ Funk befindet sich also in gewisser Weise in einer Dualität: Als Herrschaftsins
 Es gibt also in der Methode "Funk" ein unauthorisiertes, illegales Element, das sich über Grenzen hinwegsetzt und durch seine technische Beschaffenheit anarchische Strukturen fördert.
 
 Die zu untersuchende Subversion hat hier 2 Teile:
-	Den Akt des **Empfangens** und
-	Den Akt des **Sendens**
+ Den Akt des **Empfangens** und
+ Den Akt des **Sendens**
 Beide können auf eigene Art Subversiv sein.
 Ein Beispiel für subversives Empfangen wäre also das mithören von Polizeifunk, oder das in der DDR berühmte Hören von "Westradio"
 Subversives Senden kann sich ausdrücken beispielsweise in sogenannten Piratensendern, von denen es historisch seit Beginn des Radios immer welche gab, zum Beispiel das Radio freies Wendland (siehe Quellen).
@@ -89,7 +88,8 @@ Alles Mögliche an alltäglicher Infrastruktur nutzt öffentliche Funksgnale:
 Autotüren, Garagentore, Walkie Talkies, Flugzeuge, Krankenwagen, Funkuhren, Wetterstationen, Ampeln, Smartphones ...
 Hacking versteht sich als unerlaubter Zugriff auf Systeme und Informationen. Das Bild eines Einbrechers, der sich Zugang zu einem Serverraum verschafft, lässt sich aber schwer zusammenbringen mit einer Funkantenne, die Informationen im eigenen Wohnzimmer empfängt. Eine Frage, die uns interessiert, ist also: Wo beginnt der Unerlaubte Zugriff, wenn wir Schwingungen im Raum als System betrachten?
 
-### Exkurs Infrastruktur:
+### Exkurs Infrastruktur
+
 Oftmals wird der Begriff Infrastruktur als grobe Kategorie von verschiedenen allgegenwärtigen Netzwerkressourcen, wie Straßen, Bahnschienen, Wasser- und Abwasserrohren, Stromversorgung und -leitungen gesehen. Das Feld der Infrastruktur lässt sich jedoch auch auf Informationssysteme und Datenspeicherungen erweitern. Wir haben in diesem Kontext Funk als Technologie mit einer Infrastruktur identifiziert. Die Bundesnetz Agentur verwaltet die Senderechte für die bestimmten Frequenzen und organisiert die Versteigerung unter Unternehmen. Sowohl der hegemonielle Status, wie auch das Machtpotenzial dieser Infrastruktur sind weder deutlich im Alltag zu erkennen noch einfach zu analysieren. Um eine subversive Aktion innerhalb der Infrastruktur von Funk zu planen, muss diese erst analysier- und sichtbar gemacht werden.
 In "Database Infrastructure – Factual repercussions of a ghost" beschreibt Francis Hunger die Attribute von Infrastrukturen und Wege, diese sichtbar zu machen. Der Text bezieht sich dabei auf Databases, also Rechenzentren und Datenspeicher, die Ansätze sind jedoch auf andere Infrastrukturen anwendbar.
 
@@ -99,8 +99,8 @@ Diese Art des Sichtbarmachens soll keine Panik vor Funkmasten schüren, sondern 
 Diese Erkundungstouren können auch als Gruppe durchgeführt werden und einem Workshop Format ähneln.
 Die letzte beschriebene Methode wurde von Lisa Parks entwickelt und als Infrastructure inversion bezeichnet:
 
-	*"Parks argues, that infrastructure is often of high complexity, that even with full access to all resources it would be difficult to describe an infrastructural setting in its entirety and to make it comprehensible.
-	Rather, Infrastructural inversion tries to deduct its underlying classification systems and standards from a small portion of the infrastructural complex."*
+ *"Parks argues, that infrastructure is often of high complexity, that even with full access to all resources it would be difficult to describe an infrastructural setting in its entirety and to make it comprehensible.
+ Rather, Infrastructural inversion tries to deduct its underlying classification systems and standards from a small portion of the infrastructural complex."*
 -- Lisa Parks
 
 Gerade im Bereich der Kommunikation ist das eigentliche Infrastruktur Netz aus von Walkie Talkies bis zu Satelliten schwer zu überschauen. Infrastructure Inversion bietet eine Möglichkeit von einem kleinen observierbaren Teil auf die große allumfassende Struktur zu schließen.
@@ -114,6 +114,7 @@ Dieser Versuch dient zur Demonstration des allanwesenden Funkverkehrs. Wir sehen
 Im Feedback zu dem Versuch wurden Paralellen zum 90s modder style gezogen und durch den sehr rohen Aufbau starke Synth vibes evoziert. Der Fokus der Anwesenden lag viel mehr auf der Hardware die wir genutzt haben als auf dem eigentlichen Fokus der Sichtbarmachung von Funk. Der Versuch hat uns gezeigt, dass es mehr Ebenen der Sichtbarmachung braucht, um den gewollten Effekt einer erhöhten Sensibilisierung für die Infrastruktur zu provozieren.
 
 ### Pros und Cons im Team
+
 *Arbeitsprozess + Reflexion: Geht darauf ein, wie sich der kollektive Arbeitsprozess für euch gestaltet hat. Was hat im Team gut funktioniert und was waren Herausforderungen?*
 
 Wir haben uns zu dieser Aufgabe erst ziemlich spät im Semester zusammengefunden, doch bisher klappt eine zusammenarbeit oft sehr gut. Kommunikation über Aspekte des Themas klappt gut, wir beschäftigen uns auch beide individuell mit eigenen perspektiven zum Thema. Bisher war es allerdings nicht ganz offensichtlich, wie wir beide unsere Fokuspunkte so einbringen können, dass sie ein kohärentes Ganzes ergeben. Das war noch kein großes Problem, da wir uns noch in einer sehr offenen und explorativen phase befinden, in der häufige Perspektivwechsel und neue Inputs hilfreich erscheinen. Gleichzeitig hat uns das aber in der Konkretisierung und genaueren absteckung des Themas behindert. Treffen finden häufig statt und fühlen sich produktiv an. Wir haben zu Beginn wohl leider zu wenig Protokoll geführt, sodass ein Zwischenbericht ohne einen lebendigen Prototypen für uns zu Früh in unserer Entwicklungsphase stattgefunden hat.
@@ -134,12 +135,14 @@ Auch auf eine Sichtbarmachung der Daten im Raum fokussiert, ist das Konzept eine
 Um die stille generierung und extraktion von Daten zu untersuchen haben wir die Idee einer Datenkrake gehabt. Eine Apparatur, die alle erfassbaren Daten in einem Raum aufnimmt und dokumentiert. Es soll vorallem auf das übergriffige, nicht-konsensuellen Sammeln von Daten aufmerksam machen. In kombination mit dem Stichwort Datenkapitalismus soll dieser Versuch sensibilisieren und aufzeigen wie schnell Daten extrahiert und für eine eigene Sache benutzt werden können.
 
 ### Outlook
+
 Wie möchtet ihr eure Projektskizzen im kommenden Semester weiterführen? Welche Potentiale ergeben sich daraus für euch als Team? Worauf hättet ihr Lust? Wie möchtet ihr eure Zusammenarbeit weiter gestalten?
 
 In den nächsten Wochen möchten wir gern Individuelle Beratungsgespräche nutzen, um dem gerade noch sehr weit offenen Projekt eine klarere Form zu geben.
 Wir sind auch damit beschäftigt, einige kleinere Prototypen zu erstellen, die alle Funk sichtbar machen. Das erste Experiment, das mit Sichtbarmachung der Amplitude gearbeitet hat, ist nur ein Weg, Radiowellen visuell oder haptisch darzustellen.
 
 ### Perspektive: Aron
+
 *Verfasse einen Text, in dem Du darauf eingehst, wie Du deine individuellen Perspektiven und Positionen in den kollektiven Arbeitsprozess eingebracht hast.
 Gebe einen Ausblick darauf, wie Du deine individuellen Positionen und Themen im kommenden Semester weiterentwickeln möchtest und wie Du diese Themen in (neue) Teams einbringen und weiterentwickeln möchtest.*
 
@@ -159,6 +162,7 @@ Ich halte es für sehr wertvoll, dass wir als Gruppe größtenteils selbstorgani
 Mich haben die Thematischen Richtungsgeber rund um das Setting "Terrestrial" gut weitergebracht, ich habe mich inhaltlich sehr gut unterstützt gefühlt und hatte das Gefühl, mich in einem für mich sehr relevanten Themenkreis zu bewegen. Die Exkursion hat mich in der Gruppenzusammenarbeit gestärkt und ein schönes Arbeitsklima erzeugt. Schon dort, im Bezug auf "Fences" kommt ein wichtiges Element durch, das auch jetzt noch im Radio Projekt drin steckt. Doch auch hier hatte ich das Bedürfnis nach mehr Raum für Organisationsprozesse und gemeinsame Reflektion/Nachbereitung.
 
 ### Perspektive: Joel
+
 Joel: Infrastruktur, Machtverhältnisse, Ownership von Daten und Infrastruktur
 
 In dem letzten Semester habe ich mich intensiv mit dem Thema der Datenextraktion auseinandergesetzt. Dabei habe ich mich weniger auf den eigentlichen Akt der Datenextraktion und mehr auf die Strukturen, die diese ermöglichen konzentriert. Dieses Thema habe ich versucht in den kollektiven Arbeitsprozess unserer Studiengruppe einfließen zu lassen. Im Verlauf der weiterführenden Recherche habe ich meinen Fokus auf weitere Themen erweitert. Darüber möchte ich einen kurzen Überblick verschaffen:
@@ -176,7 +180,7 @@ Besonders innerhalb der Gruppe haben wir Funk als eine interessante Infrastruktu
 
 Die Zusammenarbeit mit Aron ist interessant, auch wenn wir es bisher noch nicht geschafft haben unsere beiden Interessen konkret zu vereinen. Eine Konkretisierung unserer vereinten Forschungsfrage möchte ich auf jeden Fall zeitnah angehen. Dabei haben wir auch schon mit Johannes über ein Beratungstermin geredet.
 
-### Quellangaben:
+### Quellangaben
 
 [1] Morton T. Hyperobjects: Philosophy and Ecology After the End of the World. Minneapolis:
 University of Minnesota Press; 2014.
@@ -201,11 +205,12 @@ University of Minnesota Press; 2014.
 
 [TLDR on Mouffe/Laclau](https://www.youtube.com/watch?v=62a6Dk9QmJQ){: .btn .btn--large}
 
-Alex **Demirovic**: [»Hegemonie funktioniert nicht ohne Exklusion« ](https://www.youtube.com/watch?v=h77ECXXP2n0){: .btn .btn--large}
+Alex **Demirovic**: [»Hegemonie funktioniert nicht ohne Exklusion«](https://www.youtube.com/watch?v=h77ECXXP2n0){: .btn .btn--large}
 
 **Ahmed**, S. (2020). Queer phenomenology: Orientations, objects, others. Duke University Press.
 
 ### Sonstige Quellen
+
 Was für eine Antenne haben wir:
 [NESDR Smart](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-smart-sdr.html){: .btn .btn--large}
 
@@ -234,7 +239,7 @@ Freie Radios
 **SmallCells**
 [SmallCells](https://www.nokia.com/networks/mobile-networks/small-cells/){: .btn .btn--large}
 
-The **Thought Emporium**: 
+The **Thought Emporium**:
 Ein Youtuber, der wifi Strahlung sichtbar macht:  
 [Thought Emporium](https://www.youtube.com/@thethoughtemporium){: .btn .btn--large}
 [The Wifi Camera](https://www.youtube.com/watch?v=g3LT_b6K0Mc&t=457s){: .btn .btn--large}

@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/year-archive.md",
+                "file": "_pages/studioreflection.md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "822a53e9c42027bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Individuelle Studio Reflektion Aron Petau.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/year-archive.md",
+                "file": "Individuelle Studio Reflektion Aron Petau.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/year-archive.md",
+                "file": "Individuelle Studio Reflektion Aron Petau.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/year-archive.md"
+                "file": "Individuelle Studio Reflektion Aron Petau.md"
               }
             }
           },
@@ -163,11 +176,13 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "7e166b9b9200bbfe",
+  "active": "822a53e9c42027bb",
   "lastOpenFiles": [
+    "_pages/studioreflection.md",
+    "Individuelle Studio Reflektion Aron Petau.md",
+    "_pages/year-archive.md",
     "_pages/vanlife.md",
     "_pages/tag-archive.md",
-    "_pages/studioreflection.md",
     "_pages/sitemap.md",
     "_pages/rent-ulli.md",
     "_pages/rai_journal.md",
@@ -189,8 +204,6 @@
     "_posts/2021-08-01-iron-smelting.md",
     "_posts/2021-04-13-thesis.md",
     "_posts/2020-07-15-chatbot.md",
-    "_posts/2020-03-01-homebrew.md",
-    "_posts/2020-01-01-coding.md",
     "assets/images/radio/gqrx.png",
     "_site/assets/images/radio/gqrx.png",
     "_site/assets/images/radio",
