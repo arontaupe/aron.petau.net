@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:latest
+FROM rockstorm/jekyll:latest
 RUN gem update --system 3.4.20
 # Copy Gemfile because sometimes the bundle version is different
 # install the required bundler and install all the dependencies
