@@ -1,7 +1,7 @@
 ---
-permalink: /vanlife/
-title: "Vanlife"
-excerpt: "Here you can see my solar setup on the van"
+permalink: /ulli/
+title: "Ulli - Solar Van"
+excerpt: "Here you can see the solar setup on the van in realtime."
 last_modified_at: 2021-05-11T10:23:16-04:00
 toc: false
 layout: single
@@ -15,6 +15,6 @@ header:
 author: "Aron Petau"
 ---
 
-## Follow the Van
+## Where is Ulli? - And what is it doing?
 
 <iframe width="100%" height="800" src="https://vrm.victronenergy.com/installation/167009/embed/f61b11f2"></iframe>

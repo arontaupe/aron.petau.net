@@ -11,8 +11,12 @@
             "id": "79aa6c65251c1df6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2023-12-06-postmaster.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_drafts/2023-12-06-postmaster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_drafts/2023-12-06-postmaster.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_drafts/2023-12-06-postmaster.md"
+              }
             }
           },
           {
@@ -157,6 +165,9 @@
   },
   "active": "79aa6c65251c1df6",
   "lastOpenFiles": [
+    "_drafts/2023-07-05-solar-tree.md",
+    "_drafts/2023-12-06-postmaster.md",
+    "_drafts/2021-02-15-ulli.md",
     "_pages/about.md",
     "_posts/2017-01-01-philosophy.md",
     "Individuelle Studio Reflektion Aron Petau.md",
@@ -180,9 +191,6 @@
     "_posts/2022-12-04-lampshades.md",
     "_posts/2022-12-03-stable-dreamfusion.md",
     "_posts/2022-04-30-lusatia.md",
-    "_posts/2022-04-01-allei.md",
-    "_posts/2021-08-01-iron-smelting.md",
-    "_posts/2021-04-13-thesis.md",
     "assets/images/radio/gqrx.png",
     "_site/assets/images/radio/gqrx.png",
     "_site/assets/images/radio",
