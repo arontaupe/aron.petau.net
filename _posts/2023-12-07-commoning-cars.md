@@ -1,16 +1,13 @@
 ---
-title:  "The Public Car"
-excerpt: "A subversive urban intervention"
-date:   2023-12-07 14:39:27 +0100
-last_modified_at:   2023-06-20 14:39:27 +0100
+title:  "Commoning Cars"
 author: "Aron Petau"
+excerpt: "How can we attack the privatization of public space through cars?"
 tags:
   - war on cars
   - public spaces
   - commons
   - urban intervention
   - UdK Berlin
-
 ---
 
 ## Commoning cars
@@ -19,6 +16,7 @@ tags:
 
 Aron Petau
 [aron@petau.net](<mailto:aron@petau.net>)
+
 [See the Project in Realtime](https://www.aronpetau.me/ulli/)
 
 ## Title
@@ -99,8 +97,6 @@ My Car is now publicly traceable. I am no Elon Musk, and the idea does not reall
 [Is Berlin a walkable City?](https://storymaps.arcgis.com/stories/b7437b11e42d44b5a3bf3b5d9d8211b1)
 [FBI advising against utilizing public infrastructure](https://www.fbi.gov/how-we-can-help-you/scams-and-safety/on-the-internet)
 [Why no solar panels on cars?](https://www.forbes.com/sites/billroberson/2022/11/30/why-doesnt-every-electric-car-have-solar-panels/?sh=4276c42d1ac6)
-
-
 
 ---
 
