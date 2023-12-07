@@ -35,4 +35,3 @@ TODO
 ## The Online representation
 
 [Digital embassy on botsin.space](https://botsin.space/@ascendancy){: .btn .btn--large}
-
