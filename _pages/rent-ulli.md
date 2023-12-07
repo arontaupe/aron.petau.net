@@ -12,6 +12,9 @@ header:
   overlay_filter: 0.5
 ---
 
+This is a work in Progress. Informations on here are subject to change.
+{: .notice--danger}
+
 ## The general stuff
 
 The car is a 1991 VW T4, with a 2.0l **Benzin** (petrol) engine.
