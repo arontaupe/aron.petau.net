@@ -174,7 +174,7 @@ Concrete Problems:
  document.addEventListener("adobe_dc_view_sdk.ready", function(){
   var adobeDCView = new AdobeDC.View({clientId: "7e638fda11f64ff695894a7bc7e61ba4", divId: "adobe-dc-view"});
   adobeDCView.previewFile({
-   content:{location: {url: "https://acrobatservices.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"}},
+   content:{location: {url: "https://github.com/arontaupe/aronpetau.me/blob/3a5eae1da4dbc2f944b308a6d39f577cfaf37413/assets/documents/Info_Sheet_Commoning_Cars.pdf"}},
    metaData:{fileName: "Bodea Brochure.pdf"}
   }, {embedMode: "IN_LINE", showPrintPDF: false});
  });
