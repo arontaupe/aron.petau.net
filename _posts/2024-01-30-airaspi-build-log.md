@@ -17,30 +17,40 @@ tags:
 
 This should document the rough steps to recreate airaspi as i go along.
 
-Rough idea: Build an edge device with image recognitionm and object detection capabilites. it should be realtime
-Inspo from: pose2art
-
+Rough idea: Build an edge device with image recognitionm and object detection capabilites. 
+It should be realtime, aiming for 30fps at 720p.
+Inspo from: [pose2art](https://github.com/MauiJerry/Pose2Art)
 
 work in progress
-
+{: .notice}
 
 ## Hardware
 
-Raspberry Pi 5
-Raspberry Pi Camera Module v1.3
-Raspberry Pi GlobalShutter Camera
-2x CSI FPC Cable (needs one compact side to fit pi 5)
-Pineberry AI Hat (m.2 E key)
-Coral Edge TPU (m.2 E key)
-Raspi Official 5A Power Supply
-Raspi active cooler
+ - [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/)
+ - [Raspberry Pi Camera Module v1.3](https://www.raspberrypi.com/documentation/accessories/camera.html)
+ - [Raspberry Pi GlobalShutter Camera](https://www.raspberrypi.com/documentation/accessories/camera.html)
+ - 2x CSI FPC Cable (needs one compact side to fit pi 5)
+ - [Pineberry AI Hat (m.2 E key)](https://pineberrypi.com/products/hat-ai-for-raspberry-pi-5)
+- [Coral Dual Edge TPU (m.2 E key)](https://www.coral.ai/products/m2-accelerator-dual-edgetpu)
+ - Raspi Official 5A Power Supply
+ - Raspi active cooler
 
 ## Setup
 
-### Raspberry Pi OS
+### Most important sources used
 
-use raspberry pi imager to flash the latest raspberry pi os lite to a sd card
-needs to be bookworm
+[coral.ai](https://www.coral.ai/docs/m2/get-started/#requirements)
+[Jeff Geerling](https://www.jeffgeerling.com/blog/2023/pcie-coral-tpu-finally-works-on-raspberry-pi-5)
+[Frigate NVR](https://docs.frigate.video)
+
+### Raspberry Pi OS
+I used the Raspberry Pi Imager to flash the latest Raspberry Pi OS Lite to a SD Card.
+
+Needs to be Bookworm
+Needs to be the full arm64 image (with desktop), otherwise you will get into camera driver hell
+{: .notice}
+
+Settings applied:
 
 -- used the default arm64 image (with desktop)
 -- enable custom settings:
@@ -52,38 +62,42 @@ needs to be bookworm
 
 ### update
 
+always good practice on a fresh install. takes quite long with the full os image
+
 ```zsh
 sudo apt update && sudo apt upgrade -y && sudo reboot
 ```
 
 ### prep system for coral
 
-check kernel version
+Thanks again @Jeff Geerling, this is completely out of my comfort zone, I rely on people writing solid tutorials like this one.
 
 ```zsh
+# check kernel version
 uname -a
 ```
 
-modify config.txt
-
 ```zsh
+# modify config.txt
 sudo nano /boot/firmware/config.txt
 ```
 
--- add:
+while in the file, add the following lines:
+  
+```config
 kernel=kernel8.img
 dtparam=pciex1
 dtparam=pciex1_gen=2
+```
 
--- save and reboot
+save and reboot
 
 ```zsh
 sudo reboot
 ```
 
-check
-
 ```zsh
+# check kernel version again
 uname -a
 ```
 
@@ -103,6 +117,23 @@ sudo reboot
 
 ### change device tree
 
+#### wrong device tree
+
+maybe this script is the issue?
+i will try again without it
+{: .notice}
+
+```zsh
+curl https://gist.githubusercontent.com/dataslayermedia/714ec5a9601249d9ee754919dea49c7e/raw/32d21f73bd1ebb33854c2b059e94abe7767c3d7e/coral-ai-pcie-edge-tpu-raspberrypi-5-setup | sh
+```
+
+-- yes it was the issue, wrote a comment about it on the gist
+[comment](https://gist.github.com/dataslayermedia/714ec5a9601249d9ee754919dea49c7e?permalink_comment_id=4860232#gistcomment-4860232)
+
+What to do instead?
+
+here, I followed Jeff geerling down to the t. please refer to his tutorial for more information.
+
 ```zsh
 # Back up the current dtb
 sudo cp /boot/firmware/bcm2712-rpi-5-b.dtb /boot/firmware/bcm2712-rpi-5-b.dtb.bak
@@ -121,6 +152,9 @@ nano ~/test.dts
 dtc -I dts -O dtb ~/test.dts -o ~/test.dtb
 sudo mv ~/test.dtb /boot/firmware/bcm2712-rpi-5-b.dtb
 ```
+
+Note: msi- parent sems to carry the value <0x2c> nowadays, cost me a few hours.
+{: .notice}
 
 ### install apex driver
 
@@ -154,7 +188,7 @@ lspci -nn | grep 089a
 sudo reboot
 ```
 
-confirm with
+confirm with, if the output is not /dev/apex_0, something went wrong
 
 ```zsh
 ls /dev/apex_0
@@ -162,27 +196,28 @@ ls /dev/apex_0
 
 ### Docker
 
-install docker
+install docker, use official instructions for debian
 
 ```zsh
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
 
-add user to docker group
-
 ```zsh
+#add user to docker group
 sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
+
+probably, a source with source .bashrc would be enough, but i rebooted anyways
+{: .notice}
 
 ```zsh
 sudo reboot
 ```
 
-# verify with
-
 ```zsh
+# verify with
 docker run hello-world
 ```
 
@@ -201,7 +236,7 @@ cd coraltest
 sudo nano Dockerfile
 ```
 
-paste:
+into the new file,paste:
 
 ```Dockerfile
 FROM debian:10
@@ -219,25 +254,29 @@ RUN apt-get update
 RUN apt-get install -y edgetpu-examples
 ```
 
-build the docker container
-
 ```zsh
+# build the docker container
 docker build -t "coral" .
 ```
 
-run the docker container
-
 ```zsh
+# run the docker container
 docker run -it --device /dev/apex_0:/dev/apex_0 coral /bin/bash
 ```
 
-run an inference example from within the container
-
 ```zsh
+# run an inference example from within the container
 python3 /usr/share/edgetpu/examples/classify_image.py --model /usr/share/edgetpu/examples/models/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite --label /usr/share/edgetpu/examples/models/inat_bird_labels.txt --image /usr/share/edgetpu/examples/images/bird.bmp
 ```
 
+here, you should see the inference results from the edge tpu with some confidence values.
+if it aint so, safest bet is a clean restart
+
+
 ### Portainer
+
+optional, gives you a browser gui for your various docker containers
+{: .notice}
 
 install portainer
 
@@ -249,23 +288,18 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 open portainer in browser and set admin password
 -- should be available under <https://airaspi.local:9443>
 
-maybe this script is the issue?
-i will try again without it
 
-```zsh
-curl https://gist.githubusercontent.com/dataslayermedia/714ec5a9601249d9ee754919dea49c7e/raw/32d21f73bd1ebb33854c2b059e94abe7767c3d7e/coral-ai-pcie-edge-tpu-raspberrypi-5-setup | sh
-```
+### vnc in raspi-config
 
--- yes it was the issue, wrote a comment about it on the gist
-[comment](https://gist.github.com/dataslayermedia/714ec5a9601249d9ee754919dea49c7e?permalink_comment_id=4860232#gistcomment-4860232)
-
-### raspi-config
+optional, useful to test your cameras on your headless device.
+You could of course also attach a monitor, but i find this more convenient.
+{: .notice}
 
 ```zsh
 sudo raspi-config
 ```
 
--- enable vnc
+-- interface otions, enable vnc
 
 ### connect through vnc viewer
 
@@ -275,6 +309,9 @@ use airaspi.local:5900 as address
 ### working docker-compose for frigate
 
 start this as a custom template in portainer
+
+Imoportant: you need to change the paths to your own paths
+{: .notice}
 
 ```yaml
 version: "3.9"
@@ -306,6 +343,10 @@ services:
 ```
 
 ### working frigate config file
+
+frigate wants this file wherever you specified earlier that it will be. 
+this is necessary just once. Afterwards, you will be able to change the config in the gui.
+{: .notice}
 
 ```yaml
 mqtt:
@@ -342,7 +383,10 @@ cameras:
 
 ### mediamtx
 
-install mediamtx
+install mediamtx, do not use the docker version, it will be painful
+
+double check the chip architecture here, caused me some headache
+{: .notice}
 
 ```zsh
 mkdir mediamtx
@@ -353,18 +397,6 @@ tar xzvf mediamtx_v1.5.0_linux_arm64v8.tar.gz && rm mediamtx_v1.5.0_linux_arm64v
 ```
 
 edit the mediamtx.yml file
-
-```zsh
-
-### frigate
-
-install frigate
-
-```zsh
-docker volume create frigate_config
-docker volume create frigate_media
-docker run -d --name frigate --restart unless-stopped --privileged --shm-size 512M -v /dev/bus/usb:/dev/bus/usb -v frigate_config:/config -v frigate_media:/media -p 5000:5000 blakeblackshear/frigate:stable-rpi
-```
 
 ### working paths section in mediamtx.yml
 
@@ -380,3 +412,15 @@ paths:
 
 also change rtspAddress: :8554 --to-- rtspAddress: :8900
  otherwise there is a conflict with frigate
+
+
+with this, you should be able to start mediamtx
+
+```zsh
+./mediamtx
+```
+
+if there is no error, you can verify your stream through vlc under rtsp://airaspi.local:8900/cam1 (default would be 8554, but we changed it in the config file)
+
+
+
