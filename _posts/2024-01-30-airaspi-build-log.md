@@ -413,7 +413,6 @@ paths:
 also change rtspAddress: :8554 --to-- rtspAddress: :8900
  otherwise there is a conflict with frigate
 
-
 with this, you should be able to start mediamtx
 
 ```zsh
@@ -422,5 +421,33 @@ with this, you should be able to start mediamtx
 
 if there is no error, you can verify your stream through vlc under rtsp://airaspi.local:8900/cam1 (default would be 8554, but we changed it in the config file)
 
+### Current Status
+
+I get working streams from both cameras, sending them out at 30fps at 720p.
+frigate, however limits the display fps to 5, which is depressing to watch, especially since the tpu doesnt even break a little sweat.
+
+Frigate claime that the TPU is good for up to 10 cameras, so there is headroom.
+
+The stram is completely errant and drops frames left and right. I have sometimes seen detect fps of 0.2, but the TPU speed should definitely not be the bottleneck here. Maybe attach the cameras to a separate device and stream from there?
+
+The biggest issue here is that the google folx seems to have abandoned the coral, even though they just released a new piece of hardware for it. 
+Their most RECENT python build is 3.9. 
+Specifically, pycoral seems to be the problem there. without a decent update, I will be confined to debian 10, with python 3.7.3.
+That sucks. 
+There are custom wheels, but nothing that seems plug and play.
+
+About the rest of this setup: 
+The decision to go for m.2 E key to save money, instead of spending more on the usb version was a huge mistake.
+Please do yourself a favor and spend the extra 40 bucks.
+Technically, its probably faster and better with continuous operation, but i have yet to feel the benefit of that. 
 
 
+### TODOs
+
+ - Check whether vdo.ninja is a viable way to add mobile streams. then Smartphone stream evaluation would be on the horizon.
+ - Bother the mediamtx makers about the libcamera bump, so we can get rid of the rpicam-vid hack.
+I suspect there is quirte a lot of performance lost there.
+ - tweak the frigate config to get snapshots and maybe build an image / video database to later train a custom model.
+ - worry about attaching an external ssd and saving the video files on it.
+  - find a way to export the landmark points from frigate. maybe send them via osc like in pose2art?
+  - find a different hat that lets me access the other TPU? I have the dual version, but can currently only acces 1 of the 2 TPUs due to hardware restrictions.
