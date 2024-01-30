@@ -444,6 +444,7 @@ Technically, its probably faster and better with continuous operation, but i hav
 
 ### TODOs
 
+ - add images screenshots to the build log
  - Check whether vdo.ninja is a viable way to add mobile streams. then Smartphone stream evaluation would be on the horizon.
  - Bother the mediamtx makers about the libcamera bump, so we can get rid of the rpicam-vid hack.
 I suspect there is quirte a lot of performance lost there.
