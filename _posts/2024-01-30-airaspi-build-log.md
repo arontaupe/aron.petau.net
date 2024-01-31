@@ -17,7 +17,7 @@ tags:
 
 This should document the rough steps to recreate airaspi as i go along.
 
-Rough idea: Build an edge device with image recognitionm and object detection capabilites. 
+Rough idea: Build an edge device with image recognitionm and object detection capabilites.
 It should be realtime, aiming for 30fps at 720p.
 Inspo from: [pose2art](https://github.com/MauiJerry/Pose2Art)
 
@@ -26,14 +26,14 @@ work in progress
 
 ## Hardware
 
- - [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/)
- - [Raspberry Pi Camera Module v1.3](https://www.raspberrypi.com/documentation/accessories/camera.html)
- - [Raspberry Pi GlobalShutter Camera](https://www.raspberrypi.com/documentation/accessories/camera.html)
- - 2x CSI FPC Cable (needs one compact side to fit pi 5)
- - [Pineberry AI Hat (m.2 E key)](https://pineberrypi.com/products/hat-ai-for-raspberry-pi-5)
+- [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/)
+- [Raspberry Pi Camera Module v1.3](https://www.raspberrypi.com/documentation/accessories/camera.html)
+- [Raspberry Pi GlobalShutter Camera](https://www.raspberrypi.com/documentation/accessories/camera.html)
+- 2x CSI FPC Cable (needs one compact side to fit pi 5)
+- [Pineberry AI Hat (m.2 E key)](https://pineberrypi.com/products/hat-ai-for-raspberry-pi-5)
 - [Coral Dual Edge TPU (m.2 E key)](https://www.coral.ai/products/m2-accelerator-dual-edgetpu)
- - Raspi Official 5A Power Supply
- - Raspi active cooler
+- Raspi Official 5A Power Supply
+- Raspi active cooler
 
 ## Setup
 
@@ -44,6 +44,7 @@ work in progress
 [Frigate NVR](https://docs.frigate.video)
 
 ### Raspberry Pi OS
+
 I used the Raspberry Pi Imager to flash the latest Raspberry Pi OS Lite to a SD Card.
 
 Needs to be Bookworm
@@ -272,7 +273,6 @@ python3 /usr/share/edgetpu/examples/classify_image.py --model /usr/share/edgetpu
 here, you should see the inference results from the edge tpu with some confidence values.
 if it aint so, safest bet is a clean restart
 
-
 ### Portainer
 
 optional, gives you a browser gui for your various docker containers
@@ -287,7 +287,6 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 
 open portainer in browser and set admin password
 -- should be available under <https://airaspi.local:9443>
-
 
 ### vnc in raspi-config
 
@@ -344,7 +343,7 @@ services:
 
 ### working frigate config file
 
-frigate wants this file wherever you specified earlier that it will be. 
+frigate wants this file wherever you specified earlier that it will be.
 this is necessary just once. Afterwards, you will be able to change the config in the gui.
 {: .notice}
 
@@ -430,25 +429,24 @@ Frigate claime that the TPU is good for up to 10 cameras, so there is headroom.
 
 The stram is completely errant and drops frames left and right. I have sometimes seen detect fps of 0.2, but the TPU speed should definitely not be the bottleneck here. Maybe attach the cameras to a separate device and stream from there?
 
-The biggest issue here is that the google folx seems to have abandoned the coral, even though they just released a new piece of hardware for it. 
-Their most RECENT python build is 3.9. 
+The biggest issue here is that the google folx seems to have abandoned the coral, even though they just released a new piece of hardware for it.
+Their most RECENT python build is 3.9.
 Specifically, pycoral seems to be the problem there. without a decent update, I will be confined to debian 10, with python 3.7.3.
-That sucks. 
+That sucks.
 There are custom wheels, but nothing that seems plug and play.
 
-About the rest of this setup: 
+About the rest of this setup:
 The decision to go for m.2 E key to save money, instead of spending more on the usb version was a huge mistake.
 Please do yourself a favor and spend the extra 40 bucks.
-Technically, its probably faster and better with continuous operation, but i have yet to feel the benefit of that. 
-
+Technically, its probably faster and better with continuous operation, but i have yet to feel the benefit of that.
 
 ### TODOs
 
- - add images screenshots to the build log
- - Check whether vdo.ninja is a viable way to add mobile streams. then Smartphone stream evaluation would be on the horizon.
- - Bother the mediamtx makers about the libcamera bump, so we can get rid of the rpicam-vid hack.
+- add images screenshots to the build log
+- Check whether vdo.ninja is a viable way to add mobile streams. then Smartphone stream evaluation would be on the horizon.
+- Bother the mediamtx makers about the libcamera bump, so we can get rid of the rpicam-vid hack.
 I suspect there is quirte a lot of performance lost there.
- - tweak the frigate config to get snapshots and maybe build an image / video database to later train a custom model.
- - worry about attaching an external ssd and saving the video files on it.
-  - find a way to export the landmark points from frigate. maybe send them via osc like in pose2art?
-  - find a different hat that lets me access the other TPU? I have the dual version, but can currently only acces 1 of the 2 TPUs due to hardware restrictions.
+- tweak the frigate config to get snapshots and maybe build an image / video database to later train a custom model.
+- worry about attaching an external ssd and saving the video files on it.
+- find a way to export the landmark points from frigate. maybe send them via osc like in pose2art?
+- find a different hat that lets me access the other TPU? I have the dual version, but can currently only acces 1 of the 2 TPUs due to hardware restrictions.
