@@ -23,4 +23,3 @@ Some people consider them the last domain of the decentralized dream the interne
 We often forget that email is already a federated system and that it is likely the most important one we have.
 It is the only way to communicate with people that do not use the same service as you do. It has open standards and is not controlled by a single entity. Going without emails is unimaginable in today's world, yet most providers are the familiar few from the silicon valley. And really, who wants their entire decentralized, federated, peer-to-peer network to be controlled by a schmuck from the silicon valley? Mails used to be more than that and they can still be.
 Arguably, the world of messanging has gotten quite complex since emails popped up and there are more anti-spam AI tools that i would care to count. 
-Being in charge

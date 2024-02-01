@@ -8,11 +8,16 @@ tags:
   - commons
   - urban intervention
   - UdK Berlin
+  - private
+  - ars electronica
+  - accessibility activism
 ---
 
 ## Commoning cars
 
 ## TCF Project Brief
+
+This Project was conceptualized durin a 2023 Workshop titled Tangible Climate Futures.
 
 Aron Petau
 [aron@petau.net](<mailto:aron@petau.net>)
@@ -21,7 +26,8 @@ Aron Petau
 
 ## Title
 
-Making Cars Public spaces
+~~Making Cars Public spaces~~
+Commoning Cars
 
 ## Abstract
 
@@ -136,13 +142,12 @@ Scaling??
  What about buses / public vehicles?
 
 ---
-Potential issues with the data:
+## Potential issues with the data:
 
-Spotty / intermittent internet connection
+ - Spotty / intermittent internet connection
+ - Noisy?
 
-Noisy?
-
-Making Cars public spaces
+## Making Cars public spaces
 
 What could my car provide to the public to be less wasteful with its space?
 
@@ -150,7 +155,8 @@ What could my car provide to the public to be less wasteful with its space?
   - Would incur monthly costs
 - Provide Electricity
 
-Concrete Problems:
+## Concrete Problems:
+
  How to make sure people cannot fully drain my battery?
  How dangerous is actually an exposed USB Socket?
   Can people short my electronics through it?
@@ -159,14 +165,16 @@ Concrete Problems:
 
  Are public USBC Sockets something that would actually be used?
  Could there be a way for people to leave their stuff charging?
-  What if I actually move the car?
+  What if I actually move the car and someone has their equipment still attached?
+    Would people even leave their stuff unattended?
 
  Can cars provide positive effects to public spaces?
   —> how to pose this research question without redeeming the presence of cars in our public spaces?
 
  Difference Electric - Fuel cars
 
- Lots of research on using Electric cars as state storage
+ there is lots of research on using Electric cars as transitional energy storage. Even before "flatten the curve" became a common slogan, electrical engineers worried about the small energy spikes in the grid. The existence of these forces us to keep large power plants running at all times, even if the energy is not needed. The idea is to use the batteries of electric cars to store this energy and use it when needed.
+
 
  <div id="adobe-dc-view" style="width: 800px;"></div>
 <script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
