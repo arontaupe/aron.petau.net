@@ -14,7 +14,7 @@ search                   : true
 
 # Site Settings
 locale                   : "en-US"
-url                      : https://www.aronpetau.me
+url                      : https://www.aron.petau.net
 baseurl                  : /  # if i want another subdirectory
 
 # Build settings
