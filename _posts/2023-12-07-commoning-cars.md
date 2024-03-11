@@ -66,7 +66,7 @@ Through the router I can also track total Wifi usage and the number of connected
 
 ### Public Wifi
 
-For the Project, I opened a router in the Car towards the Public, much alike to ahotspot you would find in a cafe. I use my own data plan on there, which i never max out anyways. The router is a Netgear M1 and has a 4G Modem built in. It is connected to the Raspberry Pi and is powered by the secondary car battery.
+For the Project, I opened a router in the Car towards the Public, much alike to ahotspot you would find in a cafe. I use my own data plan on there, which I never max out anyways. The router is a Netgear M1 and has a 4G Modem built in. It is connected to the Raspberry Pi and is powered by the secondary car battery.
 
 ### Public Energy: A USB Socket
 
@@ -142,10 +142,11 @@ Scaling??
  What about buses / public vehicles?
 
 ---
+
 ## Potential issues with the data:
 
- - Spotty / intermittent internet connection
- - Noisy?
+- Spotty / intermittent internet connection
+- Noisy?
 
 ## Making Cars public spaces
 
@@ -155,7 +156,7 @@ What could my car provide to the public to be less wasteful with its space?
   - Would incur monthly costs
 - Provide Electricity
 
-## Concrete Problems:
+## Concrete Problems
 
  How to make sure people cannot fully drain my battery?
  How dangerous is actually an exposed USB Socket?
@@ -175,7 +176,6 @@ What could my car provide to the public to be less wasteful with its space?
 
  there is lots of research on using Electric cars as transitional energy storage. Even before "flatten the curve" became a common slogan, electrical engineers worried about the small energy spikes in the grid. The existence of these forces us to keep large power plants running at all times, even if the energy is not needed. The idea is to use the batteries of electric cars to store this energy and use it when needed.
 
-
  <div id="adobe-dc-view" style="width: 800px;"></div>
 <script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
 <script type="text/javascript">
@@ -183,7 +183,7 @@ What could my car provide to the public to be less wasteful with its space?
   var adobeDCView = new AdobeDC.View({clientId: "7e638fda11f64ff695894a7bc7e61ba4", divId: "adobe-dc-view"});
   adobeDCView.previewFile({
    content:{location: {url: "https://github.com/arontaupe/aronpetau.me/blob/3a5eae1da4dbc2f944b308a6d39f577cfaf37413/assets/documents/Info_Sheet_Commoning_Cars.pdf"}},
-   metaData:{fileName: "Bodea Brochure.pdf"}
+   metaData:{fileName: "Info_Sheet_Commoning_Cars.pdf"}
   }, {embedMode: "IN_LINE", showPrintPDF: false});
  });
 </script>

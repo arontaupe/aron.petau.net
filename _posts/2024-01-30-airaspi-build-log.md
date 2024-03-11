@@ -11,14 +11,18 @@ tags:
   - frigate
   - private
   - surveillance
+  - edge computing
 ---
 
-## airaspi build log
+## AI-Raspi Build Log
 
-This should document the rough steps to recreate airaspi as i go along.
+This should document the rough steps to recreate airaspi as I go along.
 
-Rough idea: Build an edge device with image recognitionm and object detection capabilites.
+Rough Idea: Build an edge device with image recognition and object detection capabilites.
 It should be realtime, aiming for 30fps at 720p.
+Portability and usage at installations is a priority, so it has to function without active internet connection and be as small as possible.
+It would be a real Edge Device, with no computation happening in the cloud.
+
 Inspo from: [pose2art](https://github.com/MauiJerry/Pose2Art)
 
 work in progress
@@ -222,7 +226,7 @@ sudo reboot
 docker run hello-world
 ```
 
-# set docker to start on boot
+### set docker to start on boot
 
 ```zsh
 sudo systemctl enable docker.service
@@ -442,7 +446,7 @@ Technically, its probably faster and better with continuous operation, but i hav
 
 ### TODOs
 
-- add images screenshots to the build log
+- add images and screenshots to the build log
 - Check whether vdo.ninja is a viable way to add mobile streams. then Smartphone stream evaluation would be on the horizon.
 - Bother the mediamtx makers about the libcamera bump, so we can get rid of the rpicam-vid hack.
 I suspect there is quirte a lot of performance lost there.

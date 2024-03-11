@@ -49,7 +49,8 @@ In the context of the course "Fotografie Elementar" with Sebastian Herold I deve
 ## Dreams of Cars
 
 These are not just cars.
-They are Sport Utility Vehicles. What might they have had as hopes and dreams on the production line?
+They are Sport Utility Vehicles.
+What might they have had as hopes and dreams on the production line?
 Do they dream of drifting in dusty deserts?
 Climbing steep rocky canyon roads?
 Sliding down sun-drenched dunes?
