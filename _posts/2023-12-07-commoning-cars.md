@@ -31,12 +31,15 @@ Commoning Cars
 
 ## Abstract
 
-Cars bad.
-Cars occupy public spaces resulting un a factual privatization of public goods/infrastructure.
-What if cars could be part of public infrastructure?
-What can cars provide to the public?
-With Solar and Electrical Vehicles emerging on the horizon (no endorsement here) it makes sense to think about cars as decentralized powerhouses and public energy storage solutions. Cars, even traditional ones, come equipped with batteries and generate electricity either by driving or though added solar panels. What if this energy could be used to power the public? What if cars would could be used as public spaces?
+Cars bad.\
+Cars occupy public spaces resulting un a factual privatization of public goods/infrastructure.\
+What if cars could be part of public infrastructure?\
+What can cars provide to the public?\
+With Solar and Electrical Vehicles emerging on the horizon (no endorsement here) it makes sense to think about cars as decentralized powerhouses and public energy storage solutions.\
+Cars, even traditional ones, come equipped with batteries and generate electricity either by driving or though added solar panels. 
+What if this energy could be used to power the public? What if cars would could be used as public spaces?
 By installing a public USB socket and a public wifi hotspot, on my car, I want to start exploring the potential of cars as public spaces and energy storage solutions.
+
 Within this artistic experiment, I will continuously track the geolocation and energy input/output of my solar equipped car and make the data publicly available. I will also track the amount of energy that is not used by the car and could be used by the public. Taking steps towards optimal usage of existing electrical and other infrastructure is only possible by breaking conventional notions of public ownership and private property. This project is one step towards a more sustainable and equitable future.
 
 ## Introduction

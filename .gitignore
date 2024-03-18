@@ -13,3 +13,4 @@ assets/not_yet_used/
 .obsidian/workspace.json
 .DS_Store
 .DS_Store
+vendor/

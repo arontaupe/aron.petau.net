@@ -18,9 +18,9 @@ tags:
 
 This should document the rough steps to recreate airaspi as I go along.
 
-Rough Idea: Build an edge device with image recognition and object detection capabilites.
-It should be realtime, aiming for 30fps at 720p.
-Portability and usage at installations is a priority, so it has to function without active internet connection and be as small as possible.
+Rough Idea: Build an edge device with image recognition and object detection capabilites.\
+It should be realtime, aiming for 30fps at 720p.\
+Portability and usage at installations is a priority, so it has to function without active internet connection and be as small as possible.\
 It would be a real Edge Device, with no computation happening in the cloud.
 
 Inspo from: [pose2art](https://github.com/MauiJerry/Pose2Art)
@@ -51,23 +51,23 @@ work in progress
 
 I used the Raspberry Pi Imager to flash the latest Raspberry Pi OS Lite to a SD Card.
 
-Needs to be Bookworm
-Needs to be the full arm64 image (with desktop), otherwise you will get into camera driver hell
+Needs to be Debian Bookworm.\
+Needs to be the full arm64 image (with desktop), otherwise you will get into camera driver hell.
 {: .notice}
 
 Settings applied:
 
--- used the default arm64 image (with desktop)
--- enable custom settings:
--- enable ssh
--- set wifi country
--- set wifi ssid and password
--- set locale
--- set hostname: airaspi
+- used the default arm64 image (with desktop)
+- enable custom settings:
+- enable ssh
+- set wifi country
+- set wifi ssid and password
+- set locale
+- set hostname: airaspi
 
 ### update
 
-always good practice on a fresh install. takes quite long with the full os image
+This is always good practice on a fresh install. It takes quite long with the full os image.
 
 ```zsh
 sudo apt update && sudo apt upgrade -y && sudo reboot
@@ -87,7 +87,7 @@ uname -a
 sudo nano /boot/firmware/config.txt
 ```
 
-while in the file, add the following lines:
+While in the file, add the following lines:
   
 ```config
 kernel=kernel8.img
@@ -95,7 +95,7 @@ dtparam=pciex1
 dtparam=pciex1_gen=2
 ```
 
-save and reboot
+Save and reboot:
 
 ```zsh
 sudo reboot
@@ -106,7 +106,7 @@ sudo reboot
 uname -a
 ```
 
--- should be different now, with a -v8 at the end
+- should be different now, with a -v8 at the end
 
 edit /boot/firmware/cmdline.txt
 
@@ -114,7 +114,7 @@ edit /boot/firmware/cmdline.txt
 sudo nano /boot/firmware/cmdline.txt
 ```
 
--- add pcie_aspm=off before rootwait
+- add pcie_aspm=off before rootwait
 
 ```zsh
 sudo reboot
@@ -124,6 +124,8 @@ sudo reboot
 
 #### wrong device tree
 
+The script simply did not work for me.
+
 maybe this script is the issue?
 i will try again without it
 {: .notice}
@@ -132,12 +134,15 @@ i will try again without it
 curl https://gist.githubusercontent.com/dataslayermedia/714ec5a9601249d9ee754919dea49c7e/raw/32d21f73bd1ebb33854c2b059e94abe7767c3d7e/coral-ai-pcie-edge-tpu-raspberrypi-5-setup | sh
 ```
 
--- yes it was the issue, wrote a comment about it on the gist
+- Yes it was the issue, wrote a comment about it on the gist
 [comment](https://gist.github.com/dataslayermedia/714ec5a9601249d9ee754919dea49c7e?permalink_comment_id=4860232#gistcomment-4860232)
 
 What to do instead?
 
-here, I followed Jeff geerling down to the t. please refer to his tutorial for more information.
+Here, I followed Jeff Geerling down to the T. Please refer to his tutorial for more information.
+
+In the meantime the Script got updated and it is now recommended again.
+{: .notice}
 
 ```zsh
 # Back up the current dtb
@@ -181,13 +186,13 @@ sudo groupadd apex
 sudo adduser $USER apex
 ```
 
-verify with
+Verify with
 
 ```zsh
 lspci -nn | grep 089a
 ```
 
--- should display the connected tpu
+- should display the connected tpu
 
 ```zsh
 sudo reboot
@@ -201,7 +206,7 @@ ls /dev/apex_0
 
 ### Docker
 
-install docker, use official instructions for debian
+Install docker, use the official instructions for debian.
 
 ```zsh
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -209,12 +214,12 @@ sudo sh get-docker.sh
 ```
 
 ```zsh
-#add user to docker group
+# add user to docker group
 sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
 
-probably, a source with source .bashrc would be enough, but i rebooted anyways
+Probably a source with source .bashrc would be enough, but I rebooted anyways
 {: .notice}
 
 ```zsh
@@ -233,7 +238,7 @@ sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 ```
 
-### test the edge tpu
+### Test the edge tpu
 
 ```zsh
 mkdir coraltest
@@ -241,7 +246,7 @@ cd coraltest
 sudo nano Dockerfile
 ```
 
-into the new file,paste:
+Into the new file, paste:
 
 ```Dockerfile
 FROM debian:10
@@ -274,15 +279,15 @@ docker run -it --device /dev/apex_0:/dev/apex_0 coral /bin/bash
 python3 /usr/share/edgetpu/examples/classify_image.py --model /usr/share/edgetpu/examples/models/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite --label /usr/share/edgetpu/examples/models/inat_bird_labels.txt --image /usr/share/edgetpu/examples/images/bird.bmp
 ```
 
-here, you should see the inference results from the edge tpu with some confidence values.
-if it aint so, safest bet is a clean restart
+Here, you should see the inference results from the edge tpu with some confidence values.\
+If it ain't so, safest bet is a clean restart
 
 ### Portainer
 
-optional, gives you a browser gui for your various docker containers
+This is optional, gives you a browser gui for your various docker containers
 {: .notice}
 
-install portainer
+Install portainer
 
 ```zsh
 docker volume create portainer_data
@@ -290,7 +295,8 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 ```
 
 open portainer in browser and set admin password
--- should be available under <https://airaspi.local:9443>
+
+- should be available under <https://airaspi.local:9443>
 
 ### vnc in raspi-config
 
@@ -306,14 +312,14 @@ sudo raspi-config
 
 ### connect through vnc viewer
 
-install vnc viewer on mac
-use airaspi.local:5900 as address
+Install vnc viewer on mac.\
+Use airaspi.local:5900 as address.
 
 ### working docker-compose for frigate
 
-start this as a custom template in portainer
+Start this as a custom template in portainer.
 
-Imoportant: you need to change the paths to your own paths
+Important: you need to change the paths to your own paths
 {: .notice}
 
 ```yaml
@@ -345,10 +351,10 @@ services:
       FRIGATE_RTSP_PASSWORD: "******"
 ```
 
-### working frigate config file
+### Working frigate config file
 
-frigate wants this file wherever you specified earlier that it will be.
-this is necessary just once. Afterwards, you will be able to change the config in the gui.
+Frigate wants this file wherever you specified earlier that it will be.\
+This is necessary just once. Afterwards, you will be able to change the config in the gui.
 {: .notice}
 
 ```yaml
@@ -413,16 +419,17 @@ paths:
    runOnInitRestart: yes
 ```
 
-also change rtspAddress: :8554 --to-- rtspAddress: :8900
- otherwise there is a conflict with frigate
+also change rtspAddress: :8554\
+to rtspAddress: :8900\
+Otherwise there is a conflict with frigate.
 
-with this, you should be able to start mediamtx
+With this, you should be able to start mediamtx.
 
 ```zsh
 ./mediamtx
 ```
 
-if there is no error, you can verify your stream through vlc under rtsp://airaspi.local:8900/cam1 (default would be 8554, but we changed it in the config file)
+If there is no error, you can verify your stream through vlc under rtsp://airaspi.local:8900/cam1 (default would be 8554, but we changed it in the config file)
 
 ### Current Status
 

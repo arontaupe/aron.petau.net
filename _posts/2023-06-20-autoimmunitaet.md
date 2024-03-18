@@ -48,7 +48,7 @@ gallery:
 
 ## How do we design our Commute?
 
-In the context of the Design and Computation Studio Course Milli Keil, Marla Gaiser and me developed a concept for a playful critique of the traffic decisions we take and the idols we embrace.
+In the context of the Design and Computation Studio Course [Milli Keil](https://millikeil.eu), [Marla Gaiser](https://marlagaiser.de) and me developed a concept for a playful critique of the traffic decisions we take and the idols we embrace.\
 It should open up questions of whether the generations to come should still grow up playing on traffic carpets that are mostly grey and whether the [Letzte Generation](https://letztegeneration.org), a political climate activist group in Germany receives enough recognition for their acts.
 
 A call for solidarity.
@@ -56,7 +56,7 @@ A call for solidarity.
 ![The action figures](/assets/images/autoimmunitaet/autoimmunitaet-2.jpg)
 {: .center}
 
-## the scan results
+## The scan results
 
 <div class="sketchfab-embed-wrapper"> <iframe title="Autoimmunitaet: Letzte Generation Actionfigure" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="800" height="600" src="https://sketchfab.com/models/3916ba600ef540d0a874506bf61726f2/embed?ui_hint=0&ui_theme=dark&dnt=1"> </iframe> </div>
 
@@ -66,11 +66,14 @@ A call for solidarity.
 
 ## Autoimmunitaet
 
-Autoimmunity is a term for defects, that are produced by a dysfunctional self-tolerance of a system. This dysfunction causes the immune system to stop accepting certain parts of itself and build antibodies instead. An invitation for a speculative playful interaction.
+Autoimmunity is a term for defects, that are produced by a dysfunctional self-tolerance of a system.\
+This dysfunction causes the immune system to stop accepting certain parts of itself and build antibodies instead.\
+An invitation for a speculative playful interaction.
 
 {% include gallery %}
 
 ## The Process
 
-The figurines are 3D Scans of ourselves, in various typical poses of the Letzte Generation.
-We used photogrammetry to create the scans, which is a technique that uses a lot of photos of an object to create a 3D model of it. We used the app [Polycam](https://polycam.ai) to create the scans using IPads and their inbuilt Lidar scanners.
+The figurines are 3D Scans of ourselves, in various typical poses of the Letzte Generation.\
+We used photogrammetry to create the scans, which is a technique that uses a lot of photos of an object to create a 3D model of it.\
+We used the app [Polycam](https://polycam.ai) to create the scans using IPads and their inbuilt Lidar scanners.
