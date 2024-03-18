@@ -39,10 +39,11 @@ I conducted field research, evaluation, and product simulation. |
 |<i class="fas fa-building"></i> New Bulgarian University, Sofia |||||||||||<i class="fas fa-calendar-alt"></i> Feb. ’19 – Jul ’19 |
 {: .display}  
 
-| I took courses in the Philosophy department and Masters’ program for Cognitive Science. 
-[The Department Website](https://cogsci.nbu.bg/en/)
+| I took courses in the Philosophy department and Masters’ program for Cognitive Science.|
+[The Department Website](https://cogsci.nbu.bg/en/)|
+{: .display} 
 
-I also attended the Cognitive Science Summer School. 
+I also attended the Cognitive Science Summer School.|
 [More on the Summer School](https://cogsci.nbu.bg/en/international-summer-school-in-cognitive-science)|
 {: .display}  
 
@@ -51,8 +52,8 @@ I also attended the Cognitive Science Summer School.
 |<i class="fas fa-building"></i> Universität der Künste, Berlin |||||||||||||<i class="fas fa-calendar-alt"></i> Oct. '22 – '24' |
 {: .display}  
 
-| I am currently in the third semester of transdisciplinary cooperation between UdK and TU Berlin with a focus on critical artistic engagement with technology.
-[Program description](https://www.design-computation.berlin) 
+| I am currently in the third semester of transdisciplinary cooperation between UdK and TU Berlin with a focus on critical artistic engagement with technology.|
+[Program description](https://www.design-computation.berlin)|
 [The New Practice Page](https://www.newpractice.net/)|
 {: .display}  
 
@@ -92,24 +93,22 @@ I also attended the Cognitive Science Summer School.
 
 |:- |-:|
 |**Working Student** |
-|<i class="fas fa-building"></i> InKüLe at UdK Berlin ||||||||||<i class="fas fa-calendar-alt"></i> Mar '23 – now |
+|<i class="fas fa-building"></i> Sommerblut Kulturverein Festival |||||||||||<i class="fas fa-calendar-alt"></i> Mar '23 – now |
 {: .display}  
-InKüLe stands for Innovation in der künstlerischen Lehre.
-The Work revolves around investigating concepts for innovation and digitalization in the practice of artistic teaching. Personally, i work mostly with workshops teaching sculpting in VR and livestreaming events. 
-| 
-[The InKüLe Web Presence](https://www.inkuele.de/landing)
-|
+
+| InKüLe stands for 'Innovation in der künstlerischen Lehre'. The Work revolves around investigating concepts for innovation and digitalization in the practice of artistic teaching. Personally, I work mostly with workshops teaching sculpting in VR and livestreaming events.
+[The InKüLe Web Presence](https://www.inkuele.de/landing)|
 {: .display}
 
 ## Software Skills
 
-**UNIX** \| bash / zsh \| Arduino IDE \| Raspberry Pi
+**UNIX** \| bash / zsh \| Arduino IDE \| Raspberry Pi 
 
-**Python** \| scipy \|  matplotlib \| seaborn \| pandas \| jupyter notebook \| tensorflow
+**Python** \| scipy \|  matplotlib \| seaborn \| pandas \| jupyter notebook \| tensorflow \| pytorch \| scikit-learn \| opencv \| flask \| micropython \| circuitpython
 
 **HTML, CSS, JavaScript** \| GH-pages \| psychoJS \| AMPStack \| ibex-farm
 
-**C#** \| Unity
+**C#** \| Unity \| Unreal Engine \| Visual Studio
 
 **CAD** \| Fusion 360 \| TinkerCAD \| Rhino/Grasshopper
 
@@ -117,14 +116,24 @@ The Work revolves around investigating concepts for innovation and digitalizatio
 
 **Images** \| Inkscape \| Illustrator \| GIMP \| Photoshop \| Lightroom \| Agisoft Metashape
 
-**Video** \| Premiere \| DaVinci Resolve
+**Video** \| Premiere \| DaVinci Resolve \| OBS \| TouchDesigner
 
 **Office** \| MS-Office Suite \| Latex \| Markdown
 
 ## Machine Skills
 
-**3D Printer** \| FDM \| MSLA
+**3D Printer** \| Fused-Deposition Modeling (FDM)\| Resin (MSLA)
 
-**(Laser)cutter** \| Cricut \| Mr. Beam \| Scissors
+**CNC** \| Nomad 3
 
-**Textile** \| Stitching Robot \| Sewing Machine \| Handstitching
+**(Laser)cutter** \| Cricut \| Mr. Beam \| BRM Lasers Pro 1600 \| Scissors
+
+**Textile** \|  Brother Innov-is V3 Stitching Robot \| Sewing Machine \| Handstitching
+
+**VR** \| Meta Quest 2 \| HTC Vive Pro
+
+**AR** \| Magic Leap 1
+
+**Microcontroller** \| Arduino \| Raspberry Pi \| ESP32 \| Pi Pico
+
+**Industrial robots** \| Universal Robots UR5

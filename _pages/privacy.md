@@ -7,7 +7,7 @@ toc: true
 author: "Aron Petau"
 ---
 
-My website address is: <https://aronpetau.me> .
+My website address is: <https://aron.petau.net> .
 
 ## Location
 
