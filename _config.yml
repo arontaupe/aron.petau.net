@@ -1,4 +1,3 @@
-
 title                    : Personal Website
 title_separator          : "-"
 subtitle                 : "Student in Design & Computation" 
@@ -50,6 +49,7 @@ author:
   bio              : "Passionate about Cognitive Science, Software Engineering, 3D Modelling, currently studying Design & Computation"
   location         : "Berlin, Germany"
   email            : "aron@petau.net"
+
 
 # Site Footer
 footer:
@@ -108,3 +108,12 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

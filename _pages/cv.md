@@ -7,9 +7,10 @@ last_modified_at: 2021-05-11T10:23:16-04:00
 toc: true
 author: "Aron Petau"
 ---
-# Who am I?
 
-## Education
+## Who am I?
+
+### Education
 
 |:- |-:|
 |**Abitur** |
@@ -57,7 +58,7 @@ I also attended the Cognitive Science Summer School.|
 [The New Practice Page](https://www.newpractice.net/)|
 {: .display}  
 
-## Work Experience
+### Work Experience
 
 |:- |-:|
 |**Barkeeper / Brewing assistant** |
@@ -100,7 +101,7 @@ I also attended the Cognitive Science Summer School.|
 [The InKüLe Web Presence](https://www.inkuele.de/landing)|
 {: .display}
 
-## Software Skills
+### Software Skills
 
 **UNIX** \| bash / zsh \| Arduino IDE \| Raspberry Pi 
 
@@ -120,7 +121,7 @@ I also attended the Cognitive Science Summer School.|
 
 **Office** \| MS-Office Suite \| Latex \| Markdown
 
-## Machine Skills
+### Machine Skills
 
 **3D Printer** \| Fused-Deposition Modeling (FDM)\| Resin (MSLA)
 

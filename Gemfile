@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '~> 3.9.3'
+gem 'jekyll', '~> 3'
 
 gem "github-pages", group: :jekyll_plugins
 gem "tzinfo-data"
@@ -18,5 +18,3 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
   gem "csv"
 end
-
-

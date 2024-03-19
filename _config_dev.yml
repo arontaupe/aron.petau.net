@@ -1,4 +1,3 @@
-
 title                    : Portfolio
 title_separator          : "-"
 subtitle                 : "Student in Design & Computation" # site tagline that appears below site title in masthead
@@ -11,6 +10,7 @@ repository               : "arontaupe/apply"
 logo                     : "/assets/images/logo.png" 
 masthead_title           : "Aron Petau" # site title that appears in masthead
 search                   : true
+show_drafts              : true
 
 # Site Settings
 locale                   : "en-US"
@@ -51,6 +51,7 @@ author:
   bio              : "Passionate about Cognitive Science, Software Engineering, 3D Modelling, currently studying Design & Computation"
   location         : "Berlin, Germany"
   email            : "aron@petau.net"
+  authorid         : 0
 
 # Site Footer
 footer:
@@ -109,3 +110,13 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+

@@ -3,6 +3,8 @@ Aron Petau:
   name        : "Aron Petau"
   bio         : "(he/him) Cognitive Science, Software Engineering, 3D Modelling, Design & Computation"
   avatar      : "/assets/images/aron_headshot.jpeg"
+  authorid    : 0
+  location    : "Berlin, Germany"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -30,7 +32,11 @@ Aron Petau:
 
 Joel Tenenberg:
   name        : "Joel Tenenberg"
-  bio         : "Design & Computation"
+  bio         : "Spatial Designer, Student at Design & Computation"
+  avatar      : "/assets/images/joel_tenenberg.jpeg"
+  authorid    : 1
+  location    : "Berlin, Germany"
+
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -39,5 +45,76 @@ Joel Tenenberg:
     - label: "New Practice Network"
       icon: "fas fa-university"
       url: "https://www.newpractice.net/author/joel-tenenberg"
+
+Milli Keil:
+  name        : "Milli Keil"
+  bio         : "Climate Management, Student at Design & Computation"
+  avatar      : "assets/images/colleagues/milli_keil.png"
+  authorid    : 2
+  location    : "Berlin, Germany"
+
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:milli.keil@web.de"
+
+    - label: "New Practice Network"
+      icon: "fas fa-university"
+      url: "https://www.newpractice.net/author/milli-keil"
+
+    - label: "Website"
+      icon: "fas fa-website"
+      url: "https://millikeil.eu"
+
+
+
+Marla Gaiser:
+  name        : "Marla Gaiser"
+  bio         : "Product Designer"
+  avatar      : ""
+  authorid    : 3
+  location    : "Berlin, Germany"
+
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:marla.gaiser@gmx.de"
+
+    - label: "Website"
+      icon: "fas fa-website"
+      url: "https://marlagaiser.de/about"
+
+Niels Gercama:
+  name        : "Niels Gercama"
+  bio         : "AI Researcher, Student at Design & Computation"
+  avatar      : "assets/images/colleagues/niels_gercama.jpg"
+  authorid    : 4
+  location    : "Berlin, Germany"
+
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:nielsgercama@gmail.com"
+
+    - label: "New Practice Network"
+      icon: "fas fa-university"
+      url: "https://www.newpractice.net/author/niels-gercama"
+
+    - label: "Website"
+      icon: "fas fa-website"
+      url: "https://nielsgercama.com"
+
+Chris Stenkamp:
+  name        : "Chris Stenkamp"
+  bio         : "Cognitive Scientist, Web Developer"
+  avatar      : "assets/images/colleagues/chris_stenkamp.jpg"
+  authorid    : 5
+  location    : "Cologne, Germany"
+
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cstenkamp"
+
 
 

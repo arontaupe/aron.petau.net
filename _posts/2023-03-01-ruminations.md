@@ -3,7 +3,9 @@ title:  "Ruminations"
 excerpt: "Perspectives on Engineering"
 date:   2023-03-01 14:39:27 +0100
 last_modified_at:   2023-03-01 14:39:27 +0100
-author: "Aron Petau"
+authors: 
+  - Aron Petau
+  - Niels Gercama
 
 gallery:
 - url: /assets/images/ruminations/ruminations1.jpeg
@@ -33,7 +35,6 @@ tags:
     - data privacy
     - data
     - privacy
-    - niels gercama
     - studio d+c
     - university of the arts berlin
     - udk

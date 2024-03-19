@@ -3,7 +3,10 @@ title:  "Autoimmunitaet"
 excerpt: "A playful interactive experience to reflect on the societal value of the car"
 date                  :   2023-06-20 14:39:27 +0100
 last_modified_at      :   2023-06-20 14:39:27 +0100
-author: "Aron Petau"
+authors: 
+  - Aron Petau
+  - Milli Keil
+  - Marla Gaiser
 
 tags:
 - suv
@@ -13,11 +16,10 @@ tags:
 - 3D printing
 - action figure
 - aufstandlastgen
-- milli keil
-- marla gaiser
 - studio d+c
 - university of the arts berlin
 - udk
+- 
 header:
   overlay_image: /assets/images/autoimmunitaet/autoimmunitaet-1.jpg
   overlay_filter: 0.5
