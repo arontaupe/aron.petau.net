@@ -1,9 +1,9 @@
 ---
-title:  "Dreams of Cars"
-excerpt: "A subversive urban intervention"
+title:  Dreams of Cars
+excerpt: A subversive urban intervention
 date:   2023-06-20 14:39:27 +0100
 last_modified_at:   2023-06-20 14:39:27 +0100
-author: "Aron Petau"
+author: Aron Petau
 tags:
   - photography
   - suv
@@ -16,6 +16,13 @@ tags:
   - dreams
   - urban intervention
   - UdK Berlin
+
+header:
+  teaser: /assets/images/suv/suv_door-1.jpg
+  overlay_image: /assets/images/suv/suv_door-1.jpg
+  overlay_filter: 0.2
+  credit: "Aron Petau"
+  
 gallery:
  - url: /assets/images/suv/Dreams_of_Cars-1.jpg
    image_path: /assets/images/suv/Dreams_of_Cars-1.jpg

@@ -1,11 +1,13 @@
 ---
-title:  "Iron Smelting"
+title:  Iron Smelting
 date :   2022-03-01 14:39:27 +0100
-author: "Aron Petau"
+author: Aron Petau
+excerpt: Impressions from the International Smelting Days 2021
 header:
-  overlay_image       : "/assets/images/compacting_iron.jpg"
+  teaser: /assets/images/compacting_iron.jpg
+  overlay_image       : /assets/images/compacting_iron.jpg
   overlay_filter      : 0.2
-  credit              : "Aron Petau"
+  credit              : Aron Petau
 
 gallery:
   - url: /assets/images/coal_furnace.jpg

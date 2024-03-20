@@ -1,12 +1,16 @@
 ---
-title:  "Philosophy"
+title:  Philosophy
 date:   2022-03-01 14:39:27 +0100
-author: "Aron Petau"
+author: Aron Petau
 header:
-  overlay_image       : "/assets/images/grass_blur.jpg"
+  overlay_image       : assets/images/grass_blur.jpg
+  teaser              : assets/images/grass_blur.jpg
   overlay_filter      : 0.5
-  credit              : "Aron Petau"
+  credit              : Aron Petau
 toc: true
+
+excerpt: A selection of my weekly commentaries from philosophical seminars at the University of Osnabrück
+
 tags:
   - ethics
   - philosophy of emotions
@@ -28,6 +32,7 @@ tags:
   - ethics
   - normativity
   - university of osnabrück
+
 created: 2023-07-26T23:58:51+02:00
 last_modified_at: 2023-10-01T20:14:09+02:00
 ---

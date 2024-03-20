@@ -1,10 +1,14 @@
 ---
-title:  "Plastic Recycling"
-date           :   2022-03-01 14:39:27 +0100
-author: "Aron Petau"
+title:  Plastic Recycling
+date:   2022-03-01 14:39:27 +0100
+author: Aron Petau
+
+excerpt: A recycling system inspired by Precious Plastic, Filastruder, and Machine Learning
+
 header:
-  image: "/assets/images/recycling_graphic.jpg"
-  credit              : "Aron Petau"
+  teaser: /assets/images/recycling_graphic.jpg
+  image: assets/images/recycling_graphic.jpg
+  credit: Aron Petau
 tags:
   - decentral
   - democratic

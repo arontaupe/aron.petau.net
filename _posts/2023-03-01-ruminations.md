@@ -1,11 +1,17 @@
 ---
-title:  "Ruminations"
-excerpt: "Perspectives on Engineering"
+title:  Ruminations
+excerpt: Perspectives on Engineering
 date:   2023-03-01 14:39:27 +0100
 last_modified_at:   2023-03-01 14:39:27 +0100
 authors: 
   - Aron Petau
   - Niels Gercama
+  
+header:
+  teaser: /assets/images/ruminations/ruminations1.jpeg
+  overlay_image: /assets/images/ruminations/ruminations1.jpeg
+  overlay_filter: 0.5
+  credit: Aron Petau
 
 gallery:
 - url: /assets/images/ruminations/ruminations1.jpeg

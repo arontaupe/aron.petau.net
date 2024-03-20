@@ -120,19 +120,21 @@ A Project by Aron Petau and Joel Tenenberg.
 
 ## Abstract
 
-Set in 2504, this fiction explores the causalities of a global infrastructure collapse through the perspectives of diverse characters. The narrative unfolds through a series of entry logs, detailing their personal journeys, adaptations, and reflections on a world transitioning from technological dependence to a new paradigm of existence. 
-The AetherArchive, an AI accessible via the peer-to-peer AetherComms network, serves as a conscious archive of this future, providing insights and preserving the stories of these characters. 
+Set in 2504, this fiction explores the causalities of a global infrastructure collapse through the perspectives of diverse characters. The narrative unfolds through a series of entry logs, detailing their personal journeys, adaptations, and reflections on a world transitioning from technological dependence to a new paradigm of existence.
+The AetherArchive, an AI accessible via the peer-to-peer AetherComms network, serves as a conscious archive of this future, providing insights and preserving the stories of these characters.
 Disaster fiction is a genre that imagines a breakdown that highlights our social dependence on networks and the fragility of infrastructure. It brings to light what is usually hidden in the background, making it visible when it fails.
 
 ## Process
 
 ### Semester 1
+
 Forschungsfrage
 Here, we already examined the Power structures inherent in Radio broadcasting technology.
 
 #### Abstract
+
 Radio as a Subversive Exercise
-Radio is a prescriptive technology. You cannot participate in or listen to it unless you follow some basic physical principles. 
+Radio is a prescriptive technology. You cannot participate in or listen to it unless you follow some basic physical principles.
 Yet, radio engineers are not the only people mandating certain uses of the technology. It is embedded in a histori-social context of clear prototypes of the sender and receiver. Radio has many facets and communication protocols yet still often adheres to the dichotomy or duality of sender and receiver, statement and acknowledgment. The radio tells you what to do, and how to interact with it. Radio has an always identifiable dominant and subordinate part.
 Are there instances of rebellion against this schema? Places, modes, and instances where radio is anarchic? This project aims to investigate the insubordinate usage of infrastructure.
 Its frequencies.
@@ -145,7 +147,7 @@ Who is to stop us?
 
 {% include gallery caption="The Midterm Exhibition 2023" %}
 
-In the Mid-Term Exhibition 
+In the Mid-Term Exhibition
 TODO
 
 ## Semester 2
@@ -155,25 +157,37 @@ What are inherent power relations that can be made visible through narrative and
 How do power relations impose dependency through the material and immaterial body of networks?
 
 ## Methods
-### Narrative Techniques:
+
+### Narrative Techniques
+
 #### Disaster Fiction / Science Fiction
 
 #### Non-linear storytelling
+
 #### Knowledge Cluster
-### Analytic Techniques:
+
+### Analytic Techniques
+
 #### Infrastructure Inversion
+
 #### Reference Projects
+
 #### Speculative Design
 
-### Didactics:
+### Didactics
+
 #### Chatbot as Narrator
+
 ### Tools
+
 #### PrivateGPT
+
 String
 Loraboards
 SDR Antenna
 
 ### Tool Choices
+
 Github
 Miro
 Markdown /obsidian
@@ -181,19 +195,22 @@ Stable DIffusion
 ChatGPT
 
 ## Final Exhibition
+
 What design choices were in the Presentation? How do we evaluate it?
 
 ## Reflection
+
 ### Communication
-How did we communicate our individual processes? How did shared ideation Work? 
+
+How did we communicate our individual processes? How did shared ideation Work?
 
 -- the Museum visit
 
 Meetings /Brainstorms
 
 ### Outlook
-Ai as project companion / archive
 
+Ai as project companion / archive
 
 #### System Prompt
 
@@ -224,16 +241,18 @@ Always answer as helpfully as possible and follow all given instructions.\
 Your answer must be contained within 100 words.\
 
 ## Individual Part
+
 ### Aron
+
 ### Joel
-### Final Exhibition:
 
-https://share.icloud.com/photos/092DlklP4R7OTSo_dGUwyTwGg
+### Final Exhibition
 
-### Example of aether spamming:
+<https://share.icloud.com/photos/092DlklP4R7OTSo_dGUwyTwGg>
 
-https://share.icloud.com/photos/0ed13-9EQOucXEXV4RHrSUXdg
+### Example of aether spamming
 
+<https://share.icloud.com/photos/0ed13-9EQOucXEXV4RHrSUXdg>
 
 ### Sources
 
@@ -243,57 +262,40 @@ Geert Lovink
 Evgeny Morozov
 Lisa Parks
 
-
 [1] Morton T. Hyperobjects: Philosophy and Ecology After the End of the World. Minneapolis:
 University of Minnesota Press; 2014.
 
-
 [2] Maak, Niklas. Servermanifest, Architektur der Aufklärung: Data Center als Politikmaschinen. Hatje Cantz, 2022.
-
 
 [3] Hunger, Francis. Search Routines: Tales of Databases. D21 Kunstraum Leipzig, 2015.
 
-
 [Lisa Parks on Lensbased.net](https://rcpp.lensbased.net/infrastructural-inversion-or-how-to-open-black-boxed-database-management-systems/){: .btn .btn--large}
-
 
 [Hunger, Francis über Infrastrukturen und Databases](https://www.irmielin.org/wp-content/uploads/2015/12/search_routines-tales_of_databases.pdf){: .btn .btn--large}
 
-
 **Maak**, Alexander, Servermanifest Architektur der Aufklärung: Data Center als Politikmaschinen. Hatjecantz, 2022
-
 
 **Bastani**, Aaron. Fully automated luxury communism. Verso Books, 2019.
 
-
 **Morozov**, E. (2016). The net delusion: How not to liberate the world. In Democracy: A Reader (pp. 436-440). Columbia University Press.
-
 
 **Stäheli**, U. (1999). Die politische Theorie der Hegemonie: Ernesto Laclau und Chantal Mouffe. Politische Theorien der Gegenwart, 143-166.
 
-
 **Gramsci** on Hegemony: [Stanford Encyclopedia](https://plato.stanford.edu/entries/gramsci/){: .btn .btn--large}
-
 
 [TLDR on Mouffe/Laclau](https://www.youtube.com/watch?v=62a6Dk9QmJQ){: .btn .btn--large}
 
-
 Alex **Demirovic**: [»Hegemonie funktioniert nicht ohne Exklusion«](https://www.youtube.com/watch?v=h77ECXXP2n0){: .btn .btn--large}
-
 
 **Ahmed**, S. (2020). Queer phenomenology: Orientations, objects, others. Duke University Press.
 
-
 ### Sonstige Quellen
-
 
 Was für eine Antenne haben wir:
 [NESDR Smart](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-smart-sdr.html){: .btn .btn--large}
 
-
 Was für eine Antenne hätten wir gern:
 [HackRF One](https://greatscottgadgets.com/hackrf/one/){: .btn .btn--large}
-
 
 Frequency Analyzer + Replayer
 [Flipper Zero](https://shop.flipperzero.one/){: .btn .btn--large}
@@ -317,9 +319,8 @@ Freie Radios
 **SmallCells**
 [SmallCells](https://www.nokia.com/networks/mobile-networks/small-cells/){: .btn .btn--large}
 
-
 The **Thought Emporium**:
-Ein Youtuber, der wifi Strahlung sichtbar macht: 
+Ein Youtuber, der wifi Strahlung sichtbar macht:
 [Thought Emporium](https://www.youtube.com/@thethoughtemporium){: .btn .btn--large}
 [The Wifi Camera](https://www.youtube.com/watch?v=g3LT_b6K0Mc&t=457s){: .btn .btn--large}
 [Catching Satellite Images](https://www.youtube.com/watch?v=L3ftfGag7D8){: .btn .btn--large}
@@ -333,24 +334,22 @@ Was ist eigentlich **RF** (Radio Frequency):
 **Bundesnetzagentur**, Funknetzvergabe
 [Funknetzvergabe](https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Frequenzen/start.html){: .btn .btn--large}
 
-
 **BOS Funk**
 [BOS](https://www.bdbos.bund.de/DE/Digitalfunk_BOS/digitalfunk_bos_node.html){: .btn .btn--large}
 
+### Primary collection
 
-### Primary collection:
 The Modified network Intelligence:
-https://github.com/arontaupe/privateGPT
+<https://github.com/arontaupe/privateGPT>
 
-
-### The overall documentation:
-https://github.com/arontaupe/sdr
-TODO: maybe insert snippets here? 
-
+### The overall documentation
+<https://github.com/arontaupe/sdr>
+TODO: maybe insert snippets here?
 
 ## Appendix
+
 ### Photos
-https://share.icloud.com/photos/0bcDVXAxbKciSgc4IbVdIrVZQ
+<https://share.icloud.com/photos/0bcDVXAxbKciSgc4IbVdIrVZQ>
 
 ### Glossary
 
@@ -365,56 +364,100 @@ The belief of humans as the last evolutionary step in our system, aided by a con
 #### Meshtastic
 
 Meshtastic is an open-source, off-grid, decentralized, peer-to-peer mesh network designed to run on low-cost, low-power devices that provides the chat interface. It is capable of sending text messages with minimal infrastructure requirements.
+
 #### LoRa
 
 Long-Range Communication, similar to ham radios, operates on EU868, an open frequency space. Range and bandwidth are inversely related, so we trade range for low transfer rates. This is sufficient for small data packets, but not for full audio transfer.
+
 #### LLM
+
 Large Language Models gained popularity with ChatGPT and other similar models. Since then, efforts have been made to reduce their size and computing requirements. As a result, some models can now be run locally and offline.
+
 #### SciFi
+
 Science fiction writers often seek out new scientific and technical developments in order to prognosticate freely the techno-social changes that will shock the readers’ sense of what is culturally appropriate and expand their consciousness.
+
 #### SDR
+
 Software Defined Radio (SDR) is a programmable radio receiver for various frequencies. It is often paired with decoding algorithms to interpret various types of received data. The connected antenna determines the reception pattern.
+
 #### GQRX
+
 GQRX is an open source software for the software defined radio.
 
 #### Nesdr smaRT v5
+
 This is the SDR we use, which can be controlled via USB and interfaces well with GQRX. It supports frequencies ranging from 100kHz to 1.75GHz, including many ham radio frequencies, remotes, phones, walkie talkies, airplanes, police radios, and our LoRa mesh.
+
 #### Infrastructure
+
 Infrastructure refers to the physical and organizational structures and facilities required for the operation of a society or enterprise, such as buildings, roads, and power supplies. This definition can also be extended to include structures that facilitate data transmission and support interconnectivity.
+
 #### Radio waves
+
 Radio waves are a type of electromagnetic radiation that can carry information. They use the longest wavelengths in the electromagnetic spectrum, typically with frequencies of 300GHz or lower. The Archive is operating at 868 MHz which corresponds to a wavelength of roughly 34 cm.
+
 #### Lilygo T3S3
+
 ESP32-S3 LoRa SX1280 2.4G development board. Contains an ESP32 chip, WIFI, Bluetooth and a LoRa module. Can be connected via serial, bluetooth or network. Is supported by meshtastic.
 Character building
 We used structured ChatGPT dialogue and local Stable Diffusion for the characters that inhabit our future. Ask the archive for more info about them.
+
 #### PrivateGPT
+
 PrivateGPT is a set of libraries based on llama-index that allow local and offline inference using the computer‘s graphics card. PrivateGPT is particularly good at incorporating local documents. It can then talk about things while respecting a corpus of materials that we provide.
+
 #### Transhumanism
+
 Broadly, the idea that human beings can achieve their next evolutionary step, Human 2.0, through technological advances. Opinions differ as to how this post-human state will be achieved, either through genetic engineering, reverse aging or other technological advances. In our view it is inspired by Social Darwinism.
+
 #### Perception of Infrastructure
+
 At its core, infrastructure is an evasive structure. Imagine the amount of data cables buried in our streets, stretching from every personal router to data centres far out in the suburbs of our cities. None of this actual “structure“ is meant to be seen or interacted with until it fails…
+
 #### Network interface
+
 We consider any device that has both user interactivity and Internet/network access to be a network interface.
+
 #### Eco-Terrorism
+
 Ecotage refers to infrastructure sabotage with ecological goals, while eco-terrorism is even more militant and will use militant strategies with the specific aim of creating terror as a social deterrent.
+
 #### Prepping
+
 Prepping is the act of preparing for the time after the catastrophe, resulting from the belief that current social models will collapse in an apocalyptic manner. Discussions tend to revolve around survival items and evoke individualistic and dystopian scenarios.
+
 #### Infrastructure inversion
+
 “rather than setting out to describe and document all parts of the system that make a footprint possible, the analysis focuses upon a selection of localized sites or issues as suggestive parts of a broader system that is imperceptible in its entirety” (Parks 2009)
+
 #### Neo-Religion
+
 The Internet, as a network of networks, is such a multifaceted term that it has room for spiritual feelings in the interaction with the network. This has given rise to new religious movements and a sense of being part of something bigger. Who is to say that there is not a greater power emerging from our shared information?
+
 #### Neo-Luddism
+
 Neo-Luddism is a leaderless movement of unaffiliated groups who resist modern technology by passively refraining from using technology, harming those who produce environmentally harmful technology, or sabotaging that technology.
+
 #### Sub-sea-cables
+
 Cables are often referred to as the backbone of the Internet. Around the world, there are hundreds of kilometers of submarine cables running across the oceans to connect different networks. They are heavy, expensive and buried deep in the sea. Chances are you have never seen one, yet you rely on them every day to deliver information and content.
+
 #### Optical fiber cable
+
 Fiber optic cables were developed in the 1980s. The first transatlantic telephone cable to use optical fiber was TAT-8, which went into service in 1988. A fiber optic cable consists of several pairs of fibers. Each pair has one fiber in each direction.
+
 #### Copper cable
+
 Copper is a rare metal and its use contributes to global neo-colonial power structures resulting in a multitude of exploitative practices.
 For long distance information transfer, it is considered inferior to Glass fiber cables, due to material expense and inferior weight to transfer speed ratio.
+
 #### Collapsology
+
 Collapsology is based on the idea that humans are having a sustained and negative impact on their environment and promotes the concept of an environmental emergency, particularly in relation to global warming and the loss of biodiversity. One potential effect of a collapse is the loss of networks.
+
 #### Posthumanism
+
 Is concerned with the “ongoing deconstruction of humanism” and its premises: humanism’s anthropocentrism, essentialism and speciesism. It is informed by post anthropocentric ethics, politics, and ecology, and looks toward notions of embodiment and material entanglement between humans and a “more-than-human” world. It emphasizes becoming over being.
 
 ### Personas

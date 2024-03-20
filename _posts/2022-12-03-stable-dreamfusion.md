@@ -1,8 +1,13 @@
 ---
-title:  "Stable Dreamfusion"
-excerpt: "An exploration of 3D mesh generation through AI"
+title:  Stable Dreamfusion
+excerpt: An exploration of 3D mesh generation through AI
 date:   2023-06-20 14:39:27 +0100
-author: "Aron Petau"
+author: Aron Petau
+header:
+  teaser: /assets/images/dreamfusion/sd_pig.png
+  overlay_image       : /assets/images/dreamfusion/sd_pig.png
+  overlay_filter      : 0.2
+  credit              : Aron Petau
 tags:
   - dreamfusion
   - ai

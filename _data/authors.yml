@@ -116,5 +116,18 @@ Chris Stenkamp:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cstenkamp"
 
+Sebastian Paintner:
+  name        : "Sebastian Paintner"
+  bio         : "Web Development, Student at Design & Computation"
+  authorid    : 6
+
+  links:
+    - label: "New Practice Network"
+      icon: "fas fa-university"
+      url: "https://www.newpractice.net/author/sebastian-paintner"
+
+    - label: "Website"
+      icon: "fas fa-website"
+      url: "https://litc0.de/"
 
 

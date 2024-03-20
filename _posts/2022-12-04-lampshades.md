@@ -16,6 +16,7 @@ tags:
 - udk
 - TODO, unfinished
 header:
+  teaser: /assets/images/lampshades/lampshade4.heic
   overlay_image: /assets/images/lampshades/lampshade4.heic
   overlay_filter: 0.5
   credit: "Aron Petau"

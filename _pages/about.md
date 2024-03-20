@@ -21,9 +21,9 @@ The mix of these topics you will find scattered throughout my [Portfolio](/portf
 
 I am enthusiastic about many of the topics included there and have developed a fondness for algorithmic problems, philosophical considerations, and issues of our society.
 
-Currently, I am enrolled in the Master's program [Design and Computation](https://www.design-computation.berlin/en) @ UdK and TU Berlin.
+Currently, I am enrolled in the Master's program [Design and Computation](https://www.newpractice.net) @ UdK and TU Berlin.
 
-I recently moved to Berlin and now live together with 2 awesome humans and a 3D Printer, and am continuously repairing and restoring a very old van.
+For the studies, I moved to Berlin and now live together with 2 awesome humans and a 3D Printer, and am continuously repairing and restoring a very old van.
 
 I dream of one day having my own bar with cultural events and am already working on the perfect recipe for [homebrew](/homebrew/) beer.
 I love experimenting, whether that is in the kitchen, finding a solution to a coding problem, or creating useful objects.

@@ -1,9 +1,9 @@
 ---
-title:  "Ascendancy"
-excerpt: "Politics of Design"
+title:  Ascendancy
+excerpt: Politics of Design
 date:   2023-06-16 14:39:27 +0100
 last_modified_at:   2023-06-16 14:39:27 +0100
-author: "Aron Petau"
+author: Aron Petau
 
 tags:
   - borders
@@ -17,6 +17,12 @@ tags:
   - politics of design
   - technische universität berlin
   - TODO, unfinished
+
+header:
+  teaser: /assets/images/ascendancy.jpg
+  overlay_image       : /assets/images/ascendancy.jpg
+  overlay_filter      : 0.2
+  credit              : Aron Petau
 
 gallery:
  - url: /assets/images/ascendancy.jpg
