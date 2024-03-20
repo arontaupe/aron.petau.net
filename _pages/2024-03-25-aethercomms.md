@@ -1,6 +1,6 @@
 ---
 permalink: /aethercomms/
-title:  "aethercomms"
+title:  aethercomms
 layout: single
 classes: wide
 
@@ -8,20 +8,20 @@ authors:
   - Joel Tenenberg
   - Aron Petau
 
-excerpt: "Aethercomms is a project that aims to create a speculative decentralized communication network for the future."
+excerpt: Aethercomms is a project that aims to create a speculative decentralized communication network for the future.
 
 related: false
 
 header:
-  teaser: "/assets/images/aethercomms/aethercomms_lineart.jpg"
-  overlay_image       : "assets/images/aethercomms/final_exhibition/entangled_exhibition-92.jpg"
+  teaser: assets/images/aethercomms/aethercomms_lineart.jpg
+  overlay_image       : assets/images/aethercomms/final_exhibition/entangled_exhibition-92.jpg
   overlay_filter      : 0.2
-  credit              : "Joel Tenenberg"
+  credit              : Joel Tenenberg
 
 toc: false
-toc_label: "Content" # default: Content
-toc_icon: "book"  # corresponding Font Awesome icon name without the "fa" prefix
-toc_sticky: false   # enables sticky toc
+toc_label: Content
+toc_icon: book
+toc_sticky: false
 
 tags:
   - local AI
@@ -43,7 +43,7 @@ tags:
   - evgeny morozov
   - lisa parks
 
-gallery:
+midterm-exhibition:
   - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_1.heic
     image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_1.heic
     alt: "midterm exhibit"
@@ -105,12 +105,94 @@ gallery:
     alt: "midterm exhibit"
     title: "Midterm Exhibition"
 
-
+final-exhibition:
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-2.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-2.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-7.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-7.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-51.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-51.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-52.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-52.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-53.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-53.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-54.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-54.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-55.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-55.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-66.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-66.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-92.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-92.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-96.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-96.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-97.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-97.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-98.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-98.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-102.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-102.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-125.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-125.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-127.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-127.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-142.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-142.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-143.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-143.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-144.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-144.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-178.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-178.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
+  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-188.jpg
+    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-188.jpg
+    alt: "final exhibit"
+    title: "Final Exhibition"
 
 
 ---
 
 ## AetherComms
+
+
 
 This is currently actively being worked on. Please check back later.
 {: .notice--info}
@@ -120,7 +202,7 @@ A Project by Aron Petau and Joel Tenenberg.
 
 ## Abstract
 
-Set in 2504, this fiction explores the causalities of a global infrastructure collapse through the perspectives of diverse characters. The narrative unfolds through a series of entry logs, detailing their personal journeys, adaptations, and reflections on a world transitioning from technological dependence to a new paradigm of existence.
+> Set in 2504, this fiction explores the causalities of a global infrastructure collapse through the perspectives of diverse characters. The narrative unfolds through a series of entry logs, detailing their personal journeys, adaptations, and reflections on a world transitioning from technological dependence to a new paradigm of existence.
 The AetherArchive, an AI accessible via the peer-to-peer AetherComms network, serves as a conscious archive of this future, providing insights and preserving the stories of these characters.
 Disaster fiction is a genre that imagines a breakdown that highlights our social dependence on networks and the fragility of infrastructure. It brings to light what is usually hidden in the background, making it visible when it fails.
 
@@ -129,7 +211,7 @@ Disaster fiction is a genre that imagines a breakdown that highlights our social
 ### Semester 1
 
 Forschungsfrage
-Here, we already examined the Power structures inherent in Radio broadcasting technology.
+Here, we already examined the power structures inherent in radio broadcasting technology.
 
 #### Abstract
 
@@ -145,7 +227,7 @@ Who is to stop us?
 
 ## Mid-Term Exhibition
 
-{% include gallery caption="The Midterm Exhibition 2023" %}
+{% include gallery id="midterm-exhibition" caption="The Midterm Exhibition 2023" %}
 
 In the Mid-Term Exhibition
 TODO
@@ -158,17 +240,44 @@ How do power relations impose dependency through the material and immaterial bod
 
 ## Methods
 
+We applied a variety of methods to explore the questions we posed in the first semester. Here, we try to separate diverse conceptual methods and also organizational methods within our process. 
+
 ### Narrative Techniques
+
+From several Brainstorming sessions and to a large portin also induced by the literary and theatrical loops sessions we discovered science fiction and climate fiction, as well as disaster fiction as a powerful artistic tool which also holds explorative potential for our research.
 
 #### Disaster Fiction / Science Fiction
 
+Disaster fiction serves as an analytic tool which lends itself to the method of Infrastructure Inversion (Francis Hunger) TODO
+
+In this case, we use a fictional approach as our narrative technique and analytical method. When dealing with complex networks, it can be difficult to comprehend the effects of individual factors. Therefore, canceling out single factors provides a better understanding of what they contribute to. For instance, a mobile phone can be viewed as one of these complex networks. Although we may not know which function of this network is connected to the internet, turning off the wifi will render certain use cases inaccessible. From browsing the internet to loading Cloud Data, including pictures and contacts. Scaling up, the entanglement of global networks can be studied through their disappearance. In this dystopian future our narrative takes pace.
+
 #### Non-linear storytelling
 
+As a chatbot served as our narrator, it has the inbuilt restriction of being merely reactive. Compared to a linear story unfolding to the reader, here much more power and control is given to the reader. The reader can ask questions and the chatbot will answer them. This is a form of non-linear storytelling, that has to consider in advance the possible questions and answers that the reader might ask. Large Language model take away a lot of the anticipatory burden from us, since coherency is maintained within the conceptual limits of an LLM.
+
+From a narratological perspective, the chatbot with its own hidden knowledge and an agenda by itself as a direct conversation participant is highly interesting. 
+
+Throughout the year of working on this project we collected several research topics which had a deeper potential but weren't able to combine these into a stringent topic. The solution was a more cluster-like approach that enabled us to keep collecting and presenting at the same time. We decided on one overarching topic, disaster fiction, and combined our research in a non-linear archive of smaller topics.
+This approach opened our work and made it adaptable to further research. 
+
+With the question of underlying power structures in mind, we decided to shed light on background infrastructure rather then bluntly pointing at power structures already in place 
+
+
 #### Knowledge Cluster
+
+During research, we used Miro, a virtual whiteboard, to cluster our knowledge and ideas. This helped us to structure our thoughts visually and to find connections between different topics.
+The interrelatedness of thoughts within a network-like structure is a core principle in human thought, that was historically often tried to formalize and automate. A prominent example is the Zettelkasten Method (Niklas Luhmann) which is a method of knowledge management that uses a network of interconnected notes. The Miro board is one digital version of this method, which we used to structure our thoughts and ideas. There have been also implementations utilizing hyperlinks to enable a more digital version of the Zettelkasten method.
+
+Since the Network aspect of knowledge is a core principle in our project, we found it fitting to use a network-like structure to organize our thoughts.
 
 ### Analytic Techniques
 
 #### Infrastructure Inversion
+
+The research method proposed by Lisa Park and presented by Francis Hunger [3] is especially developed for researching infrastructures too big to observe as a whole. Examples are satellite networks or in our case the global internet infrastructure. Parks proposes to look at smaller parts of these networks, analyzing a more human scale part and then concluding and projecting on the whole network.
+ “rather than setting out to describe and document all parts of the system that make a footprint possible, the analysis focuses upon a selection of localized sites or issues as suggestive parts of a broader system that is imperceptible in its entirety”
+
 
 #### Reference Projects
 
@@ -198,19 +307,24 @@ ChatGPT
 
 What design choices were in the Presentation? How do we evaluate it?
 
+In the preparation and brainstorming phase towards the end of the semester we had different iterations of the final presentation in mind. Spanning from a video work up to an interactive sound installation. Finally we decided for a less technical driven approach with a focus on showcasing our gathered knowledge and combining it with a narrative to make it graspable for the viewer. Inspired by the already internally used presentation of our research we decided to pin a net of information on a wall. An old school murdercase-like pinwall arose which we partnered with our OpenAi bot and an antenna and receiver. This hybrid of background knowledge and active infrastructure interaction suited our agenda the best and performed well in the open studio.
+
+{% include gallery id="final-exhibition" caption="The Final Exhibition" %}
+
+
 ## Reflection
 
 ### Communication
 
 How did we communicate our individual processes? How did shared ideation Work?
 
--- the Museum visit
+- the Museum visit
 
-Meetings /Brainstorms
+Meetings / Brainstorms
 
 ### Outlook
 
-Ai as project companion / archive
+AI as project companion / archive
 
 #### System Prompt
 
@@ -248,11 +362,11 @@ Your answer must be contained within 100 words.\
 
 ### Final Exhibition
 
-<https://share.icloud.com/photos/092DlklP4R7OTSo_dGUwyTwGg>
+[iCloud](<https://share.icloud.com/photos/092DlklP4R7OTSo_dGUwyTwGg>)
 
 ### Example of aether spamming
 
-<https://share.icloud.com/photos/0ed13-9EQOucXEXV4RHrSUXdg>
+[iCloud](<https://share.icloud.com/photos/0ed13-9EQOucXEXV4RHrSUXdg>)
 
 ### Sources
 
@@ -325,9 +439,6 @@ Ein Youtuber, der wifi Strahlung sichtbar macht:
 [The Wifi Camera](https://www.youtube.com/watch?v=g3LT_b6K0Mc&t=457s){: .btn .btn--large}
 [Catching Satellite Images](https://www.youtube.com/watch?v=L3ftfGag7D8){: .btn .btn--large}
 
-**GQRX**
-[GQRX Software](https://gqrx.dk){: .btn .btn--large}
-
 Was ist eigentlich **RF** (Radio Frequency):
 [RF Explanation](https://pages.crfs.com/making-sense-of-radio-frequency){: .btn .btn--large}
 
@@ -343,12 +454,14 @@ The Modified network Intelligence:
 <https://github.com/arontaupe/privateGPT>
 
 ### The overall documentation
+
 <https://github.com/arontaupe/sdr>
 TODO: maybe insert snippets here?
 
 ## Appendix
 
 ### Photos
+
 <https://share.icloud.com/photos/0bcDVXAxbKciSgc4IbVdIrVZQ>
 
 ### Glossary
@@ -384,6 +497,11 @@ Software Defined Radio (SDR) is a programmable radio receiver for various freque
 #### GQRX
 
 GQRX is an open source software for the software defined radio.
+
+[GQRX Software](https://gqrx.dk){: .btn .btn--large}
+
+![GQRX](https://www.gqrx.dk/wp-content/uploads/2023/10/gqrx-2.17.png)
+
 
 #### Nesdr smaRT v5
 
