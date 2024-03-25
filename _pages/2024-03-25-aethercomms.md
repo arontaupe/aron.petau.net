@@ -105,6 +105,24 @@ midterm-exhibition:
     alt: "midterm exhibit"
     title: "Midterm Exhibition"
 
+technikmuseum:
+  - url: assets/images/aethercomms/technikmuseum/technikmuseum_1.jpeg
+    image_path: assets/images/aethercomms/technikmuseum/technikmuseum_1.jpeg
+    alt: "technikmuseum"
+    title: "technikmuseum"
+  - url: assets/images/aethercomms/technikmuseum/technikmuseum_2.jpeg
+    image_path: assets/images/aethercomms/technikmuseum/technikmuseum_2.jpeg
+    alt: "technikmuseum"
+    title: "technikmuseum"
+  - url: assets/images/aethercomms/technikmuseum/technikmuseum_3.jpeg
+    image_path: assets/images/aethercomms/technikmuseum/technikmuseum_3.jpeg
+    alt: "technikmuseum"
+    title: "technikmuseum"
+  - url: assets/images/aethercomms/technikmuseum/technikmuseum_4.jpeg
+    image_path: assets/images/aethercomms/technikmuseum/technikmuseum_4.jpeg
+    alt: "technikmuseum"
+    title: "technikmuseum"
+
 final-exhibition:
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-2.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-2.jpg
@@ -188,11 +206,35 @@ final-exhibition:
     title: "Final Exhibition"
 
 
+aether_screens:
+  - url: assets/images/aethercomms/aether_screens/aether_screens_1.jpeg
+    image_path: assets/images/aethercomms/aether_screens/aether_screens_1.jpeg
+    alt: "aether_screens"
+    title: "aether_screens"
+  - url: assets/images/aethercomms/aether_screens/aether_screens_2.jpeg
+    image_path: assets/images/aethercomms/aether_screens/aether_screens_2.jpeg
+    alt: "aether_screens"
+    title: "aether_screens"
+  - url: assets/images/aethercomms/aether_screens/aether_screens_3.jpeg
+    image_path: assets/images/aethercomms/aether_screens/aether_screens_3.jpeg
+    alt: "aether_screens"
+    title: "aether_screens"
+  - url: assets/images/aethercomms/aether_screens/aether_screens_4.jpeg
+    image_path: assets/images/aethercomms/aether_screens/aether_screens_4.jpeg
+    alt: "aether_screens"
+    title: "aether_screens"
+  - url: assets/images/aethercomms/aether_screens/aether_screens_5.jpeg
+    image_path: assets/images/aethercomms/aether_screens/aether_screens_5.jpeg
+    alt: "aether_screens"
+    title: "aether_screens"
+  - url: assets/images/aethercomms/aether_screens/aether_screens_6.jpeg
+    image_path: assets/images/aethercomms/aether_screens/aether_screens_6.jpeg
+    alt: "aether_screens"
+    title: "aether_screens"
+
 ---
 
 ## AetherComms
-
-
 
 This is currently actively being worked on. Please check back later.
 {: .notice--info}
@@ -210,8 +252,10 @@ Disaster fiction is a genre that imagines a breakdown that highlights our social
 
 ### Semester 1
 
-Forschungsfrage
+#### Research Questions
+
 Here, we already examined the power structures inherent in radio broadcasting technology.
+Early on, the question of hegemony present t
 
 #### Abstract
 
@@ -263,7 +307,6 @@ This approach opened our work and made it adaptable to further research.
 
 With the question of underlying power structures in mind, we decided to shed light on background infrastructure rather then bluntly pointing at power structures already in place 
 
-
 #### Knowledge Cluster
 
 During research, we used Miro, a virtual whiteboard, to cluster our knowledge and ideas. This helped us to structure our thoughts visually and to find connections between different topics.
@@ -311,6 +354,7 @@ In the preparation and brainstorming phase towards the end of the semester we ha
 
 {% include gallery id="final-exhibition" caption="The Final Exhibition" %}
 
+{% include gallery id="aether_screens" caption="Screenshots of the chat interaction" %}
 
 ## Reflection
 
@@ -318,7 +362,11 @@ In the preparation and brainstorming phase towards the end of the semester we ha
 
 How did we communicate our individual processes? How did shared ideation Work?
 
-- the Museum visit
+#### Museum
+
+On 24th of January, we went together to the Technikmuseum Berlin. they had an exhibition on Networks and the Internet. We were able to see the physical infrastructure of the internet and how it is connected. 
+
+{% include gallery id="technikmuseum" caption="Inside the Technikmuseum" %}
 
 Meetings / Brainstorms
 
@@ -370,22 +418,19 @@ Your answer must be contained within 100 words.\
 
 ### Sources
 
-Literature:
-Francis Hunger
-Geert Lovink
-Evgeny Morozov
-Lisa Parks
+**Morozov**, E. (2011). The net delusion: How not to liberate the world. Penguin UK.
 
-[1] Morton T. Hyperobjects: Philosophy and Ecology After the End of the World. Minneapolis:
-University of Minnesota Press; 2014.
+**Morton**, T. (2014). Hyperobjects: Philosophy and Ecology After the End of the World. Minneapolis: University of Minnesota Press.
 
-[2] Maak, Niklas. Servermanifest, Architektur der Aufklärung: Data Center als Politikmaschinen. Hatje Cantz, 2022.
+**Maak**, N. (2022). Servermanifest, Architektur der Aufklärung: Data Center als Politikmaschinen. Hatje Cantz.
 
-[3] Hunger, Francis. Search Routines: Tales of Databases. D21 Kunstraum Leipzig, 2015.
+**Hunger**, F. (2015). Search Routines: Tales of Databases. D21 Kunstraum Leipzig.
+[Francis Hunger on Infrastrukturen and Databases](https://www.irmielin.org/wp-content/uploads/2015/12/search_routines-tales_of_databases.pdf)
+{: .btn .btn--large}
 
-[Lisa Parks on Lensbased.net](https://rcpp.lensbased.net/infrastructural-inversion-or-how-to-open-black-boxed-database-management-systems/){: .btn .btn--large}
-
-[Hunger, Francis über Infrastrukturen und Databases](https://www.irmielin.org/wp-content/uploads/2015/12/search_routines-tales_of_databases.pdf){: .btn .btn--large}
+**Parks**, L. (2012). Technostruggles and the satellite dish: A populist approach to infrastructure. In Cultural technologies (pp. 64-84). Routledge.
+[Lisa Parks on Lensbased.net](https://rcpp.lensbased.net/infrastructural-inversion-or-how-to-open-black-boxed-database-management-systems/)
+{: .btn .btn--large}
 
 **Maak**, Alexander, Servermanifest Architektur der Aufklärung: Data Center als Politikmaschinen. Hatjecantz, 2022
 
@@ -394,68 +439,95 @@ University of Minnesota Press; 2014.
 **Morozov**, E. (2016). The net delusion: How not to liberate the world. In Democracy: A Reader (pp. 436-440). Columbia University Press.
 
 **Stäheli**, U. (1999). Die politische Theorie der Hegemonie: Ernesto Laclau und Chantal Mouffe. Politische Theorien der Gegenwart, 143-166.
+[Podcast with Urs Stäheli](https://www.futurehistories.today/episoden-blog/s01/e54-urs-staeheli-zu-entnetzung/)
 
-**Gramsci** on Hegemony: [Stanford Encyclopedia](https://plato.stanford.edu/entries/gramsci/){: .btn .btn--large}
+**Mouffe**, C. (2014). Hegemony and ideology in Gramsci. In Gramsci and Marxist Theory (RLE: Gramsci) (pp. 168-204). Routledge.
 
-[TLDR on Mouffe/Laclau](https://www.youtube.com/watch?v=62a6Dk9QmJQ){: .btn .btn--large}
+**Gramsci** on Hegemony: [Stanford Encyclopedia](https://plato.stanford.edu/entries/gramsci/)
+{: .btn .btn--large}
 
-Alex **Demirovic**: [»Hegemonie funktioniert nicht ohne Exklusion«](https://www.youtube.com/watch?v=h77ECXXP2n0){: .btn .btn--large}
+[Video: TLDR on Mouffe/Laclau](https://www.youtube.com/watch?v=62a6Dk9QmJQ)
+{: .btn .btn--large}
+
+**Demirovic**, A. (2007). Hegemonie und die diskursive Konstruktion der Gesellschaft. Nonhoff, Martin (Hg.): Diskurs, radikale Demokratie, Hegemonie. Zum politischen Denken von Ernesto Laclau und Chantal Mouffe, Bielefeld: transcript, 55-85.
+[Alex **Demirovic**: Hegemonie funktioniert nicht ohne Exklusion](https://www.youtube.com/watch?v=h77ECXXP2n0)
+{: .btn .btn--large}
 
 **Ahmed**, S. (2020). Queer phenomenology: Orientations, objects, others. Duke University Press.
 
+**Seemann**, M. (2021). Die Macht der Plattformen: Politik in Zeiten der Internetgiganten. Berlin Ch. Links Verlag.
+[Podcast with Michael Seemann](https://www.futurehistories.today/episoden-blog/s01/e55-michael-seemann-zur-macht-der-plattformen-teil-1/)
+
 ### Sonstige Quellen
 
-Was für eine Antenne haben wir:
-[NESDR Smart](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-smart-sdr.html){: .btn .btn--large}
 
-Was für eine Antenne hätten wir gern:
-[HackRF One](https://greatscottgadgets.com/hackrf/one/){: .btn .btn--large}
+
+**unsere SDR Antenne:**
+[NESDR Smart](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-smart-sdr.html)
+{: .btn .btn--large}
+
+**Andere Antennenoptionen:**
+[HackRF One](https://greatscottgadgets.com/hackrf/one/)
+{: .btn .btn--large}
 
 Frequency Analyzer + Replayer
-[Flipper Zero](https://shop.flipperzero.one/){: .btn .btn--large}
+[Flipper Zero](https://shop.flipperzero.one/)
+{: .btn .btn--large}
 
-Hackerethik
+**Hackerethik**
 [CCC Hackerethik](https://www.ccc.de/hackerethics){: .btn .btn--large}
 
-Radio freies Wendland
-[Wikipedia: Radio Freies Wendland](https://de.wikipedia.org/wiki/Radio_Freies_Wendland){: .btn .btn--large}
+**Radio freies Wendland**
+[Wikipedia: Radio Freies Wendland](https://de.wikipedia.org/wiki/Radio_Freies_Wendland)
+{: .btn .btn--large}
 
-Freie Radios
-[Wikipedia: Definition Freie Radios](https://de.wikipedia.org/wiki/Freies_Radio){: .btn .btn--large}
+**Freie Radios**
+[Wikipedia: Definition Freie Radios](https://de.wikipedia.org/wiki/Freies_Radio)
+{: .btn .btn--large}
 
 **Radio Dreyeckland**
 [RDL](https://rdl.de/){: .btn .btn--large}
 
-[RND Newsstory: Querdenker kapern Sendefrequenz von 1Live](https://www.rnd.de/medien/piratensender-kapert-frequenz-von-1live-fur-querdenker-thesen-MER4ZGR2VXNNXN6VZO3CVW6XTA.html){: .btn .btn--large}
+[RND Newsstory: Querdenker kapern Sendefrequenz von 1Live](https://www.rnd.de/medien/piratensender-kapert-frequenz-von-1live-fur-querdenker-thesen-MER4ZGR2VXNNXN6VZO3CVW6XTA.html)
+{: .btn .btn--large}
 
-[NDR Reportage: Westradio in der DDR](https://www.ndr.de/geschichte/ndr_retro/Empfang-westdeutscher-Funk-und-Fernsehsendungen-in-der-DDR,zonengrenze246.html){: .btn .btn--large}
+[NDR Reportage: Westradio in der DDR](https://www.ndr.de/geschichte/ndr_retro/Empfang-westdeutscher-Funk-und-Fernsehsendungen-in-der-DDR,zonengrenze246.html)
+{: .btn .btn--large}
 
 **SmallCells**
-[SmallCells](https://www.nokia.com/networks/mobile-networks/small-cells/){: .btn .btn--large}
+[SmallCells](https://www.nokia.com/networks/mobile-networks/small-cells/)
+{: .btn .btn--large}
 
 The **Thought Emporium**:
 Ein Youtuber, der wifi Strahlung sichtbar macht:
-[Thought Emporium](https://www.youtube.com/@thethoughtemporium){: .btn .btn--large}
-[The Wifi Camera](https://www.youtube.com/watch?v=g3LT_b6K0Mc&t=457s){: .btn .btn--large}
-[Catching Satellite Images](https://www.youtube.com/watch?v=L3ftfGag7D8){: .btn .btn--large}
+[Thought Emporium](https://www.youtube.com/@thethoughtemporium)
+{: .btn .btn--large}
+[The Wifi Camera](https://www.youtube.com/watch?v=g3LT_b6K0Mc&t=457s)
+{: .btn .btn--large}
+[Catching Satellite Images](https://www.youtube.com/watch?v=L3ftfGag7D8)
+{: .btn .btn--large}
 
 Was ist eigentlich **RF** (Radio Frequency):
-[RF Explanation](https://pages.crfs.com/making-sense-of-radio-frequency){: .btn .btn--large}
+[RF Explanation](https://pages.crfs.com/making-sense-of-radio-frequency)
+{: .btn .btn--large}
 
 **Bundesnetzagentur**, Funknetzvergabe
-[Funknetzvergabe](https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Frequenzen/start.html){: .btn .btn--large}
+[Funknetzvergabe](https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Frequenzen/start.html)
+{: .btn .btn--large}
 
 **BOS Funk**
-[BOS](https://www.bdbos.bund.de/DE/Digitalfunk_BOS/digitalfunk_bos_node.html){: .btn .btn--large}
+[BOS](https://www.bdbos.bund.de/DE/Digitalfunk_BOS/digitalfunk_bos_node.html)
+{: .btn .btn--large}
 
 ### Primary collection
 
-The Modified network Intelligence:
-<https://github.com/arontaupe/privateGPT>
+The modified network Intelligence:
+
+[Github repo: privateGPT](<https://github.com/arontaupe/privateGPT>)
 
 ### The overall documentation
 
-<https://github.com/arontaupe/sdr>
+[Github repo: SDR](<https://github.com/arontaupe/sdr>)
 TODO: maybe insert snippets here?
 
 ## Appendix
