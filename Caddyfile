@@ -1,6 +1,6 @@
-petau.net {
+solar.aron.petau.net {
 
-  root /srv/petau.net
+  root /srv/solar.aron.petau.net
 
   log / stdout "{combined}"
   errors stderr
@@ -21,7 +21,7 @@ petau.net {
 
   header / {
     -Server
-    x-hello-from "caddy docker on raspberry pi"
+    x-hello-from "caddy docker on raspberry pi zero"
   }
 
   proxy / 127.0.0.1:1234 {
