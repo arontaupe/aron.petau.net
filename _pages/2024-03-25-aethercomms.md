@@ -302,7 +302,7 @@ Places, modes, and instances where radio is anarchic?\
 This project aims to investigate the insubordinate usage of infrastructure.\
 Its frequencies.\
 It's all around us.\
-Who is to stop us?\
+Who is to stop us?
 
 {% include video id="9acmRbG1mV0" provider="youtube" %}
 
