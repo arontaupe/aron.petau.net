@@ -1,0 +1,31 @@
+petau.net {
+
+  root /srv/petau.net
+
+  log / stdout "{combined}"
+  errors stderr
+
+  tls {
+    dns cloudflare
+  }
+
+  realip cloudflare
+
+  gzip
+
+  filter rule {
+    content_type text/html.*
+    search_pattern foo
+    replacement bar
+  }
+
+  header / {
+    -Server
+    x-hello-from "caddy docker on raspberry pi"
+  }
+
+  proxy / 127.0.0.1:1234 {
+    transparent
+    without /auth
+  }
+}

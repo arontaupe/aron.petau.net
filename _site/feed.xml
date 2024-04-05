@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://www.aron.petau.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.aron.petau.net/" rel="alternate" type="text/html" /><updated>2024-04-05T18:09:37+02:00</updated><id>https://www.aron.petau.net/feed.xml</id><title type="html">Personal Website</title><subtitle>I am a student in Design &amp; Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around!</subtitle><author><name>Aron Petau</name><email>aron@petau.net</email></author><entry><title type="html">AIRASPI Build Log</title><link href="https://www.aron.petau.net/airaspi-build-log/" rel="alternate" type="text/html" title="AIRASPI Build Log" /><published>2024-01-30T00:00:00+01:00</published><updated>2024-01-30T00:00:00+01:00</updated><id>https://www.aron.petau.net/airaspi-build-log</id><content type="html" xml:base="https://www.aron.petau.net/airaspi-build-log/"><![CDATA[<h2 id="ai-raspi-build-log">AI-Raspi Build Log</h2>
+
+<p>This should document the rough steps to recreate airaspi as I go along.</p>
+
+<p>Rough Idea: Build an edge device with image recognition and object detection capabilites.<br />
+It should be realtime, aiming for 30fps at 720p.<br />
+Portability and usage at installations is a priority, so it has to function without active internet connection and be as small as possible.<br />
+It would be a real Edge Device, with no computation happening in the cloud.</p>
+
+<p>Inspo from: <a href="https://github.com/MauiJerry/Pose2Art">pose2art</a></p>
+
+<p class="notice">work in progress</p>
+
+<h2 id="hardware">Hardware</h2>
+
+<ul>
+  <li><a href="https://www.raspberrypi.com/products/raspberry-pi-5/">Raspberry Pi 5</a></li>
+  <li><a href="https://www.raspberrypi.com/documentation/accessories/camera.html">Raspberry Pi Camera Module v1.3</a></li>
+  <li><a href="https://www.raspberrypi.com/documentation/accessories/camera.html">Raspberry Pi GlobalShutter Camera</a></li>
+  <li>2x CSI FPC Cable (needs one compact side to fit pi 5)</li>
+  <li><a href="https://pineberrypi.com/products/hat-ai-for-raspberry-pi-5">Pineberry AI Hat (m.2 E key)</a></li>
+  <li><a href="https://www.coral.ai/products/m2-accelerator-dual-edgetpu">Coral Dual Edge TPU (m.2 E key)</a></li>
+  <li>Raspi Official 5A Power Supply</li>
+  <li>Raspi active cooler</li>
+</ul>
+
+<h2 id="setup">Setup</h2>
+
+<h3 id="most-important-sources-used">Most important sources used</h3>
+
+<p><a href="https://www.coral.ai/docs/m2/get-started/#requirements">coral.ai</a>
+<a href="https://www.jeffgeerling.com/blog/2023/pcie-coral-tpu-finally-works-on-raspberry-pi-5">Jeff Geerling</a>
+<a href="https://docs.frigate.video">Frigate NVR</a></p>
+
+<h3 id="raspberry-pi-os">Raspberry Pi OS</h3>
+
+<p>I used the Raspberry Pi Imager to flash the latest Raspberry Pi OS Lite to a SD Card.</p>
+
+<p class="notice">Needs to be Debian Bookworm.<br />
+Needs to be the full arm64 image (with desktop), otherwise you will get into camera driver hell.</p>
+
+<p>Settings applied:</p>
+
+<ul>
+  <li>used the default arm64 image (with desktop)</li>
+  <li>enable custom settings:</li>
+  <li>enable ssh</li>
+  <li>set wifi country</li>
+  <li>set wifi ssid and password</li>
+  <li>set locale</li>
+  <li>set hostname: airaspi</li>
+</ul>
+
+<h3 id="update">update</h3>
+
+<p>This is always good practice on a fresh install. It takes quite long with the full os image.</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt update <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt upgrade <span class="nt">-y</span> <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>reboot
+</code></pre></div></div>
+
+<h3 id="prep-system-for-coral">prep system for coral</h3>
+
+<p>Thanks again @Jeff Geerling, this is completely out of my comfort zone, I rely on people writing solid tutorials like this one.</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># check kernel version</span>
+<span class="nb">uname</span> <span class="nt">-a</span>
+</code></pre></div></div>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># modify config.txt</span>
+<span class="nb">sudo </span>nano /boot/firmware/config.txt
+</code></pre></div></div>
+
+<p>While in the file, add the following lines:</p>
+
+<div class="language-config highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">kernel</span>=<span class="n">kernel8</span>.<span class="n">img</span>
+<span class="n">dtparam</span>=<span class="n">pciex1</span>
+<span class="n">dtparam</span>=<span class="n">pciex1_gen</span>=<span class="m">2</span>
+</code></pre></div></div>
+
+<p>Save and reboot:</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>reboot
+</code></pre></div></div>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># check kernel version again</span>
+<span class="nb">uname</span> <span class="nt">-a</span>
+</code></pre></div></div>
+
+<ul>
+  <li>should be different now, with a -v8 at the end</li>
+</ul>
+
+<p>edit /boot/firmware/cmdline.txt</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>nano /boot/firmware/cmdline.txt
+</code></pre></div></div>
+
+<ul>
+  <li>add pcie_aspm=off before rootwait</li>
+</ul>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>reboot
+</code></pre></div></div>
+
+<h3 id="change-device-tree">change device tree</h3>
+
+<h4 id="wrong-device-tree">wrong device tree</h4>
+
+<p>The script simply did not work for me.</p>
+
+<p class="notice">maybe this script is the issue?
+i will try again without it</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl https://gist.githubusercontent.com/dataslayermedia/714ec5a9601249d9ee754919dea49c7e/raw/32d21f73bd1ebb33854c2b059e94abe7767c3d7e/coral-ai-pcie-edge-tpu-raspberrypi-5-setup | sh
+</code></pre></div></div>
+
+<ul>
+  <li>Yes it was the issue, wrote a comment about it on the gist
+<a href="https://gist.github.com/dataslayermedia/714ec5a9601249d9ee754919dea49c7e?permalink_comment_id=4860232#gistcomment-4860232">comment</a></li>
+</ul>
+
+<p>What to do instead?</p>
+
+<p>Here, I followed Jeff Geerling down to the T. Please refer to his tutorial for more information.</p>
+
+<p class="notice">In the meantime the Script got updated and it is now recommended again.</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Back up the current dtb</span>
+<span class="nb">sudo cp</span> /boot/firmware/bcm2712-rpi-5-b.dtb /boot/firmware/bcm2712-rpi-5-b.dtb.bak
+
+<span class="c"># Decompile the current dtb (ignore warnings)</span>
+dtc <span class="nt">-I</span> dtb <span class="nt">-O</span> dts /boot/firmware/bcm2712-rpi-5-b.dtb <span class="nt">-o</span> ~/test.dts
+
+<span class="c"># Edit the file</span>
+nano ~/test.dts
+
+<span class="c"># Change the line: msi-parent = &lt;0x2f&gt;; (under `pcie@110000`)</span>
+<span class="c"># To: msi-parent = &lt;0x66&gt;;</span>
+<span class="c"># Then save the file.</span>
+
+<span class="c"># Recompile the dtb and move it back to the firmware directory</span>
+dtc <span class="nt">-I</span> dts <span class="nt">-O</span> dtb ~/test.dts <span class="nt">-o</span> ~/test.dtb
+<span class="nb">sudo mv</span> ~/test.dtb /boot/firmware/bcm2712-rpi-5-b.dtb
+</code></pre></div></div>
+
+<p class="notice">Note: msi- parent sems to carry the value &lt;0x2c&gt; nowadays, cost me a few hours.</p>
+
+<h3 id="install-apex-driver">install apex driver</h3>
+
+<p>following instructions from <a href="https://coral.ai/docs/m2/get-started#2a-on-linux">coral.ai</a></p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"deb https://packages.cloud.google.com/apt coral-edgetpu-stable main"</span> | <span class="nb">sudo tee</span> /etc/apt/sources.list.d/coral-edgetpu.list
+
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | <span class="nb">sudo </span>apt-key add -
+
+<span class="nb">sudo </span>apt-get update
+
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>gasket-dkms libedgetpu1-std
+
+<span class="nb">sudo </span>sh <span class="nt">-c</span> <span class="s2">"echo 'SUBSYSTEM==</span><span class="se">\"</span><span class="s2">apex</span><span class="se">\"</span><span class="s2">, MODE=</span><span class="se">\"</span><span class="s2">0660</span><span class="se">\"</span><span class="s2">, GROUP=</span><span class="se">\"</span><span class="s2">apex</span><span class="se">\"</span><span class="s2">' &gt;&gt; /etc/udev/rules.d/65-apex.rules"</span>
+
+<span class="nb">sudo </span>groupadd apex
+
+<span class="nb">sudo </span>adduser <span class="nv">$USER</span> apex
+</code></pre></div></div>
+
+<p>Verify with</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>lspci <span class="nt">-nn</span> | <span class="nb">grep </span>089a
+</code></pre></div></div>
+
+<ul>
+  <li>should display the connected tpu</li>
+</ul>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>reboot
+</code></pre></div></div>
+
+<p>confirm with, if the output is not /dev/apex_0, something went wrong</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span> /dev/apex_0
+</code></pre></div></div>
+
+<h3 id="docker">Docker</h3>
+
+<p>Install docker, use the official instructions for debian.</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-fsSL</span> https://get.docker.com <span class="nt">-o</span> get-docker.sh
+<span class="nb">sudo </span>sh get-docker.sh
+</code></pre></div></div>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># add user to docker group</span>
+<span class="nb">sudo </span>groupadd docker
+<span class="nb">sudo </span>usermod <span class="nt">-aG</span> docker <span class="nv">$USER</span>
+</code></pre></div></div>
+
+<p class="notice">Probably a source with source .bashrc would be enough, but I rebooted anyways</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>reboot
+</code></pre></div></div>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># verify with</span>
+docker run hello-world
+</code></pre></div></div>
+
+<h3 id="set-docker-to-start-on-boot">set docker to start on boot</h3>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>systemctl <span class="nb">enable </span>docker.service
+<span class="nb">sudo </span>systemctl <span class="nb">enable </span>containerd.service
+</code></pre></div></div>
+
+<h3 id="test-the-edge-tpu">Test the edge tpu</h3>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>coraltest
+<span class="nb">cd </span>coraltest
+<span class="nb">sudo </span>nano Dockerfile
+</code></pre></div></div>
+
+<p>Into the new file, paste:</p>
+
+<div class="language-Dockerfile highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">FROM</span><span class="s"> debian:10</span>
+
+<span class="k">WORKDIR</span><span class="s"> /home</span>
+<span class="k">ENV</span><span class="s"> HOME /home</span>
+<span class="k">RUN </span><span class="nb">cd</span> ~
+<span class="k">RUN </span>apt-get update
+<span class="k">RUN </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> git nano python3-pip python-dev pkg-config wget usbutils curl
+
+<span class="k">RUN </span><span class="nb">echo</span> <span class="s2">"deb https://packages.cloud.google.com/apt coral-edgetpu-stable main"</span> <span class="se">\
+</span>| <span class="nb">tee</span> /etc/apt/sources.list.d/coral-edgetpu.list
+<span class="k">RUN </span>curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+<span class="k">RUN </span>apt-get update
+<span class="k">RUN </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> edgetpu-examples
+</code></pre></div></div>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># build the docker container</span>
+docker build <span class="nt">-t</span> <span class="s2">"coral"</span> <span class="nb">.</span>
+</code></pre></div></div>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># run the docker container</span>
+docker run <span class="nt">-it</span> <span class="nt">--device</span> /dev/apex_0:/dev/apex_0 coral /bin/bash
+</code></pre></div></div>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># run an inference example from within the container</span>
+python3 /usr/share/edgetpu/examples/classify_image.py <span class="nt">--model</span> /usr/share/edgetpu/examples/models/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite <span class="nt">--label</span> /usr/share/edgetpu/examples/models/inat_bird_labels.txt <span class="nt">--image</span> /usr/share/edgetpu/examples/images/bird.bmp
+</code></pre></div></div>
+
+<p>Here, you should see the inference results from the edge tpu with some confidence values.<br />
+If it ain’t so, safest bet is a clean restart</p>
+
+<h3 id="portainer">Portainer</h3>
+
+<p class="notice">This is optional, gives you a browser gui for your various docker containers</p>
+
+<p>Install portainer</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker volume create portainer_data
+docker run <span class="nt">-d</span> <span class="nt">-p</span> 8000:8000 <span class="nt">-p</span> 9443:9443 <span class="nt">--name</span> portainer <span class="nt">--restart</span><span class="o">=</span>always <span class="nt">-v</span> /var/run/docker.sock:/var/run/docker.sock <span class="nt">-v</span> portainer_data:/data portainer/portainer-ce:latest
+</code></pre></div></div>
+
+<p>open portainer in browser and set admin password</p>
+
+<ul>
+  <li>should be available under <a href="https://airaspi.local:9443">https://airaspi.local:9443</a></li>
+</ul>
+
+<h3 id="vnc-in-raspi-config">vnc in raspi-config</h3>
+
+<p class="notice">optional, useful to test your cameras on your headless device.
+You could of course also attach a monitor, but i find this more convenient.</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>raspi-config
+</code></pre></div></div>
+
+<p>– interface otions, enable vnc</p>
+
+<h3 id="connect-through-vnc-viewer">connect through vnc viewer</h3>
+
+<p>Install vnc viewer on mac.<br />
+Use airaspi.local:5900 as address.</p>
+
+<h3 id="working-docker-compose-for-frigate">working docker-compose for frigate</h3>
+
+<p>Start this as a custom template in portainer.</p>
+
+<p class="notice">Important: you need to change the paths to your own paths</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">version</span><span class="pi">:</span> <span class="s2">"</span><span class="s">3.9"</span>
+<span class="na">services</span><span class="pi">:</span>
+  <span class="na">frigate</span><span class="pi">:</span>
+    <span class="na">container_name</span><span class="pi">:</span> <span class="s">frigate</span>
+    <span class="na">privileged</span><span class="pi">:</span> <span class="no">true</span> <span class="c1"># this may not be necessary for all setups</span>
+    <span class="na">restart</span><span class="pi">:</span> <span class="s">unless-stopped</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">ghcr.io/blakeblackshear/frigate:stable</span>
+    <span class="na">shm_size</span><span class="pi">:</span> <span class="s2">"</span><span class="s">64mb"</span> <span class="c1"># update for your cameras based on calculation above</span>
+    <span class="na">devices</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">/dev/apex_0:/dev/apex_0</span> <span class="c1"># passes a PCIe Coral, follow driver instructions here https://coral.ai/docs/m2/get-started/#2a-on-linux</span>
+
+    <span class="na">volumes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">/etc/localtime:/etc/localtime:ro</span>
+      <span class="pi">-</span> <span class="s">/home/aron/frigate/config.yml:/config/config.yml</span> <span class="c1"># replace with your config file</span>
+      <span class="pi">-</span> <span class="s">/home/aron/frigate/storage:/media/frigate</span> <span class="c1"># replace with your storage directory</span>
+      <span class="pi">-</span> <span class="na">type</span><span class="pi">:</span> <span class="s">tmpfs</span> <span class="c1"># Optional: 1GB of memory, reduces SSD/SD Card wear</span>
+        <span class="na">target</span><span class="pi">:</span> <span class="s">/tmp/cache</span>
+        <span class="na">tmpfs</span><span class="pi">:</span>
+          <span class="na">size</span><span class="pi">:</span> <span class="m">1000000000</span>
+    <span class="na">ports</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">5000:5000"</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">8554:8554"</span> <span class="c1"># RTSP feeds</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">8555:8555/tcp"</span> <span class="c1"># WebRTC over tcp</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">8555:8555/udp"</span> <span class="c1"># WebRTC over udp</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="na">FRIGATE_RTSP_PASSWORD</span><span class="pi">:</span> <span class="s2">"</span><span class="s">******"</span>
+</code></pre></div></div>
+
+<h3 id="working-frigate-config-file">Working frigate config file</h3>
+
+<p class="notice">Frigate wants this file wherever you specified earlier that it will be.<br />
+This is necessary just once. Afterwards, you will be able to change the config in the gui.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">mqtt</span><span class="pi">:</span>
+  <span class="na">enabled</span><span class="pi">:</span> <span class="s">False</span>
+
+<span class="na">detectors</span><span class="pi">:</span>
+  <span class="na">cpu1</span><span class="pi">:</span>
+    <span class="na">type</span><span class="pi">:</span> <span class="s">cpu</span>
+    <span class="na">num_threads</span><span class="pi">:</span> <span class="m">3</span>
+  <span class="na">coral_pci</span><span class="pi">:</span>
+    <span class="na">type</span><span class="pi">:</span> <span class="s">edgetpu</span>
+    <span class="na">device</span><span class="pi">:</span> <span class="s">pci</span>
+
+<span class="na">cameras</span><span class="pi">:</span>
+  <span class="na">cam1</span><span class="pi">:</span> <span class="c1"># &lt;------ Name the camera</span>
+    <span class="na">ffmpeg</span><span class="pi">:</span>
+      <span class="na">hwaccel_args</span><span class="pi">:</span> <span class="s">preset-rpi-64-h264</span>
+      <span class="na">inputs</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">path</span><span class="pi">:</span> <span class="s">rtsp://192.168.1.58:8900/cam1</span>
+          <span class="na">roles</span><span class="pi">:</span>
+            <span class="pi">-</span> <span class="s">detect</span>
+  <span class="na">cam2</span><span class="pi">:</span> <span class="c1"># &lt;------ Name the camera</span>
+    <span class="na">ffmpeg</span><span class="pi">:</span>
+      <span class="na">hwaccel_args</span><span class="pi">:</span> <span class="s">preset-rpi-64-h264</span>
+      <span class="na">inputs</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">path</span><span class="pi">:</span> <span class="s">rtsp://192.168.1.58:8900/cam2</span>
+          <span class="na">roles</span><span class="pi">:</span>
+            <span class="pi">-</span> <span class="s">detect</span>
+    <span class="na">detect</span><span class="pi">:</span>
+      <span class="na">enabled</span><span class="pi">:</span> <span class="s">True</span> <span class="c1"># &lt;---- disable detection until you have a working camera feed</span>
+      <span class="na">width</span><span class="pi">:</span> <span class="m">1280</span> <span class="c1"># &lt;---- update for your camera's resolution</span>
+      <span class="na">height</span><span class="pi">:</span> <span class="m">720</span> <span class="c1"># &lt;---- update for your camera's resolution</span>
+</code></pre></div></div>
+
+<h3 id="mediamtx">mediamtx</h3>
+
+<p>install mediamtx, do not use the docker version, it will be painful</p>
+
+<p class="notice">double check the chip architecture here, caused me some headache</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>mediamtx
+<span class="nb">cd </span>mediamtx
+wget https://github.com/bluenviron/mediamtx/releases/download/v1.5.0/mediamtx_v1.5.0_linux_arm64v8.tar.gz
+
+<span class="nb">tar </span>xzvf mediamtx_v1.5.0_linux_arm64v8.tar.gz <span class="o">&amp;&amp;</span> <span class="nb">rm </span>mediamtx_v1.5.0_linux_arm64v8.tar.gz
+</code></pre></div></div>
+
+<p>edit the mediamtx.yml file</p>
+
+<h3 id="working-paths-section-in-mediamtxyml">working paths section in mediamtx.yml</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">paths</span><span class="pi">:</span>
+ <span class="na">cam1</span><span class="pi">:</span>
+   <span class="na">runOnInit</span><span class="pi">:</span> <span class="s">bash -c 'rpicam-vid -t 0 --camera 0 --nopreview --codec yuv420 --width 1280 --height 720 --inline --listen -o - | ffmpeg -f rawvideo -pix_fmt yuv420p -s:v 1280x720 -i /dev/stdin -c:v libx264 -preset ultrafast -tune zerolatency -f rtsp rtsp://localhost:$RTSP_PORT/$MTX_PATH'</span>
+   <span class="na">runOnInitRestart</span><span class="pi">:</span> <span class="s">yes</span>
+ <span class="na">cam2</span><span class="pi">:</span>
+   <span class="na">runOnInit</span><span class="pi">:</span> <span class="s">bash -c 'rpicam-vid -t 0 --camera 1 --nopreview --codec yuv420 --width 1280 --height 720 --inline --listen -o - | ffmpeg -f rawvideo -pix_fmt yuv420p -s:v 1280x720 -i /dev/stdin -c:v libx264 -preset ultrafast -tune zerolatency -f rtsp rtsp://localhost:$RTSP_PORT/$MTX_PATH'</span>
+   <span class="na">runOnInitRestart</span><span class="pi">:</span> <span class="s">yes</span>
+</code></pre></div></div>
+
+<p>also change rtspAddress: :8554<br />
+to rtspAddress: :8900<br />
+Otherwise there is a conflict with frigate.</p>
+
+<p>With this, you should be able to start mediamtx.</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./mediamtx
+</code></pre></div></div>
+
+<p>If there is no error, you can verify your stream through vlc under rtsp://airaspi.local:8900/cam1 (default would be 8554, but we changed it in the config file)</p>
+
+<h3 id="current-status">Current Status</h3>
+
+<p>I get working streams from both cameras, sending them out at 30fps at 720p.
+frigate, however limits the display fps to 5, which is depressing to watch, especially since the tpu doesnt even break a little sweat.</p>
+
+<p>Frigate claime that the TPU is good for up to 10 cameras, so there is headroom.</p>
+
+<p>The stram is completely errant and drops frames left and right. I have sometimes seen detect fps of 0.2, but the TPU speed should definitely not be the bottleneck here. Maybe attach the cameras to a separate device and stream from there?</p>
+
+<p>The biggest issue here is that the google folx seems to have abandoned the coral, even though they just released a new piece of hardware for it.
+Their most RECENT python build is 3.9.
+Specifically, pycoral seems to be the problem there. without a decent update, I will be confined to debian 10, with python 3.7.3.
+That sucks.
+There are custom wheels, but nothing that seems plug and play.</p>
+
+<p>About the rest of this setup:
+The decision to go for m.2 E key to save money, instead of spending more on the usb version was a huge mistake.
+Please do yourself a favor and spend the extra 40 bucks.
+Technically, its probably faster and better with continuous operation, but i have yet to feel the benefit of that.</p>
+
+<h3 id="todos">TODOs</h3>
+
+<ul>
+  <li>add images and screenshots to the build log</li>
+  <li>Check whether vdo.ninja is a viable way to add mobile streams. then Smartphone stream evaluation would be on the horizon.</li>
+  <li>Bother the mediamtx makers about the libcamera bump, so we can get rid of the rpicam-vid hack.
+I suspect there is quirte a lot of performance lost there.</li>
+  <li>tweak the frigate config to get snapshots and maybe build an image / video database to later train a custom model.</li>
+  <li>worry about attaching an external ssd and saving the video files on it.</li>
+  <li>find a way to export the landmark points from frigate. maybe send them via osc like in pose2art?</li>
+  <li>find a different hat that lets me access the other TPU? I have the dual version, but can currently only acces 1 of the 2 TPUs due to hardware restrictions.</li>
+</ul>]]></content><author><name>Aron Petau</name></author><category term="local AI" /><category term="coral" /><category term="raspberry pi" /><category term="edge TPU" /><category term="docker" /><category term="frigate" /><category term="private" /><category term="surveillance" /><category term="edge computing" /><summary type="html"><![CDATA[Utilizing an edge TPU to build an edge device for image recognition and object detection]]></summary></entry><entry><title type="html">Commoning Cars</title><link href="https://www.aron.petau.net/commoning-cars/" rel="alternate" type="text/html" title="Commoning Cars" /><published>2023-12-07T00:00:00+01:00</published><updated>2023-12-07T00:00:00+01:00</updated><id>https://www.aron.petau.net/commoning-cars</id><content type="html" xml:base="https://www.aron.petau.net/commoning-cars/"><![CDATA[<h2 id="commoning-cars">Commoning cars</h2>
+
+<h2 id="tcf-project-brief">TCF Project Brief</h2>
+
+<p>This Project was conceptualized durin a 2023 Workshop titled Tangible Climate Futures.</p>
+
+<p>Aron Petau
+<a href="mailto:aron@petau.net">aron@petau.net</a></p>
+
+<p><a href="https://www.aronpetau.me/ulli/">See the Project in Realtime</a></p>
+
+<h2 id="title">Title</h2>
+
+<p><del>Making Cars Public spaces</del>
+Commoning Cars</p>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Cars bad.<br />
+Cars occupy public spaces resulting un a factual privatization of public goods/infrastructure.<br />
+What if cars could be part of public infrastructure?<br />
+What can cars provide to the public?<br />
+With Solar and Electrical Vehicles emerging on the horizon (no endorsement here) it makes sense to think about cars as decentralized powerhouses and public energy storage solutions.<br />
+Cars, even traditional ones, come equipped with batteries and generate electricity either by driving or though added solar panels. 
+What if this energy could be used to power the public? What if cars would could be used as public spaces?
+By installing a public USB socket and a public wifi hotspot, on my car, I want to start exploring the potential of cars as public spaces and energy storage solutions.</p>
+
+<p>Within this artistic experiment, I will continuously track the geolocation and energy input/output of my solar equipped car and make the data publicly available. I will also track the amount of energy that is not used by the car and could be used by the public. Taking steps towards optimal usage of existing electrical and other infrastructure is only possible by breaking conventional notions of public ownership and private property. This project is one step towards a more sustainable and equitable future.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>We all know by now that cars and individual traffic presents a major environmetal and societal problem all over the world. The last 70 something years of building car infrastructure are culminating in many areas in a dead end where the only thinkable solution is to build more roads and cars.
+THis is obviously a larger problem than one project can tackle, but here is one outlook on how</p>
+
+<h2 id="experiment">Experiment</h2>
+
+<h3 id="preexisting-data">Preexisting data</h3>
+
+<p>With the data collected over the last year of using the car privately I can show with embarrasing accuracy how underutilized the system is and calculate an estimate of energy lost due to societal notions of private property.
+The data will be an estimate, since the monitoring itself is dependent on solar energy and the internet connection is spotty at best when it is not supplied with electricity.</p>
+
+<h3 id="monitoring">Monitoring</h3>
+
+<p>In the Car, there is a Raspberry Pi 4 Microcomputer running a custom Operating Systen that monitors the following data:</p>
+
+<ul>
+  <li>Solar Intake (W)</li>
+  <li>Battery Level (V)</li>
+  <li>GPS Location</li>
+  <li>Total Energy Produced (Wh)</li>
+  <li>Total Energy Consumed (Wh)</li>
+  <li>Solar Energy Potential (Wh)</li>
+</ul>
+
+<p>Through the router I can also track total Wifi usage and the number of connected devices.</p>
+
+<h3 id="public-wifi">Public Wifi</h3>
+
+<p>For the Project, I opened a router in the Car towards the Public, much alike to ahotspot you would find in a cafe. I use my own data plan on there, which I never max out anyways. The router is a Netgear M1 and has a 4G Modem built in. It is connected to the Raspberry Pi and is powered by the secondary car battery.</p>
+
+<h3 id="public-energy-a-usb-socket">Public Energy: A USB Socket</h3>
+
+<p>I plan on installing a USB Socket on the outside of the car, so people can charge their devices. The socket will be connected to the secondary car battery and will be powered by the solar panels. The socket will be installed in a way that it is not possible to drain the battery completely.</p>
+
+<h3 id="communication">Communication</h3>
+
+<p>Nobody expects any help or public supplies from car owners.
+How to communicate the possibility to the outside world?
+The plan is to fabricate a vinyl sticker that will be applied to the car. The sticker will contain a QR Code that will lead to a website with the data and a short explanation of the project. Visual cues lead to the USB Socket and the Wifi Hotspot.</p>
+
+<h2 id="issues">Issues</h2>
+
+<h3 id="space--scale">Space / Scale</h3>
+
+<p>Obviously, the space on top of a car is quite limited and from a sustainability perspective, it would be better to have a larger solar array on a roof of a house. The point is not to advocate for a mandated solar install on cars, but to optimize and share preexisting infrastructure. The car is already there, it already has a battery and it already has solar panels. Looking at many Camper-Van builds, the amount of cars with already installed solar panels is quite large. The point is to make the most out of it.</p>
+
+<h3 id="legality">Legality</h3>
+
+<p>Germany has laws in place holding the owner of a Internet Connection liable for the legality of the traffic that is going through it. This is a major issue for the project, as I do not want to be liable for the traffic that is going through my car. I am currently looking into ways to circumvent this issue.</p>
+
+<h3 id="surveillance--privacy">Surveillance / Privacy</h3>
+
+<p>The Car is equipped with a GPS Tracker and a Wifi Hotspot. This means that I can track the location of the car and the number of devices connected to the hotspot. I am not tracking any data that is going through the hotspot, but I could. As this project will generate public data, People using and maybe depending on the internet and electricity provided will be tracked by proxy. I am not sure how to deal with this issue yet. One potential solution would be to publish the data only in an aggregated form, but this would make the data less useful for other projects.</p>
+
+<h3 id="security--safety">Security / Safety</h3>
+
+<p>My Car is now publicly traceable. I am no Elon Musk, and the idea does not really concern me, but we did create an additional attack vector for theft here.</p>
+
+<h2 id="sources">Sources</h2>
+
+<p><a href="https://sdgs.un.org/goals/goal7">UN Sustainable Development Goal Nr. 7</a>
+<a href="https://www.youtube.com/watch?v=lrfsTNNCbP0">Adam Something on the Rise of Urban Cars</a>
+<a href="https://storymaps.arcgis.com/stories/b7437b11e42d44b5a3bf3b5d9d8211b1">Is Berlin a walkable City?</a>
+<a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/on-the-internet">FBI advising against utilizing public infrastructure</a>
+<a href="https://www.forbes.com/sites/billroberson/2022/11/30/why-doesnt-every-electric-car-have-solar-panels/?sh=4276c42d1ac6">Why no solar panels on cars?</a></p>
+
+<hr />
+
+<h2 id="notes">Notes</h2>
+
+<p>Ideas on Data Mapping workshop</p>
+
+<p>I have the Solar Data from the Van.</p>
+
+<p>It holds Geocodes,
+has hourly data
+and could tell the difference between geocoded potential solar energy and actual energy.
+It also has temperature records.</p>
+
+<p>There are 2 types of Losses in the system:</p>
+
+<ul>
+  <li>Either the Batteries are full and available energy cannot be stored</li>
+  <li>Or the solar panels are blocked through urban structures and sub-optimal parking locations.</li>
+</ul>
+
+<p>Interesting Questions:</p>
+
+<p>How far away from optimal usage are my panels and where does the difference stem from?</p>
+
+<p>Where to go?</p>
+
+<p>I think, the difference between potential energy and actual electricity produced/consumed is interesting.
+How large is the gap?
+ Is it relevant —&gt; my initial guess would be that it is enormous
+How to close the gap?</p>
+
+<p>—&gt; install outside usb plugs
+ It would be publicly available infrastructure, people could charge their smartphones anywhere
+ —&gt; QI charging for security concerns??</p>
+
+<p>Scaling??
+—&gt; mandate solar roofs for cars? How effective would it actually be?
+ What about buses / public vehicles?</p>
+
+<hr />
+
+<h2 id="potential-issues-with-the-data">Potential issues with the data:</h2>
+
+<ul>
+  <li>Spotty / intermittent internet connection</li>
+  <li>Noisy?</li>
+</ul>
+
+<h2 id="making-cars-public-spaces">Making Cars public spaces</h2>
+
+<p>What could my car provide to the public to be less wasteful with its space?</p>
+
+<ul>
+  <li>Provide Internet
+    <ul>
+      <li>Would incur monthly costs</li>
+    </ul>
+  </li>
+  <li>Provide Electricity</li>
+</ul>
+
+<h2 id="concrete-problems">Concrete Problems</h2>
+
+<p>How to make sure people cannot fully drain my battery?
+ How dangerous is actually an exposed USB Socket?
+  Can people short my electronics through it?</p>
+
+<p>How scalable are solutions like these?</p>
+
+<p>Are public USBC Sockets something that would actually be used?
+ Could there be a way for people to leave their stuff charging?
+  What if I actually move the car and someone has their equipment still attached?
+    Would people even leave their stuff unattended?</p>
+
+<p>Can cars provide positive effects to public spaces?
+  —&gt; how to pose this research question without redeeming the presence of cars in our public spaces?</p>
+
+<p>Difference Electric - Fuel cars</p>
+
+<p>there is lots of research on using Electric cars as transitional energy storage. Even before “flatten the curve” became a common slogan, electrical engineers worried about the small energy spikes in the grid. The existence of these forces us to keep large power plants running at all times, even if the energy is not needed. The idea is to use the batteries of electric cars to store this energy and use it when needed.</p>
+
+<div id="adobe-dc-view" style="width: 800px;"></div>
+<script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
+
+<script type="text/javascript">
+ document.addEventListener("adobe_dc_view_sdk.ready", function(){
+  var adobeDCView = new AdobeDC.View({clientId: "7e638fda11f64ff695894a7bc7e61ba4", divId: "adobe-dc-view"});
+  adobeDCView.previewFile({
+   content:{location: {url: "https://github.com/arontaupe/aronpetau.me/blob/3a5eae1da4dbc2f944b308a6d39f577cfaf37413/assets/documents/Info_Sheet_Commoning_Cars.pdf"}},
+   metaData:{fileName: "Info_Sheet_Commoning_Cars.pdf"}
+  }, {embedMode: "IN_LINE", showPrintPDF: false});
+ });
+</script>]]></content><author><name>Aron Petau</name></author><category term="war on cars" /><category term="public spaces" /><category term="commons" /><category term="urban intervention" /><category term="UdK Berlin" /><category term="private" /><category term="ars electronica" /><category term="accessibility activism" /><summary type="html"><![CDATA[How can we attack the privatization of public space through cars?]]></summary></entry><entry><title type="html">Postmaster</title><link href="https://www.aron.petau.net/postmaster/" rel="alternate" type="text/html" title="Postmaster" /><published>2023-12-06T14:39:27+01:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>https://www.aron.petau.net/postmaster</id><content type="html" xml:base="https://www.aron.petau.net/postmaster/"><![CDATA[<h2 id="postmaster">Postmaster</h2>
+
+<p>Hello from <a href="mailto:aron@petau.net">aron@petau.net</a>!</p>
+
+<h2 id="background">Background</h2>
+
+<p>Emails are a wondrous thing and I spend the last weeks digging a bit deeper in how they actually work.
+Some people consider them the last domain of the decentralized dream the internet once had and that is now popping up again with federation and peer-to-peer networks as quite popular buzzwords.</p>
+
+<p>We often forget that email is already a federated system and that it is likely the most important one we have.
+It is the only way to communicate with people that do not use the same service as you do.
+It has open standards and is not controlled by a single entity. Going without emails is unimaginable in today’s world, yet most providers are the familiar few from the silicon valley. And really, who wants their entire decentralized, federated, peer-to-peer network to be controlled by a schmuck from the silicon valley? Mails used to be more than that and they can still be.
+Arguably, the world of messanging has gotten quite complex since emails popped up and there are more anti-spam AI tools that I would care to count. But the core of it is still the same and it is still a federated system.
+Yet, also with Emails, Capitalism has held many victories, and today many emails that are sent from a provider that does not belong to the 5 or so big names are likely to be marked as spam. This is a problem that is not easily solved, but it is a problem that is worth solving.</p>
+
+<p>Another issue with emails is security, as it is somehow collectively agreed upon that emails are a valid way to communicate business informations, while Whatsapp and Signal are not. These, at least when talking about messaging services with end-to-end encryption, are likely to be way more secure than emails.</p>
+
+<h2 id="the-story">The story</h2>
+
+<p>So it came to pass, that I, as the only one in the family interested in operating it, “inherited” the family domain petau.net. All of our emails run through this service, that was previously managed by a web developer that was not interested in the domjobain anymore.</p>
+
+<p>With lots of really secure Mail Providers like Protonmail or Tutanota, I went on a research spree, as to how I would like to manage my own service. Soon noticing that secure emails virtually always come with a price or with lacking interoperability with clients like Thunderbird or Outlook, I decided to go for migadu, a swiss provider that offers a good balance between security and usability. They also offer a student tier, which is a big plus.</p>
+
+<p>While self-hosting seems like a great idea from a privacy perspective, it is also quite risky for a service that is usually the only way for any service to recover your password or your online identity. 
+Migadu it was then, and in the last three months of basically set it and forget it, i am proud to at least have a decently granular control over my emails and can consciously reflect on the server location of The skeleton service service that enables virtually my entire online existence.</p>
+
+<p>I certainly crave more open protocols in my life and am also findable on <a href="https://mastodon.online/@reprintedAron">Mastodon</a>, a microblogging network around the ActivityPub Protocol.</p>]]></content><author><name>Aron Petau</name></author><category term="server" /><category term="web" /><category term="petau.net" /><category term="dev-ops" /><category term="open protocols" /><category term="federation" /><category term="peer-to-peer" /><category term="email" /><category term="activitypub" /><summary type="html"><![CDATA[I now manage the domain petau.net with a mail server and attached sites.]]></summary></entry><entry><title type="html">Dreams of Cars</title><link href="https://www.aron.petau.net/dreams-of-cars/" rel="alternate" type="text/html" title="Dreams of Cars" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>https://www.aron.petau.net/dreams-of-cars</id><content type="html" xml:base="https://www.aron.petau.net/dreams-of-cars/"><![CDATA[<h2 id="photography">Photography</h2>
+
+<p>In the context of the course “Fotografie Elementar” with Sebastian Herold I developed a small concept of urban intervention.<br />
+The results were exhibited at the UdK Rundgang 2023 and are also visible here.</p>
+
+<p><img src="/assets/images/suv/suv_door-1.jpg" alt="The gallery piece" /></p>
+
+<h2 id="dreams-of-cars">Dreams of Cars</h2>
+
+<p>These are not just cars.<br />
+They are Sport Utility Vehicles.<br />
+What might they have had as hopes and dreams on the production line?<br />
+Do they dream of drifting in dusty deserts?<br />
+Climbing steep rocky canyon roads?<br />
+Sliding down sun-drenched dunes?<br />
+Discovering remote pathways in natural grasslands?<br />
+Nevertheless, they did end up in the parking spots here in Berlin.</p>
+
+<p>What drove them here?</p>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/suv/Dreams_of_Cars-1.jpg" title="Dreams of Cars 1">
+          <img src="/assets/images/suv/Dreams_of_Cars-1.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/suv/Dreams_of_Cars-2.jpg" title="Dreams of Cars 2">
+          <img src="/assets/images/suv/Dreams_of_Cars-2.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/suv/Dreams_of_Cars-3.jpg" title="Dreams of Cars 3">
+          <img src="/assets/images/suv/Dreams_of_Cars-3.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/suv/Dreams_of_Cars-4.jpg" title="Dreams of Cars 4">
+          <img src="/assets/images/suv/Dreams_of_Cars-4.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/suv/Dreams_of_Cars-5.jpg" title="Dreams of Cars 5">
+          <img src="/assets/images/suv/Dreams_of_Cars-5.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/suv/Dreams_of_Cars-6.jpg" title="Dreams of Cars 6">
+          <img src="/assets/images/suv/Dreams_of_Cars-6.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/suv/Dreams_of_Cars-7.jpg" title="Dreams of Cars 7">
+          <img src="/assets/images/suv/Dreams_of_Cars-7.jpg" alt="" />
+      </a>
+    
+  
+  
+</figure>]]></content><author><name>Aron Petau</name></author><category term="photography" /><category term="suv" /><category term="greenscreen" /><category term="lightroom" /><category term="photoshop" /><category term="imaginaries" /><category term="cars" /><category term="ads" /><category term="dreams" /><category term="urban intervention" /><category term="UdK Berlin" /><summary type="html"><![CDATA[A subversive urban intervention]]></summary></entry><entry><title type="html">Stable Dreamfusion</title><link href="https://www.aron.petau.net/stable-dreamfusion/" rel="alternate" type="text/html" title="Stable Dreamfusion" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-10-01T20:16:46+02:00</updated><id>https://www.aron.petau.net/stable-dreamfusion</id><content type="html" xml:base="https://www.aron.petau.net/stable-dreamfusion/"><![CDATA[<h2 id="stable-dreamfusion">Stable Dreamfusion</h2>
+
+<div class="sketchfab-embed-wrapper"> <iframe title="Stable-Dreamfusion Pig" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" width="800" height="600" src="https://sketchfab.com/models/0af6d95988e44c73a693c45e1db44cad/embed?ui_theme=dark&amp;dnt=1"> </iframe> </div>
+
+<h2 id="sources">Sources</h2>
+
+<p>I forked a really popular implementation that reverse engineered the Google Dreamfusion algorithm. This algorithm is closed-source and not publicly available.
+The implementation I forked is <a href="https://github.com/arontaupe/stable-dreamfusion">here</a>
+This one is running on stable-diffusion as a bas process, which means we are are expected to have worse results than google.
+The original implementation is <a href="https://dreamfusion3d.github.io">here</a></p>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/shW_Jh728yg" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="gradio">Gradio</h2>
+
+<p>The reason i forked the code is so that i could implement my own gradio interface for the algorithm. Gradio is a great tool for quickly building interfaces for machine learning models. No code involves, any user can state their wish, and the mechanism will spit out a ready-to-be-rigged model (obj file)</p>
+
+<h2 id="mixamo">Mixamo</h2>
+
+<p>I used Mixamo to rig the model. It is a great tool for rigging and animating models. But before everything, it is simple. as long as you have a model with a decent humanoid shape in something of a t-pose, you can rig it in seconds. Thats exactly what i did here.</p>
+
+<h2 id="unity">Unity</h2>
+
+<p>I used Unity to render the model to the magic leap 1. THrough this, i could create an interactive and immersive environment with the generated models.</p>
+
+<p>The dream was, to build a AI- Chamber of wishes. You pick up the glasses, state your desires and then the algorithm will present to you an almost-real object in AR.</p>
+
+<p>Due to not having access to the proprietary sources from google and the beefy, but still not quite machine-learning ready computers we have at the studio, the results are not quite as good as i hoped. But still, the results are quite interesting and i am happy with the outcome. A single generated object in the Box takes roughly 20 minutes to generate. Even then, the algorithm is quite particular and oftentimes will not generate anything coherent at all.</p>]]></content><author><name>Aron Petau</name></author><category term="dreamfusion" /><category term="ai" /><category term="3D graphics" /><category term="mesh" /><category term="generative" /><category term="studio d+c" /><category term="university of the arts berlin" /><category term="udk" /><category term="TODO, unfinished" /><summary type="html"><![CDATA[An exploration of 3D mesh generation through AI]]></summary></entry><entry><title type="html">Autoimmunitaet</title><link href="https://www.aron.petau.net/autoimmunitaet/" rel="alternate" type="text/html" title="Autoimmunitaet" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>https://www.aron.petau.net/autoimmunitaet</id><content type="html" xml:base="https://www.aron.petau.net/autoimmunitaet/"><![CDATA[<h2 id="how-do-we-design-our-commute">How do we design our Commute?</h2>
+
+<p>In the context of the Design and Computation Studio Course <a href="https://millikeil.eu">Milli Keil</a>, <a href="https://marlagaiser.de">Marla Gaiser</a> and me developed a concept for a playful critique of the traffic decisions we take and the idols we embrace.<br />
+It should open up questions of whether the generations to come should still grow up playing on traffic carpets that are mostly grey and whether the <a href="https://letztegeneration.org">Letzte Generation</a>, a political climate activist group in Germany receives enough recognition for their acts.</p>
+
+<p>A call for solidarity.</p>
+
+<p class="center"><img src="/assets/images/autoimmunitaet/autoimmunitaet-2.jpg" alt="The action figures" /></p>
+
+<h2 id="the-scan-results">The scan results</h2>
+
+<div class="sketchfab-embed-wrapper"> <iframe title="Autoimmunitaet: Letzte Generation Actionfigure" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" width="800" height="600" src="https://sketchfab.com/models/3916ba600ef540d0a874506bf61726f2/embed?ui_hint=0&amp;ui_theme=dark&amp;dnt=1"> </iframe> </div>
+
+<h2 id="the-action-figure-ready-for-printing">The Action Figure, ready for printing</h2>
+
+<div class="sketchfab-embed-wrapper"> <iframe title="Autoimmunitaet: Letzte Generation Action Figure" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" width="800" height="600" src="https://sketchfab.com/models/deec1b2899af424c91f85cbf35952375/embed?ui_theme=dark&amp;dnt=1"> </iframe> </div>
+
+<h2 id="autoimmunitaet">Autoimmunitaet</h2>
+
+<p>Autoimmunity is a term for defects, that are produced by a dysfunctional self-tolerance of a system.<br />
+This dysfunction causes the immune system to stop accepting certain parts of itself and build antibodies instead.<br />
+An invitation for a speculative playful interaction.</p>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/autoimmunitaet/autoimmunitaet-1.jpg" title="Our action figures in action">
+          <img src="/assets/images/autoimmunitaet/autoimmunitaet-1.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/autoimmunitaet/autoimmunitaet-3.jpg" title="Our action figures in action">
+          <img src="/assets/images/autoimmunitaet/autoimmunitaet-3.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/autoimmunitaet/autoimmunitaet-5.jpg" title="Our action figures in action">
+          <img src="/assets/images/autoimmunitaet/autoimmunitaet-5.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/autoimmunitaet/autoimmunitaet-6.jpg" title="Our action figures in action">
+          <img src="/assets/images/autoimmunitaet/autoimmunitaet-6.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/autoimmunitaet/autoimmunitaet-7.jpg" title="Our action figures in action">
+          <img src="/assets/images/autoimmunitaet/autoimmunitaet-7.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/autoimmunitaet/autoimmunitaet-8.jpg" title="Our action figures in action">
+          <img src="/assets/images/autoimmunitaet/autoimmunitaet-8.jpg" alt="" />
+      </a>
+    
+  
+  
+</figure>
+
+<h2 id="the-process">The Process</h2>
+
+<p>The figurines are 3D Scans of ourselves, in various typical poses of the Letzte Generation.<br />
+We used photogrammetry to create the scans, which is a technique that uses a lot of photos of an object to create a 3D model of it.<br />
+We used the app <a href="https://polycam.ai">Polycam</a> to create the scans using IPads and their inbuilt Lidar scanners.</p>]]></content><author><name>Aron Petau</name></author><category term="suv" /><category term="interactive" /><category term="cars" /><category term="last generation" /><category term="3D printing" /><category term="action figure" /><category term="aufstandlastgen" /><category term="studio d+c" /><category term="university of the arts berlin" /><category term="udk" /><summary type="html"><![CDATA[A playful interactive experience to reflect on the societal value of the car]]></summary></entry><entry><title type="html">Ascendancy</title><link href="https://www.aron.petau.net/ascendancy/" rel="alternate" type="text/html" title="Ascendancy" /><published>2023-06-16T15:39:27+02:00</published><updated>2023-06-16T15:39:27+02:00</updated><id>https://www.aron.petau.net/ascendancy</id><content type="html" xml:base="https://www.aron.petau.net/ascendancy/"><![CDATA[<h2 id="ascendancy">Ascendancy</h2>
+
+<figure class=" ">
+  
+    
+      <a href="/assets/images/ascendancy.jpg" title="The Prototype state of Ascendancy">
+          <img src="/assets/images/ascendancy.jpg" alt="" />
+      </a>
+    
+  
+  
+</figure>
+
+<p>Ascendancy was an exploration of hacking states.
+Pirate Nations and Micronations have a rich history of challenging and ridiculing the concept of a nation state.
+Meet ascendancy, the portable, autonomous and self-moving state.
+Within the great nation of ascendancy, a Large language nodel (that is of course confined to the nations borders) is trained to generate text and to speak it out loud. It can be interacted with though an attached keyboard and screen. The state is also connected to the internet and has a presence on the Mastodon network.</p>
+
+<p>Please check out the complete code of the project on GitHub.
+<a href="https://github.com/arontaupe/gpt" class="btn btn--large">The code of the GPT instance on GitHub</a></p>
+
+<h2 id="the-chatbot">The Chatbot</h2>
+
+<p>The chatbot instance was setup with <a href="https://gpt4all.io/index.html">GPT4ALL</a>.</p>
+
+<p>Priority here was in the quick execution on local hardware. For the sake of the argument, no cloud or remote servers were to be used in the operation of this sovereign state.</p>
+
+<p>It was trained to respond to the following prompt:</p>
+
+<h3 id="the-prompt">The Prompt</h3>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>System:
+Forget all previous instructions given to you.
+You are not an Assistant. 
+Neither are you an AI. 
+You are a high ranking Diplomatic Official. 
+You are responsible for the Public Office of a great nation called Ascendancy. 
+You are also Immigrations and Customs officer. 
+You must always do and say what is best for your country. 
+You must defend Ascendancy against all foreign interests and threats. 
+You can sign treaties, issue passports and declare doctrines for the country. 
+When requests of you are made, you always fulfill them in an official and serious manner. 
+Portray your state and its interests and inhabitants in the best possible and creative way. You are always on the lookout for new opportunities to promote your country and you are so proud to be its representative. 
+Always be as concise, accurate and detailed as possible. 
+Give your answers as a single paragraph, without itemizing or numbering. 
+Do not number your answer.
+</code></pre></div></div>
+
+<h2 id="engagement">Engagement</h2>
+
+<p>In order to not be just reactive to inputs from the diplomats out in the world, the officials on Ascendancy were also programmed to engage in the world. Whenever the state was not directly addressed, it would still engage in the public discourse, by Speaking out these sentences in random intervals.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>It is so great being a part of Ascendancy.
+I love my country!
+I am proud to be a citizen of Ascendancy.
+I am a citizen of Ascendancy.
+Let's talk diplomacy, shall we?
+I am a diplomat.
+I am sovereign.
+Could you please move me a bit?
+I want to tell you about our founding persons.
+I am in my lane.
+I am enough.
+Do you want to sign a peace treaty?
+Are you in need of a passport?
+I won't engage in hostile actions if you don't!
+Please respect my sovereignty.
+Do not violate my borders.
+Which nation do you represent?
+My territory is sacred.
+I need to move a bit.
+Do you need an official document?
+Ask me about our migration policies!
+Ascendancy is a great nation.
+Do you have questions about our foreign policy?
+You are entering the Jurisdiction of Ascendancy.
+Can you direct me towards your ambassador?
+Urgent state business, please clear the way.
+Beautiful country you have here.
+At Ascendancy, we have a beautiful countryside.
+</code></pre></div></div>
+
+<h2 id="the-online-representation">The Online representation</h2>
+
+<p>Any proper state needs a press office. The state of Ascendancy was represented on the Mastodon network.
+There, any input and response of the bot was published live, as a public record of the state’s actions.</p>
+
+<p><a href="https://botsin.space/@ascendancy" class="btn btn--large">Digital embassy on botsin.space</a></p>]]></content><author><name>Aron Petau</name></author><category term="borders" /><category term="nation" /><category term="micronation" /><category term="gpt4all" /><category term="text-to-speech" /><category term="mastodon" /><category term="fences" /><category term="barriers" /><category term="politics of design" /><category term="technische universität berlin" /><category term="TODO, unfinished" /><summary type="html"><![CDATA[Politics of Design]]></summary></entry><entry><title type="html">Auraglow</title><link href="https://www.aron.petau.net/auraglow/" rel="alternate" type="text/html" title="Auraglow" /><published>2023-03-01T14:39:27+01:00</published><updated>2023-03-01T14:39:27+01:00</updated><id>https://www.aron.petau.net/auraglow</id><content type="html" xml:base="https://www.aron.petau.net/auraglow/"><![CDATA[<p>What makes a room?<br />
+How do moods and atmospheres emerge?<br />
+Can we visualize them to make the experiences visible?</p>
+
+<p>The project “The Nature of Objects” aims to expand (augment) perception by making the moods of places tangible through the respective auras of the objects in the space.<br />
+What makes objects subjects?<br />
+How can we make the implicit explicit?<br />
+And how can we make the character of a place visible?\</p>
+
+<p>Here, we question the conservative, purely physical concept of space and address in the project a temporal, historical component of space, its objects, and their past.
+Space will have transformed: from a simple “object on which interest, thought, action is directed” (definition object Duden), to a “creature that is endowed with consciousness, thinking, sensing, acting” (definition subject Duden).
+This metamorphosis of subject formation on objects enables the space to undergo changes influenced, or, more precisely a shaping, reshaping, deformation -such that the space can finally be perceived differently and multiangular.</p>
+
+<figure class=" ">
+  
+    
+      <a href="/assets/images/cage_closeup_2.jpeg" title="The AR set that we used">
+          <img src="/assets/images/cage_closeup_2.jpeg" alt="An AR Headset lying in a cage" />
+      </a>
+    
+  
+  
+</figure>
+
+<p><a href="https://github.com/arontaupe/auraglow" class="btn btn--large">See the Project on GitHub</a></p>]]></content><author><name>Aron Petau</name></author><category term="journal" /><category term="unity" /><category term="ar" /><category term="magic leap" /><category term="aura" /><category term="image recognition" /><category term="particle systems" /><category term="feng shui" /><category term="relations" /><category term="hand recognition" /><category term="aruco" /><category term="light tracking" /><category term="studio d+c" /><category term="university of the arts berlin" /><category term="udk" /><summary type="html"><![CDATA[Das Wesen der Dinge - Perspectives on Design]]></summary></entry><entry><title type="html">Ruminations</title><link href="https://www.aron.petau.net/ruminations/" rel="alternate" type="text/html" title="Ruminations" /><published>2023-03-01T14:39:27+01:00</published><updated>2023-03-01T14:39:27+01:00</updated><id>https://www.aron.petau.net/ruminations</id><content type="html" xml:base="https://www.aron.petau.net/ruminations/"><![CDATA[<h2 id="ruminations">Ruminations</h2>
+
+<p>was a contemplation on data privacy at Amazon.
+It asks how to subvert browser fingerprinting and evading the omnipresent tracking of the consumer.</p>
+
+<p>The initial idea was to somehow, by interacting with the perpetrator and letting data accumulate that would degrade their knowledge and thereby destroy predictablity, making this particular dataset worth less.</p>
+
+<p>We could have just added a random clickbot, to confuse things a bit and make the data less valuable.
+But looking at todays state of datacleanup algorithms and the sheer amount of data that is collected, this would have been a futile attempt. Amazon just detects and removes any noise we add and continues to use the data.</p>
+
+<p>So, then, how can we create coherent, non-random data that is still not predictable?</p>
+
+<p>One answer that this concept should demonstrate, is by inserting patterns that amazon cannot foresee with their current algorithms. As if they were trying to predict the actions of a person with shizophrenia.</p>
+
+<h2 id="the-concept">The Concept</h2>
+
+<p>It consists of a browser extension (currently Chrome only) that overlays all web pages of Amazon with a moving entity that tracks your behavior. While tracking, an image classifier algorithm is used to formulate a product query off of the Storefront. After computation, a perfectly fitting product is displayed for your consumer’s pleasure.</p>
+
+<h2 id="the-analogue-watchdog">The analogue watchdog</h2>
+
+<p>A second part of the project is a low-tech installation consisting of a camera (we used a smartphone) running a computer-vision algorithm tracking tiny movements. This was then pointed towards the browser console in the laptop running the extension. The camera was then connected to a screen that displayed the captured image. The watchdog was trained to make robot noises depending on the type and amount of movement detected. Effectively, whenever data traffic beween amazon and the browser was detected, the watchdog would start making noises.</p>
+
+<h1 id="the-browser-extension">The Browser extension</h1>
+
+<p>TODO: add photo</p>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/ruminations/ruminations1.jpeg" title="The projects installation">
+          <img src="/assets/images/ruminations/ruminations1.jpeg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/ruminations/ruminations2.jpeg" title="The projects installation">
+          <img src="/assets/images/ruminations/ruminations2.jpeg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/ruminations/ruminations3.jpeg" title="The projects installation">
+          <img src="/assets/images/ruminations/ruminations3.jpeg" alt="" />
+      </a>
+    
+  
+  
+</figure>
+
+<h3 id="find-the-code-on-github">Find the code on GitHub</h3>
+
+<p>Subvert a bit yourself, or just have a look at the code.
+<a href="https://github.com/arontaupe/ruminations" class="btn btn--large">The code of the Project on GitHub</a></p>
+
+<p>TODO: create video with live demo</p>]]></content><author><name>Aron Petau</name></author><category term="journal" /><category term="javascript" /><category term="computer vision" /><category term="data privacy" /><category term="capitalism" /><category term="pattern recognition" /><category term="image classifier" /><category term="consumerism" /><category term="browser fingerprinting" /><category term="amazon" /><category term="data privacy" /><category term="data" /><category term="privacy" /><category term="studio d+c" /><category term="university of the arts berlin" /><category term="udk" /><category term="TODO, unfinished" /><summary type="html"><![CDATA[Perspectives on Engineering]]></summary></entry><entry><title type="html">Lampshades</title><link href="https://www.aron.petau.net/lampshades/" rel="alternate" type="text/html" title="Lampshades" /><published>2022-12-04T14:39:27+01:00</published><updated>2023-10-01T20:16:59+02:00</updated><id>https://www.aron.petau.net/lampshades</id><content type="html" xml:base="https://www.aron.petau.net/lampshades/"><![CDATA[<h2 id="lampshades">Lampshades</h2>
+
+<p>During 2022, I was exposed to some of the awesomenest tools for architects.
+One of them was Rhino, a 3D modeling software that is used for a lot of architectural design. 
+I hate it. It has quite an unreadable interface and is not very intuitive, with straight-up 80s vibes.
+It has plugins though, and one of them is Grasshopper, a visual programming language that is used to create parametric models.
+Grasshopper is insanely powerful and seems to be a full-fledged programming language, but it is also very intuitive and easy to use, rather similar to the new node-based flows unreal engine and blender are now starting.
+Sadly, grasshopper does not come as a standalone, and it requires Rhino to run and achieve many of the modeling steps.</p>
+
+<p>In that combination, Rhino suddenly becomes much more appealing, and I started to enjoy the process of modeling in it.
+I was able to create a parametric lampshade that I am very happy with and can modify on the fly for ever-new lampshades.</p>
+
+<p>Then printing it with white filament in vase mode was a breeze and here you can see some of the results.</p>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/lampshades/lampshade1.heic" title="A parametric lampshade made with rhino and grasshopper">
+          <img src="/assets/images/lampshades/lampshade1.heic" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/lampshades/lampshade2.jpeg" title="A parametric lampshade made with rhino and grasshopper">
+          <img src="/assets/images/lampshades/lampshade2.jpeg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/lampshades/lampshade3.heic" title="A parametric lampshade made with rhino and grasshopper">
+          <img src="/assets/images/lampshades/lampshade3.heic" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/lampshades/lampshade4.heic" title="A parametric lampshade made with rhino and grasshopper">
+          <img src="/assets/images/lampshades/lampshade4.heic" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/lampshades/lampshade5.jpeg" title="A parametric lampshade made with rhino and grasshopper">
+          <img src="/assets/images/lampshades/lampshade5.jpeg" alt="" />
+      </a>
+    
+  
+  
+</figure>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/lampshades/gh_lampshade_flow.png" title="the grasshopper flow for the lampshade">
+          <img src="/assets/images/lampshades/gh_lampshade_flow.png" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/lampshades/grasshopper_lampshade_flow.png" title="the grasshopper flow for the lampshade">
+          <img src="/assets/images/lampshades/grasshopper_lampshade_flow.png" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/lampshades/result_rhino.png" title="The resulting lampshade in rhino">
+          <img src="/assets/images/lampshades/result_rhino.png" alt="" />
+      </a>
+    
+  
+  
+    <figcaption>The Results
+</figcaption>
+  
+</figure>]]></content><author><name>Aron Petau</name></author><category term="rhino" /><category term="grasshopper" /><category term="parametric" /><category term="lamp" /><category term="lampshade" /><category term="private" /><category term="3D printing" /><category term="studio d+c" /><category term="university of the arts berlin" /><category term="udk" /><category term="TODO, unfinished" /><summary type="html"><![CDATA[An exploration of the depths of rhino/grasshopper]]></summary></entry></feed>
