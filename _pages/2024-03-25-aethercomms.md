@@ -233,17 +233,12 @@ aether_screens:
     title: "aether_screens"
 
 semester_1_process:
-
   - url: assets/images/aethercomms/semester_1_process/design_process_1.jpg
     image_path: assets/images/aethercomms/semester_1_process/design_process_1.jpg
     alt: "semester_1_process"
     title: "semester_1_process"
   - url: assets/images/aethercomms/semester_1_process/design_process_2.jpg
     image_path: assets/images/aethercomms/semester_1_process/design_process_2.jpg
-    alt: "semester_1_process"
-    title: "semester_1_process"
-  - url: assets/images/aethercomms/semester_1_process/design_process_3.jpeg
-    image_path: assets/images/aethercomms/semester_1_process/design_process_3.jpeg
     alt: "semester_1_process"
     title: "semester_1_process"
   - url: assets/images/aethercomms/semester_1_process/design_process_4.jpeg
@@ -274,22 +269,25 @@ A Project by Aron Petau and Joel Tenenberg.
 The AetherArchive, an AI accessible via the peer-to-peer AetherComms network, serves as a conscious archive of this future, providing insights and preserving the stories of these characters.
 Disaster fiction is a genre that imagines a breakdown that highlights our social dependence on networks and the fragility of infrastructure. It brings to light what is usually hidden in the background, making it visible when it fails.
 
+Here is a documentation of our year-long studio project at the University of the Arts and the Technische Universität Berlin, exploring the power structures inherent in radio technology, the internet as network of networks and the implications of a global network infrastructure collapse.
+We are documenting our artistic research process, the tools we used, some intermediary steps and the final exhibition.
+
 ## Process
 
-We met 2 to 3 times weekly throughout the entire year, here is a short overview of our process and findings throughout. 
+We met 2 to 3 times weekly throughout the entire year, here is a short overview of our process and findings throughout.
 
 ### Semester 1
 
 #### Research Questions
 
 Here, we already examined the power structures inherent in radio broadcasting technology.
-Early on, the question of hegemony present throughout the ideation
+Early on, the question of hegemony present throughout the initial research led us to look at subversive strategies in radio, such as pirate radio stations, and the historic usage of it as a decentralized communication network. Radio is deeply connected with military and state power structures, examples being the Nazi-German [Volksempfänger](https://en.wikipedia.org/wiki/Volksempfänger) or the US-american [Radio Liberty](https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty) Project, and we wanted to explore the potential of radio as a tool for resistance and subversion. One such example is [Sealand](https://sealandgov.org/en-eu/pages/the-story), a micronation that used radio to (illegally?) broadcast into the UK. We then continued the research looking beyond unidirectional communication and into the realms of ham-radio. One area of interest was [LoRaWAN](https://lora-alliance.org/about-lorawan/), a long-range, low-power wireless communication technology that is well-suited for IoT applications and pager-like communication. Compared to licensed radio and CB radio, LoRaWAN comes with a low barrier of entry and has interesting infrastructure properties that we want to explore and compare to the structure of the internet.
 
 #### Curatorial text for the first semester
 
 The introductory text used in the first semester on aethercomms v1.0:
 
-Radio as a Subversive Exercise.\
+> Radio as a Subversive Exercise.\
 Radio is a prescriptive technology.\
 You cannot participate in or listen to it unless you follow some basic physical principles.\
 Yet, radio engineers are not the only people mandating certain uses of the technology.\
@@ -320,22 +318,38 @@ The Picos run on Cirquitpython, an especially tiny version of Python specialized
 
 ## Mid-Term Exhibition
 
+
+
+> This project is an attempt to bridge the gap between the omnipresent and invisible nature of radio waves and their often-overlooked significance in our lives. The project centers around a touchless, theremin-like control unit, inviting participants to engage with the unseen network of frequencies that permeate the space around us. Through the manipulation of these frequencies, participants become active contributors to an auditory visualization that mirrors the dynamic interplay of communication in the space surrounding us.
+Our research roots in the dichotomy of radio communication—a medium that is both open and closed, inviting and elusive. Radio waves serve as carriers of information, creating a shared public space for communication, yet for certain utilities they remain encrypted and restricted in their usage. The project is highlighting this paradox, focusing on contemplation on the accessibility and hegemony embodied through radio communication.
+
+{% include video id="xC32dCC6h9A" provider="youtube" %}
+
 {% include gallery id="midterm-exhibition" caption="The Midterm Exhibition 2023" %}
 
-After the first presentation with the Sensors, we saw no immediate productive way forward with frequencies. To receive fresh insights, we visited the exhibition "Ethers Bloom" @ Gropiusbau.
+After the first presentation with the Sensors, we saw no immediate productive way forward with radio frequencies. To receive fresh insights, we visited the exhibition ["Ethers Bloom" @ Gropiusbau](https://www.berlinerfestspiele.de/en/gropius-bau/programm/2023/ausstellungen/kuenstliche-intelligenz/veranstaltungen/ethers-bloom).
 
 ### Ethers Bloom
 
-One of the exhibits there was by the artist Mimi Ọnụọha (Ọnụọha, 2021), displaying network cables as the central material in traditional religious and spiritual practices.
+One of the exhibits there was by the artist [Mimi Ọnụọha](https://mimionuoha.com) (Ọnụọha, 2021), displaying network cables as the central material in traditional religious and spiritual practices.
 
 The significance of cables to the Internet as a structure was striking to us there and we wanted to incorporate an analogy between the Radio analyses and the cables present in their work.
-In the end, antennas are also just the end of a long cable. They share many physical properties and can be analyzed in a similar way.
+In the end, antennas are also just the end of a long cable.
+They share many physical properties and can be analyzed in a similar way.
 
 Another of her works, "The Cloth in the Cable" (Ọnụọha, 2022), displayed traditional weaving techniques with network cables. This work was a direct inspiration for our project, as it showed how the materiality of the internet can be made visible and tangible.
 
+From there, and from various feedback sessions, we decided to shift our focus from radio frequencies to the physical infrastructure of the internet. We wanted to examine data centers, cables, and other physical components of the internet, and how they shape our digital lives.
+
 ## Semester 2
 
-What is left over in the absence of the network of networks, the internet? What are the Material and Immaterial Components of a metanetwork?
+It especially stuck out to us how the imaginaries surrounding the internet and the physical materiality are often divergent and disconnected. 
+Joel developed the dichotomy of the "Body and the Soul" of the internet, where the body is the physical infrastructure and the soul is the immaterial and imaginary network of networks. This comes to light especially sharply when using infrastructure inversion, a technique adopted from Francis Hunger and Lisa Parks. TODO CITE
+For us, this meant looking at imaginaries of the future of the internet and its collapse.
+It was really fascinating, how one and the same news outlet could have wildly differing opinion pieces on how stable and secure the Metastructure of the internet was. Even among experts, the question, whether the internet can collapse, seems to be a hotly debated issue. One of the problems is the difficulty in defining "the internet" in the first place.
+
+What is left over in the absence of the network of networks, the internet? 
+What are the Material and Immaterial Components of a metanetwork?
 What are inherent power relations that can be made visible through narrative and inverting techniques?
 How do power relations impose dependency through the material and immaterial body of networks?
 
@@ -430,9 +444,14 @@ We used Stable diffusion for World-Building.
 
 ChatGPT helped us during character creation.
 
-## Final Exhibition
+## Final Exhibition 
+1.  - 18. February 2024
+[Exhibition Announcement](https://www.newpractice.net/post/entangled)
+
 
 What design choices were in the Presentation? How do we evaluate it?
+
+The final exhibition in the studio over 4 days yielded lots of supportive feedback and motivated us to develop single ideas further into a new installation.
 
 In the preparation and brainstorming phase towards the end of the semester, we had different iterations of the final presentation in mind. Spanning from a video work, up to an interactive sound installation. Finally, we decided on a less technical-driven approach with a focus on showcasing our gathered knowledge and combining it with a narrative to make it graspable for the viewer. Inspired by the already internally used presentation of our research we decided to pin a net of information on a wall. An old school murdercase-like pinwall arose which we partnered with our OpenAi bot and an antenna and receiver. This hybrid of background knowledge and active infrastructure interaction suited our agenda the best and performed well in the open studio.
 
@@ -446,7 +465,8 @@ In the preparation and brainstorming phase towards the end of the semester, we h
 
 How did we communicate our individual processes? How did shared ideation Work?
 
-A big part of our
+A big part of our 
+TODO
 
 #### Museum
 
@@ -499,21 +519,15 @@ Your answer must be contained within 100 words.\
 
 ### Aron
 
-Within the framework of the studio project I definitely noticed many of the advantages of working in a team and iterating on creative ideas collectively. Artistic work is unimaginable for me as a solo project. We had a fast feedback cycle and could iterate on ideas efficiently by bouncing them back and forth.
+Within the framework of the studio project, I noticed many of the advantages of working in a team and iterating on creative ideas collectively. Artistic work is unimaginable for me as a solo project. We had a fast feedback cycle and could iterate on ideas efficiently by bouncing them back and forth.
+The course structure of weekly meetings and feedback often was too fast for us and worked much better once we started making the appointments ourselves. 
+One big new thing within the project for me was the Pi Picos and microcontrollers in general. I did have some experience with Raspberry Pi before, but now being able to play with microcontrollers at a hardware level equivalent to an Arduino set was quite a new experience on the Pico hardware. I am glad to be able to have such a versatile platform for future projects. Also very new for me was the creative work in Touchdesigner. There especially a workshop with Maxime Letelier helped enormously to take away fears of a complex tool. For 5 days we learned about maximizing performance and common patterns to create movement and interesting visual patterns. I am still not confident in Touchdesigner, even though it is pythonic, but I can debug and definitely prefer Touchdesigner over all its bigger counterparts like Unreal engine and Unity. The last year for me was a focus on local and offline computing, sometiomes called edge computing, and there it is a huge advantage for software packages to have wide platform support and efficiently manage their resources. Politically, i think cloud solutions and remote computation fill fail and increase corporate dependency. Additionally, working locally and offline goes along really well with installative work where internet might be sparse, or you may simply want to eliminate another unknown from the equation. 
+
+One future project that emerged from this rationale was the [airaspi](/airaspi) build, which can do all kinds of image recognition in realtime on the fly, something which was unimaginable for consumer use just 6 years ago.
 
 
 
 ### Joel
-
-### Final Exhibition of semester 2
-
-The final exhibition in the studio over 4 days yielded lots of supportive feedback and motivated us to develop single ideas further into a new installation.
-
-[iCloud](<https://share.icloud.com/photos/092DlklP4R7OTSo_dGUwyTwGg>)
-
-### Example of aether spamming
-
-[iCloud](<https://share.icloud.com/photos/0ed13-9EQOucXEXV4RHrSUXdg>)
 
 ### Sources
 
