@@ -44,66 +44,22 @@ tags:
   - lisa parks
 
 midterm-exhibition:
-  - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_1.heic
-    image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_1.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
   - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_2.heic
     image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_2.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
-  - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_3.heic
-    image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_3.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
+    alt: "A rasperry pi pico on a breadboard with 2 HCSR-04 Sensors"
+    title: "A rasperry pi pico on a breadboard with 2 HCSR-04 Sensors"
   - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_4.heic
     image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_4.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
-  - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_5.heic
-    image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_5.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
-  - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_6.heic
-    image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_6.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
-  - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_7.heic
-    image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_7.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
-  - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_8.heic
-    image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_8.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
-  - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_9.heic
-    image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_9.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
-  - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_10.heic
-    image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_10.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
-  - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_11.heic
-    image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_11.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
+    title: "The sensor being used with hands"
   - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_12.heic
     image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_12.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
+    title: "Aron manupulating the sensor"
   - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_13.heic
     image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_13.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
-  - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_14.heic
-    image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_14.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
+    title: "Some output from the Sensor merged with Audio"
   - url: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_15.heic
     image_path: assets/images/aethercomms/midterm_exhibit/midterm_exhibit_15.heic
-    alt: "midterm exhibit"
-    title: "Midterm Exhibition"
+    title: "A proposed installation setup"
 
 technikmuseum:
   - url: assets/images/aethercomms/technikmuseum/technikmuseum_1.jpeg
@@ -126,83 +82,42 @@ technikmuseum:
 final-exhibition:
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-2.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-2.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
+    title: "Joel pinning the cards"
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-7.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-7.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
-  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-51.jpg
-    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-51.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
+    title: "Our final card layout"
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-52.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-52.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
+    title: "The Network woth red string"
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-53.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-53.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
+    title: "A proposed network device of the future"
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-54.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-54.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
+    title: "A relay tower of the LoRa network"
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-55.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-55.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
-  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-66.jpg
-    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-66.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
+    title: "The Wall setup: all transmission happens via radio"
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-92.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-92.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
-  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-96.jpg
-    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-96.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
+    title: "The Transmissions ccan be detected in this visualization"
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-97.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-97.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
-  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-98.jpg
-    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-98.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
-  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-102.jpg
-    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-102.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
+    title: "Guests with stimulating discussions"
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-125.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-125.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
-  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-127.jpg
-    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-127.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
+    title: "Guests with stimulating discussions"
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-142.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-142.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
+    title: "THe Proposed device with a smartphone, interacting with the chatbot"
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-143.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-143.jpg
-    alt: "final exhibit"
     title: "Final Exhibition"
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-144.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-144.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
-  - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-178.jpg
-    image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-178.jpg
-    alt: "final exhibit"
-    title: "Final Exhibition"
+    title: "The Wall Setup"
   - url: assets/images/aethercomms/final_exhibition/entangled_exhibition-188.jpg
     image_path: assets/images/aethercomms/final_exhibition/entangled_exhibition-188.jpg
-    alt: "final exhibit"
     title: "Final Exhibition"
 
 
