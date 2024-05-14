@@ -353,7 +353,14 @@ In the preparation and brainstorming phase towards the end of the semester, we h
 
 {% include gallery id="final-exhibition" caption="The Final Exhibition" %}
 
+{% capture details %}
 {% include gallery id="aether_screens" caption="Screenshots of the chat interaction" %}
+{% endcapture %}
+
+<details>
+  <summary>Click to see some additional Screenshots of actual conversations</summary>
+  {{ details | markdownify }}
+</details>
 
 ## Reflection
 
