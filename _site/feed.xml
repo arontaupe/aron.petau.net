@@ -1,82 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-13T21:26:24+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio</title><subtitle>I am a student in Design &amp; Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around! </subtitle><author><name>Aron Petau</name><email>aron@petau.net</email></author><entry><title type="html">Echoing Dimensions</title><link href="http://localhost:4000/echoing-dimensions/" rel="alternate" type="text/html" title="Echoing Dimensions" /><published>2024-04-25T15:39:27+02:00</published><updated>2024-04-25T15:39:27+02:00</updated><id>http://localhost:4000/echoing-dimensions</id><content type="html" xml:base="http://localhost:4000/echoing-dimensions/"><![CDATA[## Echoing Dimensions
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-14T16:36:15+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio</title><subtitle>I am a student in Design &amp; Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around! </subtitle><author><name>Aron Petau</name><email>aron@petau.net</email></author><entry><title type="html">Echoing Dimensions</title><link href="http://localhost:4000/echoing-dimensions/" rel="alternate" type="text/html" title="Echoing Dimensions" /><published>2024-04-25T15:39:27+02:00</published><updated>2024-04-25T15:39:27+02:00</updated><id>http://localhost:4000/echoing-dimensions</id><content type="html" xml:base="http://localhost:4000/echoing-dimensions/"><![CDATA[<h2 id="echoing-dimensions">Echoing Dimensions</h2>
 
-## The space
+<h2 id="the-space">The space</h2>
 
-[Kunstraum Potsdamer Straße](https://www.stw.berlin/kultur/kunstraum/kunsträume/)
+<p><a href="https://www.stw.berlin/kultur/kunstraum/kunsträume/">Kunstraum Potsdamer Straße</a></p>
 
-The exhibition is situated in an old parking garage, owned and operated by the studierendenwerk Berlin. The space is a large, open room with a rather low ceiling and a concrete floor. Several Nooks and separees can create intimate experiences within the space. The space is not heated and has no windows. The walls are made of concrete and the ceiling is made of concrete.
+<p>The exhibition is situated in an old parking garage, owned and operated by the studierendenwerk Berlin. The space is a large, open room with a rather low ceiling and a concrete floor. Several Nooks and separees can create intimate experiences within the space. The space is not heated and has no windows. The walls are made of concrete and the ceiling is made of concrete.</p>
 
-As a group, we are 12 people, each with amazing projects surrounding audiovisual installations:
+<p>As a group, we are 12 people, each with amazing projects surrounding audiovisual installations:</p>
 
-- Özcan Ertek (UdK)
-- Jung Hsu (UdK)
-- Nerya Shohat Silberberg (UdK)
-- Ivana Papic (UdK)
-- Aliaksandra Yakubouskaya (UdK)
-- Aron Petau (UdK, TU Berlin)
-- Joel Rimon Tenenberg (UdK, TU Berlin)
-- Bill Hartenstein (UdK)
-- Fang Tsai (UdK)
-- Marcel Heise (UdK)
-- Lukas Esser & Juan Pablo Gaviria Bedoya (UdK)
+<ul>
+  <li>Özcan Ertek (UdK)</li>
+  <li>Jung Hsu (UdK)</li>
+  <li>Nerya Shohat Silberberg (UdK)</li>
+  <li>Ivana Papic (UdK)</li>
+  <li>Aliaksandra Yakubouskaya (UdK)</li>
+  <li>Aron Petau (UdK, TU Berlin)</li>
+  <li>Joel Rimon Tenenberg (UdK, TU Berlin)</li>
+  <li>Bill Hartenstein (UdK)</li>
+  <li>Fang Tsai (UdK)</li>
+  <li>Marcel Heise (UdK)</li>
+  <li>Lukas Esser &amp; Juan Pablo Gaviria Bedoya (UdK)</li>
+</ul>
 
-## The Idea
+<h2 id="the-idea">The Idea</h2>
 
-We will be exibiting our Radio Project,
-[aethercomms](/aethercomms/)
-which resulted from our previous inquiries into cables and radio spaces during the Studio Course.
+<p>We will be exibiting our Radio Project,
+<a href="/aethercomms/">aethercomms</a>
+which resulted from our previous inquiries into cables and radio spaces during the Studio Course.</p>
 
-## Build Log
+<h2 id="build-log">Build Log</h2>
 
-### 2024-01-25
+<h3 id="2024-01-25">2024-01-25</h3>
 
-First Time seeing the Space:
+<p>First Time seeing the Space:</p>
 
-{% include video id="UaVTcUXDMKA" provider="youtube" %}
+<!-- Courtesy of embedresponsively.com -->
 
-### 2024-02-01
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/UaVTcUXDMKA" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
 
-Signing Contract
+<h3 id="2024-02-01">2024-02-01</h3>
 
-### 2024-02-08
+<p>Signing Contract</p>
 
-The Collective Exibition Text:
+<h3 id="2024-02-08">2024-02-08</h3>
 
->Sound, as a fundamental element of everyday experience, envelopes us in the cacophony of city life - car horns, the chatter of pedestrians, the chirping of birds, the rustle of leaves in the wind, notifications, alarms and the constant hum of radio waves, signals and frequencies. These sounds, together make up the noise of our life, often pass by, fleeting and unnoticed.
+<p>The Collective Exibition Text:</p>
+
+<blockquote>
+  <p>Sound, as a fundamental element of everyday experience, envelopes us in the cacophony of city life - car horns, the chatter of pedestrians, the chirping of birds, the rustle of leaves in the wind, notifications, alarms and the constant hum of radio waves, signals and frequencies. These sounds, together make up the noise of our life, often pass by, fleeting and unnoticed.
 The engagement with sound through active listening holds the potential to process the experience of the self and its surroundings. This is the idea of “Echoing Dimensions”: Once you engage with something, it gives back to you: Whether it is the rhythmic cadence of a heartbeat, a  flowing symphony of urban activity or the hoofbeats of a running horse, minds and bodies construct and rebuild scenes and narratives while sensing and processing the sounds that surround them, that pass next and through them.
-The exhibition "Echoing Dimensions" takes place at Kunstraum Potsdamer Straße gallery’s underground space and exhibits artworks by 12 Berlin based artists, who investigate in their artistic practice ‘intentional listening’ using sound, video and installation, and invites to navigate attentiveness by participatory exploration. Each artwork in the exhibition revolves around different themes in which historical ideas resonate, political-personal narratives are being re-conceptualized and cultural perspectives are examined. The exhibition's common thread lies in its interest into the complexities of auditory perception, inviting viewers to consider the ways in which sound shapes our memories, influences our culture, and challenges our understanding of space and power dynamics.
+The exhibition “Echoing Dimensions” takes place at Kunstraum Potsdamer Straße gallery’s underground space and exhibits artworks by 12 Berlin based artists, who investigate in their artistic practice ‘intentional listening’ using sound, video and installation, and invites to navigate attentiveness by participatory exploration. Each artwork in the exhibition revolves around different themes in which historical ideas resonate, political-personal narratives are being re-conceptualized and cultural perspectives are examined. The exhibition’s common thread lies in its interest into the complexities of auditory perception, inviting viewers to consider the ways in which sound shapes our memories, influences our culture, and challenges our understanding of space and power dynamics.</p>
+</blockquote>
 
-### 2024-02-15
-Working TD Prototype. We collect the pointcloud information through a kinect azure and sorting the output of the device turned out to be quite tricky. 
+<h3 id="2024-02-15">2024-02-15</h3>
+<p>Working TD Prototype. We collect the pointcloud information through a kinect azure and sorting the output of the device turned out to be quite tricky.</p>
 
-### 2024-03-01
-Initial live testing on the finalized hardware. We decided to use a tiny Intel NUC to run both touchdesigner, the LLM, and audio synthesis.
+<h3 id="2024-03-01">2024-03-01</h3>
+<p>Initial live testing on the finalized hardware. We decided to use a tiny Intel NUC to run both touchdesigner, the LLM, and audio synthesis.</p>
 
-Not expected at all: The audio synthesis was actually the hardest, since there was no available internet in the exhibition space and all sleek modern solutions seem to rely on cloud services to generate audio from text. 
-Here, the tiny NUC really bit us: it took almost 15 seconds to generate a single paragraph of spoken words, even when usin quite small synthesizer models for it. 
+<p>Not expected at all: The audio synthesis was actually the hardest, since there was no available internet in the exhibition space and all sleek modern solutions seem to rely on cloud services to generate audio from text. 
+Here, the tiny NUC really bit us: it took almost 15 seconds to generate a single paragraph of spoken words, even when usin quite small synthesizer models for it.</p>
 
-Lesson learned: Next time give it more oomph. 
-I seriously wonder though why there wouldn't be better TTS systems around. Isnt that quite the essential accessibility feature?  We ended up using coquiTTS, which is appearently out of business entirely. 
+<p>Lesson learned: Next time give it more oomph. 
+I seriously wonder though why there wouldn’t be better TTS systems around. Isnt that quite the essential accessibility feature?  We ended up using coquiTTS, which is appearently out of business entirely.</p>
 
+<h3 id="2024-04-05">2024-04-05</h3>
+<p>We became part of <a href="https://www.sellerie-weekend.de">sellerie weekend</a>!</p>
 
-### 2024-04-05
-We became part of [sellerie weekend](https://www.sellerie-weekend.de)!
+<p><img src="/assets/images/echoing_dimensions/sellerie_weekend.png" alt="Sellerie Weekend Poster" /></p>
 
-![Sellerie Weekend Poster](/assets/images/echoing_dimensions/sellerie_weekend.png)
+<p>This is a collection of Gallery Spaces and Collectives that provide a fresher and more counter-cultural perspective on the Gallery Weekend.
+It quite helped our online visibility and filled out the entire space on the Opening.</p>
 
-This is a collection of Gallery Spaces and Collectives that provide a fresher and more counter-cultural perspective on the Gallery Weekend.
-It quite helped our online visibility and filled out the entire space on the Opening.
+<h3 id="a-look-inside">A look inside</h3>
 
+<!-- Courtesy of embedresponsively.com -->
 
-### A look inside
-{% include video id="qVhhv5Vbh8I" provider="youtube" %}
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/qVhhv5Vbh8I" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
 
-{% include video id="oMYx8Sjk6Zs" provider="youtube" %}
+<!-- Courtesy of embedresponsively.com -->
 
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/oMYx8Sjk6Zs" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
 
-### The Final Audiovisual Setup
+<h3 id="the-final-audiovisual-setup">The Final Audiovisual Setup</h3>
 
-{% include gallery %}]]></content><author><name>Aron Petau</name></author><category term="udk" /><category term="university" /><category term="studierendenwerk" /><category term="exhibition" /><category term="installation" /><category term="touchdesigner" /><category term="micropython" /><category term="raspberry pi pico" /><category term="ultrasonic sensor" /><category term="tts" /><category term="radio" /><category term="fm" /><category term="radio-art" /><category term="kinect" /><category term="pointcloud" /><category term="llm" /><summary type="html"><![CDATA[An interactive audiovisual installation.]]></summary></entry><entry><title type="html">AIRASPI Build Log</title><link href="http://localhost:4000/airaspi-build-log/" rel="alternate" type="text/html" title="AIRASPI Build Log" /><published>2024-01-30T00:00:00+01:00</published><updated>2024-01-30T00:00:00+01:00</updated><id>http://localhost:4000/airaspi-build-log</id><content type="html" xml:base="http://localhost:4000/airaspi-build-log/"><![CDATA[<h2 id="ai-raspi-build-log">AI-Raspi Build Log</h2>
+<figure class="third ">
+  
+    
+      <a href="/assets/images/echoing_dimensions/Echoing%20Dimensions-4.jpg" title="The FM Transmitter">
+          <img src="/assets/images/echoing_dimensions/Echoing%20Dimensions-4.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/echoing_dimensions/Echoing%20Dimensions-1.jpg" title="Video Output with Touchdesigner">
+          <img src="/assets/images/echoing_dimensions/Echoing%20Dimensions-1.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/echoing_dimensions/Echoing%20Dimensions-2.jpg" title="One of the Radio Stations">
+          <img src="/assets/images/echoing_dimensions/Echoing%20Dimensions-2.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/echoing_dimensions/Echoing%20Dimensions-7.jpg" title="The Diagram">
+          <img src="/assets/images/echoing_dimensions/Echoing%20Dimensions-7.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/echoing_dimensions/Echoing%20Dimensions-13.jpg" title="The Network Spy">
+          <img src="/assets/images/echoing_dimensions/Echoing%20Dimensions-13.jpg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/echoing_dimensions/IMG_1709.jpeg" title="The Exhibition Setup">
+          <img src="/assets/images/echoing_dimensions/IMG_1709.jpeg" alt="" />
+      </a>
+    
+  
+  
+</figure>]]></content><author><name>Aron Petau</name></author><category term="udk" /><category term="university" /><category term="studierendenwerk" /><category term="exhibition" /><category term="installation" /><category term="touchdesigner" /><category term="micropython" /><category term="raspberry pi pico" /><category term="ultrasonic sensor" /><category term="tts" /><category term="radio" /><category term="fm" /><category term="radio-art" /><category term="kinect" /><category term="pointcloud" /><category term="llm" /><summary type="html"><![CDATA[An interactive audiovisual installation.]]></summary></entry><entry><title type="html">AIRASPI Build Log</title><link href="http://localhost:4000/airaspi-build-log/" rel="alternate" type="text/html" title="AIRASPI Build Log" /><published>2024-01-30T00:00:00+01:00</published><updated>2024-01-30T00:00:00+01:00</updated><id>http://localhost:4000/airaspi-build-log</id><content type="html" xml:base="http://localhost:4000/airaspi-build-log/"><![CDATA[<h2 id="ai-raspi-build-log">AI-Raspi Build Log</h2>
 
 <p>This should document the rough steps to recreate airaspi as I go along.</p>
 
