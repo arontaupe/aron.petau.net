@@ -343,8 +343,9 @@ We used Stable diffusion for World-Building.
 
 ChatGPT helped us during character creation.
 
-## Final Exhibition 
-1.  - 18. February 2024
+## Final Exhibition
+ 
+15-18. February 2024  
 [Exhibition Announcement](https://www.newpractice.net/post/entangled)
 
 The final exhibition in the studio over 4 days yielded lots of supportive feedback and motivated us to develop single ideas further into a new installation.
@@ -389,6 +390,11 @@ The Idea of using the Chatbot as an interactive archive was inspired by our file
 Retrosp
 
 Of particular interest during the presentation was whether the chatbot proves itself to be a viable narrative medium.
+
+#### Echoing Dimensions
+
+After the Studio Presentation, we then went on to display a continued version of this project within the Sellerie Weekend during the Berlin Art week in the Kunstraum Potsdamer Strasse.  
+Read all about it [**here**](/echoing_dimensions/).
 
 #### System Prompt
 
