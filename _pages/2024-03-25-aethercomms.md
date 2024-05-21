@@ -443,27 +443,23 @@ One big new thing within the project for me was the Pi Picos and microcontroller
 One future project that emerged from this rationale was the [airaspi](/airaspi) build, which can do all kinds of image recognition in realtime on the fly, something which was unimaginable for consumer use just 6 years ago.
 
 
-### Joel
-
-what i brought into the project:
-- interest in infrastructure
-
-what i eill further take with me scietific topc wise:
-- thoughts about materiality i want to further develop
-
-what i take with me group work and communication wise:
-- complexity is fine
-
-
 ## Sources
 
 **Ahmed**, S. (2020). Queer phenomenology: Orientations, objects, others. Duke University Press.
 
-**Morozov**, E. (2011). The net delusion: How not to liberate the world. Penguin UK.
+**Bastani**, A. (2019). Fully automated luxury communism. Verso Books.
 
-**Morton**, T. (2014). Hyperobjects: Philosophy and Ecology After the End of the World. Minneapolis: University of Minnesota Press.
+**Bowker**, G. C.  and **Star** S. (2000). Sorting Things Out. The MIT Press.
 
-**Maak**, N. (2022). Servermanifest, Architektur der Aufklärung: Data Center als Politikmaschinen. Hatje Cantz.
+**CyberRäuber**, (2019). Marcel Karnapke, Björn Lengers, Prometheus Unbound, Landestheater Linz
+[Prometheus Unbound](http://wp11159761.server-he.de/vtheater/de/prometheus-unbound/)
+
+**Demirovic**, A. (2007). Hegemonie und die diskursive Konstruktion der Gesellschaft. Nonhoff, Martin (Hg.): Diskurs, radikale Demokratie, Hegemonie. Zum politischen Denken von Ernesto Laclau und Chantal Mouffe, Bielefeld: transcript, 55-85.  
+
+[**Demirovic**, A.: Hegemonie funktioniert nicht ohne Exklusion](https://www.youtube.com/watch?v=h77ECXXP2n0)
+
+**Gramsci** on Hegemony:  
+[Stanford Encyclopedia](https://plato.stanford.edu/entries/gramsci/)
 
 **Hunger**, F. (2015). Search Routines: Tales of Databases. D21 Kunstraum Leipzig.
 [Tales of Databases](https://www.irmielin.org/wp-content/uploads/2015/12/search_routines-tales_of_databases.pdf)
@@ -471,34 +467,15 @@ what i take with me group work and communication wise:
 **Hunger**, F. (2015, May 21). Blog Entry. Database Cultures
 [Database Infrastructure – Factual repercussions of a ghost](http://databasecultures.irmielin.org/database-infrastructure-factual-repercussions-of-a-ghost/)
 
-**Bowker**, G. C.  and **Star** S. (2000). Sorting Things Out. The MIT Press.
+**Maak**, N. (2022). Servermanifest, Architektur der Aufklärung: Data Center als Politikmaschinen. Hatje Cantz.
 
-**Parks**, L. (2012). Technostruggles and the satellite dish: A populist approach to infrastructure. In Cultural technologies (pp. 64-84). Routledge.
-[Lisa Parks on Lensbased.net](https://rcpp.lensbased.net/infrastructural-inversion-or-how-to-open-black-boxed-database-management-systems/)
-
-**Maak**, A. (2022). Servermanifest Architektur der Aufklärung: Data Center als Politikmaschinen. Hatjecantz.
-
-**Bastani**, A. (2019). Fully automated luxury communism. Verso Books.
+**Morozov**, E. (2011). The net delusion: How not to liberate the world. Penguin UK.
 
 **Morozov**, E. (2016). The net delusion: How not to liberate the world. In Democracy: A Reader (pp. 436-440). Columbia University Press.
 
-**Stäheli**, U. (1999). Die politische Theorie der Hegemonie: Ernesto Laclau und Chantal Mouffe. Politische Theorien der Gegenwart, 143-166.  
-[Podcast with Urs Stäheli](https://www.futurehistories.today/episoden-blog/s01/e54-urs-staeheli-zu-entnetzung/)
+**Morton**, T. (2014). Hyperobjects: Philosophy and Ecology After the End of the World. Minneapolis: University of Minnesota Press.
 
 **Mouffe**, C. (2014). Hegemony and ideology in Gramsci. In Gramsci and Marxist Theory (RLE: Gramsci) (pp. 168-204). Routledge.
-
-**Gramsci** on Hegemony:  
-[Stanford Encyclopedia](https://plato.stanford.edu/entries/gramsci/)
-
-A podcast explantation on The concepts by Mouffe and Laclau:  
-[Video: TLDR on Mouffe/Laclau](https://www.youtube.com/watch?v=62a6Dk9QmJQ)
-
-**Demirovic**, A. (2007). Hegemonie und die diskursive Konstruktion der Gesellschaft. Nonhoff, Martin (Hg.): Diskurs, radikale Demokratie, Hegemonie. Zum politischen Denken von Ernesto Laclau und Chantal Mouffe, Bielefeld: transcript, 55-85.  
-
-[Alex **Demirovic**: Hegemonie funktioniert nicht ohne Exklusion](https://www.youtube.com/watch?v=h77ECXXP2n0)
-
-**Seemann**, M. (2021). Die Macht der Plattformen: Politik in Zeiten der Internetgiganten. Berlin Ch. Links Verlag.
-[Podcast with Michael Seemann](https://www.futurehistories.today/episoden-blog/s01/e55-michael-seemann-zur-macht-der-plattformen-teil-1/)
 
 **Ọnụọha**, M. (2021). These Networks In Our Skin (Video), Aethers Bloom, Gropius Bau.
 [These Networks In Our Skin](https://mimionuoha.com/these-networks-in-our-skin)
@@ -506,9 +483,20 @@ A podcast explantation on The concepts by Mouffe and Laclau:
 **Ọnụọha**, M. (2022). The Cloth in the Cable, Aethers Bloom, Gropius Bau.
 [The Cloth in the Cable](https://www.berlinerfestspiele.de/en/gropius-bau/programm/2023/ausstellungen/kuenstliche-intelligenz/ausstellungstexte)
 
- **CyberRäuber**, (2019). Marcel Karnapke, Björn Lengers, Prometheus Unbound, Landestheater Linz
-[Prometheus Unbound](http://wp11159761.server-he.de/vtheater/de/prometheus-unbound/)
+**Parks**, L. (2012). Technostruggles and the satellite dish: A populist approach to infrastructure. In Cultural technologies (pp. 64-84). Routledge.
+[Lisa Parks on Lensbased.net](https://rcpp.lensbased.net/infrastructural-inversion-or-how-to-open-black-boxed-database-management-systems/)
 
+**Seemann**, M. (2021). Die Macht der Plattformen: Politik in Zeiten der Internetgiganten. Berlin Ch. Links Verlag.
+[Podcast with Michael Seemann](https://www.futurehistories.today/episoden-blog/s01/e55-michael-seemann-zur-macht-der-plattformen-teil-1/)
+
+**Stäheli**, U. (1999). Die politische Theorie der Hegemonie: Ernesto Laclau und Chantal Mouffe. Politische Theorien der Gegenwart, 143-166.  
+[Podcast with Urs Stäheli](https://www.futurehistories.today/episoden-blog/s01/e54-urs-staeheli-zu-entnetzung/)
+
+A podcast explantation on The concepts by Mouffe and Laclau:  
+[Video: TLDR on Mouffe/Laclau](https://www.youtube.com/watch?v=62a6Dk9QmJQ)
+
+
+ 
 ## Sonstige Quellen
 
 {% capture details %}
