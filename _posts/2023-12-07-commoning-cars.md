@@ -7,7 +7,7 @@ tags:
   - public spaces
   - commons
   - urban intervention
-  - UdK Berlin
+  - university of the arts berlin
   - private
   - ars electronica
   - accessibility activism

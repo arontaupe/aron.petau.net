@@ -23,7 +23,6 @@ tags:
 - sebastian paintner
 - studio d+c
 - university of the arts berlin
-- udk
 ---
 
 Here I will collect all the Documentation of the Thought Process for the WS22/23 Course [[Raum als Interface]] in the module Perspectives of Design.

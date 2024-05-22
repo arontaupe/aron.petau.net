@@ -18,7 +18,6 @@ tags:
 - aufstandlastgen
 - studio d+c
 - university of the arts berlin
-- udk
 - 
 header:
   teaser: /assets/images/autoimmunitaet/autoimmunitaet-1.jpg

@@ -18,7 +18,6 @@ tags:
   - BOS
   - studio d+c
   - university of the arts berlin
-  - udk
   - TODO, unfinished
 
 created: 2023-07-27T00:02:18+02:00

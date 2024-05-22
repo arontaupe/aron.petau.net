@@ -13,7 +13,6 @@ tags:
 - 3D printing
 - studio d+c
 - university of the arts berlin
-- udk
 - TODO, unfinished
 header:
   teaser: /assets/images/lampshades/lampshade4.heic

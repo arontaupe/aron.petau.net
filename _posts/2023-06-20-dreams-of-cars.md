@@ -15,7 +15,7 @@ tags:
   - ads
   - dreams
   - urban intervention
-  - UdK Berlin
+  - university of the arts berlin
 
 header:
   teaser: /assets/images/suv/suv_door-1.jpg

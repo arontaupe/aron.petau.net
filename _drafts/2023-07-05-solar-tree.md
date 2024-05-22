@@ -11,7 +11,6 @@ tags:
   - upcycling
   - studio d+c
   - university of the arts berlin
-  - udk
   - friedrich goizel-weber
   - copper
   - fruit

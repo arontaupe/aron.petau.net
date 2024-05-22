@@ -12,7 +12,7 @@ header:
   overlay_filter      : 0.5
   credit              : Aron Petau
 tags:
-  - udk
+  - university of the arts berlin
   - university
   - studierendenwerk
   - exhibition
