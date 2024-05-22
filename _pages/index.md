@@ -6,8 +6,10 @@ header:
   overlay_image: /assets/images/about_header.jpeg
   overlay_filter: 0.5
   actions:
-    - label: "<i class='fas fa-book-open'></i> Take me straight to the Portfolio!"
+    - label: "<i class='fas fa-book-open'></i> Take me straight to the selected Portfolio!"
       url: "/portfolio/"
+    - label: "<i class='fas fa-book-open'></i>I would rather read every single entry!"
+      url: "/archive/"
 excerpt: The place where you can catch up with my recent work and see what I am all about.
 author: "Aron Petau"
 
