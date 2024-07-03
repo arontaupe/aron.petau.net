@@ -105,7 +105,7 @@ author: "Aron Petau"
 
 |:- |-:|
 |**Freelance Mentor, Educator** |
-|<i class="fas fa-building"></i> Junge Tüftler*Innen ||||||||||||<i class="fas fa-calendar-alt"></i> June '24 – now |
+|<i class="fas fa-building"></i> Junge Tüftler*Innen |||||||||||||<i class="fas fa-calendar-alt"></i> June '24 – now |
 {: .display}  
 
 | The Junge Tüftler*Innen is an NGO focused on educative workshops around "making". They offer workshops for children, young adults and also offer Workshops for adults and teachers. I am a Mentor, meaning I supervise and conduct the workshops in a team of two.
