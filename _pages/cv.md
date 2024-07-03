@@ -14,7 +14,7 @@ author: "Aron Petau"
 
 |:- |-:|
 |**Abitur** |
-|<i class="fas fa-building"></i> Stadtgymnasium Detmold ||||||||||||<i class="fas fa-calendar-alt"></i> Aug '11 – Jun ‘15 |
+|<i class="fas fa-building"></i> Stadtgymnasium Detmold |||||||||||||<i class="fas fa-calendar-alt"></i> Aug '11 – Jun ‘15 |
 {: .display}
 
 |:- |-:|
@@ -28,11 +28,10 @@ author: "Aron Petau"
 
 |:- |-:|
 |**RISE Internship** |
-|<i class="fas fa-building"></i> IIT Kharagpur, India ||||||||||||||||<i class="fas fa-calendar-alt"></i> Sept. ’18 – Jan ’19 |
+|<i class="fas fa-building"></i> IIT Kharagpur, India ||||||||||||||<i class="fas fa-calendar-alt"></i> Sept. ’18 – Jan ’19 |
 {: .display}  
 
-| I researched the possibilities of a decentralized electricity grid in remote regions of the Himalayas.
-I conducted field research, evaluation, and product simulation. |
+| I researched the possibilities of a decentralized electricity grid in remote regions of the Himalayas. I conducted field research, evaluation, and product simulation. |
 {: .display}  
 
 |:- |-:|
@@ -40,17 +39,14 @@ I conducted field research, evaluation, and product simulation. |
 |<i class="fas fa-building"></i> New Bulgarian University, Sofia |||||||||||<i class="fas fa-calendar-alt"></i> Feb. ’19 – Jul ’19 |
 {: .display}  
 
-| I took courses in the Philosophy department and Masters’ program for Cognitive Science.|
+| I took courses in the Philosophy department and Masters’ program for Cognitive Science. I also attended the Cognitive Science Summer School.|
 [The Department Website](https://cogsci.nbu.bg/en/)|
-{: .display} 
-
-I also attended the Cognitive Science Summer School.|
 [More on the Summer School](https://cogsci.nbu.bg/en/international-summer-school-in-cognitive-science)|
 {: .display}  
 
 |:- |-:|
 |**M.A. Design & Computation** |
-|<i class="fas fa-building"></i> Universität der Künste, Berlin |||||||||||||<i class="fas fa-calendar-alt"></i> Oct. '22 – '24' |
+|<i class="fas fa-building"></i> Universität der Künste, Berlin ||||||||||||<i class="fas fa-calendar-alt"></i> Oct. '22 – '24' |
 {: .display}  
 
 | I am currently in the third semester of transdisciplinary cooperation between UdK and TU Berlin with a focus on critical artistic engagement with technology.|
@@ -98,21 +94,22 @@ I also attended the Cognitive Science Summer School.|
 
 |:- |-:|
 |**Working Student** |
-|<i class="fas fa-building"></i> Sommerblut Kulturverein Festival |||||||||||<i class="fas fa-calendar-alt"></i> Mar '23 – now |
+|<i class="fas fa-building"></i> InKüLe @ UdK Berlin |||||||||||||||<i class="fas fa-calendar-alt"></i> Mar '23 – now |
 {: .display}  
 
 | InKüLe stands for 'Innovation in der künstlerischen Lehre'. The work revolves around investigating concepts for innovation and digitalization in the practice of artistic teaching. Personally, I work mostly with workshops teaching sculpting in VR and livestreaming events.
+{: .display}  
+
 [The InKüLe Web Presence](https://www.inkuele.de/landing)|
 {: .display}
 
 |:- |-:|
 |**Freelance Mentor, Educator** |
-|<i class="fas fa-building"></i> Junge Tüftler*Innen |||||||||||<i class="fas fa-calendar-alt"></i> June '24 – now |
+|<i class="fas fa-building"></i> Junge Tüftler*Innen ||||||||||||<i class="fas fa-calendar-alt"></i> June '24 – now |
 {: .display}  
 
-| The Junge Tüftler*Innen is an NGO focused on educative workshops around "making".
-They offer workshops for children, young adults and also offer Workshops for adults and teachers. I am a Mentor, meaning I supervise and conduct the workshops in a team of two.
-[Find them online](https://junge-tueftler.de)|
+| The Junge Tüftler*Innen is an NGO focused on educative workshops around "making". They offer workshops for children, young adults and also offer Workshops for adults and teachers. I am a Mentor, meaning I supervise and conduct the workshops in a team of two.
+[Junge Tüftler*Innen](https://junge-tueftler.de)|
 {: .display}
 
 ### Software Skills
@@ -137,11 +134,13 @@ They offer workshops for children, young adults and also offer Workshops for adu
 
 **Office** \| MS-Office Suite \| Latex \| Markdown
 
+**Educational** \| Scratch \| Makey-Makey \| Ozobots
+
 ### Machine Skills
 
 **3D Printer** \| Fused-Deposition Modeling (FDM)\| Resin (MSLA)
 
-**CNC** \| Nomad 3
+**CNC** \| Nomad 3 \| Shaper Origin
 
 **(Laser)cutter** \| Cricut \| Mr. Beam \| BRM Lasers Pro 1600 \| Scissors
 

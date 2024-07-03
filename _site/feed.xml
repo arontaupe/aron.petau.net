@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-25T17:08:29+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio</title><subtitle>I am a student in Design &amp; Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around! </subtitle><author><name>Aron Petau</name><email>aron@petau.net</email></author><entry><title type="html">Echoing Dimensions</title><link href="http://localhost:4000/echoing-dimensions/" rel="alternate" type="text/html" title="Echoing Dimensions" /><published>2024-04-25T15:39:27+02:00</published><updated>2024-04-25T15:39:27+02:00</updated><id>http://localhost:4000/echoing-dimensions</id><content type="html" xml:base="http://localhost:4000/echoing-dimensions/"><![CDATA[<h2 id="echoing-dimensions">Echoing Dimensions</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-03T18:04:20+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio</title><subtitle>I am a student in Design &amp; Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around! </subtitle><author><name>Aron Petau</name><email>aron@petau.net</email></author><entry><title type="html">Echoing Dimensions</title><link href="http://localhost:4000/echoing-dimensions/" rel="alternate" type="text/html" title="Echoing Dimensions" /><published>2024-04-25T15:39:27+02:00</published><updated>2024-04-25T15:39:27+02:00</updated><id>http://localhost:4000/echoing-dimensions</id><content type="html" xml:base="http://localhost:4000/echoing-dimensions/"><![CDATA[<h2 id="echoing-dimensions">Echoing Dimensions</h2>
 
 <h2 id="the-space">The space</h2>
 
@@ -782,35 +782,43 @@ Yet, also with Emails, Capitalism has held many victories, and today many emails
 <p>While self-hosting seems like a great idea from a privacy perspective, it is also quite risky for a service that is usually the only way for any service to recover your password or your online identity. 
 Migadu it was then, and in the last three months of basically set it and forget it, i am proud to at least have a decently granular control over my emails and can consciously reflect on the server location of The skeleton service service that enables virtually my entire online existence.</p>
 
-<p>I certainly crave more open protocols in my life and am also findable on <a href="https://mastodon.online/@reprintedAron">Mastodon</a>, a microblogging network around the ActivityPub Protocol.</p>]]></content><author><name>Aron Petau</name></author><category term="server" /><category term="web" /><category term="petau.net" /><category term="dev-ops" /><category term="open protocols" /><category term="federation" /><category term="peer-to-peer" /><category term="email" /><category term="activitypub" /><summary type="html"><![CDATA[I now manage the domain petau.net with a mail server and attached sites.]]></summary></entry><entry><title type="html">Sferics</title><link href="http://localhost:4000/sferics/" rel="alternate" type="text/html" title="Sferics" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/sferics</id><content type="html" xml:base="http://localhost:4000/sferics/"><![CDATA[## What the hell are Sferics?
+<p>I certainly crave more open protocols in my life and am also findable on <a href="https://mastodon.online/@reprintedAron">Mastodon</a>, a microblogging network around the ActivityPub Protocol.</p>]]></content><author><name>Aron Petau</name></author><category term="server" /><category term="web" /><category term="petau.net" /><category term="dev-ops" /><category term="open protocols" /><category term="federation" /><category term="peer-to-peer" /><category term="email" /><category term="activitypub" /><summary type="html"><![CDATA[I now manage the domain petau.net with a mail server and attached sites.]]></summary></entry><entry><title type="html">Sferics</title><link href="http://localhost:4000/sferics/" rel="alternate" type="text/html" title="Sferics" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/sferics</id><content type="html" xml:base="http://localhost:4000/sferics/"><![CDATA[<h2 id="what-the-hell-are-sferics">What the hell are Sferics?</h2>
 
->A radio atmospheric signal or sferic (sometimes also spelled "spheric") is a broadband electromagnetic impulse that occurs as a result of natural atmospheric lightning discharges. Sferics may propagate from their lightning source without major attenuation in the Earth–ionosphere waveguide, and can be received thousands of kilometres from their source.
+<blockquote>
+  <p>A radio atmospheric signal or sferic (sometimes also spelled “spheric”) is a broadband electromagnetic impulse that occurs as a result of natural atmospheric lightning discharges. Sferics may propagate from their lightning source without major attenuation in the Earth–ionosphere waveguide, and can be received thousands of kilometres from their source.</p>
+</blockquote>
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Radio_atmospheric_signal)
-  
-## Why catch them?
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Radio_atmospheric_signal">Wikipedia</a></li>
+</ul>
 
-[Microsferics](microsferics.com) is a nice reference Project, which is a network of Sferics antennas, which are used to detect lightning strikes. Through triangulation not unlike the Maths happening in GPS, the (more or less) exact location of the strike can be determined. This is useful for weather prediction, but also for the detection of forest fires, which are often caused by lightning strikes.
+<h2 id="why-catch-them">Why catch them?</h2>
 
-Because the Frequency of the Sferics is, when converted to audio, still in the audible range, it is possible to listen to the strikes. This usually sounds a bit like a crackling noise, but can also be quite melodic. I was a bit reminded by a Geiger Counter.
+<p><a href="microsferics.com">Microsferics</a> is a nice reference Project, which is a network of Sferics antennas, which are used to detect lightning strikes. Through triangulation not unlike the Maths happening in GPS, the (more or less) exact location of the strike can be determined. This is useful for weather prediction, but also for the detection of forest fires, which are often caused by lightning strikes.</p>
 
-Sferics are in the VLF (Very Low Frequency) range, sitting roughly at 10kHz, which is a bit of a problem for most radios, as they are not designed to pick up such low frequencies. This is why we built our own antenna.
-At 10kHz, we are talking about insanely large waves. a single wavelength there is roughly 30 Kilometers. This is why the antenna needs to be quite large. A special property of waves this large is, that they get easily reflected by the Ionosphere and the Earth's surface. Effectively, a wave like this can bounce around the globe several times before it is absorbed by the ground. This is why we can pick up Sferics from all over the world and even listen to Australian Lightning strikes. Of course, without the maths, we cannot attribute directions, but the so called "Tweeks" we picked up, usually come from at least 2000km distance.
+<p>Because the Frequency of the Sferics is, when converted to audio, still in the audible range, it is possible to listen to the strikes. This usually sounds a bit like a crackling noise, but can also be quite melodic. I was a bit reminded by a Geiger Counter.</p>
 
-## The Build
-We built several so-called "Long-Loop" antennas, which are essentially a coil of wire with a capacitor at the end. Further, a specific balun is needed, depending on the length of the wire. this can then directly output an electric signal on an XLR cable.
+<p>Sferics are in the VLF (Very Low Frequency) range, sitting roughly at 10kHz, which is a bit of a problem for most radios, as they are not designed to pick up such low frequencies. This is why we built our own antenna.
+At 10kHz, we are talking about insanely large waves. a single wavelength there is roughly 30 Kilometers. This is why the antenna needs to be quite large. A special property of waves this large is, that they get easily reflected by the Ionosphere and the Earth’s surface. Effectively, a wave like this can bounce around the globe several times before it is absorbed by the ground. This is why we can pick up Sferics from all over the world and even listen to Australian Lightning strikes. Of course, without the maths, we cannot attribute directions, but the so called “Tweeks” we picked up, usually come from at least 2000km distance.</p>
 
-Loosely based on instructions from [Calvin R. Graf](https://archive.org/details/exploringlightra00graf), We built a 26m long antenna, looped several times around a wooden frame.
+<h2 id="the-build">The Build</h2>
+<p>We built several so-called “Long-Loop” antennas, which are essentially a coil of wire with a capacitor at the end. Further, a specific balun is needed, depending on the length of the wire. this can then directly output an electric signal on an XLR cable.</p>
 
-## The Result
-We have several hour-long recordings of the Sferics, which we are currently investigating for further potential.
+<p>Loosely based on instructions from <a href="https://archive.org/details/exploringlightra00graf">Calvin R. Graf</a>, We built a 26m long antenna, looped several times around a wooden frame.</p>
 
-Have a listen to a recording of the Sferics here:
+<h2 id="the-result">The Result</h2>
+<p>We have several hour-long recordings of the Sferics, which we are currently investigating for further potential.</p>
 
-{% include video id="2YYPg_K3dI4" provider="youtube" %}
+<p>Have a listen to a recording of the Sferics here:</p>
 
-As you can hear, there is quite a bit of 60 hz ground buzz in the recording. This is either due to the fact that the antenna was not properly grounded or we simply were still too close to the bustling city. 
-I think it is already surprising that we got such a clear impression so close to Berlin. Let's see what we can get in the countryside!]]></content><author><name>Aron Petau</name></author><category term="fm" /><category term="radio" /><category term="antenna" /><category term="sferics" /><category term="lightning" /><category term="geosensing" /><category term="electronics" /><category term="electromagnetism" /><summary type="html"><![CDATA[On a hunt for the Voice of the out there]]></summary></entry><entry><title type="html">Dreams of Cars</title><link href="http://localhost:4000/dreams-of-cars/" rel="alternate" type="text/html" title="Dreams of Cars" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/dreams-of-cars</id><content type="html" xml:base="http://localhost:4000/dreams-of-cars/"><![CDATA[<h2 id="photography">Photography</h2>
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/2YYPg_K3dI4" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>As you can hear, there is quite a bit of 60 hz ground buzz in the recording. This is either due to the fact that the antenna was not properly grounded or we simply were still too close to the bustling city. 
+I think it is already surprising that we got such a clear impression so close to Berlin. Let’s see what we can get in the countryside!</p>]]></content><author><name>Aron Petau</name></author><category term="fm" /><category term="radio" /><category term="antenna" /><category term="sferics" /><category term="lightning" /><category term="geosensing" /><category term="electronics" /><category term="electromagnetism" /><summary type="html"><![CDATA[On a hunt for the Voice of the out there]]></summary></entry><entry><title type="html">Dreams of Cars</title><link href="http://localhost:4000/dreams-of-cars/" rel="alternate" type="text/html" title="Dreams of Cars" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/dreams-of-cars</id><content type="html" xml:base="http://localhost:4000/dreams-of-cars/"><![CDATA[<h2 id="photography">Photography</h2>
 
 <p>In the context of the course “Fotografie Elementar” with Sebastian Herold I developed a small concept of urban intervention.<br />
 The results were exhibited at the UdK Rundgang 2023 and are also visible here.</p>
