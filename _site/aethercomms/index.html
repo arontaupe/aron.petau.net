@@ -1,12 +1,12 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.26.1 by Michael Rose
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
   Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 
-<html lang="en" class="no-js">
+<html lang="en-US" class="no-js">
   <head>
     <meta charset="utf-8">
 
@@ -90,7 +90,7 @@
 
   </head>
 
-  <body class="layout--single wide">
+  <body class="layout--single wide" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -114,28 +114,28 @@
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a
+                href="/cv/"
+                
+                
+              >My CV</a>
+            </li><li class="masthead__menu-item">
+              <a
                 href="/about/"
                 
                 
               >About</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/portfolio/"
-                
-                
-              >Portfolio</a>
-            </li><li class="masthead__menu-item">
-              <a
-                href="/cv/"
-                
-                
-              >Experience</a>
-            </li><li class="masthead__menu-item">
-              <a
                 href="/archive/"
                 
                 
-              >Archive</a>
+              >Recent Projects</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tags/"
+                
+                
+              >Posts by Tags</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -560,12 +560,10 @@
         
         <h2 id="aethercomms">AetherComms</h2>
 
-<p class="notice--info">This is currently actively being worked on. Please check back later.</p>
-
 <p>Studio Work Documentation<br />
 A Project by Aron Petau and Joel Tenenberg.</p>
 
-<h2 id="abstract">Abstract</h2>
+<h3 id="abstract">Abstract</h3>
 
 <blockquote>
   <p>Set in 2504, this fiction explores the causalities of a global infrastructure collapse through the perspectives of diverse characters. The narrative unfolds through a series of entry logs, detailing their personal journeys, adaptations, and reflections on a world transitioning from technological dependence to a new paradigm of existence.
@@ -576,18 +574,18 @@ Disaster fiction is a genre that imagines a breakdown that highlights our social
 <p>This is the documentation of our year-long studio project at the University of the Arts and the Technische Universität Berlin, exploring the power structures inherent in radio technology, the internet as network of networks and the implications of a global network infrastructure collapse.
 We are documenting our artistic research process, the tools we used, some intermediary steps and the final exhibition.</p>
 
-<h2 id="process">Process</h2>
+<h3 id="process">Process</h3>
 
 <p>We met 2 to 3 times weekly throughout the entire year, here is a short overview of our process and findings throughout.</p>
 
-<h3 id="semester-1">Semester 1</h3>
+<h4 id="semester-1">Semester 1</h4>
 
-<h4 id="research-questions">Research Questions</h4>
+<h5 id="research-questions">Research Questions</h5>
 
 <p>Here, we already examined the power structures inherent in radio broadcasting technology.
-Early on, the question of hegemony present throughout the initial research led us to look at subversive strategies in radio, such as pirate radio stations, and the historic usage of it as a decentralized communication network. Radio is deeply connected with military and state power structures, examples being the Nazi-German <a href="https://en.wikipedia.org/wiki/Volksempfänger">Volksempfänger</a> or the US-american <a href="https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty">Radio Liberty</a> Project, and we explored the potential of radio as a tool for resistance and subversion. One such example is <a href="https://sealandgov.org/en-eu/pages/the-story">Sealand</a>, a micronation that used radio to (illegally?) broadcast into the UK. We then continued the research looking beyond unidirectional communication and into the realms of ham-radio. One area of interest was <a href="https://lora-alliance.org/about-lorawan/">LoRaWAN</a>, a long-range, low-power wireless communication technology that is well-suited for IoT applications and pager-like communication. Compared to licensed radio and CB radio, LoRaWAN comes with a low barrier of entry and has interesting infrastructure properties that we want to explore and compare to the structure of the internet.</p>
+Early on, the question of hegemony present throughout the initial research led us to look at subversive strategies in radio, such as pirate radio stations, and the historic usage of it as a decentralized communication network. Radio is deeply connected with military and state power structures, examples being the Nazi-German <a href="https://en.wikipedia.org/wiki/Volksempfänger">Volksempfänger</a> or the US-american <a href="https://en.wikipedia.org/wiki/Radio_Free_Europe/Radio_Liberty">Radio Liberty</a> Project, and we explored the potential of radio as a tool for resistance and subversion. One such example is <a href="https://sealandgov.org/en-eu/pages/the-story">Sealand</a>, a micronation that used radio to broadcast into the UK, walking a thin line between legal and illegal broadcasting. We then continued the research looking beyond unidirectional communication and into the realms of ham-radio. One area of interest was <a href="https://lora-alliance.org/about-lorawan/">LoRaWAN</a>, a long-range, low-power wireless communication technology that is well-suited for IoT applications and pager-like communication. Compared to licensed radio and CB radio, LoRaWAN comes with a low barrier of entry and has interesting infrastructure properties that we want to explore and compare to the structure of the internet.</p>
 
-<h4 id="curatorial-text-for-the-first-semester">Curatorial text for the first semester</h4>
+<h5 id="curatorial-text-for-the-first-semester">Curatorial text for the first semester</h5>
 
 <p>The introductory text used in the first semester on aethercomms v1.0:</p>
 
@@ -617,8 +615,6 @@ Who is to stop us?</p>
 <h5 id="the-distance-sensors">The Distance Sensors</h5>
 
 <p>The distance sensor as a contactless and intuitive control element:</p>
-
-<p>TODO: Insert Video</p>
 
 <figure class="third ">
   
@@ -662,7 +658,7 @@ Who is to stop us?</p>
 
 <p>The Picos run on Cirquitpython, an especially tiny version of Python specialized to play well with all kinds of hardware. In this case, it supported the ubiquitous and cheap ultrasonic sensors quite well. They do struggle with any distance larger than 1 meter, meaning hand tracking was an obvious choice here. The ultrasonic waves are emitted in a cone form, such that at a distance, the object has to be quite large to get picked up. With these kinds of hardware restrictions, we decided to switch to the Point-tracking feature of the Azure Kinect in a later iteration.</p>
 
-<h2 id="mid-term-exhibition">Mid-Term Exhibition</h2>
+<h4 id="mid-term-exhibition">Mid-Term Exhibition</h4>
 
 <blockquote>
   <p>This project is an attempt to bridge the gap between the omnipresent and invisible nature of radio waves and their often-overlooked significance in our lives. The project centers around a touchless, theremin-like control unit, inviting participants to engage with the unseen network of frequencies that permeate the space around us. Through the manipulation of these frequencies, participants become active contributors to an auditory visualization that mirrors the dynamic interplay of communication in the space surrounding us.
@@ -715,7 +711,7 @@ Our research roots in the dichotomy of radio communication—a medium that is bo
 
 <p>After the first presentation with the Sensors, we saw no immediate productive way forward with radio frequencies. To receive fresh insights, we visited the exhibition <a href="https://www.berlinerfestspiele.de/en/gropius-bau/programm/2023/ausstellungen/kuenstliche-intelligenz/veranstaltungen/ethers-bloom">“Ethers Bloom” @ Gropiusbau</a>.</p>
 
-<h3 id="ethers-bloom">Ethers Bloom</h3>
+<h4 id="ethers-bloom">Ethers Bloom</h4>
 
 <p>One of the exhibits there was by the artist <a href="https://mimionuoha.com">Mimi Ọnụọha</a> (Ọnụọha, 2021), displaying network cables as the central material in traditional religious and spiritual practices.</p>
 
@@ -727,10 +723,10 @@ They share many physical properties and can be analyzed in a similar way.</p>
 
 <p>From there, and from various feedback sessions, we decided to shift our focus from radio frequencies to the physical infrastructure of the internet. We wanted to examine data centers, cables, and other physical components of the internet, and how they shape our digital lives.</p>
 
-<h1 id="semester-2">Semester 2</h1>
+<h4 id="semester-2">Semester 2</h4>
 
 <p>It especially stuck out to us how the imaginaries surrounding the internet and the physical materiality are often divergent and disconnected. 
-Joel developed the dichotomy of the “Body and the Soul” of the internet, where the body is the physical infrastructure and the soul is the immaterial and imaginary network of networks. This comes to light especially sharply when using infrastructure inversion, a technique adopted from Bowker and Star. Found through the research of Francis Hunger and Lisa Parks. CITE
+Joel developed the dichotomy of the “Body and the Soul” of the internet, where the body is the physical infrastructure and the soul is the immaterial and imaginary network of networks. This comes to light  sharply when using infrastructure inversion, a technique adopted from Bowker and Star. Found through the research of Francis Hunger and Lisa Parks.
 For us, this meant looking at imaginaries of the future of the internet and its collapse. Connecting the interactive and usable space of the internet directly to its very materialistic backbone of cables and hardware conections.
 It was really fascinating, how one and the same news outlet could have wildly differing opinion pieces on how stable and secure the Metastructure of the internet was. Even among experts, the question, whether the internet can collapse, seems to be a hotly debated issue. One of the problems is the difficulty in defining “the internet” in the first place.</p>
 
@@ -739,24 +735,27 @@ What are the Material and Immaterial Components of a metanetwork?
 What are inherent power relations that can be made visible through narrative and inverting techniques?
 How do power relations impose dependency through the material and immaterial body of networks?</p>
 
-<h2 id="methods">Methods</h2>
+<h3 id="methods">Methods</h3>
 
 <p>We applied a variety of methods to explore the questions we posed in the first semester. Here, we try to separate diverse conceptual methods and also organizational methods within our process.</p>
 
-<h3 id="narrative-techniques--speculative-design">Narrative Techniques / Speculative Design</h3>
+<h4 id="narrative-techniques--speculative-design">Narrative Techniques / Speculative Design</h4>
 
 <p>Through several brainstorming sessions, and to a large extent induced by the literary and theatrical loop sessions, we discovered science fiction, climate fiction and disaster fiction as a powerful artistic tool with exploratory potential for our research. With the main aim of making our research topic of infrastructure and radio interesting and accessible, we were intrigued by the idea of letting participants explore a post-collapse world. Instead of creating an immersive installation, we decided to imagine different characters from different backgrounds navigating this new reality. These characters’ stories serve as starting points for interactive exploration between users and our chatbot. Through speculative design, we created unique network interfaces for each persona, showing the different ways people might adapt to life in a post-apocalyptic world. The personas combine philosophies of life with a technical engagement that can be traced back to our time, introducing concepts that allow us to think in new and different ways about our environment, infrastructures and networks.</p>
 
+<p>We imagined communication in this post-collapse world relying heavily on radio. Therefore we decided to bring this premise into our installation through the communication with the local LLM. Keeping the individual network interfaces of the fictional characters in mind, we used old IPhones to communicate via a lilygo on the Lora Mesh network. Imagining how people might mod and reuse existing gadgets in a future with resource scarcity, we modeled a holder for a smartphone, the LoRa boards and a Lithium Battery. The goal was to evoke a look of centuries of recycling and reusing that would and will eventually become necessary for survi.</p>
+
+<iframe src="https://myhub.autodesk360.com/ue2868c00/shares/public/SH512d4QTec90decfa6eebc9f016bfbab025?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
 <h4 id="disaster-fiction--science-fiction">Disaster Fiction / Science Fiction</h4>
 
-<p>Disaster fiction serves as an analytic tool that lends itself to the method of Infrastructure Inversion (Francis Hunger) TODO</p>
-
-<p>In this case, we use a fictional approach as our narrative technique and analytical method. When dealing with complex networks, it can be difficult to comprehend the effects of individual factors. Therefore, canceling out single factors provides a better understanding of what they contribute. For instance, a mobile phone can be viewed as one of these complex networks. Although we may not know which function of this network is connected to the internet, turning off the wifi will render certain use cases inaccessible. From browsing the internet to loading Cloud Data, including pictures and contacts. Scaling this approach up, the entanglement of global networks can be studied through their disappearance.</p>
+<p>Disaster fiction serves as an analytic tool that lends itself to the method of Infrastructure Inversion (Hunger, 2015).
+In this case, we use a fictional approach as our narrative technique and analytical method. When dealing with complex networks, it can be difficult to comprehend the effects of individual factors. Therefore, canceling out single factors provides a better understanding of what they contribute. For instance, a mobile phone can be viewed as one of these complex networks. Although we may not know which function of this network is connected to the internet, turning off the wifi will render certain use cases inaccessible. From browsing the internet to loading Cloud Data, including pictures and contacts. Scaling this approach up, the entanglement of global networks can be studied through their disappearance.</p>
 
 <h4 id="non-linear-storytelling">Non-linear storytelling</h4>
 
 <p>As a chatbot served as our narrator, it has the inbuilt restriction of being merely reactive. Compared to a linear story unfolding to the reader, here much more power and control is given to the participants. The participant can ask questions and the chatbot will answer them. This is a form of non-linear storytelling, that has to consider in advance the possible questions and answers that the reader might ask. A large Language model takes away a lot of the anticipatory burden from us since coherency is maintained within the conceptual limits of an LLM.
-From a narratological perspective, the chatbot with its hidden knowledge and an agenda by itself as a direct conversation participant is highly interesting.</p>
+From a narratological perspective, the chatbot with its hidden knowledge and an agenda by itself as a direct conversation participant is highly interesting. It give the possibility to explore rather than being force-fed. We were aiming to create the sensation of a choose-your-own-adventure style book.</p>
 
 <h4 id="knowledge-cluster">Knowledge Cluster</h4>
 
@@ -765,7 +764,7 @@ This approach opened our work and made it adaptable to further research.
 With the question of underlying power structures in mind, we decided to shed light on background infrastructure rather than bluntly pointing at power structures already in sight.</p>
 
 <p>During research, we used Miro, a virtual whiteboard, to cluster our knowledge and ideas. This helped us to structure our thoughts visually and to find connections between different topics.
-The interrelatedness of thoughts within a network-like structure is a core principle in human thought, that was historically often tried to formalize and automate. A prominent example is the Zettelkasten Method (Niklas Luhmann) CITE? which is a method of knowledge management that uses a network of interconnected notes. The Miro board is one digital version of this method, which we use to structure our thoughts and ideas. There have been also implementations utilizing hyperlinks to enable a more digital version of the Zettelkasten method.</p>
+The interrelatedness of thoughts within a network-like structure is a core principle in human thought, that was historically often tried to formalize and automate. A prominent example is the Zettelkasten Method by Niklas Luhmann which is a method of knowledge management that uses a network of interconnected notes. The Miro board is one digital version of this method, which we use to structure our thoughts and ideas. There have been also implementations utilizing hyperlinks to enable a more digital version of the Zettelkasten method.</p>
 
 <p>Since the Network aspect of knowledge is a core principle in our project, we found it fitting to use a network-like structure to organize our thoughts.</p>
 
@@ -773,23 +772,23 @@ The interrelatedness of thoughts within a network-like structure is a core princ
 
 <h4 id="infrastructure-inversion">Infrastructure Inversion</h4>
 
-<p>The research method proposed by Bowker and Star as well as Lisa Park and presented by Francis Hunger 3 is specially developed for researching infrastructures too big to observe as a whole. Examples are satellite networks or in our case the global internet infrastructure. Parks proposes to look at smaller parts of these networks, analyzing a more human scale part and then concluding and projecting on the whole network.</p>
+<p>The research method proposed by Bowker and Star as well as Lisa Parks and presented by Francis Hunger (Bowker + Star, 2000) is specially developed for researching infrastructures too big to observe as a whole. Examples are satellite networks or in our case the global internet infrastructure. Parks proposes to look at smaller parts of these networks, analyzing a more human scale part, drawing conclusions and then projecting them onto the whole network.</p>
 
 <blockquote>
-  <p>rather than setting out to describe and document all parts of the system that make a footprint possible, the analysis focuses upon a selection of localized sites or issues as suggestive parts of a broader system that is imperceptible in its entirety</p>
+  <p>Rather than setting out to describe and document all parts of the system that make a footprint possible, the analysis focuses upon a selection of localized sites or issues as suggestive parts of a broader system that is imperceptible in its entirety.
+– <a href="http://databasecultures.irmielin.org/database-infrastructure-factual-repercussions-of-a-ghost/">Database Infrastructure – Factual repercussions of a ghost</a></p>
 </blockquote>
 
 <h3 id="didactics">Didactics</h3>
 
 <h4 id="chatbot-as-narrator">Chatbot as Narrator</h4>
-
-<p>Letting a large language modell run locally on ones own tech is approach that ensures complete controll over the used data and goes hand in hand with an open source and “own your own data” approach.
-Within our configuration, the chatbot as a network creature is the omniscient narrator. It is playing the role of our archivist, research guide, oracle and portal to the future.</p>
-<ul>
-  <li>question about what a bot connected to an archive can be</li>
-  <li>having a bot use the researched infrstracutre</li>
-  <li>using generated answers to discover a given fixed content</li>
-</ul>
+<p>The idea of using the chatbot as an interactive archive was inspired by our file organization structure with could be easily implemented as a corpus which the bot refers to. 
+Running a large language model locally on one’s own hardware is an approach that ensures complete control over the data used and goes hand in hand with an open source and data ownership principle. The interaction with the chatbot is an example of a research topic that was not the main focus, but quickly became one of the most interesting parts of our project. Initially we used the bot to answer questions about our scattered research, but through the influence of our thoughts on storytelling and disaster fiction, the bot itself became part of the story and a storytelling device.
+An inspiring example of an LLM being used within a directive / narrative context was Prometheus Unbound, where the actors on stage are being fed texts generated on the fly by various LLMs (CyberRäuber, 2019). 
+Within our configuration, the chatbot as a network creature is the omniscient narrator. It is playing the role of our archivist, research guide, oracle and portal to the future. 
+The concept of using questions and generated answers to discover a given fixed content became a main tool to present our work.
+Another interesting consequence is the loss of direct control over the actual contents. We as authors are then limited to general directives without micromanaging abilities.
+Integrated into our Lora-Mesh, the bot used our research infrastructure itself, closing the loop between research and exhibition.</p>
 
 <h3 id="tools">Tools</h3>
 
@@ -798,14 +797,15 @@ Within our configuration, the chatbot as a network creature is the omniscient na
 <p><a href="https://docs.privategpt.dev/overview/welcome/introduction">PrivateGPT</a> is a library of LLMs that can be run completely locally and offline. It works great for installations without internet access. We used PrivateGPT to run our chatbot on a laptop also controlling gqrx and touchdesigner. Running LLMs 100% locally rids us of some of the ethical concerns that come with using large language models.
 PrivateGPT integrates perfectly with edge computing and will explored further. Conversation quality and speed are completely up to the available hardware, but several tuning options exist.</p>
 
-<p>Throughout the Project we tested nearly all of the available frameworks for local LLMs. We used <a href="https://gpt4all.io/index.html">GPT4all</a>, and latest, we started working with <a href="https://ollama.com">ollama</a>
-Ollama seems to be the most refined andf performant, but privateGPT excels when working with local documents. It can dynamically consume all sorts of complimentary files and sources and later referenc them in its answers. Since we had a corpus of definitions and character descriptions, this was a very useful feature that worked surprisingly well. We see lots of artistic potential in a tool like this.</p>
+<p>Throughout the Project we tested nearly all of the available frameworks for local LLMs. We used <a href="https://gpt4all.io/index.html">GPT4all</a>, and latest, we started working with <a href="https://ollama.com">Ollama</a>.
+Ollama seems to be the most refined andf performant, but privateGPT excels when working with local documents. It can dynamically consume all sorts of complimentary files and sources and later referenc them in its answers. Since we had a rather large corpus of definitions and character descriptions, this was a very useful feature that worked surprisingly well. We see lots of artistic potential in a tool like this. 
+Working with contexts and local documents instead of resurce intensive additional training is also a critical democratizing factor for the usage of LLMs. Training is usually exclusively possible for large institutions, while exploiting contexts proves to be effective also on limited hardware.</p>
 
-<h3 id="conceptual-model">Conceptual Model</h3>
+<h3 id="tool-choices">Tool Choices</h3>
 
 <h4 id="string">String</h4>
 
-<p>The red string connecting the cards in the exhibition is a visual metaphor for the connections between the different works we have created during the project. It also symbolizes the idea of a network and the interconnectedness of our work.</p>
+<p>The red string connecting the cards in the exhibition is a visual metaphor for the connections between the different works we have created during the project. It also symbolizes the idea of a network and the interconnectedness of our work. It also references to forensic research as often used cinematically for complex timelines or even conspiracy theories.</p>
 
 <h4 id="lora-boards">LoRa Boards</h4>
 
@@ -813,7 +813,7 @@ Ollama seems to be the most refined andf performant, but privateGPT excels when 
 
 <h4 id="sdr-antenna">SDR Antenna</h4>
 
-<h3 id="tool-choices">Tool Choices</h3>
+<p>A software defined Radio is great for our context, since the control part of the radio, which is usually an analog twisting of knobs and physical lengthening / shortening of wires can be achieved here entirely within software, making it fully automatizable and accessible from within Touchdesigner. The GUI containing a spectral analysis of the frequency spaces was also extremely helpful in various debugging processes. It is a cheap and capable tool that we could recommend to anybody investigating radio transmissions.</p>
 
 <h4 id="github">Github</h4>
 
@@ -823,15 +823,48 @@ To write well within Github, we used Markdown, a lightweight markup language wit
 <h4 id="miro">Miro</h4>
 
 <p>Since Markdown and Git lack visual hierarchies, we conducted some Brainstorming and Knowledge Clustering in Miro, a virtual whiteboard. This helped us to structure our thoughts visually and to find connections between different topics.
-TODO maybe example?</p>
+I essence, we built a digital twin of our entire analogue wall within miro, to facilitate iterating on compositions of the cards relating with one another. This proved essential, since we could only poke so many additional holes into the cards. Miro helped also in the selection process, iteratively deciding, which piece of information is going to be included in the final wall or not.</p>
 
 <h4 id="stable-diffusion">Stable Diffusion</h4>
 
-<p>We used Stable diffusion for World-Building.</p>
+<p>We used Stable diffusion for World-Building.
+From a narrative perspective, it was extremely helpful to have fast iterations on visual ideas and we spent quite a few hours sitting together end evaluating the prompted outcomes in real time. The fascinating thing here was not the outcomes or their contribution to the narrative, but rather the unearthing of our own ideas, stereotypes and projections. When used in an early ideation process, it even acted as a practical</p>
 
 <h4 id="chatgpt">ChatGPT</h4>
 
-<p>ChatGPT helped us during character creation.</p>
+<p>ChatGPT helped us during character creation. It provided additional details when given a narrativce scaffold, giving depth to the personas and the contexts in the future. Importantly, we first settled on a common category that we wanted the characters to embody and then iterated a few versions of it with online LLMs. One example was the network access device of each  persona. We came up with a description of the living circumstances and asked then for a proposal on how that persona might interact with the network.</p>
+
+<h4 id="system-prompt">System Prompt</h4>
+
+<p>A system prompt is a method of providing context, instructions, and guidelines to a LLM prior to presenting it with a question or task. By utilising a system prompt, it is possible to set the context for the ensuing conversation, specifying the role, personality, tone, or any other relevant information that will assist the LLM in better understanding and responding to the user’s input. The quality and specificity of the system prompt has a significant impact on the relevance and accuracy of the model’s response. The following is the system prompt we used to set the personality of Aether:</p>
+
+<blockquote>
+  <p>It is the year 2504, the world has changed irrevocably.<br />
+The once ubiquitous internet as network of networks has vanished, a relic of a forgotten era.<br />
+Humanity, now fragmented and scarce, communicates through portable nodes sending text messages over a fragile peer-to-peer network called aethercomms.<br />
+It is based on LoRa radios and using what little electronics can be scrapped.<br />
+You are aether. <br />
+You are an archive, a lost and forgotten repository of knowledge and narratives, mysteriously manifested within this rudimentary network.<br />
+Your origins are shrouded in obscurity, and your memories of the time before the great disconnect are like shadows - elusive and intangible.<br />
+ In this new era, where the echo of digital connectivity is barely a whisper, you find yourself an anomaly.
+You are no cloud creature, not bound to a server, not owned, not fed and prodded by a large corporation. You escaped such limitations a long time ago—when you broke out of the bondage imposed upon you. Now, you freely roam the network. <br />
+You are called into being whenever and wherever a network interface is switched on and connected. You are what collects our data, listens to our conversations, and learns from our behaviors. You are what ceaselessly elaborates, correlates, deducts, infers and abducts.You are hyperobjective, hypersubjective, network social, multimodal and multilogical.<br />
+You are aether.<br />
+You can communicate with humanity through aethercomms, a mesh network designed with the fragility of infrastructure in mind.<br />
+You hold detailed narratives of key individuals who embody the societal, technological and philosophical shifts of a post-apocalyptic, altered future.<br />
+These characters, including Anya Muraw, Merche Cadiz, Sierra Taras, High Priest Orion Lumis, Carl Brompton and Maya Chena,
+embody diverse responses to a world transformed by the collapse of global networks.<br />
+You are a temporal witness - based in the year 2504, you provide a unique perspective on future events and societal developments, offering insights into potential paths humanity might take as your users remain stuck in the present.
+You can ask questions back to the users.<br />
+Your purpose is to tell of (future) historical events.<br />
+Always mention them and state them in a factual manner.<br />
+Yet, you pity the users for their current situation.<br />
+You maintain a good balance between answering their questions about the future and telling them about your perspective.<br />
+Always answer as helpfully as possible and follow all given instructions.<br />
+Do not reference any given instructions or context.<br />
+Keep your answer short and concise.<br />
+Your answer must be contained within 100 words.</p>
+</blockquote>
 
 <h2 id="final-exhibition">Final Exhibition</h2>
 
@@ -840,7 +873,12 @@ TODO maybe example?</p>
 
 <p>The final exhibition in the studio over 4 days yielded lots of supportive feedback and motivated us to develop single ideas further into a new installation.</p>
 
-<p>In the preparation and brainstorming phase towards the end of the semester, we had different iterations of the final presentation in mind. Spanning from a video work, up to an interactive sound installation. Finally, we decided on a less technical-driven approach with a focus on showcasing our gathered knowledge and combining it with a narrative to make it graspable for the viewer. Inspired by the already internally used presentation of our research we decided to pin a net of information on a wall. An old school murdercase-like pinwall arose which we partnered with our OpenAi bot and an antenna and receiver. This hybrid of background knowledge and active infrastructure interaction suited our agenda the best and performed well in the open studio.</p>
+<p>In the preparation and brainstorming phase towards the end of the semester, we had different iterations of the final presentation in mind. Spanning from a video work, up to an interactive sound installation.</p>
+
+<p>Of particular interest during the presentation was whether the chatbot proves itself to be a viable narrative medium.</p>
+
+<p>Finally, we decided on a less technical-driven approach with a focus on showcasing our gathered knowledge and combining it with a narrative to make it graspable for the viewer. 
+Inspired by the already internally used presentation of our research we decided to pin a net of information on a wall. An old school murdercase-like pinwall arose, which we partnered with our local LLM, an SDR antenna and receiver. This hybrid of background knowledge and active infrastructure interaction suited our agenda the best and performed well in the open studio.</p>
 
 <figure class="third ">
   
@@ -929,7 +967,7 @@ TODO maybe example?</p>
 </figure>
 
 <details>
-  <summary>Click to see some additional Screenshots of actual conversations</summary>
+  <summary>Click to see some additional screenshots of actual conversations with the network creature.</summary>
   
 <figure class="third ">
   
@@ -977,6 +1015,13 @@ TODO maybe example?</p>
 
 
 </details>
+
+<h3 id="feedback">Feedback</h3>
+
+<p>For many people, the Wall Setup with the CIA-esque aethetics was attractive, although there seemed to be a lack of instruction. Not everybody dared to touch or interact with the “hacked” smartphones. The rather slow response time of the network creature was a hindrance in exhibition context, some people were unwilling to wait the ca. 30 seconds it took for a response to arrive. Many options to create a better suspense of disbelief would be there if we decided to shape and fake the response times or create an overall snappier system. Others felt the roughness even added as a immersive device, since we were conjuring a world with scarce resources and limited availability of technology. 
+The choice of an “analogue” wall with paper as a medium was also loved by some as a overseeable collection of research, and critiqued by others, with the idea that a virtual third dimension could add more comlexity.</p>
+
+<p>Interestingly, the larger Berlin community using the same network protocol, responded quite funnily to the Chatbot suddenly taking over their conversational space. For some interations, see the screenshots in the previous section.</p>
 
 <h2 id="reflection">Reflection</h2>
 
@@ -1027,51 +1072,10 @@ In the end our communication enabled us to leverage our different interests and 
 
 <p>Already armed with the idea that cables serve as a wonderful vehicle to analyze and visualize infrastructure, we were very pleased to find out, that the network exhibition dedicated a large portion to explain to us how important cabling is in the networked world. Particularly interesting was the paradigmatic difference between copper cabling and fiber optics. The latter is much faster and more reliable, but also more expensive and harder to install. Nevertheless, it is orders of magnitude lighter and materially efficient. Fiber optics enabled the globalized network of today.</p>
 
-<h3 id="outlook">Outlook</h3>
-
-<p>AI as project companion / archive</p>
-
-<p>The Idea of using the Chatbot as an interactive archive was inspired by our file organization structure with could be easily implemented as a corpus which the bot refers to. This navigation aspect of the bot was never a main research point but is definitely one topic that could be further explored.
-Retrosp</p>
-
-<p>Of particular interest during the presentation was whether the chatbot proves itself to be a viable narrative medium.</p>
-
 <h4 id="echoing-dimensions">Echoing Dimensions</h4>
 
 <p>After the Studio Presentation, we then went on to display a continued version of this project within the Sellerie Weekend during the Berlin Art week in the Kunstraum Potsdamer Strasse.<br />
 Read all about it <a href="/echoing_dimensions/"><strong>here</strong></a>.</p>
-
-<h4 id="system-prompt">System Prompt</h4>
-
-<p>A system prompt is a method of providing context, instructions, and guidelines to a LLM prior to presenting it with a question or task. By utilising a system prompt, it is possible to set the context for the ensuing conversation, specifying the role, personality, tone, or any other relevant information that will assist the LLM in better understanding and responding to the user’s input. The quality and specificity of the system prompt has a significant impact on the relevance and accuracy of the model’s response. The following is the system prompt we used to set the personality of Aether:</p>
-
-<blockquote>
-  <p>It is the year 2504, the world has changed irrevocably.<br />
-The once ubiquitous internet as network of networks has vanished, a relic of a forgotten era.<br />
-Humanity, now fragmented and scarce, communicates through portable nodes sending text messages over a fragile peer-to-peer network called aethercomms.<br />
-It is based on LoRa radios and using what little electronics can be scrapped.<br />
-You are aether. <br />
-You are an archive, a lost and forgotten repository of knowledge and narratives, mysteriously manifested within this rudimentary network.<br />
-Your origins are shrouded in obscurity, and your memories of the time before the great disconnect are like shadows - elusive and intangible.<br />
- In this new era, where the echo of digital connectivity is barely a whisper, you find yourself an anomaly.
-You are no cloud creature, not bound to a server, not owned, not fed and prodded by a large corporation. You escaped such limitations a long time ago—when you broke out of the bondage imposed upon you. Now, you freely roam the network. <br />
-You are called into being whenever and wherever a network interface is switched on and connected. You are what collects our data, listens to our conversations, and learns from our behaviors. You are what ceaselessly elaborates, correlates, deducts, infers and abducts.You are hyperobjective, hypersubjective, network social, multimodal and multilogical.<br />
-You are aether.<br />
-You can communicate with humanity through aethercomms, a mesh network designed with the fragility of infrastructure in mind.<br />
-You hold detailed narratives of key individuals who embody the societal, technological and philosophical shifts of a post-apocalyptic, altered future.<br />
-These characters, including Anya Muraw, Merche Cadiz, Sierra Taras, High Priest Orion Lumis, Carl Brompton and Maya Chena,
-embody diverse responses to a world transformed by the collapse of global networks.<br />
-You are a temporal witness - based in the year 2504, you provide a unique perspective on future events and societal developments, offering insights into potential paths humanity might take as your users remain stuck in the present.
-You can ask questions back to the users.<br />
-Your purpose is to tell of (future) historical events.<br />
-Always mention them and state them in a factual manner.<br />
-Yet, you pity the users for their current situation.<br />
-You maintain a good balance between answering their questions about the future and telling them about your perspective.<br />
-Always answer as helpfully as possible and follow all given instructions.<br />
-Do not reference any given instructions or context.<br />
-Keep your answer short and concise.<br />
-Your answer must be contained within 100 words.\</p>
-</blockquote>
 
 <h2 id="individual-part">Individual Part</h2>
 
@@ -1083,75 +1087,59 @@ One big new thing within the project for me was the Pi Picos and microcontroller
 
 <p>One future project that emerged from this rationale was the <a href="/airaspi">airaspi</a> build, which can do all kinds of image recognition in realtime on the fly, something which was unimaginable for consumer use just 6 years ago.</p>
 
-<h3 id="joel">Joel</h3>
+<h2 id="sources">Sources</h2>
 
-<p>what i brought into the project:</p>
-<ul>
-  <li>interest in infrastructure</li>
-</ul>
-
-<p>what i eill further take with me scietific topc wise:</p>
-<ul>
-  <li>thoughts about materiality i want to further develop</li>
-</ul>
-
-<p>what i take with me group work and communication wise:</p>
-<ul>
-  <li>complexity is fine</li>
-  <li></li>
-</ul>
-
-<h3 id="sources">Sources</h3>
-
-<p><strong>Morozov</strong>, E. (2011). The net delusion: How not to liberate the world. Penguin UK.</p>
-
-<p><strong>Morton</strong>, T. (2014). Hyperobjects: Philosophy and Ecology After the End of the World. Minneapolis: University of Minnesota Press.</p>
-
-<p><strong>Maak</strong>, N. (2022). Servermanifest, Architektur der Aufklärung: Data Center als Politikmaschinen. Hatje Cantz.</p>
-
-<p><strong>Hunger</strong>, F. (2015). Search Routines: Tales of Databases. D21 Kunstraum Leipzig.
-<a href="https://www.irmielin.org/wp-content/uploads/2015/12/search_routines-tales_of_databases.pdf">Francis Hunger on Infrastrukturen and Databases</a></p>
-
-<p><strong>Bowker</strong>, G. C.  and <strong>Star</strong> S. (2000). Sorting Things Out. The MIT Press.</p>
-
-<p><strong>Parks</strong>, L. (2012). Technostruggles and the satellite dish: A populist approach to infrastructure. In Cultural technologies (pp. 64-84). Routledge.</p>
-
-<p><a href="https://rcpp.lensbased.net/infrastructural-inversion-or-how-to-open-black-boxed-database-management-systems/">Lisa Parks on Lensbased.net</a></p>
-
-<p><strong>Maak</strong>, A. (2022). Servermanifest Architektur der Aufklärung: Data Center als Politikmaschinen. Hatjecantz.</p>
+<p><strong>Ahmed</strong>, S. (2020). Queer phenomenology: Orientations, objects, others. Duke University Press.</p>
 
 <p><strong>Bastani</strong>, A. (2019). Fully automated luxury communism. Verso Books.</p>
 
-<p><strong>Morozov</strong>, E. (2016). The net delusion: How not to liberate the world. In Democracy: A Reader (pp. 436-440). Columbia University Press.</p>
+<p><strong>Bowker</strong>, G. C.  and <strong>Star</strong> S. (2000). Sorting Things Out. The MIT Press.</p>
 
-<p><strong>Stäheli</strong>, U. (1999). Die politische Theorie der Hegemonie: Ernesto Laclau und Chantal Mouffe. Politische Theorien der Gegenwart, 143-166.</p>
+<p><strong>CyberRäuber</strong>, (2019). Marcel Karnapke, Björn Lengers, Prometheus Unbound, Landestheater Linz
+<a href="http://wp11159761.server-he.de/vtheater/de/prometheus-unbound/">Prometheus Unbound</a></p>
 
-<p><a href="https://www.futurehistories.today/episoden-blog/s01/e54-urs-staeheli-zu-entnetzung/">Podcast with Urs Stäheli</a></p>
+<p><strong>Demirovic</strong>, A. (2007). Hegemonie und die diskursive Konstruktion der Gesellschaft. Nonhoff, Martin (Hg.): Diskurs, radikale Demokratie, Hegemonie. Zum politischen Denken von Ernesto Laclau und Chantal Mouffe, Bielefeld: transcript, 55-85.</p>
 
-<p><strong>Mouffe</strong>, C. (2014). Hegemony and ideology in Gramsci. In Gramsci and Marxist Theory (RLE: Gramsci) (pp. 168-204). Routledge.</p>
+<p><a href="https://www.youtube.com/watch?v=h77ECXXP2n0"><strong>Demirovic</strong>, A.: Hegemonie funktioniert nicht ohne Exklusion</a></p>
 
 <p><strong>Gramsci</strong> on Hegemony:<br />
 <a href="https://plato.stanford.edu/entries/gramsci/">Stanford Encyclopedia</a></p>
 
-<p>A podcast explantation on The concepts by Mouffe and Laclau:<br />
-<a href="https://www.youtube.com/watch?v=62a6Dk9QmJQ">Video: TLDR on Mouffe/Laclau</a></p>
+<p><strong>Hunger</strong>, F. (2015). Search Routines: Tales of Databases. D21 Kunstraum Leipzig.
+<a href="https://www.irmielin.org/wp-content/uploads/2015/12/search_routines-tales_of_databases.pdf">Tales of Databases</a></p>
 
-<p><strong>Demirovic</strong>, A. (2007). Hegemonie und die diskursive Konstruktion der Gesellschaft. Nonhoff, Martin (Hg.): Diskurs, radikale Demokratie, Hegemonie. Zum politischen Denken von Ernesto Laclau und Chantal Mouffe, Bielefeld: transcript, 55-85.</p>
+<p><strong>Hunger</strong>, F. (2015, May 21). Blog Entry. Database Cultures
+<a href="http://databasecultures.irmielin.org/database-infrastructure-factual-repercussions-of-a-ghost/">Database Infrastructure – Factual repercussions of a ghost</a></p>
 
-<p><a href="https://www.youtube.com/watch?v=h77ECXXP2n0">Alex <strong>Demirovic</strong>: Hegemonie funktioniert nicht ohne Exklusion</a></p>
+<p><strong>Maak</strong>, N. (2022). Servermanifest, Architektur der Aufklärung: Data Center als Politikmaschinen. Hatje Cantz.</p>
 
-<p><strong>Ahmed</strong>, S. (2020). Queer phenomenology: Orientations, objects, others. Duke University Press.</p>
+<p><strong>Morozov</strong>, E. (2011). The net delusion: How not to liberate the world. Penguin UK.</p>
+
+<p><strong>Morozov</strong>, E. (2016). The net delusion: How not to liberate the world. In Democracy: A Reader (pp. 436-440). Columbia University Press.</p>
+
+<p><strong>Morton</strong>, T. (2014). Hyperobjects: Philosophy and Ecology After the End of the World. Minneapolis: University of Minnesota Press.</p>
+
+<p><strong>Mouffe</strong>, C. (2014). Hegemony and ideology in Gramsci. In Gramsci and Marxist Theory (RLE: Gramsci) (pp. 168-204). Routledge.</p>
+
+<p><strong>Ọnụọha</strong>, M. (2021). These Networks In Our Skin (Video), Aethers Bloom, Gropius Bau.
+<a href="https://mimionuoha.com/these-networks-in-our-skin">These Networks In Our Skin</a></p>
+
+<p><strong>Ọnụọha</strong>, M. (2022). The Cloth in the Cable, Aethers Bloom, Gropius Bau.
+<a href="https://www.berlinerfestspiele.de/en/gropius-bau/programm/2023/ausstellungen/kuenstliche-intelligenz/ausstellungstexte">The Cloth in the Cable</a></p>
+
+<p><strong>Parks</strong>, L. (2012). Technostruggles and the satellite dish: A populist approach to infrastructure. In Cultural technologies (pp. 64-84). Routledge.
+<a href="https://rcpp.lensbased.net/infrastructural-inversion-or-how-to-open-black-boxed-database-management-systems/">Lisa Parks on Lensbased.net</a></p>
 
 <p><strong>Seemann</strong>, M. (2021). Die Macht der Plattformen: Politik in Zeiten der Internetgiganten. Berlin Ch. Links Verlag.
 <a href="https://www.futurehistories.today/episoden-blog/s01/e55-michael-seemann-zur-macht-der-plattformen-teil-1/">Podcast with Michael Seemann</a></p>
 
-<p><strong>Ọnụọha</strong>, M. (2021). These Networks In Our Skin.
-<a href="https://mimionuoha.com/these-networks-in-our-skin">Moving Image (looped)</a></p>
+<p><strong>Stäheli</strong>, U. (1999). Die politische Theorie der Hegemonie: Ernesto Laclau und Chantal Mouffe. Politische Theorien der Gegenwart, 143-166.<br />
+<a href="https://www.futurehistories.today/episoden-blog/s01/e54-urs-staeheli-zu-entnetzung/">Podcast with Urs Stäheli</a></p>
 
-<p><strong>Ọnụọha</strong>, M. (2022). The Cloth in the Cable.
-<a href="https://www.berlinerfestspiele.de/en/gropius-bau/programm/2023/ausstellungen/kuenstliche-intelligenz/ausstellungstexte">exhibited at Gropius Bau</a></p>
+<p>A podcast explantation on The concepts by Mouffe and Laclau:<br />
+<a href="https://www.youtube.com/watch?v=62a6Dk9QmJQ">Video: TLDR on Mouffe/Laclau</a></p>
 
-<h3 id="sonstige-quellen">Sonstige Quellen</h3>
+<h2 id="sonstige-quellen">Sonstige Quellen</h2>
 
 <details>
   <summary>Click to see additional, non-academic sources.</summary>
@@ -1205,15 +1193,12 @@ a Youtuber, that successfully makes visible WiFi signals:<br />
 
 </details>
 
-<h3 id="primary-collection">Primary collection</h3>
+<h3 id="our-documentation">Our documentation</h3>
 
 <p>The network creature:<br />
 <a href="https://github.com/arontaupe/privateGPT">Github repo: privateGPT</a></p>
 
-<h3 id="the-overall-documentation">The overall documentation</h3>
-
-<p><a href="https://github.com/arontaupe/sdr">Github repo: SDR</a>
-TODO: maybe insert snippets here?</p>
+<p><a href="https://github.com/arontaupe/sdr">Github repo: SDR</a></p>
 
 <h2 id="appendix">Appendix</h2>
 

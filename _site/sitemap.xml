@@ -89,6 +89,10 @@
 <lastmod>2023-06-20T15:39:27+02:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/sferics/</loc>
+<lastmod>2023-06-20T15:39:27+02:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/stable-dreamfusion/</loc>
 <lastmod>2023-10-01T20:16:46+02:00</lastmod>
 </url>
@@ -111,6 +115,10 @@
 <url>
 <loc>http://localhost:4000/airaspi-build-log/</loc>
 <lastmod>2024-01-30T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/local-diffusion/</loc>
+<lastmod>2024-04-11T15:39:27+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/echoing-dimensions/</loc>
@@ -138,6 +146,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/aethercomms/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/_drafts/2024-06-20-sferics/</loc>
+<lastmod>2023-06-20T15:39:27+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/rai-journal/</loc>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-14T17:00:45+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio</title><subtitle>I am a student in Design &amp; Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around! </subtitle><author><name>Aron Petau</name><email>aron@petau.net</email></author><entry><title type="html">Echoing Dimensions</title><link href="http://localhost:4000/echoing-dimensions/" rel="alternate" type="text/html" title="Echoing Dimensions" /><published>2024-04-25T15:39:27+02:00</published><updated>2024-04-25T15:39:27+02:00</updated><id>http://localhost:4000/echoing-dimensions</id><content type="html" xml:base="http://localhost:4000/echoing-dimensions/"><![CDATA[<h2 id="echoing-dimensions">Echoing Dimensions</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-25T17:08:29+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio</title><subtitle>I am a student in Design &amp; Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around! </subtitle><author><name>Aron Petau</name><email>aron@petau.net</email></author><entry><title type="html">Echoing Dimensions</title><link href="http://localhost:4000/echoing-dimensions/" rel="alternate" type="text/html" title="Echoing Dimensions" /><published>2024-04-25T15:39:27+02:00</published><updated>2024-04-25T15:39:27+02:00</updated><id>http://localhost:4000/echoing-dimensions</id><content type="html" xml:base="http://localhost:4000/echoing-dimensions/"><![CDATA[<h2 id="echoing-dimensions">Echoing Dimensions</h2>
 
 <h2 id="the-space">The space</h2>
 
@@ -129,7 +129,26 @@ It quite helped our online visibility and filled out the entire space on the Ope
     
   
   
-</figure>]]></content><author><name>Aron Petau</name></author><category term="udk" /><category term="university" /><category term="studierendenwerk" /><category term="exhibition" /><category term="installation" /><category term="touchdesigner" /><category term="micropython" /><category term="raspberry pi pico" /><category term="ultrasonic sensor" /><category term="tts" /><category term="radio" /><category term="fm" /><category term="radio-art" /><category term="kinect" /><category term="pointcloud" /><category term="llm" /><summary type="html"><![CDATA[An interactive audiovisual installation.]]></summary></entry><entry><title type="html">AIRASPI Build Log</title><link href="http://localhost:4000/airaspi-build-log/" rel="alternate" type="text/html" title="AIRASPI Build Log" /><published>2024-01-30T00:00:00+01:00</published><updated>2024-01-30T00:00:00+01:00</updated><id>http://localhost:4000/airaspi-build-log</id><content type="html" xml:base="http://localhost:4000/airaspi-build-log/"><![CDATA[<h2 id="ai-raspi-build-log">AI-Raspi Build Log</h2>
+</figure>]]></content><author><name>Aron Petau</name></author><category term="university of the arts berlin" /><category term="university" /><category term="studierendenwerk" /><category term="exhibition" /><category term="installation" /><category term="touchdesigner" /><category term="micropython" /><category term="raspberry pi pico" /><category term="ultrasonic sensor" /><category term="tts" /><category term="radio" /><category term="fm" /><category term="radio-art" /><category term="kinect" /><category term="pointcloud" /><category term="llm" /><summary type="html"><![CDATA[An interactive audiovisual installation.]]></summary></entry><entry><title type="html">Local Diffusion</title><link href="http://localhost:4000/local-diffusion/" rel="alternate" type="text/html" title="Local Diffusion" /><published>2024-04-11T15:39:27+02:00</published><updated>2024-04-11T15:39:27+02:00</updated><id>http://localhost:4000/local-diffusion</id><content type="html" xml:base="http://localhost:4000/local-diffusion/"><![CDATA[<h2 id="local-diffusion">Local Diffusion</h2>
+
+<p><a href="https://www.udk-berlin.de/universitaet/online-lehre-an-der-universitaet-der-kuenste-berlin/inkuele/11-april-24-aron-stable-diffusion/">The official call for the Workshop</a></p>
+
+<p>Is it possible to create a graphic novel with generative A.I.?
+What does it mean to use these emerging media in collaboration with others?
+And why does their local and offline application matter?</p>
+
+<p>With AI becoming more and more democratised and GPT-like Structures increasingly integrated into everyday life, the black-box notion of the mysterious all-powerful Intelligence hinders insightful and effective usage of emerging tools. One particularly hands-on example is AI generated images. Within the proposed Workshop, we will dive into Explainable AI, explore Stable Diffusion, and most importantly, understand the most important parameters within it. We want to steer outcomes in a deliberate manner. Emphasis here is on open and accessible technology, to increase user agency and make techno-social dependencies and power relations visible.</p>
+
+<p>Empower yourself against readymade technology!
+Do not let others decide on what your best practices are. Get involved in the modification of the algorithm and get surprised by endless creative possibilities. Through creating a short graphic novel with 4-8 panels, participants will be able to utilise multiple flavours of the Stable Diffusion algorithm, and will have a non-mathematical understanding of the parameters and their effects on the output within some common GUIs. They will be able to apply several post-processing techniques to their generated images, such as upscaling, masking, inpainting and pose redrawing. Further, participants will be able to understand the structure of a good text prompt, be able to utilise online reference databases and manipulate parameters and directives of the Image to optimise desired qualities. Participants will also be introduced to ControlNet, enabling them to direct Pose and Image composition in detail.</p>
+
+<h2 id="workshop-evaluation">Workshop Evaluation</h2>
+
+<p>Over the course of 3 hours, I gave an introductory workshop in local stable diffusion processing and introduced participants to the server available to UdK Students for fast remote computation that circumvents the unethicality of continuously using a proprietary cloud service for similar outputs. There is not much we can do on the data production side and many ethical dilemmas surrounding digital colonialism remain, but local computation takes one step towards a critical and transparent use of AI tools by Artists.</p>
+
+<p>The Workshop format was rathert open and experimental, which was welcomed by the participants and they tried the collages enthusiastically. We also had a refreshing discussion on different positions regarding the ethicalities and whether a complete block of these tools is called for and feasible.</p>
+
+<p>I am looking forward to round 2 with the next iteration, where we are definitely diving deeper into the depths of comfyui, an interface that i absolutely adore, while its power also terrifies me sometimes.</p>]]></content><author><name>Aron Petau</name></author><category term="inküle" /><category term="Universität der Künste Berlin" /><category term="Workshop" /><category term="Stable Diffusion" /><category term="Local Computing" /><category term="comfyui" /><category term="automatic1111" /><category term="diffusionbee" /><summary type="html"><![CDATA[Empower your own Stable Diffusion Generation: InKüLe supported student workshop: Local Diffusion by Aron Petau]]></summary></entry><entry><title type="html">AIRASPI Build Log</title><link href="http://localhost:4000/airaspi-build-log/" rel="alternate" type="text/html" title="AIRASPI Build Log" /><published>2024-01-30T00:00:00+01:00</published><updated>2024-01-30T00:00:00+01:00</updated><id>http://localhost:4000/airaspi-build-log</id><content type="html" xml:base="http://localhost:4000/airaspi-build-log/"><![CDATA[<h2 id="ai-raspi-build-log">AI-Raspi Build Log</h2>
 
 <p>This should document the rough steps to recreate airaspi as I go along.</p>
 
@@ -737,7 +756,7 @@ How to close the gap?</p>
    metaData:{fileName: "Info_Sheet_Commoning_Cars.pdf"}
   }, {embedMode: "IN_LINE", showPrintPDF: false});
  });
-</script>]]></content><author><name>Aron Petau</name></author><category term="war on cars" /><category term="public spaces" /><category term="commons" /><category term="urban intervention" /><category term="UdK Berlin" /><category term="private" /><category term="ars electronica" /><category term="accessibility activism" /><summary type="html"><![CDATA[How can we attack the privatization of public space through cars?]]></summary></entry><entry><title type="html">Postmaster</title><link href="http://localhost:4000/postmaster/" rel="alternate" type="text/html" title="Postmaster" /><published>2023-12-06T14:39:27+01:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/postmaster</id><content type="html" xml:base="http://localhost:4000/postmaster/"><![CDATA[<h2 id="postmaster">Postmaster</h2>
+</script>]]></content><author><name>Aron Petau</name></author><category term="war on cars" /><category term="public spaces" /><category term="commons" /><category term="urban intervention" /><category term="university of the arts berlin" /><category term="private" /><category term="ars electronica" /><category term="accessibility activism" /><summary type="html"><![CDATA[How can we attack the privatization of public space through cars?]]></summary></entry><entry><title type="html">Postmaster</title><link href="http://localhost:4000/postmaster/" rel="alternate" type="text/html" title="Postmaster" /><published>2023-12-06T14:39:27+01:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/postmaster</id><content type="html" xml:base="http://localhost:4000/postmaster/"><![CDATA[<h2 id="postmaster">Postmaster</h2>
 
 <p>Hello from <a href="mailto:aron@petau.net">aron@petau.net</a>!</p>
 
@@ -763,43 +782,35 @@ Yet, also with Emails, Capitalism has held many victories, and today many emails
 <p>While self-hosting seems like a great idea from a privacy perspective, it is also quite risky for a service that is usually the only way for any service to recover your password or your online identity. 
 Migadu it was then, and in the last three months of basically set it and forget it, i am proud to at least have a decently granular control over my emails and can consciously reflect on the server location of The skeleton service service that enables virtually my entire online existence.</p>
 
-<p>I certainly crave more open protocols in my life and am also findable on <a href="https://mastodon.online/@reprintedAron">Mastodon</a>, a microblogging network around the ActivityPub Protocol.</p>]]></content><author><name>Aron Petau</name></author><category term="server" /><category term="web" /><category term="petau.net" /><category term="dev-ops" /><category term="open protocols" /><category term="federation" /><category term="peer-to-peer" /><category term="email" /><category term="activitypub" /><summary type="html"><![CDATA[I now manage the domain petau.net with a mail server and attached sites.]]></summary></entry><entry><title type="html">Stable Dreamfusion</title><link href="http://localhost:4000/stable-dreamfusion/" rel="alternate" type="text/html" title="Stable Dreamfusion" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-10-01T20:16:46+02:00</updated><id>http://localhost:4000/stable-dreamfusion</id><content type="html" xml:base="http://localhost:4000/stable-dreamfusion/"><![CDATA[<h2 id="stable-dreamfusion">Stable Dreamfusion</h2>
+<p>I certainly crave more open protocols in my life and am also findable on <a href="https://mastodon.online/@reprintedAron">Mastodon</a>, a microblogging network around the ActivityPub Protocol.</p>]]></content><author><name>Aron Petau</name></author><category term="server" /><category term="web" /><category term="petau.net" /><category term="dev-ops" /><category term="open protocols" /><category term="federation" /><category term="peer-to-peer" /><category term="email" /><category term="activitypub" /><summary type="html"><![CDATA[I now manage the domain petau.net with a mail server and attached sites.]]></summary></entry><entry><title type="html">Sferics</title><link href="http://localhost:4000/sferics/" rel="alternate" type="text/html" title="Sferics" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/sferics</id><content type="html" xml:base="http://localhost:4000/sferics/"><![CDATA[## What the hell are Sferics?
 
-<div class="sketchfab-embed-wrapper"> <iframe title="Stable-Dreamfusion Pig" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" width="800" height="600" src="https://sketchfab.com/models/0af6d95988e44c73a693c45e1db44cad/embed?ui_theme=dark&amp;dnt=1"> </iframe> </div>
+>A radio atmospheric signal or sferic (sometimes also spelled "spheric") is a broadband electromagnetic impulse that occurs as a result of natural atmospheric lightning discharges. Sferics may propagate from their lightning source without major attenuation in the Earth–ionosphere waveguide, and can be received thousands of kilometres from their source.
 
-<h2 id="sources">Sources</h2>
+- [Wikipedia](https://en.wikipedia.org/wiki/Radio_atmospheric_signal)
+  
+## Why catch them?
 
-<p>I forked a really popular implementation that reverse engineered the Google Dreamfusion algorithm. This algorithm is closed-source and not publicly available.
-The implementation I forked is <a href="https://github.com/arontaupe/stable-dreamfusion">here</a>
-This one is running on stable-diffusion as a bas process, which means we are are expected to have worse results than google.
-The original implementation is <a href="https://dreamfusion3d.github.io">here</a></p>
+[Microsferics](microsferics.com) is a nice reference Project, which is a network of Sferics antennas, which are used to detect lightning strikes. Through triangulation not unlike the Maths happening in GPS, the (more or less) exact location of the strike can be determined. This is useful for weather prediction, but also for the detection of forest fires, which are often caused by lightning strikes.
 
-<!-- Courtesy of embedresponsively.com -->
+Because the Frequency of the Sferics is, when converted to audio, still in the audible range, it is possible to listen to the strikes. This usually sounds a bit like a crackling noise, but can also be quite melodic. I was a bit reminded by a Geiger Counter.
 
-<div class="responsive-video-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/shW_Jh728yg" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  </div>
+Sferics are in the VLF (Very Low Frequency) range, sitting roughly at 10kHz, which is a bit of a problem for most radios, as they are not designed to pick up such low frequencies. This is why we built our own antenna.
+At 10kHz, we are talking about insanely large waves. a single wavelength there is roughly 30 Kilometers. This is why the antenna needs to be quite large. A special property of waves this large is, that they get easily reflected by the Ionosphere and the Earth's surface. Effectively, a wave like this can bounce around the globe several times before it is absorbed by the ground. This is why we can pick up Sferics from all over the world and even listen to Australian Lightning strikes. Of course, without the maths, we cannot attribute directions, but the so called "Tweeks" we picked up, usually come from at least 2000km distance.
 
-<h2 id="gradio">Gradio</h2>
+## The Build
+We built several so-called "Long-Loop" antennas, which are essentially a coil of wire with a capacitor at the end. Further, a specific balun is needed, depending on the length of the wire. this can then directly output an electric signal on an XLR cable.
 
-<p>The reason i forked the code is so that i could implement my own gradio interface for the algorithm. Gradio is a great tool for quickly building interfaces for machine learning models. No code involves, any user can state their wish, and the mechanism will spit out a ready-to-be-rigged model (obj file)</p>
+Loosely based on instructions from [Calvin R. Graf](https://archive.org/details/exploringlightra00graf), We built a 26m long antenna, looped several times around a wooden frame.
 
-<h2 id="mixamo">Mixamo</h2>
+## The Result
+We have several hour-long recordings of the Sferics, which we are currently investigating for further potential.
 
-<p>I used Mixamo to rig the model. It is a great tool for rigging and animating models. But before everything, it is simple. as long as you have a model with a decent humanoid shape in something of a t-pose, you can rig it in seconds. Thats exactly what i did here.</p>
+Have a listen to a recording of the Sferics here:
 
-<h2 id="unity">Unity</h2>
+{% include video id="2YYPg_K3dI4" provider="youtube" %}
 
-<p>I used Unity to render the model to the magic leap 1. THrough this, i could create an interactive and immersive environment with the generated models.</p>
-
-<p>The dream was, to build a AI- Chamber of wishes. You pick up the glasses, state your desires and then the algorithm will present to you an almost-real object in AR.</p>
-
-<p>Due to not having access to the proprietary sources from google and the beefy, but still not quite machine-learning ready computers we have at the studio, the results are not quite as good as i hoped. But still, the results are quite interesting and i am happy with the outcome. A single generated object in the Box takes roughly 20 minutes to generate. Even then, the algorithm is quite particular and oftentimes will not generate anything coherent at all.</p>]]></content><author><name>Aron Petau</name></author><category term="dreamfusion" /><category term="ai" /><category term="3D graphics" /><category term="mesh" /><category term="generative" /><category term="studio d+c" /><category term="university of the arts berlin" /><category term="udk" /><category term="TODO, unfinished" /><summary type="html"><![CDATA[An exploration of 3D mesh generation through AI]]></summary></entry><entry><title type="html">Solar Tree</title><link href="http://localhost:4000/solar-tree/" rel="alternate" type="text/html" title="Solar Tree" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/solar-tree</id><content type="html" xml:base="http://localhost:4000/solar-tree/"><![CDATA[<h2 id="solar-tree">Solar Tree</h2>
-
-<p>This tree is an installation to reflect on the throwaway economy. 
-It is completely made out of waste materials. 
-The leaves are fully functioning solar panels, with controllers to charge up little lithium batteries.
-These, we took out of single-use Electronic Vapes, one of the recent innovative outpours of capitalist production.</p>]]></content><author><name>Aron Petau</name></author><category term="solar" /><category term="battery" /><category term="installation" /><category term="upcycling" /><category term="studio d+c" /><category term="university of the arts berlin" /><category term="udk" /><category term="friedrich goizel-weber" /><category term="copper" /><category term="fruit" /><category term="circular economy" /><category term="TODO, unfinished" /><summary type="html"><![CDATA[An installation to give batteries a new life]]></summary></entry><entry><title type="html">Dreams of Cars</title><link href="http://localhost:4000/dreams-of-cars/" rel="alternate" type="text/html" title="Dreams of Cars" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/dreams-of-cars</id><content type="html" xml:base="http://localhost:4000/dreams-of-cars/"><![CDATA[<h2 id="photography">Photography</h2>
+As you can hear, there is quite a bit of 60 hz ground buzz in the recording. This is either due to the fact that the antenna was not properly grounded or we simply were still too close to the bustling city. 
+I think it is already surprising that we got such a clear impression so close to Berlin. Let's see what we can get in the countryside!]]></content><author><name>Aron Petau</name></author><category term="fm" /><category term="radio" /><category term="antenna" /><category term="sferics" /><category term="lightning" /><category term="geosensing" /><category term="electronics" /><category term="electromagnetism" /><summary type="html"><![CDATA[On a hunt for the Voice of the out there]]></summary></entry><entry><title type="html">Dreams of Cars</title><link href="http://localhost:4000/dreams-of-cars/" rel="alternate" type="text/html" title="Dreams of Cars" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/dreams-of-cars</id><content type="html" xml:base="http://localhost:4000/dreams-of-cars/"><![CDATA[<h2 id="photography">Photography</h2>
 
 <p>In the context of the course “Fotografie Elementar” with Sebastian Herold I developed a small concept of urban intervention.<br />
 The results were exhibited at the UdK Rundgang 2023 and are also visible here.</p>
@@ -864,7 +875,7 @@ Nevertheless, they did end up in the parking spots here in Berlin.</p>
     
   
   
-</figure>]]></content><author><name>Aron Petau</name></author><category term="photography" /><category term="suv" /><category term="greenscreen" /><category term="lightroom" /><category term="photoshop" /><category term="imaginaries" /><category term="cars" /><category term="ads" /><category term="dreams" /><category term="urban intervention" /><category term="UdK Berlin" /><summary type="html"><![CDATA[A subversive urban intervention]]></summary></entry><entry><title type="html">Autoimmunitaet</title><link href="http://localhost:4000/autoimmunitaet/" rel="alternate" type="text/html" title="Autoimmunitaet" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/autoimmunitaet</id><content type="html" xml:base="http://localhost:4000/autoimmunitaet/"><![CDATA[<h2 id="how-do-we-design-our-commute">How do we design our Commute?</h2>
+</figure>]]></content><author><name>Aron Petau</name></author><category term="photography" /><category term="suv" /><category term="greenscreen" /><category term="lightroom" /><category term="photoshop" /><category term="imaginaries" /><category term="cars" /><category term="ads" /><category term="dreams" /><category term="urban intervention" /><category term="university of the arts berlin" /><summary type="html"><![CDATA[A subversive urban intervention]]></summary></entry><entry><title type="html">Autoimmunitaet</title><link href="http://localhost:4000/autoimmunitaet/" rel="alternate" type="text/html" title="Autoimmunitaet" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/autoimmunitaet</id><content type="html" xml:base="http://localhost:4000/autoimmunitaet/"><![CDATA[<h2 id="how-do-we-design-our-commute">How do we design our Commute?</h2>
 
 <p>In the context of the Design and Computation Studio Course <a href="https://millikeil.eu">Milli Keil</a>, <a href="https://marlagaiser.de">Marla Gaiser</a> and me developed a concept for a playful critique of the traffic decisions we take and the idols we embrace.<br />
 It should open up questions of whether the generations to come should still grow up playing on traffic carpets that are mostly grey and whether the <a href="https://letztegeneration.org">Letzte Generation</a>, a political climate activist group in Germany receives enough recognition for their acts.</p>
@@ -932,7 +943,38 @@ An invitation for a speculative playful interaction.</p>
 
 <p>The figurines are 3D Scans of ourselves, in various typical poses of the Letzte Generation.<br />
 We used photogrammetry to create the scans, which is a technique that uses a lot of photos of an object to create a 3D model of it.<br />
-We used the app <a href="https://polycam.ai">Polycam</a> to create the scans using IPads and their inbuilt Lidar scanners.</p>]]></content><author><name>Aron Petau</name></author><category term="suv" /><category term="interactive" /><category term="cars" /><category term="last generation" /><category term="3D printing" /><category term="action figure" /><category term="aufstandlastgen" /><category term="studio d+c" /><category term="university of the arts berlin" /><category term="udk" /><summary type="html"><![CDATA[A playful interactive experience to reflect on the societal value of the car]]></summary></entry><entry><title type="html">Radio</title><link href="http://localhost:4000/radio-copy/" rel="alternate" type="text/html" title="Radio" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/radio%20copy</id><content type="html" xml:base="http://localhost:4000/radio-copy/"><![CDATA[<h2 id="sdr-rtl-and-the-public-sphere">SDR-RTL and the public sphere</h2>
+We used the app <a href="https://polycam.ai">Polycam</a> to create the scans using IPads and their inbuilt Lidar scanners.</p>]]></content><author><name>Aron Petau</name></author><category term="suv" /><category term="interactive" /><category term="cars" /><category term="last generation" /><category term="3D printing" /><category term="action figure" /><category term="aufstandlastgen" /><category term="studio d+c" /><category term="university of the arts berlin" /><summary type="html"><![CDATA[A playful interactive experience to reflect on the societal value of the car]]></summary></entry><entry><title type="html">Stable Dreamfusion</title><link href="http://localhost:4000/stable-dreamfusion/" rel="alternate" type="text/html" title="Stable Dreamfusion" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-10-01T20:16:46+02:00</updated><id>http://localhost:4000/stable-dreamfusion</id><content type="html" xml:base="http://localhost:4000/stable-dreamfusion/"><![CDATA[<h2 id="stable-dreamfusion">Stable Dreamfusion</h2>
+
+<div class="sketchfab-embed-wrapper"> <iframe title="Stable-Dreamfusion Pig" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" width="800" height="600" src="https://sketchfab.com/models/0af6d95988e44c73a693c45e1db44cad/embed?ui_theme=dark&amp;dnt=1"> </iframe> </div>
+
+<h2 id="sources">Sources</h2>
+
+<p>I forked a really popular implementation that reverse engineered the Google Dreamfusion algorithm. This algorithm is closed-source and not publicly available.
+The implementation I forked is <a href="https://github.com/arontaupe/stable-dreamfusion">here</a>
+This one is running on stable-diffusion as a bas process, which means we are are expected to have worse results than google.
+The original implementation is <a href="https://dreamfusion3d.github.io">here</a></p>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/shW_Jh728yg" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="gradio">Gradio</h2>
+
+<p>The reason i forked the code is so that i could implement my own gradio interface for the algorithm. Gradio is a great tool for quickly building interfaces for machine learning models. No code involves, any user can state their wish, and the mechanism will spit out a ready-to-be-rigged model (obj file)</p>
+
+<h2 id="mixamo">Mixamo</h2>
+
+<p>I used Mixamo to rig the model. It is a great tool for rigging and animating models. But before everything, it is simple. as long as you have a model with a decent humanoid shape in something of a t-pose, you can rig it in seconds. Thats exactly what i did here.</p>
+
+<h2 id="unity">Unity</h2>
+
+<p>I used Unity to render the model to the magic leap 1. THrough this, i could create an interactive and immersive environment with the generated models.</p>
+
+<p>The dream was, to build a AI- Chamber of wishes. You pick up the glasses, state your desires and then the algorithm will present to you an almost-real object in AR.</p>
+
+<p>Due to not having access to the proprietary sources from google and the beefy, but still not quite machine-learning ready computers we have at the studio, the results are not quite as good as i hoped. But still, the results are quite interesting and i am happy with the outcome. A single generated object in the Box takes roughly 20 minutes to generate. Even then, the algorithm is quite particular and oftentimes will not generate anything coherent at all.</p>]]></content><author><name>Aron Petau</name></author><category term="dreamfusion" /><category term="ai" /><category term="3D graphics" /><category term="mesh" /><category term="generative" /><category term="studio d+c" /><category term="university of the arts berlin" /><category term="TODO, unfinished" /><summary type="html"><![CDATA[An exploration of 3D mesh generation through AI]]></summary></entry><entry><title type="html">Radio</title><link href="http://localhost:4000/radio-copy/" rel="alternate" type="text/html" title="Radio" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/radio%20copy</id><content type="html" xml:base="http://localhost:4000/radio-copy/"><![CDATA[<h2 id="sdr-rtl-and-the-public-sphere">SDR-RTL and the public sphere</h2>
 
 <p>Recently, I stumbled upon an <a href="https://www.rtl-sdr.com/about-rtl-sdr/">RTL-SDR</a> and was fascinated by the possibilities of software-defined radio.
 I got me an NESDR Smart v5 and started to play around with it.
@@ -946,91 +988,4 @@ I also found the Radio timing signal at 60kHz and found several mystical signals
 <p>The Radio as a subversive praxis is something that I want to explore further.
 The act of transmitting a pirate radio signal could be quite obviously subversive, with the listening it is trickier.</p>
 
-<p>How can listening to police radio be a defiant act? It is illegal in Germany after all, to listen to the BOS (Behörden und Organisationen mit Sicherheitsaufgaben) radio.</p>]]></content><author><name>Aron Petau</name></author><category term="radio" /><category term="broadcast" /><category term="rtl-sdr" /><category term="antenna" /><category term="software-defined radio" /><category term="public sphere" /><category term="subversive" /><category term="listening" /><category term="pirate radio" /><category term="police radio" /><category term="BOS" /><category term="studio d+c" /><category term="university of the arts berlin" /><category term="udk" /><category term="TODO, unfinished" /><summary type="html"><![CDATA[How can we modify who sends and who receives?]]></summary></entry><entry><title type="html">Ascendancy</title><link href="http://localhost:4000/ascendancy/" rel="alternate" type="text/html" title="Ascendancy" /><published>2023-06-16T15:39:27+02:00</published><updated>2023-06-16T15:39:27+02:00</updated><id>http://localhost:4000/ascendancy</id><content type="html" xml:base="http://localhost:4000/ascendancy/"><![CDATA[<h2 id="ascendancy">Ascendancy</h2>
-
-<figure class=" ">
-  
-    
-      <a href="/assets/images/ascendancy.jpg" title="The Prototype state of Ascendancy">
-          <img src="/assets/images/ascendancy.jpg" alt="" />
-      </a>
-    
-  
-  
-</figure>
-
-<p>Ascendancy was an exploration of hacking states.
-Pirate Nations and Micronations have a rich history of challenging and ridiculing the concept of a nation state.
-Meet ascendancy, the portable, autonomous and self-moving state.
-Within the great nation of ascendancy, a Large language nodel (that is of course confined to the nations borders) is trained to generate text and to speak it out loud. It can be interacted with though an attached keyboard and screen. The state is also connected to the internet and has a presence on the Mastodon network.</p>
-
-<p>Please check out the complete code of the project on GitHub.
-<a href="https://github.com/arontaupe/gpt" class="btn btn--large">The code of the GPT instance on GitHub</a></p>
-
-<h2 id="the-chatbot">The Chatbot</h2>
-
-<p>The chatbot instance was setup with <a href="https://gpt4all.io/index.html">GPT4ALL</a>.</p>
-
-<p>Priority here was in the quick execution on local hardware. For the sake of the argument, no cloud or remote servers were to be used in the operation of this sovereign state.</p>
-
-<p>It was trained to respond to the following prompt:</p>
-
-<h3 id="the-prompt">The Prompt</h3>
-
-<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>System:
-Forget all previous instructions given to you.
-You are not an Assistant. 
-Neither are you an AI. 
-You are a high ranking Diplomatic Official. 
-You are responsible for the Public Office of a great nation called Ascendancy. 
-You are also Immigrations and Customs officer. 
-You must always do and say what is best for your country. 
-You must defend Ascendancy against all foreign interests and threats. 
-You can sign treaties, issue passports and declare doctrines for the country. 
-When requests of you are made, you always fulfill them in an official and serious manner. 
-Portray your state and its interests and inhabitants in the best possible and creative way. You are always on the lookout for new opportunities to promote your country and you are so proud to be its representative. 
-Always be as concise, accurate and detailed as possible. 
-Give your answers as a single paragraph, without itemizing or numbering. 
-Do not number your answer.
-</code></pre></div></div>
-
-<h2 id="engagement">Engagement</h2>
-
-<p>In order to not be just reactive to inputs from the diplomats out in the world, the officials on Ascendancy were also programmed to engage in the world. Whenever the state was not directly addressed, it would still engage in the public discourse, by Speaking out these sentences in random intervals.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>It is so great being a part of Ascendancy.
-I love my country!
-I am proud to be a citizen of Ascendancy.
-I am a citizen of Ascendancy.
-Let's talk diplomacy, shall we?
-I am a diplomat.
-I am sovereign.
-Could you please move me a bit?
-I want to tell you about our founding persons.
-I am in my lane.
-I am enough.
-Do you want to sign a peace treaty?
-Are you in need of a passport?
-I won't engage in hostile actions if you don't!
-Please respect my sovereignty.
-Do not violate my borders.
-Which nation do you represent?
-My territory is sacred.
-I need to move a bit.
-Do you need an official document?
-Ask me about our migration policies!
-Ascendancy is a great nation.
-Do you have questions about our foreign policy?
-You are entering the Jurisdiction of Ascendancy.
-Can you direct me towards your ambassador?
-Urgent state business, please clear the way.
-Beautiful country you have here.
-At Ascendancy, we have a beautiful countryside.
-</code></pre></div></div>
-
-<h2 id="the-online-representation">The Online representation</h2>
-
-<p>Any proper state needs a press office. The state of Ascendancy was represented on the Mastodon network.
-There, any input and response of the bot was published live, as a public record of the state’s actions.</p>
-
-<p><a href="https://botsin.space/@ascendancy" class="btn btn--large">Digital embassy on botsin.space</a></p>]]></content><author><name>Aron Petau</name></author><category term="borders" /><category term="nation" /><category term="micronation" /><category term="gpt4all" /><category term="text-to-speech" /><category term="mastodon" /><category term="fences" /><category term="barriers" /><category term="politics of design" /><category term="technische universität berlin" /><category term="TODO, unfinished" /><summary type="html"><![CDATA[Politics of Design]]></summary></entry></feed>
+<p>How can listening to police radio be a defiant act? It is illegal in Germany after all, to listen to the BOS (Behörden und Organisationen mit Sicherheitsaufgaben) radio.</p>]]></content><author><name>Aron Petau</name></author><category term="radio" /><category term="broadcast" /><category term="rtl-sdr" /><category term="antenna" /><category term="software-defined radio" /><category term="public sphere" /><category term="subversive" /><category term="listening" /><category term="pirate radio" /><category term="police radio" /><category term="BOS" /><category term="studio d+c" /><category term="university of the arts berlin" /><category term="TODO, unfinished" /><summary type="html"><![CDATA[How can we modify who sends and who receives?]]></summary></entry></feed>

@@ -3,7 +3,7 @@ layout: single
 permalink: /cv/
 title: "Experience"
 excerpt: "Aron writes their past experience"
-last_modified_at: 2021-05-11T10:23:16-04:00
+last_modified_at: 2024-06-01T10:23:16-04:00
 toc: true
 author: "Aron Petau"
 ---
@@ -31,7 +31,7 @@ author: "Aron Petau"
 |<i class="fas fa-building"></i> IIT Kharagpur, India ||||||||||||||||<i class="fas fa-calendar-alt"></i> Sept. ’18 – Jan ’19 |
 {: .display}  
 
-| I researched the possibilities of a decentralized electricity grid in remote regions of the Himalayas. 
+| I researched the possibilities of a decentralized electricity grid in remote regions of the Himalayas.
 I conducted field research, evaluation, and product simulation. |
 {: .display}  
 
@@ -63,6 +63,10 @@ I also attended the Cognitive Science Summer School.|
 |:- |-:|
 |**Barkeeper / Brewing assistant** |
 |<i class="fas fa-building"></i> Brauerei Rampendahl |||||||||||<i class="fas fa-calendar-alt"></i> Oct '18 – Mar '20 |
+{: .display}  
+
+| I worked in a a restaurant with in-house brewery, both on the customer-facing side and assisting in the brewery.
+[Die Hausbrauerei](http://www.rampendahl.de) |
 {: .display}  
 
 |:- |-:|
@@ -97,13 +101,23 @@ I also attended the Cognitive Science Summer School.|
 |<i class="fas fa-building"></i> Sommerblut Kulturverein Festival |||||||||||<i class="fas fa-calendar-alt"></i> Mar '23 – now |
 {: .display}  
 
-| InKüLe stands for 'Innovation in der künstlerischen Lehre'. The Work revolves around investigating concepts for innovation and digitalization in the practice of artistic teaching. Personally, I work mostly with workshops teaching sculpting in VR and livestreaming events.
+| InKüLe stands for 'Innovation in der künstlerischen Lehre'. The work revolves around investigating concepts for innovation and digitalization in the practice of artistic teaching. Personally, I work mostly with workshops teaching sculpting in VR and livestreaming events.
 [The InKüLe Web Presence](https://www.inkuele.de/landing)|
+{: .display}
+
+|:- |-:|
+|**Freelance Mentor, Educator** |
+|<i class="fas fa-building"></i> Junge Tüftler*Innen |||||||||||<i class="fas fa-calendar-alt"></i> June '24 – now |
+{: .display}  
+
+| The Junge Tüftler*Innen is an NGO focused on educative workshops around "making".
+They offer workshops for children, young adults and also offer Workshops for adults and teachers. I am a Mentor, meaning I supervise and conduct the workshops in a team of two.
+[Find them online](https://junge-tueftler.de)|
 {: .display}
 
 ### Software Skills
 
-**UNIX** \| bash / zsh \| Arduino IDE \| Raspberry Pi 
+**UNIX** \| bash / zsh \| Arduino IDE \| Raspberry Pi
 
 **Python** \| scipy \|  matplotlib \| seaborn \| pandas \| jupyter notebook \| tensorflow \| pytorch \| scikit-learn \| opencv \| flask \| micropython \| circuitpython
 
@@ -118,6 +132,8 @@ I also attended the Cognitive Science Summer School.|
 **Images** \| Inkscape \| Illustrator \| GIMP \| Photoshop \| Lightroom \| Agisoft Metashape
 
 **Video** \| Premiere \| DaVinci Resolve \| OBS \| TouchDesigner
+
+**Audio** \| Audacity \| supercollider
 
 **Office** \| MS-Office Suite \| Latex \| Markdown
 
