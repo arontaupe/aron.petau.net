@@ -24,14 +24,14 @@ feature_row:
   - image_path: /assets/images/tanzania_giraffe_landscape.jpg
     alt: "experience"
     title: "Prior experience"
-    excerpt: "The boring and hard facts about my Career and Skills "
+    excerpt: "The boring and hard facts about my career and skills "
     url: "/cv/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/water_grass.jpg
     alt: "Motivation"
     title: "What motivates me"
-    excerpt: "Come and check out what is important to me and how my plans for the future look"
+    excerpt: "Come and check out what is important to me and see my outlook on the future"
     url: "/motivation/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      

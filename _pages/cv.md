@@ -10,12 +10,15 @@ author: "Aron Petau"
 
 ## Who am I?
 
+Below you will find a chronological list of my education, my work experience and a rough overview of different softwares and machines I am familiar with. For a less formal self description, please see the [About](/about) page.
+
 ### Education
 
 |:- |-:|
 |**Abitur** |
 |<i class="fas fa-building"></i> Stadtgymnasium Detmold |||||||||||||<i class="fas fa-calendar-alt"></i> Aug '11 – Jun ‘15 |
 {: .display}
+
 
 |:- |-:|
 |**BSc. Cognitive Science** |
@@ -26,12 +29,13 @@ author: "Aron Petau"
 [Program description](https://www.uni-osnabrueck.de/en/prospective-students/studiengaenge-a-z/cognitive-science-bachelor-of-science/)|
 {: .display}  
 
+
 |:- |-:|
 |**RISE Internship** |
 |<i class="fas fa-building"></i> IIT Kharagpur, India ||||||||||||||<i class="fas fa-calendar-alt"></i> Sept. ’18 – Jan ’19 |
 {: .display}  
 
-| I researched the possibilities of a decentralized electricity grid in remote regions of the Himalayas. I conducted field research, evaluation, and product simulation. |
+| In the context of a DAAD RISE Stipend, I researched the possibilities of a decentralized electricity grid in remote regions of the Himalayas. I conducted field research, evaluation, and product simulation. |
 {: .display}  
 
 |:- |-:|
@@ -55,6 +59,25 @@ author: "Aron Petau"
 {: .display}  
 
 ### Work Experience
+
+|:- |-:|
+|**Weltwärts** |
+|<i class="fas fa-building"></i> Lecheria de la Solidaridad ||||||||||||<i class="fas fa-calendar-alt"></i> Sept '16 – Aug ‘15 |
+{: .display}
+
+| I worked in a social project in northern Buenos Aires, Argentina. I helped cooking for 150 youths daily, assisted with their homework, organized sports programmes, maintained the building and organized events. This was organized by Freunde der Erziehungskunst Rudolf Steiners and funded by the Bundesentwicklungsministerium (BMZ)|
+[La Lecheria](https://lecheria.org.ar/)|
+{: .display}  
+
+|:- |-:|
+|**Teamer / SportsTeamer** |
+|<i class="fas fa-building"></i> GO-Jugendreisen @ Spain, Croatia |||||||||<i class="fas fa-calendar-alt"></i> Jun ‘17 – Sep '19 |
+{: .display}  
+
+| I mentored and supervised groups of 12-18 year olds on their summer holiday trips. I organized entertainment, sports activities and excursions. I did two seasons of a few weeks each in Spain and one in Croatia.
+[GO-Jugendreisen](https://www.go-jugendreisen.de)|
+{: .display}  
+
 
 |:- |-:|
 |**Barkeeper / Brewing assistant** |

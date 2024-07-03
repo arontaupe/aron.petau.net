@@ -85,31 +85,31 @@ var store = [{
       },{
         "title": "Lusatia - an immersion in (De)Fences",
         "excerpt":"             On an Excursion to Lusatia, a project with the Working Title (De)Fences was born. Here are the current materials.     TODO: upload unity project  ","categories": [],
-        "tags": ["lusatia","coal","energy","climate","environment","barriers","fences","borders","exploitation","unity","agisoft metashape","photogrammetry","drone","tempelhofer feld","studio d+c","university of the arts berlin","udk"],
+        "tags": ["lusatia","coal","energy","climate","environment","barriers","fences","borders","exploitation","unity","agisoft metashape","photogrammetry","drone","tempelhofer feld","studio d+c","university of the arts berlin"],
         "url": "/lusatia/",
         "teaser": "/assets/images/lusatia/lusatia_excavator.jpg"
       },{
         "title": "Lampshades",
         "excerpt":"Lampshades During 2022, I was exposed to some of the awesomenest tools for architects. One of them was Rhino, a 3D modeling software that is used for a lot of architectural design. I hate it. It has quite an unreadable interface and is not very intuitive, with straight-up 80s vibes....","categories": [],
-        "tags": ["rhino","grasshopper","parametric","lamp","lampshade","private","3D printing","studio d+c","university of the arts berlin","udk","TODO, unfinished"],
+        "tags": ["rhino","grasshopper","parametric","lamp","lampshade","private","3D printing","studio d+c","university of the arts berlin","TODO, unfinished"],
         "url": "/lampshades/",
         "teaser": "/assets/images/lampshades/lampshade4.heic"
       },{
         "title": "Auraglow Journal",
         "excerpt":"Here I will collect all the Documentation of the Thought Process for the WS22/23 Course [[Raum als Interface]] in the module Perspectives of Design. Okay, as I gathered, the task is creating situations and showings. What are those? Situation := Is some kind of performance is unique in time and...","categories": [],
-        "tags": ["journal","unity","ar","magic leap","aura","image recognition","particle systems","design","perspectives of design","perspectives","raum","interface","milli keil","sebastian paintner","studio d+c","university of the arts berlin","udk"],
+        "tags": ["journal","unity","ar","magic leap","aura","image recognition","particle systems","design","perspectives of design","perspectives","raum","interface","milli keil","sebastian paintner","studio d+c","university of the arts berlin"],
         "url": "/auraglow-journal/",
         "teaser": null
       },{
         "title": "Auraglow",
         "excerpt":"What makes a room? How do moods and atmospheres emerge? Can we visualize them to make the experiences visible? The project “The Nature of Objects” aims to expand (augment) perception by making the moods of places tangible through the respective auras of the objects in the space. What makes objects...","categories": [],
-        "tags": ["journal","unity","ar","magic leap","aura","image recognition","particle systems","feng shui","relations","hand recognition","aruco","light tracking","studio d+c","university of the arts berlin","udk"],
+        "tags": ["journal","unity","ar","magic leap","aura","image recognition","particle systems","feng shui","relations","hand recognition","aruco","light tracking","studio d+c","university of the arts berlin"],
         "url": "/auraglow/",
         "teaser": "/assets/images/cage_closeup.jpeg"
       },{
         "title": "Ruminations",
         "excerpt":"Ruminations was a contemplation on data privacy at Amazon. It asks how to subvert browser fingerprinting and evading the omnipresent tracking of the consumer. The initial idea was to somehow, by interacting with the perpetrator and letting data accumulate that would degrade their knowledge and thereby destroy predictablity, making this...","categories": [],
-        "tags": ["journal","javascript","computer vision","data privacy","capitalism","pattern recognition","image classifier","consumerism","browser fingerprinting","amazon","data privacy","data","privacy","studio d+c","university of the arts berlin","udk","TODO, unfinished"],
+        "tags": ["journal","javascript","computer vision","data privacy","capitalism","pattern recognition","image classifier","consumerism","browser fingerprinting","amazon","data privacy","data","privacy","studio d+c","university of the arts berlin","TODO, unfinished"],
         "url": "/ruminations/",
         "teaser": "/assets/images/ruminations/ruminations1.jpeg"
       },{
@@ -121,31 +121,37 @@ var store = [{
       },{
         "title": "Radio",
         "excerpt":"SDR-RTL and the public sphere Recently, I stumbled upon an RTL-SDR and was fascinated by the possibilities of software-defined radio. I got me an NESDR Smart v5 and started to play around with it. With the help of GQRX I was able to listen to the radio and also to...","categories": [],
-        "tags": ["radio","broadcast","rtl-sdr","antenna","software-defined radio","public sphere","subversive","listening","pirate radio","police radio","BOS","studio d+c","university of the arts berlin","udk","TODO, unfinished"],
+        "tags": ["radio","broadcast","rtl-sdr","antenna","software-defined radio","public sphere","subversive","listening","pirate radio","police radio","BOS","studio d+c","university of the arts berlin","TODO, unfinished"],
         "url": "/radio-copy/",
         "teaser": null
       },{
         "title": "Solar Tree",
         "excerpt":"Solar Tree This tree is an installation to reflect on the throwaway economy. It is completely made out of waste materials. The leaves are fully functioning solar panels, with controllers to charge up little lithium batteries. These, we took out of single-use Electronic Vapes, one of the recent innovative outpours...","categories": [],
-        "tags": ["solar","battery","installation","upcycling","studio d+c","university of the arts berlin","udk","friedrich goizel-weber","copper","fruit","circular economy","TODO, unfinished"],
+        "tags": ["solar","battery","installation","upcycling","studio d+c","university of the arts berlin","friedrich goizel-weber","copper","fruit","circular economy","TODO, unfinished"],
         "url": "/solar-tree/",
+        "teaser": null
+      },{
+        "title": "Sferics",
+        "excerpt":"What the hell are Sferics? A radio atmospheric signal or sferic (sometimes also spelled “spheric”) is a broadband electromagnetic impulse that occurs as a result of natural atmospheric lightning discharges. Sferics may propagate from their lightning source without major attenuation in the Earth–ionosphere waveguide, and can be received thousands of...","categories": [],
+        "tags": ["fm","radio","antenna","sferics","lightning","geosensing","electronics","electromagnetism"],
+        "url": "/sferics/",
         "teaser": null
       },{
         "title": "Stable Dreamfusion",
         "excerpt":"Stable Dreamfusion Sources I forked a really popular implementation that reverse engineered the Google Dreamfusion algorithm. This algorithm is closed-source and not publicly available. The implementation I forked is here This one is running on stable-diffusion as a bas process, which means we are are expected to have worse results...","categories": [],
-        "tags": ["dreamfusion","ai","3D graphics","mesh","generative","studio d+c","university of the arts berlin","udk","TODO, unfinished"],
+        "tags": ["dreamfusion","ai","3D graphics","mesh","generative","studio d+c","university of the arts berlin","TODO, unfinished"],
         "url": "/stable-dreamfusion/",
         "teaser": "/assets/images/dreamfusion/sd_pig.png"
       },{
         "title": "Autoimmunitaet",
         "excerpt":"How do we design our Commute? In the context of the Design and Computation Studio Course Milli Keil, Marla Gaiser and me developed a concept for a playful critique of the traffic decisions we take and the idols we embrace. It should open up questions of whether the generations to...","categories": [],
-        "tags": ["suv","interactive","cars","last generation","3D printing","action figure","aufstandlastgen","studio d+c","university of the arts berlin","udk"],
+        "tags": ["suv","interactive","cars","last generation","3D printing","action figure","aufstandlastgen","studio d+c","university of the arts berlin"],
         "url": "/autoimmunitaet/",
         "teaser": "/assets/images/autoimmunitaet/autoimmunitaet-1.jpg"
       },{
         "title": "Dreams of Cars",
         "excerpt":"Photography In the context of the course “Fotografie Elementar” with Sebastian Herold I developed a small concept of urban intervention. The results were exhibited at the UdK Rundgang 2023 and are also visible here. Dreams of Cars These are not just cars. They are Sport Utility Vehicles. What might they...","categories": [],
-        "tags": ["photography","suv","greenscreen","lightroom","photoshop","imaginaries","cars","ads","dreams","urban intervention","UdK Berlin"],
+        "tags": ["photography","suv","greenscreen","lightroom","photoshop","imaginaries","cars","ads","dreams","urban intervention","university of the arts berlin"],
         "url": "/dreams-of-cars/",
         "teaser": "/assets/images/suv/suv_door-1.jpg"
       },{
@@ -157,7 +163,7 @@ var store = [{
       },{
         "title": "Commoning Cars",
         "excerpt":"Commoning cars TCF Project Brief This Project was conceptualized durin a 2023 Workshop titled Tangible Climate Futures. Aron Petau aron@petau.net See the Project in Realtime Title Making Cars Public spaces Commoning Cars Abstract Cars bad. Cars occupy public spaces resulting un a factual privatization of public goods/infrastructure. What if cars...","categories": [],
-        "tags": ["war on cars","public spaces","commons","urban intervention","UdK Berlin","private","ars electronica","accessibility activism"],
+        "tags": ["war on cars","public spaces","commons","urban intervention","university of the arts berlin","private","ars electronica","accessibility activism"],
         "url": "/commoning-cars/",
         "teaser": null
       },{
@@ -167,9 +173,15 @@ var store = [{
         "url": "/airaspi-build-log/",
         "teaser": null
       },{
+        "title": "Local Diffusion",
+        "excerpt":"Local Diffusion The official call for the Workshop Is it possible to create a graphic novel with generative A.I.? What does it mean to use these emerging media in collaboration with others? And why does their local and offline application matter? With AI becoming more and more democratised and GPT-like...","categories": [],
+        "tags": ["inküle","Universität der Künste Berlin","Workshop","Stable Diffusion","Local Computing","comfyui","automatic1111","diffusionbee"],
+        "url": "/local-diffusion/",
+        "teaser": "/assets/images/local-diffusion/local-diffusion.png"
+      },{
         "title": "Echoing Dimensions",
         "excerpt":"Echoing Dimensions The space Kunstraum Potsdamer Straße The exhibition is situated in an old parking garage, owned and operated by the studierendenwerk Berlin. The space is a large, open room with a rather low ceiling and a concrete floor. Several Nooks and separees can create intimate experiences within the space....","categories": [],
-        "tags": ["udk","university","studierendenwerk","exhibition","installation","touchdesigner","micropython","raspberry pi pico","ultrasonic sensor"],
+        "tags": ["university of the arts berlin","university","studierendenwerk","exhibition","installation","touchdesigner","micropython","raspberry pi pico","ultrasonic sensor","tts","radio","fm","radio-art","kinect","pointcloud","llm"],
         "url": "/echoing-dimensions/",
-        "teaser": null
+        "teaser": "/assets/images/echoing_dimensions/Echoing%20Dimensions-4.jpg"
       }]

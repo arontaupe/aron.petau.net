@@ -15,6 +15,9 @@ header:
 This is a work in Progress. Informations on here are subject to change.
 {: .notice--danger}
 
+<iframe width="100%" height="800" src="https://vrm.victronenergy.com/installation/167009/embed/f61b11f2"></iframe>
+
+
 ## The general stuff
 
 The car is a 1991 VW T4, with a 2.0l **Benzin** (petrol) engine.
