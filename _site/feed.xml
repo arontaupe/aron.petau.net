@@ -1,35 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-11T22:26:31+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio</title><subtitle>I am a student in Design &amp; Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around! </subtitle><author><name>Aron Petau</name><email>aron@petau.net</email></author><entry><title type="html">Käsewerkstatt</title><link href="http://localhost:4000/k%C3%A4sewerkstatt/" rel="alternate" type="text/html" title="Käsewerkstatt" /><published>2024-07-05T15:39:27+02:00</published><updated>2024-07-05T15:39:27+02:00</updated><id>http://localhost:4000/k%C3%A4sewerkstatt</id><content type="html" xml:base="http://localhost:4000/k%C3%A4sewerkstatt/"><![CDATA[## Enter the Käsewerkstatt
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-15T09:13:43+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio</title><subtitle>I am a student in Design &amp; Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around! </subtitle><author><name>Aron Petau</name><email>aron@petau.net</email></author><entry><title type="html">Käsewerkstatt</title><link href="http://localhost:4000/k%C3%A4sewerkstatt/" rel="alternate" type="text/html" title="Käsewerkstatt" /><published>2024-07-05T15:39:27+02:00</published><updated>2024-07-05T15:39:27+02:00</updated><id>http://localhost:4000/k%C3%A4sewerkstatt</id><content type="html" xml:base="http://localhost:4000/k%C3%A4sewerkstatt/"><![CDATA[<h2 id="enter-the-käsewerkstatt">Enter the Käsewerkstatt</h2>
 
-One day earlier this year I woke up and realized I had a space problem.
-I was trying to build out a workshop and tackle ever more advanced and dusty plastic and woodworking projects and after another small run in with my girlfriend after I had repeatedly crossed the "No-Sanding-and-Linseed-Oiling-Policy" in our Living Room, it was time to do something about it.
-I am based in Berlin right now and the housing market is going completely haywire over here ( quick shoutout in solidarity with [Deutsche Wohnen und Co enteignen](https://dwenteignen.de/)).
-End of the song: I won't be able to afford to rent a small workshop anywhere near berlin anytime soon. As you will notice in some other projects, I am quite opposed to the Idea that it should be considered normal to park ones car in the middle of the city on public spaces, for example [Autoimmunitaet](/autoimmunitaet), [Commoning Cars](/commoning-cars) or [Dreams of Cars](/dreams-of-cars).
+<p>One day earlier this year I woke up and realized I had a space problem.
+I was trying to build out a workshop and tackle ever more advanced and dusty plastic and woodworking projects and after another small run in with my girlfriend after I had repeatedly crossed the “No-Sanding-and-Linseed-Oiling-Policy” in our Living Room, it was time to do something about it.
+I am based in Berlin right now and the housing market is going completely haywire over here ( quick shoutout in solidarity with <a href="https://dwenteignen.de/">Deutsche Wohnen und Co enteignen</a>).
+End of the song: I won’t be able to afford to rent a small workshop anywhere near berlin anytime soon. As you will notice in some other projects, I am quite opposed to the Idea that it should be considered normal to park ones car in the middle of the city on public spaces, for example <a href="/autoimmunitaet">Autoimmunitaet</a>, <a href="/commoning-cars">Commoning Cars</a> or <a href="/dreams-of-cars">Dreams of Cars</a>.</p>
 
-So, the idea was born, to regain that space as habitable zone, taking back usable space from parked cars.
+<p>So, the idea was born, to regain that space as habitable zone, taking back usable space from parked cars.
 I was gonna install a mobile workshop within a trailer.
 Ideally, the trailer should be lockable and have enough standing and working space.
-As it turns out, Food Trailers fulfill these criteria quite nicely. So I got out on a quest, finding the cheapest food trailer available in germany.
+As it turns out, Food Trailers fulfill these criteria quite nicely. So I got out on a quest, finding the cheapest food trailer available in germany.</p>
 
-6 weeks later, I found it near munich, got it and started immediately renovating it.
+<p>6 weeks later, I found it near munich, got it and started immediately renovating it.</p>
 
-Due to developments in parallel, I was already invited to sell food and have the ofgficial premiere at the Bergfest, a Weekend Format in Brandenburg an der Havel, initiated and organized by [Zirkus Creativo](https://zirkus-creativo.de). Many thanks for the invitation here again!
+<p>Due to developments in parallel, I was already invited to sell food and have the ofgficial premiere at the Bergfest, a Weekend Format in Brandenburg an der Havel, initiated and organized by <a href="https://zirkus-creativo.de">Zirkus Creativo</a>. Many thanks for the invitation here again!</p>
 
-So on it went, I spent some afternoons renovating and outfitting the trailer, and did my first ever shopping at Metro, a local B2B Foodstuffs Market.
+<p>So on it went, I spent some afternoons renovating and outfitting the trailer, and did my first ever shopping at Metro, a local B2B Foodstuffs Market.</p>
 
-Meanwhile, I got into all the paperwork and did all the necessary instructional courses and certificates.
+<p>Meanwhile, I got into all the paperwork and did all the necessary instructional courses and certificates.
 The first food I wanted to sell was Raclette on fresh bread, a swiss dish that is quite popular in germany.
-For the future, the trailer is supposed to tend more towards vegan dishes, as a first tryout I also sold a bruschetta combo. This turned out great, since the weather was quite hot and the bruschetta was a nice and light snack, while I could use the same type of bread for the raclette.
+For the future, the trailer is supposed to tend more towards vegan dishes, as a first tryout I also sold a bruschetta combo. This turned out great, since the weather was quite hot and the bruschetta was a nice and light snack, while I could use the same type of bread for the raclette.</p>
 
-![The finished Trailer](/assets/images/käsewerkstatt/trailer.jpeg)
+<p><img src="/assets/images/käsewerkstatt/trailer.jpeg" alt="The finished Trailer" /></p>
 
-The event itself was great, and, in part at least, started paying off the trailer.
+<p>The event itself was great, and, in part at least, started paying off the trailer.</p>
 
-{% include gallery caption="Some photos of the opeing event @ Bergfest in Brandenburg an der Havel" %}
+<figure class="third ">
+  
+    
+      <a href="/assets/images/k%C3%A4sewerkstatt/cheese.jpeg" title="Scraping the cheese">
+          <img src="/assets/images/k%C3%A4sewerkstatt/cheese.jpeg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/k%C3%A4sewerkstatt/combo_serve.jpeg" title="The Recommended Combo from the Käsewerkstatt">
+          <img src="/assets/images/k%C3%A4sewerkstatt/combo_serve.jpeg" alt="" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/k%C3%A4sewerkstatt/logo.jpeg" title="The Logo of the Käsewerkstatt, done with the Shaper Origin">
+          <img src="/assets/images/k%C3%A4sewerkstatt/logo.jpeg" alt="" />
+      </a>
+    
+  
+  
+    <figcaption>Some photos of the opeing event @ Bergfest in Brandenburg an der Havel
+</figcaption>
+  
+</figure>
 
-We encountered lots of positive feedback and I am looking forward to the next event. So, in case you want to have a foodtruck at your event, hit me up!
+<p>We encountered lots of positive feedback and I am looking forward to the next event. So, in case you want to have a foodtruck at your event, hit me up!</p>
 
-Contact me at: [käsewerkstatt@petau.net](mailto:käsewerkstatt@petau.net)
-{: .notice--info}]]></content><author><name>Aron Petau</name></author><category term="food truck" /><category term="cars" /><category term="bruschetta" /><category term="raclette" /><category term="workshop" /><summary type="html"><![CDATA[Building a Food trailer and selling my first Food]]></summary></entry><entry><title type="html">Echoing Dimensions</title><link href="http://localhost:4000/echoing-dimensions/" rel="alternate" type="text/html" title="Echoing Dimensions" /><published>2024-04-25T15:39:27+02:00</published><updated>2024-04-25T15:39:27+02:00</updated><id>http://localhost:4000/echoing-dimensions</id><content type="html" xml:base="http://localhost:4000/echoing-dimensions/"><![CDATA[<h2 id="echoing-dimensions">Echoing Dimensions</h2>
+<p class="notice--info">Contact me at: <a href="mailto:käsewerkstatt@petau.net">käsewerkstatt@petau.net</a></p>]]></content><author><name>Aron Petau</name></author><category term="food truck" /><category term="cars" /><category term="bruschetta" /><category term="raclette" /><category term="workshop" /><summary type="html"><![CDATA[Building a Food trailer and selling my first Food]]></summary></entry><entry><title type="html">Echoing Dimensions</title><link href="http://localhost:4000/echoing-dimensions/" rel="alternate" type="text/html" title="Echoing Dimensions" /><published>2024-04-25T15:39:27+02:00</published><updated>2024-04-25T15:39:27+02:00</updated><id>http://localhost:4000/echoing-dimensions</id><content type="html" xml:base="http://localhost:4000/echoing-dimensions/"><![CDATA[<h2 id="echoing-dimensions">Echoing Dimensions</h2>
 
 <h2 id="the-space">The space</h2>
 
