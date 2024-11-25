@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-15T09:13:43+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio</title><subtitle>I am a student in Design &amp; Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around! </subtitle><author><name>Aron Petau</name><email>aron@petau.net</email></author><entry><title type="html">Käsewerkstatt</title><link href="http://localhost:4000/k%C3%A4sewerkstatt/" rel="alternate" type="text/html" title="Käsewerkstatt" /><published>2024-07-05T15:39:27+02:00</published><updated>2024-07-05T15:39:27+02:00</updated><id>http://localhost:4000/k%C3%A4sewerkstatt</id><content type="html" xml:base="http://localhost:4000/k%C3%A4sewerkstatt/"><![CDATA[<h2 id="enter-the-käsewerkstatt">Enter the Käsewerkstatt</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-25T13:21:03+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio</title><subtitle>I am a student in Design &amp; Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around! </subtitle><author><name>Aron Petau</name><email>aron@petau.net</email></author><entry><title type="html">Käsewerkstatt</title><link href="http://localhost:4000/k%C3%A4sewerkstatt/" rel="alternate" type="text/html" title="Käsewerkstatt" /><published>2024-07-05T15:39:27+02:00</published><updated>2024-07-05T15:39:27+02:00</updated><id>http://localhost:4000/k%C3%A4sewerkstatt</id><content type="html" xml:base="http://localhost:4000/k%C3%A4sewerkstatt/"><![CDATA[<h2 id="enter-the-käsewerkstatt">Enter the Käsewerkstatt</h2>
 
 <p>One day earlier this year I woke up and realized I had a space problem.
 I was trying to build out a workshop and tackle ever more advanced and dusty plastic and woodworking projects and after another small run in with my girlfriend after I had repeatedly crossed the “No-Sanding-and-Linseed-Oiling-Policy” in our Living Room, it was time to do something about it.
@@ -836,7 +836,45 @@ Yet, also with Emails, Capitalism has held many victories, and today many emails
 <p>While self-hosting seems like a great idea from a privacy perspective, it is also quite risky for a service that is usually the only way for any service to recover your password or your online identity. 
 Migadu it was then, and in the last three months of basically set it and forget it, i am proud to at least have a decently granular control over my emails and can consciously reflect on the server location of The skeleton service service that enables virtually my entire online existence.</p>
 
-<p>I certainly crave more open protocols in my life and am also findable on <a href="https://mastodon.online/@reprintedAron">Mastodon</a>, a microblogging network around the ActivityPub Protocol.</p>]]></content><author><name>Aron Petau</name></author><category term="server" /><category term="web" /><category term="petau.net" /><category term="dev-ops" /><category term="open protocols" /><category term="federation" /><category term="peer-to-peer" /><category term="email" /><category term="activitypub" /><summary type="html"><![CDATA[I now manage the domain petau.net with a mail server and attached sites.]]></summary></entry><entry><title type="html">Dreams of Cars</title><link href="http://localhost:4000/dreams-of-cars/" rel="alternate" type="text/html" title="Dreams of Cars" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/dreams-of-cars</id><content type="html" xml:base="http://localhost:4000/dreams-of-cars/"><![CDATA[<h2 id="photography">Photography</h2>
+<p>I certainly crave more open protocols in my life and am also findable on <a href="https://mastodon.online/@reprintedAron">Mastodon</a>, a microblogging network around the ActivityPub Protocol.</p>]]></content><author><name>Aron Petau</name></author><category term="server" /><category term="web" /><category term="petau.net" /><category term="dev-ops" /><category term="open protocols" /><category term="federation" /><category term="peer-to-peer" /><category term="email" /><category term="activitypub" /><summary type="html"><![CDATA[I now manage the domain petau.net with a mail server and attached sites.]]></summary></entry><entry><title type="html">Sferics</title><link href="http://localhost:4000/sferics/" rel="alternate" type="text/html" title="Sferics" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/sferics</id><content type="html" xml:base="http://localhost:4000/sferics/"><![CDATA[<h2 id="what-the-hell-are-sferics">What the hell are Sferics?</h2>
+
+<blockquote>
+  <p>A radio atmospheric signal or sferic (sometimes also spelled “spheric”) is a broadband electromagnetic impulse that occurs as a result of natural atmospheric lightning discharges. Sferics may propagate from their lightning source without major attenuation in the Earth–ionosphere waveguide, and can be received thousands of kilometres from their source.</p>
+</blockquote>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Radio_atmospheric_signal">Wikipedia</a></li>
+</ul>
+
+<h2 id="why-catch-them">Why catch them?</h2>
+
+<p><a href="microsferics.com">Microsferics</a> is a nice reference Project, which is a network of Sferics antennas, which are used to detect lightning strikes. Through triangulation not unlike the Maths happening in GPS, the (more or less) exact location of the strike can be determined. This is useful for weather prediction, but also for the detection of forest fires, which are often caused by lightning strikes.</p>
+
+<p>Because the Frequency of the Sferics is, when converted to audio, still in the audible range, it is possible to listen to the strikes. This usually sounds a bit like a crackling noise, but can also be quite melodic. I was a bit reminded by a Geiger Counter.</p>
+
+<p>Sferics are in the VLF (Very Low Frequency) range, sitting roughly at 10kHz, which is a bit of a problem for most radios, as they are not designed to pick up such low frequencies. This is why we built our own antenna.
+At 10kHz, we are talking about insanely large waves. a single wavelength there is roughly 30 Kilometers. This is why the antenna needs to be quite large. A special property of waves this large is, that they get easily reflected by the Ionosphere and the Earth’s surface. Effectively, a wave like this can bounce around the globe several times before it is absorbed by the ground. This is why we can pick up Sferics from all over the world and even listen to Australian Lightning strikes. Of course, without the maths, we cannot attribute directions, but the so called “Tweeks” we picked up, usually come from at least 2000km distance.</p>
+
+<h2 id="the-build">The Build</h2>
+
+<p>We built several so-called “Long-Loop” antennas, which are essentially a coil of wire with a capacitor at the end. Further, a specific balun is needed, depending on the length of the wire. this can then directly output an electric signal on an XLR cable.</p>
+
+<p>Loosely based on instructions from <a href="https://archive.org/details/exploringlightra00graf">Calvin R. Graf</a>, We built a 26m long antenna, looped several times around a wooden frame.</p>
+
+<h2 id="the-result">The Result</h2>
+
+<p>We have several hour-long recordings of the Sferics, which we are currently investigating for further potential.</p>
+
+<p>Have a listen to a recording of the Sferics here:</p>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/2YYPg_K3dI4" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>As you can hear, there is quite a bit of 60 hz ground buzz in the recording. This is either due to the fact that the antenna was not properly grounded or we simply were still too close to the bustling city.
+I think it is already surprising that we got such a clear impression so close to Berlin. Let’s see what we can get in the countryside!</p>]]></content><author><name>Aron Petau</name></author><category term="fm" /><category term="radio" /><category term="antenna" /><category term="sferics" /><category term="lightning" /><category term="geosensing" /><category term="electronics" /><category term="electromagnetism" /><summary type="html"><![CDATA[On a hunt for the Voice of the out there]]></summary></entry><entry><title type="html">Dreams of Cars</title><link href="http://localhost:4000/dreams-of-cars/" rel="alternate" type="text/html" title="Dreams of Cars" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/dreams-of-cars</id><content type="html" xml:base="http://localhost:4000/dreams-of-cars/"><![CDATA[<h2 id="photography">Photography</h2>
 
 <p>In the context of the course “Fotografie Elementar” with Sebastian Herold I developed a small concept of urban intervention.<br />
 The results were exhibited at the UdK Rundgang 2023 and are also visible here.</p>
@@ -969,38 +1007,7 @@ An invitation for a speculative playful interaction.</p>
 
 <p>The figurines are 3D Scans of ourselves, in various typical poses of the Letzte Generation.<br />
 We used photogrammetry to create the scans, which is a technique that uses a lot of photos of an object to create a 3D model of it.<br />
-We used the app <a href="https://polycam.ai">Polycam</a> to create the scans using IPads and their inbuilt Lidar scanners.</p>]]></content><author><name>Aron Petau</name></author><category term="suv" /><category term="interactive" /><category term="cars" /><category term="last generation" /><category term="3D printing" /><category term="action figure" /><category term="aufstandlastgen" /><category term="studio d+c" /><category term="university of the arts berlin" /><summary type="html"><![CDATA[A playful interactive experience to reflect on the societal value of the car]]></summary></entry><entry><title type="html">Stable Dreamfusion</title><link href="http://localhost:4000/stable-dreamfusion/" rel="alternate" type="text/html" title="Stable Dreamfusion" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-10-01T20:16:46+02:00</updated><id>http://localhost:4000/stable-dreamfusion</id><content type="html" xml:base="http://localhost:4000/stable-dreamfusion/"><![CDATA[<h2 id="stable-dreamfusion">Stable Dreamfusion</h2>
-
-<div class="sketchfab-embed-wrapper"> <iframe title="Stable-Dreamfusion Pig" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" width="800" height="600" src="https://sketchfab.com/models/0af6d95988e44c73a693c45e1db44cad/embed?ui_theme=dark&amp;dnt=1"> </iframe> </div>
-
-<h2 id="sources">Sources</h2>
-
-<p>I forked a really popular implementation that reverse engineered the Google Dreamfusion algorithm. This algorithm is closed-source and not publicly available.
-The implementation I forked is <a href="https://github.com/arontaupe/stable-dreamfusion">here</a>
-This one is running on stable-diffusion as a bas process, which means we are are expected to have worse results than google.
-The original implementation is <a href="https://dreamfusion3d.github.io">here</a></p>
-
-<!-- Courtesy of embedresponsively.com -->
-
-<div class="responsive-video-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/shW_Jh728yg" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  </div>
-
-<h2 id="gradio">Gradio</h2>
-
-<p>The reason i forked the code is so that i could implement my own gradio interface for the algorithm. Gradio is a great tool for quickly building interfaces for machine learning models. No code involves, any user can state their wish, and the mechanism will spit out a ready-to-be-rigged model (obj file)</p>
-
-<h2 id="mixamo">Mixamo</h2>
-
-<p>I used Mixamo to rig the model. It is a great tool for rigging and animating models. But before everything, it is simple. as long as you have a model with a decent humanoid shape in something of a t-pose, you can rig it in seconds. Thats exactly what i did here.</p>
-
-<h2 id="unity">Unity</h2>
-
-<p>I used Unity to render the model to the magic leap 1. THrough this, i could create an interactive and immersive environment with the generated models.</p>
-
-<p>The dream was, to build a AI- Chamber of wishes. You pick up the glasses, state your desires and then the algorithm will present to you an almost-real object in AR.</p>
-
-<p>Due to not having access to the proprietary sources from google and the beefy, but still not quite machine-learning ready computers we have at the studio, the results are not quite as good as i hoped. But still, the results are quite interesting and i am happy with the outcome. A single generated object in the Box takes roughly 20 minutes to generate. Even then, the algorithm is quite particular and oftentimes will not generate anything coherent at all.</p>]]></content><author><name>Aron Petau</name></author><category term="dreamfusion" /><category term="ai" /><category term="3D graphics" /><category term="mesh" /><category term="generative" /><category term="studio d+c" /><category term="university of the arts berlin" /><category term="TODO, unfinished" /><summary type="html"><![CDATA[An exploration of 3D mesh generation through AI]]></summary></entry><entry><title type="html">Solar Tree</title><link href="http://localhost:4000/solar-tree/" rel="alternate" type="text/html" title="Solar Tree" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/solar-tree</id><content type="html" xml:base="http://localhost:4000/solar-tree/"><![CDATA[<h2 id="solar-tree">Solar Tree</h2>
+We used the app <a href="https://polycam.ai">Polycam</a> to create the scans using IPads and their inbuilt Lidar scanners.</p>]]></content><author><name>Aron Petau</name></author><category term="suv" /><category term="interactive" /><category term="cars" /><category term="last generation" /><category term="3D printing" /><category term="action figure" /><category term="aufstandlastgen" /><category term="studio d+c" /><category term="university of the arts berlin" /><summary type="html"><![CDATA[A playful interactive experience to reflect on the societal value of the car]]></summary></entry><entry><title type="html">Solar Tree</title><link href="http://localhost:4000/solar-tree/" rel="alternate" type="text/html" title="Solar Tree" /><published>2023-06-20T15:39:27+02:00</published><updated>2023-06-20T15:39:27+02:00</updated><id>http://localhost:4000/solar-tree</id><content type="html" xml:base="http://localhost:4000/solar-tree/"><![CDATA[<h2 id="solar-tree">Solar Tree</h2>
 
 <p>This tree is an installation to reflect on the throwaway economy. 
 It is completely made out of waste materials. 
