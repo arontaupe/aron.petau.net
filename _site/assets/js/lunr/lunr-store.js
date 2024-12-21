@@ -131,12 +131,6 @@ var store = [{
         "url": "/solar-tree/",
         "teaser": null
       },{
-        "title": "Sferics",
-        "excerpt":"What the hell are Sferics? A radio atmospheric signal or sferic (sometimes also spelled “spheric”) is a broadband electromagnetic impulse that occurs as a result of natural atmospheric lightning discharges. Sferics may propagate from their lightning source without major attenuation in the Earth–ionosphere waveguide, and can be received thousands of...","categories": [],
-        "tags": ["fm","radio","antenna","sferics","lightning","geosensing","electronics","electromagnetism"],
-        "url": "/sferics/",
-        "teaser": null
-      },{
         "title": "Stable Dreamfusion",
         "excerpt":"Stable Dreamfusion Sources I forked a really popular implementation that reverse engineered the Google Dreamfusion algorithm. This algorithm is closed-source and not publicly available. The implementation I forked is here This one is running on stable-diffusion as a bas process, which means we are are expected to have worse results...","categories": [],
         "tags": ["dreamfusion","ai","3D graphics","mesh","generative","studio d+c","university of the arts berlin","TODO, unfinished"],
@@ -154,6 +148,12 @@ var store = [{
         "tags": ["photography","suv","greenscreen","lightroom","photoshop","imaginaries","cars","ads","dreams","urban intervention","university of the arts berlin"],
         "url": "/dreams-of-cars/",
         "teaser": "/assets/images/suv/suv_door-1.jpg"
+      },{
+        "title": "Sferics",
+        "excerpt":"What the hell are Sferics? A radio atmospheric signal or sferic (sometimes also spelled “spheric”) is a broadband electromagnetic impulse that occurs as a result of natural atmospheric lightning discharges. Sferics may propagate from their lightning source without major attenuation in the Earth–ionosphere waveguide, and can be received thousands of...","categories": [],
+        "tags": ["fm","radio","antenna","sferics","lightning","geosensing","electronics","electromagnetism"],
+        "url": "/sferics/",
+        "teaser": null
       },{
         "title": "Postmaster",
         "excerpt":"Postmaster Hello from aron@petau.net! Background Emails are a wondrous thing and I spend the last weeks digging a bit deeper in how they actually work. Some people consider them the last domain of the decentralized dream the internet once had and that is now popping up again with federation and...","categories": [],
@@ -184,4 +184,10 @@ var store = [{
         "tags": ["university of the arts berlin","university","studierendenwerk","exhibition","installation","touchdesigner","micropython","raspberry pi pico","ultrasonic sensor","tts","radio","fm","radio-art","kinect","pointcloud","llm"],
         "url": "/echoing-dimensions/",
         "teaser": "/assets/images/echoing_dimensions/Echoing%20Dimensions-4.jpg"
+      },{
+        "title": "Käsewerkstatt",
+        "excerpt":"Enter the Käsewerkstatt One day earlier this year I woke up and realized I had a space problem. I was trying to build out a workshop and tackle ever more advanced and dusty plastic and woodworking projects and after another small run in with my girlfriend after I had repeatedly...","categories": [],
+        "tags": ["food truck","cars","bruschetta","raclette","workshop"],
+        "url": "/k%C3%A4sewerkstatt/",
+        "teaser": null
       }]
