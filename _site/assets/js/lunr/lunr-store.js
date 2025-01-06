@@ -1,16 +1,4 @@
 var store = [{
-        "title": "Ulli",
-        "excerpt":"Meet Ulli: a 1991 VW T4 Born as a pandemic child to me, I bought this van in early 2021. Then it served as a therapeutic blowoff project next to a long and exhausting bachelor thesis. It came with all the bells and whistles, a full kitchen, a very fashionable...","categories": [],
-        "tags": ["ulli","camper","reconstruction","cork","wood","private","van","practical","TODO, unfinished"],
-        "url": "/ulli/",
-        "teaser": null
-      },{
-        "title": "Ferments",
-        "excerpt":"Brewing Making my own beer I love hosting, I love experimenting in the Kitchen. Starting with homebrews was a natural fit for me and during the first wave of Covid-19, I went the whole homebrewer’s route of bottle fermentation and small batches later elevating my game with larger batches of...","categories": [],
-        "tags": ["experiment","beer","homebrew","private","lager","altbier","hops","keg","fermentation","pressure","yeast","sustainability"],
-        "url": "/ferments/",
-        "teaser": null
-      },{
         "title": "Philosophy",
         "excerpt":"Critical considerations during my studies I have attended a fair share of philosophical seminars in my studies and consider it a core topic connected both to science and to digital environments. Normative and feminist social theory, as well as the theory of science and phenomenology, are all brought to me...","categories": [],
         "tags": ["ethics","philosophy of emotions","postphenomenology","values in science","private","judith butler","elizabeth anderson","josé medina","francois ewald","miranda fricker","elsa dorlin","michael foucault","alison jaggar","philosophy","feminism","epistemology","phenomenology","ethics","normativity","university of osnabrück"],
@@ -95,12 +83,6 @@ var store = [{
         "url": "/lampshades/",
         "teaser": "/assets/images/lampshades/lampshade4.heic"
       },{
-        "title": "Auraglow Journal",
-        "excerpt":"Here I will collect all the Documentation of the Thought Process for the WS22/23 Course [[Raum als Interface]] in the module Perspectives of Design. Okay, as I gathered, the task is creating situations and showings. What are those? Situation := Is some kind of performance is unique in time and...","categories": [],
-        "tags": ["journal","unity","ar","magic leap","aura","image recognition","particle systems","design","perspectives of design","perspectives","raum","interface","milli keil","sebastian paintner","studio d+c","university of the arts berlin"],
-        "url": "/auraglow-journal/",
-        "teaser": null
-      },{
         "title": "Auraglow",
         "excerpt":"What makes a room? How do moods and atmospheres emerge? Can we visualize them to make the experiences visible? The project “The Nature of Objects” aims to expand (augment) perception by making the moods of places tangible through the respective auras of the objects in the space. What makes objects...","categories": [],
         "tags": ["journal","unity","ar","magic leap","aura","image recognition","particle systems","feng shui","relations","hand recognition","aruco","light tracking","studio d+c","university of the arts berlin"],
@@ -118,18 +100,6 @@ var store = [{
         "tags": ["borders","nation","micronation","gpt4all","text-to-speech","mastodon","fences","barriers","politics of design","technische universität berlin","TODO, unfinished"],
         "url": "/ascendancy/",
         "teaser": "/assets/images/ascendancy.jpg"
-      },{
-        "title": "Radio",
-        "excerpt":"SDR-RTL and the public sphere Recently, I stumbled upon an RTL-SDR and was fascinated by the possibilities of software-defined radio. I got me an NESDR Smart v5 and started to play around with it. With the help of GQRX I was able to listen to the radio and also to...","categories": [],
-        "tags": ["radio","broadcast","rtl-sdr","antenna","software-defined radio","public sphere","subversive","listening","pirate radio","police radio","BOS","studio d+c","university of the arts berlin","TODO, unfinished"],
-        "url": "/radio-copy/",
-        "teaser": null
-      },{
-        "title": "Solar Tree",
-        "excerpt":"Solar Tree This tree is an installation to reflect on the throwaway economy. It is completely made out of waste materials. The leaves are fully functioning solar panels, with controllers to charge up little lithium batteries. These, we took out of single-use Electronic Vapes, one of the recent innovative outpours...","categories": [],
-        "tags": ["solar","battery","installation","upcycling","studio d+c","university of the arts berlin","friedrich goizel-weber","copper","fruit","circular economy","TODO, unfinished"],
-        "url": "/solar-tree/",
-        "teaser": null
       },{
         "title": "Stable Dreamfusion",
         "excerpt":"Stable Dreamfusion Sources I forked a really popular implementation that reverse engineered the Google Dreamfusion algorithm. This algorithm is closed-source and not publicly available. The implementation I forked is here This one is running on stable-diffusion as a bas process, which means we are are expected to have worse results...","categories": [],

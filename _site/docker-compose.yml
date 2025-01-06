@@ -1,9 +1,19 @@
-# no version needed since 2020
+networks:
+  proxy-network:
+    external: true
 
 services:
-  jekyll:
+  portfolio:
+    container_name: portfolio
     image: bretfisher/jekyll-serve
+    restart: unless-stopped
+    networks:
+      - proxy-network
+    security_opt:
+      - no-new-privileges:true
     volumes:
       - .:/site
     ports:
       - '4000:4000'
+
+
