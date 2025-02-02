@@ -2,7 +2,7 @@ title                    : Personal Website
 title_separator          : "-"
 subtitle                 : "Student in Design & Computation" 
 email                    : aron@petau.net
-description              : &description "I am a student in Design & Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling and Design. Here I display a selection of my recent work, you are welcome to have a look around!"
+description              : &description "I am a student in Design & Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling, Design and Technology Didactics. Here I display a selection of my recent work, you are welcome to have a look around!"
 github_username          : arontaupe
 minimal_mistakes_skin    : neon 
 name                     : &name "Aron Petau"
@@ -59,19 +59,19 @@ footer:
       url: "https://github.com/arontaupe"
 
     - label: "Printables"
-      icon: "fas fa-cubes"
+      icon: "fas fa-fw fa-cubes"
       url: "https://www.printables.com/social/97957-arontaupe/models"
 
     - label: "Mastodon"
-      icon: "fas fa-mastodon"
+      icon: "fab fa-fw fa-mastodon"
       url: "https://mastodon.online/@reprintedAron"
 
     - label: "Storefront"
-      icon: "fas fa-etsy"
+      icon: "fab fa-fw fa-etsy"
       url: "https://www.etsy.com/de-en/shop/reprintedservices"
 
     - label: "Privacy Statement"
-      icon: "fas fa-user-secret"
+      icon: "fas fa-fw fa-user-secret"
       url: "/privacy/"
 
 defaults:

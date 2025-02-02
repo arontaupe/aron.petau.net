@@ -11,7 +11,7 @@ Aron Petau:
       url: "mailto:aron@petau.net"
 
     - label: "Telegram"
-      icon: "fas fa-fw fa-telegram"
+      icon: "fab fa-fw fa-telegram"
       url: "https://t.me/apetau"
 
     - label: "GitHub"
@@ -23,7 +23,7 @@ Aron Petau:
       url: "https://www.printables.com/social/97957-arontaupe/models"
 
     - label: "Mastodon"
-      icon: "fas fa-mastodon"
+      icon: "fab fa-mastodon"
       url: "https://mastodon.online/@reprintedAron"
 
     - label: "New Practice Network"
