@@ -100,7 +100,7 @@ The realization will require many skills I am already picking up or still need t
 
 [Precious Plastic Community](https://preciousplastic.com/){: .btn .btn--large}
 
-[Filamentive Statement on why recycling is not feasible in their opinion ](https://www.filamentive.com/recycling-failed-and-waste-3d-prints-into-filament-challenges/
+[Filamentive Statement on why recycling is not feasible in their opinion](https://www.filamentive.com/recycling-failed-and-waste-3d-prints-into-filament-challenges/
 ){: .btn .btn--large}
 
 [Open source filament diameter sensor by Tomas Sanladerer](https://www.youmagine.com/designs/infidel-inline-filament-diameter-estimator-lowcost-10-24){: .btn .btn--large}
