@@ -456,6 +456,9 @@ tr, td, th { vertical-align: middle; }
 .btn--linkedin { background-color: #007bb6; color: #fff; }
 .btn--linkedin:visited { background-color: #007bb6; color: #fff; }
 .btn--linkedin:hover { background-color: #006292; color: #fff; }
+.btn--mastodon { background-color: #2b90d9; color: #fff; }
+.btn--mastodon:visited { background-color: #2b90d9; color: #fff; }
+.btn--mastodon:hover { background-color: #2273ae; color: #fff; }
 .btn--block { display: block; width: 100%; }
 .btn--block + .btn--block { margin-top: 0.25em; }
 .btn--disabled { pointer-events: none; cursor: not-allowed; filter: alpha(opacity=65); box-shadow: none; opacity: 0.65; }
