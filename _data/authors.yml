@@ -1,7 +1,7 @@
 # Authors
 Aron Petau:
   name        : "Aron Petau"
-  bio         : "(he/him) Cognitive Science, Software Engineering, 3D Modelling, Design & Computation"
+  bio         : "(he/him) Cognitive Science, Software Engineering, 3D Modelling, Design & Computation, Maker Education"
   avatar      : "/assets/images/aron_headshot.jpeg"
   authorid    : 0
   location    : "Berlin, Germany"
@@ -129,5 +129,3 @@ Sebastian Paintner:
     - label: "Website"
       icon: "fas fa-website"
       url: "https://litc0.de/"
-
-
