@@ -12,8 +12,8 @@
 
 /* Copyright comment */
 /*!
- * Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
- * Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+ * Minimal Mistakes Jekyll Theme 4.27.0 by Michael Rose
+ * Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
  * Free for personal and commercial use under the MIT license
  * https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
  */
@@ -459,6 +459,9 @@ tr, td, th { vertical-align: middle; }
 .btn--mastodon { background-color: #2b90d9; color: #fff; }
 .btn--mastodon:visited { background-color: #2b90d9; color: #fff; }
 .btn--mastodon:hover { background-color: #2273ae; color: #fff; }
+.btn--bluesky { background-color: #1083fe; color: #fff; }
+.btn--bluesky:visited { background-color: #1083fe; color: #fff; }
+.btn--bluesky:hover { background-color: #0d69cb; color: #fff; }
 .btn--block { display: block; width: 100%; }
 .btn--block + .btn--block { margin-top: 0.25em; }
 .btn--disabled { pointer-events: none; cursor: not-allowed; filter: alpha(opacity=65); box-shadow: none; opacity: 0.65; }

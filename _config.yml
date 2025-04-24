@@ -1,13 +1,13 @@
 title                    : Personal Website
 title_separator          : "-"
-subtitle                 : "Student in Design & Computation" 
+subtitle                 : "Student in Design & Computation"
 email                    : aron@petau.net
-description              : &description "I am a student in Design & Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling, Design and Technology Didactics. Here I display a selection of my recent work, you are welcome to have a look around!"
+description              : &description "I am a graduate in Design & Computation at the Technische Universität Berlin and Universität der Künste Berlin. I am passionate about Cognitive Science, Software Engineering, 3D Modelling, Design and Technology Didactics. Here I display a selection of my past work, you are welcome to have a look around!"
 github_username          : arontaupe
-minimal_mistakes_skin    : neon 
+minimal_mistakes_skin    : neon
 name                     : &name "Aron Petau"
 repository               : "arontaupe/apply"
-logo                     : "/assets/images/logo.png" 
+logo                     : "/assets/images/logo.png"
 masthead_title           : "Aron Petau"
 search                   : true
 
@@ -23,19 +23,17 @@ remote_theme              : mmistakes/minimal-mistakes
 
 # Outputting
 permalink                 : /:categories/:title/
-paginate                  : 10 
-paginate_path             : /page:num/
-timezone                  : Europe/Berlin 
+
+timezone                  : Europe/Berlin
 
 og_image                  : "/assets/images/logo.png"
-breadcrumbs               : true 
+breadcrumbs               : true
 words_per_minute          : 100
 
 include:
   - _pages
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed

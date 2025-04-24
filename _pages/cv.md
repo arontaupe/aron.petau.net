@@ -18,7 +18,7 @@ Contact me via [Email](mailto:aron@petau.net) for further questions.
 
 | **Abitur** ||
 |:--- | ---:|
-| <i class="fas fa-building"></i> Stadtgymnasium Detmold |||||||||||| <i class="fas fa-calendar-alt"></i>&nbsp;Aug&nbsp;'11&nbsp;-&nbsp;Jun&nbsp;‘15 
+| <i class="fas fa-building"></i> Stadtgymnasium Detmold |||||||||||| <i class="fas fa-calendar-alt"></i>&nbsp;Aug&nbsp;'11&nbsp;-&nbsp;Jun&nbsp;‘15
 
 |In school, I majored in Philosophy, German, Maths and English.||
 {: .display}
@@ -36,7 +36,7 @@ Contact me via [Email](mailto:aron@petau.net) for further questions.
 |<i class="fas fa-building"></i> IIT Kharagpur, India ||||||||||||||<i class="fas fa-calendar-alt"></i>&nbsp;Sep&nbsp;’18&nbsp;–&nbsp;Jan&nbsp;’19 |
 
 | In the context of a DAAD RISE Stipend, I researched the possibilities of a decentralized electricity grid in remote regions of the Himalayas. I conducted field research, evaluation, and product simulation.|
-{: .display}  
+{: .display}
 
 |**Erasmus Semester** |
 |:--- | ---:|
@@ -45,7 +45,7 @@ Contact me via [Email](mailto:aron@petau.net) for further questions.
 | I took courses in the Philosophy department and Masters’ program for Cognitive Science. I also attended the Cognitive Science Summer School.|
 [The Department Website](https://cogsci.nbu.bg/en/)|
 [More on the Summer School](https://cogsci.nbu.bg/en/international-summer-school-in-cognitive-science)|
-{: .display}  
+{: .display}
 
 |**M.A. Design & Computation** |
 |:--- | ---:|
@@ -54,7 +54,7 @@ Contact me via [Email](mailto:aron@petau.net) for further questions.
 | I am currently in the fourth semester of transdisciplinary cooperation between UdK and TU Berlin with a focus on critical artistic engagement with technology.|
 [Program description](https://www.design-computation.berlin)|
 [The New Practice Page](https://www.newpractice.net/)|
-{: .display}  
+{: .display}
 
 ### Work Experience
 
@@ -64,7 +64,7 @@ Contact me via [Email](mailto:aron@petau.net) for further questions.
 
 |I worked in a social project in northern Buenos Aires, Argentina. I helped cooking for 150 youths daily, assisted with their homework, organized sports programmes, maintained the building and organized events. |
 [La Lecheria](https://lecheria.org.ar/)|
-{: .display}  
+{: .display}
 
 |**Teamer / SportsTeamer** |
 |:--- | ---:|
@@ -72,7 +72,7 @@ Contact me via [Email](mailto:aron@petau.net) for further questions.
 
 |I mentored and supervised groups of 12-18 year olds on their summer holiday trips. I organized entertainment, sports activities and excursions. I did two seasons of a few weeks each in Spain and one in Croatia.
 [GO-Jugendreisen](https://www.go-jugendreisen.de)|
-{: .display}  
+{: .display}
 
 |**Barkeeper / Brewing assistant** |
 |:--- | ---:|
@@ -80,7 +80,7 @@ Contact me via [Email](mailto:aron@petau.net) for further questions.
 
 |I worked in a a restaurant with in-house brewery, both on the customer-facing side and assisting in the brewery.
 [Die Hausbrauerei](http://www.rampendahl.de) |
-{: .display}  
+{: .display}
 
 |**Social Worker** |
 |:--- | ---:|
@@ -88,7 +88,7 @@ Contact me via [Email](mailto:aron@petau.net) for further questions.
 
 |I worked in a stationary care center for hearing impaired and deaf people with cognitive impairments, including autism.
 [Das Wohnheim](https://os-hho.de/standorte/haus-10) |
-{: .display}  
+{: .display}
 
 |**Working Student** |
 |:--- | ---:|
@@ -144,7 +144,7 @@ Contact me via [Email](mailto:aron@petau.net) for further questions.
 
 **Office** \| MS-Office Suite \| Latex \| Markdown
 
-**Educational** \| Scratch \| Makey-Makey \| Ozobots
+**Educational** \| Scratch \| Makey-Makey \| Ozobots, 
 
 ### Machine Skills
 

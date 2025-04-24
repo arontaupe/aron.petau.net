@@ -9,7 +9,6 @@ gem "webrick", "~> 1.7"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-paginate"
   gem "jekyll-sitemap"
   gem "jekyll-gist"
   gem "jekyll-feed"
@@ -17,4 +16,5 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
   gem "csv"
+  gem 'faraday-retry'
 end
