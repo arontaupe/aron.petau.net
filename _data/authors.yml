@@ -129,3 +129,17 @@ Sebastian Paintner:
     - label: "Website"
       icon: "fas fa-website"
       url: "https://litc0.de/"
+
+Friedrich Weber:
+  name        : "Friedrich Weber"
+  bio         : "Maker Educator, Installative Artist"
+  authorid    : 7
+
+  links:
+    - label: "New Practice Network"
+      icon: "fas fa-university"
+      url: "https://www.newpractice.net/author/friedrich-weber-goizel"
+
+    - label: "Website"
+      icon: "fas fa-website"
+      url: "https://www.youtube.com/@friedrichwebergoizel8745"

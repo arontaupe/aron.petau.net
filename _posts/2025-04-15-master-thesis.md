@@ -4,8 +4,8 @@ date:   2025-04-24 14:39:27 +0100
 author: "Aron Petau"
 excerpt: "Human - Waste: A thesis examining interactive workshops"
 header:
-  #teaser: "/assets/images/rt_choice_corr_by_condition.png"
-  #image: "/assets/images/rt_choice_corr_by_condition.png"
+  teaser: "/assets/images/masterthesis/puzzle.jpeg"
+  overlay_image: "/assets/images/masterthesis/puzzle.jpeg"
   overlay_filter      : 0.5
   credit              : "Aron Petau"
 tags:
@@ -25,7 +25,10 @@ tags:
   - transmattering
   - peer-learning
   - skillsharing in workshops
-
+  - thesis
+  - university of the arts berlin
+  - technische universität berlin
+  - university
 ---
 
 ## Master's Thesis: Human - Waste
@@ -51,7 +54,10 @@ through participant feedback and workshop outcomes, contributing to a broader di
 on waste as both a challenge and an opportunity for sustainable futures and a material
 reality of the human experience.
 
-<embed src="assets/documents/Human_Waste_MA_Aron_Petau.pdf" type="application/pdf">
+<embed
+  src="/assets/documents/Human_Waste_MA_Aron_Petau.pdf"
+  type="application/pdf"
+  style="width: 100%; height: 80vh; margin: 0 auto; display: block; border: 1px solid #ccc;" />
 
 [See the image archive yourself](https://pinry.petau.net){: .btn .btn--large}
 

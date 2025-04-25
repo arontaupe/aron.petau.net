@@ -7,6 +7,7 @@ author: "Aron Petau"
 header:
   overlay_image: /assets/images/käsewerkstatt/cheese.jpeg
   overlay_filter: 0.5
+  teaser: /assets/images/käsewerkstatt/cheese.jpeg
   credit: "Aron Petau"
 
 

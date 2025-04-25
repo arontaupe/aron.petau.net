@@ -11,7 +11,7 @@ header:
 
 tags:
   - inküle
-  - Universität der Künste Berlin
+  - university of the arts berlin
   - Workshop
   - Stable Diffusion
   - Local Computing

@@ -7,7 +7,7 @@ excerpt: A recycling system inspired by Precious Plastic, Filastruder, and Machi
 
 header:
   teaser: /assets/images/recycling_graphic.jpg
-  image: assets/images/recycling_graphic.jpg
+  overlay_image: assets/images/recycling_graphic.jpg
   credit: Aron Petau
 tags:
   - decentral

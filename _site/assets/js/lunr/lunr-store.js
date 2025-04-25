@@ -121,7 +121,7 @@ var store = [{
       },{
         "title": "Sferics",
         "excerpt":"What the hell are Sferics? A radio atmospheric signal or sferic (sometimes also spelled “spheric”) is a broadband electromagnetic impulse that occurs as a result of natural atmospheric lightning discharges. Sferics may propagate from their lightning source without major attenuation in the Earth–ionosphere waveguide, and can be received thousands of...","categories": [],
-        "tags": ["fm","radio","antenna","sferics","lightning","geosensing","electronics","electromagnetism"],
+        "tags": ["fm","radio","antenna","sferics","lightning","geosensing","electronics","electromagnetism","university of the arts berlin"],
         "url": "/sferics/",
         "teaser": null
       },{
@@ -145,7 +145,7 @@ var store = [{
       },{
         "title": "Local Diffusion",
         "excerpt":"Local Diffusion The official call for the Workshop Is it possible to create a graphic novel with generative A.I.? What does it mean to use these emerging media in collaboration with others? And why does their local and offline application matter? With AI becoming more and more democratised and GPT-like...","categories": [],
-        "tags": ["inküle","Universität der Künste Berlin","Workshop","Stable Diffusion","Local Computing","comfyui","automatic1111","diffusionbee"],
+        "tags": ["inküle","university of the arts berlin","Workshop","Stable Diffusion","Local Computing","comfyui","automatic1111","diffusionbee"],
         "url": "/local-diffusion/",
         "teaser": "/assets/images/local-diffusion/local-diffusion.png"
       },{
@@ -159,11 +159,11 @@ var store = [{
         "excerpt":"Enter the Käsewerkstatt One day earlier this year I woke up and realized I had a space problem. I was trying to build out a workshop and tackle ever more advanced and dusty plastic and woodworking projects and after another small run in with my girlfriend after I had repeatedly...","categories": [],
         "tags": ["food truck","cars","bruschetta","raclette","workshop"],
         "url": "/k%C3%A4sewerkstatt/",
-        "teaser": null
+        "teaser": "/assets/images/k%C3%A4sewerkstatt/cheese.jpeg"
       },{
         "title": "Master's Thesis",
         "excerpt":"Master’s Thesis: Human - Waste Plastics offer significant material benefits, such as durability and versatility, yet their widespread use has led to severe environmental pollution and waste management challenges. This thesis develops alternative concepts for collaborative participation in recycling processes by examining existing waste management systems. Exploring the historical and...","categories": [],
-        "tags": ["plastics-as-waste","plastics-as-material","recycling practices","object-value","re-valuation","maker-education","Materialübung","hacking","archival practices","collaborative recycling","liminality","matter","scavenger-gaze","transmattering","peer-learning","skillsharing in workshops"],
+        "tags": ["plastics-as-waste","plastics-as-material","recycling practices","object-value","re-valuation","maker-education","Materialübung","hacking","archival practices","collaborative recycling","liminality","matter","scavenger-gaze","transmattering","peer-learning","skillsharing in workshops","thesis","university of the arts berlin","technische universität berlin","university"],
         "url": "/master-thesis/",
-        "teaser": null
+        "teaser": "/assets/images/masterthesis/puzzle.jpeg"
       }]

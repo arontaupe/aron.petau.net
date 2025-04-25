@@ -2,7 +2,7 @@
 title:  "Echoing Dimensions"
 excerpt: "An interactive audiovisual installation."
 date:   2024-04-25 14:39:27 +0100
-authors: 
+authors:
   - Aron Petau
   - Joel Tenenberg
 
@@ -28,7 +28,6 @@ tags:
   - kinect
   - pointcloud
   - llm
-  
 
 
 gallery:
@@ -101,16 +100,16 @@ The engagement with sound through active listening holds the potential to proces
 The exhibition "Echoing Dimensions" takes place at Kunstraum Potsdamer Straße gallery’s underground space and exhibits artworks by 12 Berlin based artists, who investigate in their artistic practice ‘intentional listening’ using sound, video and installation, and invites to navigate attentiveness by participatory exploration. Each artwork in the exhibition revolves around different themes in which historical ideas resonate, political-personal narratives are being re-conceptualized and cultural perspectives are examined. The exhibition's common thread lies in its interest into the complexities of auditory perception, inviting viewers to consider the ways in which sound shapes our memories, influences our culture, and challenges our understanding of space and power dynamics.
 
 ### 2024-02-15
-Working TD Prototype. We collect the pointcloud information through a kinect azure and sorting the output of the device turned out to be quite tricky. 
+Working TD Prototype. We collect the pointcloud information through a kinect azure and sorting the output of the device turned out to be quite tricky.
 
 ### 2024-03-01
 Initial live testing on the finalized hardware. We decided to use a tiny Intel NUC to run both touchdesigner, the LLM, and audio synthesis.
 
-Not expected at all: The audio synthesis was actually the hardest, since there was no available internet in the exhibition space and all sleek modern solutions seem to rely on cloud services to generate audio from text. 
-Here, the tiny NUC really bit us: it took almost 15 seconds to generate a single paragraph of spoken words, even when usin quite small synthesizer models for it. 
+Not expected at all: The audio synthesis was actually the hardest, since there was no available internet in the exhibition space and all sleek modern solutions seem to rely on cloud services to generate audio from text.
+Here, the tiny NUC really bit us: it took almost 15 seconds to generate a single paragraph of spoken words, even when usin quite small synthesizer models for it.
 
-Lesson learned: Next time give it more oomph. 
-I seriously wonder though why there wouldn't be better TTS systems around. Isnt that quite the essential accessibility feature?  We ended up using coquiTTS, which is appearently out of business entirely. 
+Lesson learned: Next time give it more oomph.
+I seriously wonder though why there wouldn't be better TTS systems around. Isnt that quite the essential accessibility feature?  We ended up using coquiTTS, which is appearently out of business entirely.
 
 
 ### 2024-04-05
