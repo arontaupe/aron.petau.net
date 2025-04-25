@@ -160,4 +160,10 @@ var store = [{
         "tags": ["food truck","cars","bruschetta","raclette","workshop"],
         "url": "/k%C3%A4sewerkstatt/",
         "teaser": null
+      },{
+        "title": "Master's Thesis",
+        "excerpt":"Master’s Thesis: Human - Waste Plastics offer significant material benefits, such as durability and versatility, yet their widespread use has led to severe environmental pollution and waste management challenges. This thesis develops alternative concepts for collaborative participation in recycling processes by examining existing waste management systems. Exploring the historical and...","categories": [],
+        "tags": ["plastics-as-waste","plastics-as-material","recycling practices","object-value","re-valuation","maker-education","Materialübung","hacking","archival practices","collaborative recycling","liminality","matter","scavenger-gaze","transmattering","peer-learning","skillsharing in workshops"],
+        "url": "/master-thesis/",
+        "teaser": null
       }]

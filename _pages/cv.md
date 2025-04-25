@@ -121,7 +121,13 @@ Contact me via [Email](mailto:aron@petau.net) for further questions.
 [Junge Tüftler*Innen](https://junge-tueftler.de)|
 {: .display}
 
-dfbhdg
+| **Freelance Technology Educator**                              |
+| :---------------------------------------------------------- | ---: |
+| <i class="fas fa-building"></i> SOCIUS - Die Bildungspartner, Berlin |      |  |  |  |  |  |  |   |  |  |  | <i class="fas fa-calendar-alt"></i>&nbsp;Aug&nbsp;'24&nbsp;–&nbsp;now |
+
+|[Das studio einszwovier at GvB Berlin](https://www.gvb-berlin.de/unterricht-plus/arbeitsgemeinschaften/maker-space-studio-einszwovier/) I build and curate a Makerspace at a Berlin Secondary School. We have courses and projects surrounding many digital fabrication techniques and learn about the basics of electronics and programming. We offer laser cutting, 3D printing, Textile modding, microcontrollers, robotics and more.
+ [SOCIUS - Die Bildungspartner](https://socius.diebildungspartner.de)|
+{: .display}
 
 ### Software Skills
 
@@ -139,7 +145,7 @@ dfbhdg
 
 **Images** \| Inkscape \| Illustrator \| GIMP \| Photoshop \| Lightroom \| Agisoft Metashape
 
-**Video** \| Premiere \| DaVinci Resolve \| OBS \| TouchDesigner
+**Video** \| Premiere \| DaVinci Resolve \| OBS \| TouchDesigner \| DJI Drones \| FPV Drones
 
 **Audio** \| Audacity \| supercollider
 
@@ -153,7 +159,7 @@ dfbhdg
 
 **CNC** \| Nomad 3 \| Shaper Origin
 
-**(Laser)cutter** \| Cricut \| Mr. Beam \| BRM Lasers Pro 1600 \| Scissors
+**(Laser)cutter** \| Cricut \| Mr. Beam \| BRM Lasers Pro 1600 \| X-Tool S1 \| Scissors
 
 **Textile** \|  Brother Innov-is V3 Stitching Robot \| Sewing Machine \| Handstitching
 
